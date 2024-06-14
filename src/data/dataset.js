@@ -4,9 +4,9 @@ export default [
   "name": "Coffee Prince",
   "shortDescription": "Historia de amor en una cafetería.",
   "description": "Coffee Prince es una serie que sigue a Go Eun-chan, una joven que se hace pasar por un hombre para trabajar en una cafetería. Choi Han-kyul, el dueño de la cafetería, no sabe que Eun-chan es una mujer y comienza a desarrollar sentimientos por ella, lo que le causa mucha confusión. La serie explora temas de identidad, amor y aceptación, ofreciendo tanto momentos divertidos como conmovedores. La dinámica entre los personajes principales y el desarrollo de sus relaciones es el corazón de esta encantadora comedia romántica.",
-  "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/ada-lovelace.jpg",
+  "imageUrl": "https://m.media-amazon.com/images/S/pv-target-images/0db53df3e1f333851d5a8b01c42c330780062963d2939f457befb33523591cb6.jpg",
   "facts": {
-    "gender": "Comedia romántica",
+    "gender": "Comedia, Drama, Romance",
     "year": 2007,
     "chapters": 17
   },
@@ -19,9 +19,9 @@ export default [
   "name": "Boys Over Flowers",
   "shortDescription": "Chica pobre en una escuela de ricos.",
   "description": "Boys Over Flowers sigue a Geum Jan-di, una chica de familia humilde que recibe una beca para asistir a una prestigiosa escuela secundaria. Allí, se enfrenta al F4, un grupo de los chicos más ricos y populares de la escuela, liderado por el arrogante Goo Jun-pyo. A pesar de las dificultades y el acoso, Jan-di mantiene su espíritu fuerte y pronto se encuentra atrapada en un triángulo amoroso. La serie es conocida por sus giros dramáticos, momentos románticos y la evolución de los personajes principales, especialmente el crecimiento de Jun-pyo.",
-  "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/emmy-noether.jpg",
+  "imageUrl": "https://static.wikia.nocookie.net/drama/images/7/73/BoysOverFlowers.jpg/revision/latest?cb=20180825010727&path-prefix=es",
   "facts": {
-    "gender": "Romance, Drama",
+    "gender": "Romance, Drama, Comedia",
     "year": 2009,
     "chapters": 25
   },
@@ -34,9 +34,9 @@ export default [
   "name": "Secret Garden",
   "shortDescription": "Intercambio de cuerpos entre un CEO y una doble.",
   "description": "Secret Garden narra la historia de Kim Joo-won, un arrogante CEO, y Gil Ra-im, una valiente doble de acción. Sus vidas se entrelazan de manera inesperada cuando misteriosamente intercambian cuerpos después de beber una extraña bebida en una misteriosa tienda. A medida que intentan adaptarse a sus nuevas vidas, desarrollan sentimientos profundos el uno por el otro. La serie destaca por su mezcla de romance, comedia y elementos fantásticos, además de su exploración de la identidad y el amor verdadero, con una química notable entre los protagonistas.",
-  "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/hypatia-de-alejandria.jpg",
+  "imageUrl": "https://asianwiki.com/images/f/f3/Secret_Garden_%28SBS-2010-Korean_Drama%29-p3.jpg",
   "facts": {
-    "gender": "Fantasía, Romance",
+    "gender": "Drama, Romance, Comedia, Ciencia ficción, Fantasía",
     "year": 2011,
     "chapters": 20
   },
@@ -49,9 +49,9 @@ export default [
   "name": "City Hunter",
   "shortDescription": "Un hombre busca venganza contra los corruptos.",
   "description": "City Hunter sigue a Lee Yoon-sung, un joven que busca venganza por la muerte de su padre, quien fue traicionado por sus compañeros durante una misión secreta. Trabajando en la Casa Azul, la residencia presidencial, Yoon-sung se convierte en un vigilante conocido como 'City Hunter', desentrañando la corrupción y luchando contra la injusticia. La serie combina acción, drama y romance, destacándose por sus emocionantes escenas de combate y la complejidad emocional de sus personajes, mientras Yoon-sung se enfrenta a dilemas morales y desarrolla una relación amorosa complicada con Kim Na-na.",
-  "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/marjorie-lee-browne.jpg",
+  "imageUrl": "https://m.media-amazon.com/images/I/51NjD0ejXuL._AC_UF894,1000_QL80_.jpg",
   "facts": {
-    "gender": "Acción, Drama",
+    "gender": "Acción, Drama, Crimen",
     "year": 2011,
     "chapters": 20
   },
@@ -64,7 +64,7 @@ export default [
   "name": "The Moon That Embraces the Sun",
   "shortDescription": "Historia de amor entre un rey y una chamana.",
   "description": "The Moon That Embraces the Sun cuenta la historia de amor entre el rey Lee Hwon y Wol, una chamán que en realidad es su primer amor, Yeon-woo, quien perdió la memoria después de un complot político. Ambientada en la dinastía Joseon, la serie explora temas de amor, traición y destino, mientras el rey lucha por descubrir la verdad sobre el pasado de Wol y los oscuros secretos de la corte. Con su rica narrativa y personajes complejos, el drama ha sido aclamado por su combinación de romance y elementos históricos.",
-  "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/shakuntala-devi.jpg",
+  "imageUrl": "https://static.wikia.nocookie.net/drama/images/4/40/The_Moon_That_Embraces_the_Sun.jpg/revision/latest?cb=20120102025248&path-prefix=es",
   "facts": {
     "gender": "Histórico, Romance",
     "year": 2012,
@@ -79,7 +79,7 @@ export default [
   "name": "Reply 1988",
   "shortDescription": "La vida de cinco familias en 1988.",
   "description": "Reply 1988 es una serie nostálgica que sigue la vida de cinco amigos y sus familias en un vecindario de Seúl durante la década de 1980. La serie mezcla comedia, drama y romance, mostrando los altibajos de la adolescencia y la transición a la adultez. A través de su narrativa cálida y realista, explora las relaciones familiares, la amistad y el primer amor, capturando la esencia de la época. Cada personaje tiene su propio viaje personal, haciendo que los espectadores se conecten emocionalmente con sus historias y recuerdos compartidos.",
-  "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/sofia-kovalevskaya.jpg",
+  "imageUrl": "https://static.wikia.nocookie.net/drama/images/3/3d/Respond_1988tvN2015.jpg/revision/latest?cb=20150923021323&path-prefix=es",
   "facts": {
     "gender": "Comedia, Drama, Familiar",
     "year": 2016,
@@ -94,7 +94,7 @@ export default [
   "name": "Descendants of the Sun",
   "shortDescription": "Un soldado y una doctora se enamoran en zona de conflicto.",
   "description": "Descendants of the Sun sigue la historia de amor entre Yoo Si-jin, un capitán de las fuerzas especiales, y Kang Mo-yeon, una médica. Sus caminos se cruzan en una misión de paz en un país devastado por la guerra, donde enfrentan juntos desafíos tanto personales como profesionales. La serie destaca por su emocionante combinación de romance, acción y drama, explorando temas de sacrificio, deber y el impacto de las decisiones en tiempos de crisis. La química entre los protagonistas y las impresionantes escenas de acción han capturado a audiencias de todo el mundo.",
-  "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/yoko-shimomura.jpg",
+  "imageUrl": "https://m.media-amazon.com/images/S/pv-target-images/c33978a96dc27be7a8a6154aeea39186d9a5ac906a4d5311b6470ac301ce6dab.jpg",
   "facts": {
     "gender": "Acción, Romance, Drama",
     "year": 2016,
@@ -109,7 +109,7 @@ export default [
   "name": "Goblin",
   "shortDescription": "Un inmortal busca a su novia humana.",
   "description": "Goblin narra la historia de Kim Shin, un ser inmortal conocido como el 'Goblin', que busca a su novia humana, la única persona que puede romper su maldición y poner fin a su vida eterna. Ji Eun-tak, una estudiante de secundaria con la capacidad de ver fantasmas, es la elegida. A medida que su relación se desarrolla, ambos enfrentan desafíos sobrenaturales y secretos del pasado. La serie es aclamada por su cinematografía deslumbrante, su guión poético y la química entre los actores principales, ofreciendo una mezcla única de romance, fantasía y drama.",
-  "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/maryam-mirzakhani.jpg",
+  "imageUrl": "https://static.wikia.nocookie.net/drama/images/a/a7/Goblin-tvN-2016-02.jpg/revision/latest?cb=20161121060928&path-prefix=es",
   "facts": {
     "gender": "Fantasía, Romance, Drama",
     "year": 2016,
@@ -124,7 +124,7 @@ export default [
   "name": "Weightlifting Fairy Kim Bok-joo",
   "shortDescription": "Vida de una levantadora de pesas.",
   "description": "Weightlifting Fairy Kim Bok-joo sigue la vida de Kim Bok-joo, una talentosa levantadora de pesas universitaria, mientras navega por los desafíos del deporte, la amistad y el amor. En el camino, desarrolla una relación especial con Jung Joon-hyung, un nadador con su propio conjunto de problemas. La serie es conocida por su enfoque refrescante y realista de los jóvenes que persiguen sus sueños, abordando temas de autoestima, perseverancia y crecimiento personal. Con momentos cómicos y conmovedores, es una historia inspiradora sobre la superación personal y el poder del apoyo mutuo.",
-  "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/adele-goldberg.jpg",
+  "imageUrl": "https://1.vikiplatform.com/c/32634c/weightlifting-fairy_1560x872.jpg?x=b",
   "facts": {
     "gender": "Comedia romántica, Deportes",
     "year": 2016,
@@ -139,7 +139,7 @@ export default [
   "name": "Strong Woman Do Bong-soon",
   "shortDescription": "Mujer con fuerza sobrehumana trabaja de guardaespaldas.",
   "description": "Strong Woman Do Bong-soon cuenta la historia de Do Bong-soon, una joven con una fuerza sobrehumana heredada de las mujeres de su familia. Sueña con diseñar videojuegos, pero su vida da un giro cuando es contratada como guardaespaldas de Ahn Min-hyuk, un CEO de una empresa de videojuegos que está siendo amenazado. Mientras lucha contra el crimen en su vecindario y navega por un complicado triángulo amoroso, Bong-soon aprende a aceptar y usar sus habilidades para el bien. La serie combina comedia, romance y acción de manera encantadora y entretenida.",
-  "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/barbara-liskov.jpg",
+  "imageUrl": "https://m.media-amazon.com/images/S/pv-target-images/40c1eb008ea7d9d50779854f67150085f8766c42e82e1594f09793835994a5ff.jpg",
   "facts": {
     "gender": "Fantasía, Comedia romántica",
     "year": 2017,
@@ -152,9 +152,9 @@ export default [
 {
   "id": "my-mister",
   "name": "My Mister",
-  "shortDescription": "Hombre y joven enfrentan dificultades juntos.",
+  "shortDescription": "Hombre y una joven enfrentan dificultades juntos.",
   "description": "My Mister es una serie conmovedora que sigue a Park Dong-hoon, un ingeniero de mediana edad que enfrenta dificultades tanto en su vida personal como profesional, y Lee Ji-an, una joven cargada de deudas y responsabilidades. A través de sus interacciones y luchas compartidas, encuentran consuelo y apoyo mutuo. La serie aborda temas de soledad, sacrificio y la búsqueda de la felicidad en medio de las adversidades. Con actuaciones poderosas y una narrativa profunda, My Mister es un estudio introspectivo de la naturaleza humana y las conexiones significativas que pueden surgir en los momentos más oscuros.",
-  "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/grace-hopper.jpg",
+  "imageUrl": "https://substack-post-media.s3.amazonaws.com/public/images/6be551b3-77c8-4b73-a53a-0af9b1763ae1_1472x2186.jpeg",
   "facts": {
     "gender": "Drama",
     "year": 2018,
@@ -169,7 +169,7 @@ export default [
   "name": "Mr. Sunshine",
   "shortDescription": "Joven coreano regresa como soldado.",
   "description": "Mr. Sunshine sigue a Eugene Choi, un hombre nacido en la esclavitud en Joseon que escapa a Estados Unidos y regresa años después como soldado. Ambientada en los albores del siglo XX, la serie narra su lucha personal y política mientras enfrenta a los colonizadores japoneses y lidia con su amor por Go Ae-shin, una noble patriota. La serie es conocida por su rica producción, guión impresionante y exploración de temas históricos y emocionales. Mr. Sunshine es un épico drama que mezcla romance, acción y elementos históricos de manera magistral.",
-  "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/margaret-hamilton.jpg",
+  "imageUrl": "https://www.lavanguardia.com/peliculas-series/images/serie/backdrop/2018/7/w1280/iFPMDgCKntxjW7X13S8Vfic3nzJ.jpg",
   "facts": {
     "gender": "Histórico, Romance, Drama",
     "year": 2018,
