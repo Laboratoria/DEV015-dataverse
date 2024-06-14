@@ -3,10 +3,10 @@ export default [
   "id": "coffee-prince",
   "name": "Coffee Prince",
   "shortDescription": "Historia de amor en una cafetería.",
-  "description": "Han-kyul, heredero de una compañía, conoce a Eun-chan, una joven que se disfraza de hombre para trabajar en su cafetería. A medida que trabajan juntos, Han-kyul empieza a cuestionar su identidad y orientación sexual, sin saber que Eun-chan es en realidad una mujer.",
+  "description": "Coffee Prince es una serie que sigue a Go Eun-chan, una joven que se hace pasar por un hombre para trabajar en una cafetería. Choi Han-kyul, el dueño de la cafetería, no sabe que Eun-chan es una mujer y comienza a desarrollar sentimientos por ella, lo que le causa mucha confusión. La serie explora temas de identidad, amor y aceptación, ofreciendo tanto momentos divertidos como conmovedores. La dinámica entre los personajes principales y el desarrollo de sus relaciones es el corazón de esta encantadora comedia romántica.",
   "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/ada-lovelace.jpg",
   "facts": {
-    "gender": "Comedia romantica",
+    "gender": "Comedia romántica",
     "year": 2007,
     "chapters": 17
   },
@@ -18,7 +18,7 @@ export default [
   "id": "boys-over-flowers",
   "name": "Boys Over Flowers",
   "shortDescription": "Chica pobre en una escuela de ricos.",
-  "description": "Geum Jan-di, una chica de clase baja, recibe una beca para asistir a una prestigiosa escuela secundaria dominada por el elitista grupo F4. Ella se enfrenta a Goo Jun-pyo, el líder de F4, y a medida que su relación evoluciona, ambos descubren el verdadero significado del amor y la amistad.",
+  "description": "Boys Over Flowers sigue a Geum Jan-di, una chica de familia humilde que recibe una beca para asistir a una prestigiosa escuela secundaria. Allí, se enfrenta al F4, un grupo de los chicos más ricos y populares de la escuela, liderado por el arrogante Goo Jun-pyo. A pesar de las dificultades y el acoso, Jan-di mantiene su espíritu fuerte y pronto se encuentra atrapada en un triángulo amoroso. La serie es conocida por sus giros dramáticos, momentos románticos y la evolución de los personajes principales, especialmente el crecimiento de Jun-pyo.",
   "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/emmy-noether.jpg",
   "facts": {
     "gender": "Romance, Drama",
@@ -33,7 +33,7 @@ export default [
   "id": "secret-garden",
   "name": "Secret Garden",
   "shortDescription": "Intercambio de cuerpos entre un CEO y una doble.",
-  "description": "Kim Joo-won, un arrogante CEO, y Gil Ra-im, una doble de acción, intercambian cuerpos después de un encuentro misterioso. Mientras intentan revertir la situación, empiezan a comprender y enamorarse del otro, superando las diferencias de su estatus social.",
+  "description": "Secret Garden narra la historia de Kim Joo-won, un arrogante CEO, y Gil Ra-im, una valiente doble de acción. Sus vidas se entrelazan de manera inesperada cuando misteriosamente intercambian cuerpos después de beber una extraña bebida en una misteriosa tienda. A medida que intentan adaptarse a sus nuevas vidas, desarrollan sentimientos profundos el uno por el otro. La serie destaca por su mezcla de romance, comedia y elementos fantásticos, además de su exploración de la identidad y el amor verdadero, con una química notable entre los protagonistas.",
   "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/hypatia-de-alejandria.jpg",
   "facts": {
     "gender": "Fantasía, Romance",
@@ -48,7 +48,7 @@ export default [
   "id": "city-hunter",
   "name": "City Hunter",
   "shortDescription": "Un hombre busca venganza contra los corruptos.",
-  "description": "Lee Yoon-sung trabaja en la Casa Azul para vengarse de los políticos responsables de la muerte de su padre. Adoptando la identidad del 'City Hunter', Yoon-sung lucha contra la corrupción mientras navega por su relación con Kim Na-na, una guardia de seguridad.",
+  "description": "City Hunter sigue a Lee Yoon-sung, un joven que busca venganza por la muerte de su padre, quien fue traicionado por sus compañeros durante una misión secreta. Trabajando en la Casa Azul, la residencia presidencial, Yoon-sung se convierte en un vigilante conocido como 'City Hunter', desentrañando la corrupción y luchando contra la injusticia. La serie combina acción, drama y romance, destacándose por sus emocionantes escenas de combate y la complejidad emocional de sus personajes, mientras Yoon-sung se enfrenta a dilemas morales y desarrolla una relación amorosa complicada con Kim Na-na.",
   "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/marjorie-lee-browne.jpg",
   "facts": {
     "gender": "Acción, Drama",
@@ -63,7 +63,7 @@ export default [
   "id": "the-moon-that-embraces",
   "name": "The Moon That Embraces the Sun",
   "shortDescription": "Historia de amor entre un rey y una chamana.",
-  "description": "Lee Hwon, el joven rey de Joseon, y Yeon-woo, una mujer de noble linaje que se convierte en chamana, se ven separados por la política y el destino. El drama narra su lucha por reunirse y recuperar el amor que les fue arrebatado.",
+  "description": "The Moon That Embraces the Sun cuenta la historia de amor entre el rey Lee Hwon y Wol, una chamán que en realidad es su primer amor, Yeon-woo, quien perdió la memoria después de un complot político. Ambientada en la dinastía Joseon, la serie explora temas de amor, traición y destino, mientras el rey lucha por descubrir la verdad sobre el pasado de Wol y los oscuros secretos de la corte. Con su rica narrativa y personajes complejos, el drama ha sido aclamado por su combinación de romance y elementos históricos.",
   "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/shakuntala-devi.jpg",
   "facts": {
     "gender": "Histórico, Romance",
@@ -78,7 +78,7 @@ export default [
   "id": "reply-1988",
   "name": "Reply 1988",
   "shortDescription": "La vida de cinco familias en 1988.",
-  "description": "Este drama sigue la vida de cinco familias que viven en el mismo vecindario en 1988. A través de sus historias entrelazadas, el drama retrata la amistad, el amor y las relaciones familiares en una era nostálgica.",
+  "description": "Reply 1988 es una serie nostálgica que sigue la vida de cinco amigos y sus familias en un vecindario de Seúl durante la década de 1980. La serie mezcla comedia, drama y romance, mostrando los altibajos de la adolescencia y la transición a la adultez. A través de su narrativa cálida y realista, explora las relaciones familiares, la amistad y el primer amor, capturando la esencia de la época. Cada personaje tiene su propio viaje personal, haciendo que los espectadores se conecten emocionalmente con sus historias y recuerdos compartidos.",
   "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/sofia-kovalevskaya.jpg",
   "facts": {
     "gender": "Comedia, Drama, Familiar",
@@ -93,7 +93,7 @@ export default [
   "id": "descendants-of-the-sun",
   "name": "Descendants of the Sun",
   "shortDescription": "Un soldado y una doctora se enamoran en zona de conflicto.",
-  "description": "El Capitán Yoo Si-jin, un soldado de las fuerzas especiales, y la Dra. Kang Mo-yeon, una cirujana, se enamoran mientras trabajan en una zona de conflicto. Sus profesiones y los peligros a los que se enfrentan ponen a prueba su amor y dedicación.",
+  "description": "Descendants of the Sun sigue la historia de amor entre Yoo Si-jin, un capitán de las fuerzas especiales, y Kang Mo-yeon, una médica. Sus caminos se cruzan en una misión de paz en un país devastado por la guerra, donde enfrentan juntos desafíos tanto personales como profesionales. La serie destaca por su emocionante combinación de romance, acción y drama, explorando temas de sacrificio, deber y el impacto de las decisiones en tiempos de crisis. La química entre los protagonistas y las impresionantes escenas de acción han capturado a audiencias de todo el mundo.",
   "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/yoko-shimomura.jpg",
   "facts": {
     "gender": "Acción, Romance, Drama",
@@ -108,7 +108,7 @@ export default [
   "id": "goblin",
   "name": "Goblin",
   "shortDescription": "Un inmortal busca a su novia humana.",
-  "description": "Kim Shin, un ser inmortal conocido como Goblin, busca a su novia humana, Ji Eun-tak, para terminar con su vida eterna. A medida que sus caminos se cruzan, desarrollan un amor profundo que trasciende el tiempo y el destino.",
+  "description": "Goblin narra la historia de Kim Shin, un ser inmortal conocido como el 'Goblin', que busca a su novia humana, la única persona que puede romper su maldición y poner fin a su vida eterna. Ji Eun-tak, una estudiante de secundaria con la capacidad de ver fantasmas, es la elegida. A medida que su relación se desarrolla, ambos enfrentan desafíos sobrenaturales y secretos del pasado. La serie es aclamada por su cinematografía deslumbrante, su guión poético y la química entre los actores principales, ofreciendo una mezcla única de romance, fantasía y drama.",
   "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/maryam-mirzakhani.jpg",
   "facts": {
     "gender": "Fantasía, Romance, Drama",
@@ -123,7 +123,7 @@ export default [
   "id": "weightlifting-fairy",
   "name": "Weightlifting Fairy Kim Bok-joo",
   "shortDescription": "Vida de una levantadora de pesas.",
-  "description": "Kim Bok-joo, una joven levantadora de pesas, navega por la vida universitaria junto a sus amigos. A medida que entrena para cumplir sus sueños, también experimenta el primer amor y los desafíos personales.",
+  "description": "Weightlifting Fairy Kim Bok-joo sigue la vida de Kim Bok-joo, una talentosa levantadora de pesas universitaria, mientras navega por los desafíos del deporte, la amistad y el amor. En el camino, desarrolla una relación especial con Jung Joon-hyung, un nadador con su propio conjunto de problemas. La serie es conocida por su enfoque refrescante y realista de los jóvenes que persiguen sus sueños, abordando temas de autoestima, perseverancia y crecimiento personal. Con momentos cómicos y conmovedores, es una historia inspiradora sobre la superación personal y el poder del apoyo mutuo.",
   "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/adele-goldberg.jpg",
   "facts": {
     "gender": "Comedia romántica, Deportes",
@@ -138,7 +138,7 @@ export default [
   "id": "strong-woman",
   "name": "Strong Woman Do Bong-soon",
   "shortDescription": "Mujer con fuerza sobrehumana trabaja de guardaespaldas.",
-  "description": "Do Bong-soon, una mujer con una fuerza sobrehumana, sueña con crear un videojuego. Ella se convierte en la guardaespaldas de Ahn Min-hyuk, un CEO de una compañía de juegos, y juntos enfrentan varios desafíos, incluyendo una serie de secuestros.",
+  "description": "Strong Woman Do Bong-soon cuenta la historia de Do Bong-soon, una joven con una fuerza sobrehumana heredada de las mujeres de su familia. Sueña con diseñar videojuegos, pero su vida da un giro cuando es contratada como guardaespaldas de Ahn Min-hyuk, un CEO de una empresa de videojuegos que está siendo amenazado. Mientras lucha contra el crimen en su vecindario y navega por un complicado triángulo amoroso, Bong-soon aprende a aceptar y usar sus habilidades para el bien. La serie combina comedia, romance y acción de manera encantadora y entretenida.",
   "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/barbara-liskov.jpg",
   "facts": {
     "gender": "Fantasía, Comedia romántica",
@@ -153,7 +153,7 @@ export default [
   "id": "my-mister",
   "name": "My Mister",
   "shortDescription": "Hombre y joven enfrentan dificultades juntos.",
-  "description": "Park Dong-hoon, un ingeniero de mediana edad, y Lee Ji-an, una joven con una vida difícil, se apoyan mutuamente mientras enfrentan sus propios problemas personales y profesionales. El drama explora la resiliencia y la empatía.",
+  "description": "My Mister es una serie conmovedora que sigue a Park Dong-hoon, un ingeniero de mediana edad que enfrenta dificultades tanto en su vida personal como profesional, y Lee Ji-an, una joven cargada de deudas y responsabilidades. A través de sus interacciones y luchas compartidas, encuentran consuelo y apoyo mutuo. La serie aborda temas de soledad, sacrificio y la búsqueda de la felicidad en medio de las adversidades. Con actuaciones poderosas y una narrativa profunda, My Mister es un estudio introspectivo de la naturaleza humana y las conexiones significativas que pueden surgir en los momentos más oscuros.",
   "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/grace-hopper.jpg",
   "facts": {
     "gender": "Drama",
@@ -168,7 +168,7 @@ export default [
   "id": "mr-sunshine",
   "name": "Mr. Sunshine",
   "shortDescription": "Joven coreano regresa como soldado.",
-  "description": "Eugene Choi, un joven coreano que escapó a los Estados Unidos en su infancia, regresa a Corea como soldado de la Marina estadounidense. Allí se enamora de Go Ae-shin, una noble luchadora por la independencia, en medio de la turbulencia política.",
+  "description": "Mr. Sunshine sigue a Eugene Choi, un hombre nacido en la esclavitud en Joseon que escapa a Estados Unidos y regresa años después como soldado. Ambientada en los albores del siglo XX, la serie narra su lucha personal y política mientras enfrenta a los colonizadores japoneses y lidia con su amor por Go Ae-shin, una noble patriota. La serie es conocida por su rica producción, guión impresionante y exploración de temas históricos y emocionales. Mr. Sunshine es un épico drama que mezcla romance, acción y elementos históricos de manera magistral.",
   "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/margaret-hamilton.jpg",
   "facts": {
     "gender": "Histórico, Romance, Drama",
