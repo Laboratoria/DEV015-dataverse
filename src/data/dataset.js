@@ -66,7 +66,7 @@ export default [
   "description": "The Moon That Embraces the Sun cuenta la historia de amor entre el rey Lee Hwon y Wol, una chamán que en realidad es su primer amor, Yeon-woo, quien perdió la memoria después de un complot político. Ambientada en la dinastía Joseon, la serie explora temas de amor, traición y destino, mientras el rey lucha por descubrir la verdad sobre el pasado de Wol y los oscuros secretos de la corte. Con su rica narrativa y personajes complejos, el drama ha sido aclamado por su combinación de romance y elementos históricos.",
   "imageUrl": "https://static.wikia.nocookie.net/drama/images/4/40/The_Moon_That_Embraces_the_Sun.jpg/revision/latest?cb=20120102025248&path-prefix=es",
   "facts": {
-    "gender": "Histórico, Romance",
+    "gender": "Histórico, Romance, Drama, Ciencia ficción, Fantasía",
     "year": 2012,
     "chapters": 20
   },
@@ -111,7 +111,7 @@ export default [
   "description": "Goblin narra la historia de Kim Shin, un ser inmortal conocido como el 'Goblin', que busca a su novia humana, la única persona que puede romper su maldición y poner fin a su vida eterna. Ji Eun-tak, una estudiante de secundaria con la capacidad de ver fantasmas, es la elegida. A medida que su relación se desarrolla, ambos enfrentan desafíos sobrenaturales y secretos del pasado. La serie es aclamada por su cinematografía deslumbrante, su guión poético y la química entre los actores principales, ofreciendo una mezcla única de romance, fantasía y drama.",
   "imageUrl": "https://static.wikia.nocookie.net/drama/images/a/a7/Goblin-tvN-2016-02.jpg/revision/latest?cb=20161121060928&path-prefix=es",
   "facts": {
-    "gender": "Fantasía, Romance, Drama",
+    "gender": "Fantasía, Romance, Drama, Ciencia ficción",
     "year": 2016,
     "chapters": 16
   },
@@ -126,7 +126,7 @@ export default [
   "description": "Weightlifting Fairy Kim Bok-joo sigue la vida de Kim Bok-joo, una talentosa levantadora de pesas universitaria, mientras navega por los desafíos del deporte, la amistad y el amor. En el camino, desarrolla una relación especial con Jung Joon-hyung, un nadador con su propio conjunto de problemas. La serie es conocida por su enfoque refrescante y realista de los jóvenes que persiguen sus sueños, abordando temas de autoestima, perseverancia y crecimiento personal. Con momentos cómicos y conmovedores, es una historia inspiradora sobre la superación personal y el poder del apoyo mutuo.",
   "imageUrl": "https://1.vikiplatform.com/c/32634c/weightlifting-fairy_1560x872.jpg?x=b",
   "facts": {
-    "gender": "Comedia romántica, Deportes",
+    "gender": "Romance, Comedia, Drama, Deportes",
     "year": 2016,
     "chapters": 16
   },
@@ -141,7 +141,7 @@ export default [
   "description": "Strong Woman Do Bong-soon cuenta la historia de Do Bong-soon, una joven con una fuerza sobrehumana heredada de las mujeres de su familia. Sueña con diseñar videojuegos, pero su vida da un giro cuando es contratada como guardaespaldas de Ahn Min-hyuk, un CEO de una empresa de videojuegos que está siendo amenazado. Mientras lucha contra el crimen en su vecindario y navega por un complicado triángulo amoroso, Bong-soon aprende a aceptar y usar sus habilidades para el bien. La serie combina comedia, romance y acción de manera encantadora y entretenida.",
   "imageUrl": "https://m.media-amazon.com/images/S/pv-target-images/40c1eb008ea7d9d50779854f67150085f8766c42e82e1594f09793835994a5ff.jpg",
   "facts": {
-    "gender": "Fantasía, Comedia romántica",
+    "gender": "Comedia, , Drama, Fantasía, Romance, Ciencia ficción",
     "year": 2017,
     "chapters": 16
   },
@@ -186,7 +186,7 @@ export default [
   "description": "Crash Landing on You cuenta la historia de Yoon Se-ri, una heredera surcoreana que, debido a un accidente de parapente, aterriza en Corea del Norte. Allí conoce a Ri Jeong-hyeok, un oficial del ejército norcoreano que decide ayudarla a esconderse y regresar a casa. A medida que pasan tiempo juntos, desarrollan sentimientos profundos, enfrentando obstáculos políticos y personales. Este drama es famoso por su emocionante narrativa y la química entre los protagonistas, capturando la atención de audiencias en todo el mundo.",
   "imageUrl": "https://image.tmdb.org/t/p/original/rT4KG2euOofQYYyY0I4Oc0WUbNs.jpg",
   "facts": {
-    "gender": "Romance, Drama",
+    "gender": "Drama, Comedia, Acción, Romance",
     "year": 2019,
     "chapters": 16
   },
@@ -201,7 +201,7 @@ export default [
   "description": "Itaewon Class sigue a la maravillosa actriz Park Sae-ro-yi, un joven que, tras la fatidica muerte injusta de su padre y su tiempo en prisión, decide abrir un restaurante en Itaewon para desafiar al conglomerado que arruino y destruyó a su querida familia. Con la ayuda de un grupo diverso de empleados, Sae-ro-yi enfrenta obstáculos empresariales y personales, luchando por justicia y éxito. Este drama es conocido por su fuerte mensaje sobre igualdad y perseverancia, así como por sus personajes bien desarrollados.",
   "imageUrl": "https://www.tvguide.com/a/img/catalog/provider/1/1/1-8911924238.jpg",
   "facts": {
-    "gender": "Drama",
+    "gender": "Drama, Crimen",
     "year": 2020,
     "chapters": 16
   },
@@ -216,7 +216,7 @@ export default [
   "description": "Start-Up se centra en la gran actriz coreana Seo Dal-mi, una joven con grandes sueños de convertirse en una empresaria exitosa. En el competitivo mundo de las startups, Dal-mi se encuentra con Nam Do-san, un talentoso programador, y juntos intentan hacer realidad sus aspiraciones. El drama explora temas de innovación, amistad y romance, mostrando los altibajos de la vida empresarial y personal en el dinámico entorno de las startups, y destacando la importancia de la perseverancia y el trabajo en equipo.",
   "imageUrl": "https://0.soompi.io/wp-content/uploads/2020/09/01225007/Start-Up1.jpg",
   "facts": {
-    "gender": "Romance, Drama",
+    "gender": "Drama, Acción, Comedia, Romance",
     "year": 2020,
     "chapters": 16
   },
@@ -246,7 +246,7 @@ export default [
   "description": "Vincenzo Cassano, sigue la vida de un abogado coreano-italiano y consigliere de la mafia, regresa a Corea del Sur para recuperar un tesoro oculto. Al enfrentarse a un conglomerado corrupto, se asocia con la abogada Hong Cha-young. Juntos, utilizan métodos poco convencionales para luchar por la justicia y proteger a los residentes de un complejo de apartamentos. Este drama mezcla acción, comedia y romance, destacando la química entre los protagonistas y las intrincadas tramas legales, ofreciendo una experiencia emocionante y entretenida.",
   "imageUrl": "https://wallpapercave.com/wp/wp9524644.jpg",
   "facts": {
-    "gender": "Drama, Acción, Comedia",
+    "gender": "Acción, Romance, Crimen, Comedia",
     "year": 2021,
     "chapters": 20
   },
@@ -261,7 +261,7 @@ export default [
   "description": "Squid Game sigue a un grupo de personas con muchos problemas financieros y economicos que aceptan participar en una serie de juegos infantiles con consecuencias mortales, en busca de un premio multimillonario. Cada juego revela las profundidades de la desesperación humana y la lucha por la supervivencia. Este thriller psicológico y social explora temas de deuda, moralidad y la naturaleza humana, convirtiéndose en un fenómeno global por su trama intensa y personajes complejos, capturando la atención y el debate mundial.",
   "imageUrl": "https://images.wallpapersden.com/image/download/official-squid-game_bWVlZmWUmZqaraWkpJRnZmtmrWZnZmo.jpg",
   "facts": {
-    "gender": "Thriller, Drama",
+    "gender": "Drama, Acción, Aventura, Thriller, Misterio, Terror",
     "year": 2021,
     "chapters": 9
   },
@@ -276,7 +276,7 @@ export default [
   "description": "Hometown Cha-Cha-Cha cuenta la historia de Yoon Hye-jin, una dentista de ciudad que se muda a un pintoresco pueblo costero. Allí conoce a Hong Du-sik, un hombre talentoso y querido por los habitantes. A medida que Hye-jin se adapta a la vida rural, desarrolla una relación especial con Du-sik, enfrentando desafíos personales y comunitarios. Este drama es apreciado por su calidez, humor y la representación encantadora de la vida en un pequeño pueblo, destacando la belleza de las relaciones humanas.",
   "imageUrl": "https://kdramadiary.com/wp-content/uploads/2021/10/Hometown-Cha-Cha-Cha-review-kdramadiary.jpg",
   "facts": {
-    "gender": "Romance, Comedia",
+    "gender": "Drama, Comedia, Romance, Aventura",
     "year": 2021,
     "chapters": 16
   },
@@ -291,7 +291,7 @@ export default [
   "description": "The Glory sigue la vida a Moon Dong-eun, una mujer que fue víctima de violencia y brutal acoso en la época escolar y que, muchos años después, decide vengarse de sus agresores. Con una planificación meticulosa y una determinación inquebrantable, Dong-eun se infiltra en la vida de sus antiguos acosadores, quienes ahora llevan vidas aparentemente perfectas. El drama explora temas de justicia, trauma y redención, manteniendo a los espectadores al borde de sus asientos con giros sorprendentes y una narrativa cautivadora.",
   "imageUrl": "https://www.themoviedb.org/t/p/original/w29aB2oLeIs9iWITUs8bkFVA0Cp.jpg",
   "facts": {
-    "gender": "Drama, Thriller",
+    "gender": "Drama, Romance, Acción, Thriller, Crimen",
     "year": 2023,
     "chapters": 16
   },
@@ -306,7 +306,7 @@ export default [
   "description": "Business Proposal cuenta la historia de Shin Ha-ri, una empleada que asiste a una cita a ciegas en lugar de su amiga, solo para descubrir que su cita es su jefe, Kang Tae-moo. Para complicar las cosas, Tae-moo propone un contrato de relación falsa para evitar los arreglos matrimoniales de su familia. Lo que comienza como una farsa se convierte en un romance genuino, lleno de situaciones cómicas y conmovedoras. Este drama destaca por su humor y la química entre los protagonistas, ofreciendo una experiencia romántica y divertida.",
   "imageUrl": "https://wallpapers.com/images/hd/business-proposal-kdrama-poster-x0rod0gmpuznd9bz.jpg",
   "facts": {
-    "gender": "Romance, Comedia",
+    "gender": "Drama, Comedia, Romance",
     "year": 2022,
     "chapters": 12
   },
@@ -336,7 +336,7 @@ export default [
   "description": "Extraordinary Attorney Woo sigue a Woo Young-woo, una abogada con autismo, que trabaja en un prestigioso bufete de abogados. A pesar de posser grandes dificultades sociales para entablar relaciones interpersonales, Young-woo posee una brillante mente legal que le permite resolver casos complejos. El drama explora sus interacciones con colegas, amigos y clientes, ofreciendo una perspectiva única sobre la neurodiversidad y la inclusión. Este drama es aclamado por su enfoque sensible y actuaciones destacadas, presentando una historia inspiradora y emocionalmente resonante.",
   "imageUrl": "https://cdn.kinocheck.com/i/sn9pjlts02.jpg",
   "facts": {
-    "gender": "Drama, Legal",
+    "gender": "Drama, Romance, Comedia, Legal",
     "year": 2022,
     "chapters": 16
   },
