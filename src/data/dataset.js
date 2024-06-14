@@ -6,7 +6,7 @@ export default [
   "description": "Han-kyul, heredero de una compañía, conoce a Eun-chan, una joven que se disfraza de hombre para trabajar en su cafetería. A medida que trabajan juntos, Han-kyul empieza a cuestionar su identidad y orientación sexual, sin saber que Eun-chan es en realidad una mujer.",
   "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/ada-lovelace.jpg",
   "facts": {
-    "gender": "Comedia",
+    "gender": "Comedia romantica",
     "year": 2007,
     "chapters": 17
   },
