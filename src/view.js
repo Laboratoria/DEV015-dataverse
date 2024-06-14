@@ -9,10 +9,13 @@ export const renderItems = (data) => {
     li.textContent = item;
     //Agregar cada <li> al <ul> utilizando innerHTML , appendChild u otro método apropiado.
     ul.appendChild(li);  
+
     
   });
   //Finalmente, retornar el elemento <ul>
    return ul;
+   console.log(data)
+   
 
 
 
