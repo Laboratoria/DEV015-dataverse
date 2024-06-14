@@ -188,7 +188,7 @@ export default [
   "facts": {
     "gender": "Romance, Drama",
     "year": 2019,
-    "chapter": 16
+    "chapters": 16
   },
   "extraInfo": {
     "imageSource": " "
@@ -203,7 +203,7 @@ export default [
   "facts": {
     "gender": "Drama",
     "year": 2020,
-    "chapter": 16
+    "chapters": 16
   },
   "extraInfo": {
     "imageSource": " "
@@ -218,7 +218,7 @@ export default [
   "facts": {
     "gender": "Romance, Drama",
     "year": 2020,
-    "chapter": 16
+    "chapters": 16
   },
   "extraInfo": {
     "imageSource": " "
@@ -233,7 +233,7 @@ export default [
   "facts": {
     "gender": "Drama, Comedia",
     "year": 2020,
-    "chapter": 12
+    "chapters": 12
   },
   "extraInfo": {
     "imageSource": " "
@@ -248,7 +248,7 @@ export default [
   "facts": {
     "gender": "Drama, Acción, Comedia",
     "year": 2021,
-    "chapter": 20
+    "chapters": 20
   },
   "extraInfo": {
     "imageSource": " "
@@ -263,7 +263,7 @@ export default [
   "facts": {
     "gender": "Thriller, Drama",
     "year": 2021,
-    "chapter": 9
+    "chapters": 9
   },
   "extraInfo": {
     "imageSource": " "
@@ -278,7 +278,7 @@ export default [
   "facts": {
     "gender": "Romance, Comedia",
     "year": 2021,
-    "chapter": 16
+    "chapters": 16
   },
   "extraInfo": {
     "imageSource": " "
@@ -293,7 +293,7 @@ export default [
   "facts": {
     "gender": "Drama, Thriller",
     "year": 2023,
-    "chapter": 16
+    "chapters": 16
   },
   "extraInfo": {
     "imageSource": " "
@@ -308,7 +308,7 @@ export default [
   "facts": {
     "gender": "Romance, Comedia",
     "year": 2022,
-    "chapter": 12
+    "chapters": 12
   },
   "extraInfo": {
     "imageSource": " "
@@ -323,7 +323,7 @@ export default [
   "facts": {
     "gender": "Romance, Drama",
     "year": 2022,
-    "chapter": 16
+    "chapters": 16
   },
   "extraInfo": {
     "imageSource": " "
@@ -338,7 +338,7 @@ export default [
   "facts": {
     "gender": "Drama, Legal",
     "year": 2022,
-    "chapter": 16
+    "chapters": 16
   },
   "extraInfo": {
     "imageSource": " "
@@ -353,7 +353,7 @@ export default [
   "facts": {
     "gender": "Histórico, Drama",
     "year": 2022,
-    "chapter": 16
+    "chapters": 16
   },
   "extraInfo": {
     "imageSource": ""
