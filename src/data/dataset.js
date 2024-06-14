@@ -6,7 +6,7 @@ export default [
   "description": "Han-kyul, heredero de una compañía, conoce a Eun-chan, una joven que se disfraza de hombre para trabajar en su cafetería. A medida que trabajan juntos, Han-kyul empieza a cuestionar su identidad y orientación sexual, sin saber que Eun-chan es en realidad una mujer.",
   "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/ada-lovelace.jpg",
   "facts": {
-    "genre": "Comedia romántica",
+    "gender": "Comedia",
     "year": 2007,
     "chapters": 17
   },
@@ -21,7 +21,7 @@ export default [
   "description": "Geum Jan-di, una chica de clase baja, recibe una beca para asistir a una prestigiosa escuela secundaria dominada por el elitista grupo F4. Ella se enfrenta a Goo Jun-pyo, el líder de F4, y a medida que su relación evoluciona, ambos descubren el verdadero significado del amor y la amistad.",
   "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/emmy-noether.jpg",
   "facts": {
-    "genre": "Romance, Drama",
+    "gender": "Romance, Drama",
     "year": 2009,
     "chapters": 25
   },
@@ -36,7 +36,7 @@ export default [
   "description": "Kim Joo-won, un arrogante CEO, y Gil Ra-im, una doble de acción, intercambian cuerpos después de un encuentro misterioso. Mientras intentan revertir la situación, empiezan a comprender y enamorarse del otro, superando las diferencias de su estatus social.",
   "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/hypatia-de-alejandria.jpg",
   "facts": {
-    "genre": "Fantasía, Romance",
+    "gender": "Fantasía, Romance",
     "year": 2011,
     "chapters": 20
   },
@@ -51,7 +51,7 @@ export default [
   "description": "Lee Yoon-sung trabaja en la Casa Azul para vengarse de los políticos responsables de la muerte de su padre. Adoptando la identidad del 'City Hunter', Yoon-sung lucha contra la corrupción mientras navega por su relación con Kim Na-na, una guardia de seguridad.",
   "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/marjorie-lee-browne.jpg",
   "facts": {
-    "genre": "Acción, Drama",
+    "gender": "Acción, Drama",
     "year": 2011,
     "chapters": 20
   },
@@ -66,7 +66,7 @@ export default [
   "description": "Lee Hwon, el joven rey de Joseon, y Yeon-woo, una mujer de noble linaje que se convierte en chamana, se ven separados por la política y el destino. El drama narra su lucha por reunirse y recuperar el amor que les fue arrebatado.",
   "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/shakuntala-devi.jpg",
   "facts": {
-    "genre": "Histórico, Romance",
+    "gender": "Histórico, Romance",
     "year": 2012,
     "chapters": 20
   },
@@ -81,7 +81,7 @@ export default [
   "description": "Este drama sigue la vida de cinco familias que viven en el mismo vecindario en 1988. A través de sus historias entrelazadas, el drama retrata la amistad, el amor y las relaciones familiares en una era nostálgica.",
   "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/sofia-kovalevskaya.jpg",
   "facts": {
-    "genre": "Comedia, Drama, Familiar",
+    "gender": "Comedia, Drama, Familiar",
     "year": 2016,
     "chapters": 20
   },
@@ -96,7 +96,7 @@ export default [
   "description": "El Capitán Yoo Si-jin, un soldado de las fuerzas especiales, y la Dra. Kang Mo-yeon, una cirujana, se enamoran mientras trabajan en una zona de conflicto. Sus profesiones y los peligros a los que se enfrentan ponen a prueba su amor y dedicación.",
   "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/yoko-shimomura.jpg",
   "facts": {
-    "genre": "Acción, Romance, Drama",
+    "gender": "Acción, Romance, Drama",
     "year": 2016,
     "chapters": 16
   },
@@ -111,7 +111,7 @@ export default [
   "description": "Kim Shin, un ser inmortal conocido como Goblin, busca a su novia humana, Ji Eun-tak, para terminar con su vida eterna. A medida que sus caminos se cruzan, desarrollan un amor profundo que trasciende el tiempo y el destino.",
   "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/maryam-mirzakhani.jpg",
   "facts": {
-    "genre": "Fantasía, Romance, Drama",
+    "gender": "Fantasía, Romance, Drama",
     "year": 2016,
     "chapters": 16
   },
@@ -126,7 +126,7 @@ export default [
   "description": "Kim Bok-joo, una joven levantadora de pesas, navega por la vida universitaria junto a sus amigos. A medida que entrena para cumplir sus sueños, también experimenta el primer amor y los desafíos personales.",
   "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/adele-goldberg.jpg",
   "facts": {
-    "genre": "Comedia romántica, Deportes",
+    "gender": "Comedia romántica, Deportes",
     "year": 2016,
     "chapters": 16
   },
@@ -141,7 +141,7 @@ export default [
   "description": "Do Bong-soon, una mujer con una fuerza sobrehumana, sueña con crear un videojuego. Ella se convierte en la guardaespaldas de Ahn Min-hyuk, un CEO de una compañía de juegos, y juntos enfrentan varios desafíos, incluyendo una serie de secuestros.",
   "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/barbara-liskov.jpg",
   "facts": {
-    "genre": "Fantasía, Comedia romántica",
+    "gender": "Fantasía, Comedia romántica",
     "year": 2017,
     "chapters": 16
   },
@@ -156,7 +156,7 @@ export default [
   "description": "Park Dong-hoon, un ingeniero de mediana edad, y Lee Ji-an, una joven con una vida difícil, se apoyan mutuamente mientras enfrentan sus propios problemas personales y profesionales. El drama explora la resiliencia y la empatía.",
   "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/grace-hopper.jpg",
   "facts": {
-    "genre": "Drama",
+    "gender": "Drama",
     "year": 2018,
     "chapters": 16
   },
@@ -171,7 +171,7 @@ export default [
   "description": "Eugene Choi, un joven coreano que escapó a los Estados Unidos en su infancia, regresa a Corea como soldado de la Marina estadounidense. Allí se enamora de Go Ae-shin, una noble luchadora por la independencia, en medio de la turbulencia política.",
   "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/margaret-hamilton.jpg",
   "facts": {
-    "genre": "Histórico, Romance, Drama",
+    "gender": "Histórico, Romance, Drama",
     "year": 2018,
     "chapters": 24
   },
@@ -188,7 +188,7 @@ export default [
   "facts": {
     "gender": "Romance, Drama",
     "year": 2019,
-    "chapter": 16
+    "chapters": 16
   },
   "extraInfo": {
     "imageSource": " "
@@ -203,7 +203,7 @@ export default [
   "facts": {
     "gender": "Drama",
     "year": 2020,
-    "chapter": 16
+    "chapters": 16
   },
   "extraInfo": {
     "imageSource": " "
@@ -218,7 +218,7 @@ export default [
   "facts": {
     "gender": "Romance, Drama",
     "year": 2020,
-    "chapter": 16
+    "chapters": 16
   },
   "extraInfo": {
     "imageSource": " "
@@ -233,7 +233,7 @@ export default [
   "facts": {
     "gender": "Drama, Comedia",
     "year": 2020,
-    "chapter": 12
+    "chapters": 12
   },
   "extraInfo": {
     "imageSource": " "
@@ -248,7 +248,7 @@ export default [
   "facts": {
     "gender": "Drama, Acción, Comedia",
     "year": 2021,
-    "chapter": 20
+    "chapters": 20
   },
   "extraInfo": {
     "imageSource": " "
@@ -263,7 +263,7 @@ export default [
   "facts": {
     "gender": "Thriller, Drama",
     "year": 2021,
-    "chapter": 9
+    "chapters": 9
   },
   "extraInfo": {
     "imageSource": " "
@@ -278,7 +278,7 @@ export default [
   "facts": {
     "gender": "Romance, Comedia",
     "year": 2021,
-    "chapter": 16
+    "chapters": 16
   },
   "extraInfo": {
     "imageSource": " "
@@ -293,7 +293,7 @@ export default [
   "facts": {
     "gender": "Drama, Thriller",
     "year": 2023,
-    "chapter": 16
+    "chapters": 16
   },
   "extraInfo": {
     "imageSource": " "
@@ -308,7 +308,7 @@ export default [
   "facts": {
     "gender": "Romance, Comedia",
     "year": 2022,
-    "chapter": 12
+    "chapters": 12
   },
   "extraInfo": {
     "imageSource": " "
@@ -323,7 +323,7 @@ export default [
   "facts": {
     "gender": "Romance, Drama",
     "year": 2022,
-    "chapter": 16
+    "chapters": 16
   },
   "extraInfo": {
     "imageSource": " "
@@ -338,7 +338,7 @@ export default [
   "facts": {
     "gender": "Drama, Legal",
     "year": 2022,
-    "chapter": 16
+    "chapters": 16
   },
   "extraInfo": {
     "imageSource": " "
@@ -353,7 +353,7 @@ export default [
   "facts": {
     "gender": "Histórico, Drama",
     "year": 2022,
-    "chapter": 16
+    "chapters": 16
   },
   "extraInfo": {
     "imageSource": ""
