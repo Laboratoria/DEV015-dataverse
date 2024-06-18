@@ -6,7 +6,7 @@ export default [
     "description": "Seguimos la historia de Ember, una joven de fuego, y Wade, un chico de agua, que provienen de mundos opuestos. A pesar de sus diferencias, desarrollan una amistad única que desafía las convenciones sociales de su entorno. A medida que su vínculo se fortalece, Ember y Wade descubren que las diferencias que los separan también pueden ser la clave para superar desafíos personales y comunitarios. La película presenta un viaje emocional y visualmente espectacular que celebra la diversidad y la aceptación.",
     "imageUrl": "https://es.web.img3.acsta.net/pictures/23/05/17/10/28/2036083.jpg",
     "facts": {
-      "añoEstreno": "2023",
+      "estreno": "2023",
       "generoPelicula": "Aventura, Fantasía",
       "clasificacionPelicula": "Diversidad",
       "clasificPublico": "7.1/10",
@@ -23,7 +23,7 @@ export default [
     "description": "Up narra la historia de Carl Fredricksen, un viudo de edad avanzada decidido a cumplir la promesa que le hizo a su difunta esposa. Con ingenio y determinación, Carl ata miles de globos a su casa y emprende un viaje épico hacia las remotas tierras de América del Sur. Pero su plan se complica cuando descubre que un inesperado pasajero, Russell, un explorador juvenil, se ha colado a bordo. Juntos, enfrentan peligros inimaginables y descubren que la aventura más grande de todas es la amistad.",
     "imageUrl": "https://www.funeralnatural.net/sites/default/files/pelicula/imagen/upcartel.jpg",
     "facts": {
-      "añoEstreno": "2009",
+      "estreno": "2009",
       "generoPelicula": "Aventura, Comedia, Drama",
       "clasificacionPelicula": "Perseverancia",
       "clasificPublico": "8.3/10",
@@ -37,10 +37,10 @@ export default [
     "id": "turning-red",
     "name": "Turning Red",
     "shortDescription": "Una divertida y emotiva historia sobre la adolescencia y el poder de la amistad.",
-    "description": " película animada que sigue la vida de Mei Lee, una adolescente que descubre un gran secreto: se transforma en un gigantesco panda rojo cada vez que se emociona demasiado. A medida que lidia con este extraño poder y las expectativas de su familia, Mei encuentra consuelo en el apoyo incondicional de sus amigas. Juntas, exploran el significado de la amistad verdadera mientras Mei aprende a aceptarse a sí misma y a abrazar lo que la hace única.",
+    "description": "'Turning Red' es una encantadora película de Pixar que explora la vida de Mei Lee, una joven que lidia con los altibajos de la adolescencia mientras experimenta una transformación inesperada en un panda rojo cuando se emociona demasiado. Con un enfoque fresco y humorístico, la película aborda temas universales como la identidad, la familia y la aceptación personal. La animación es vibrante y cautivadora, complementada por una banda sonora vibrante que realza la narrativa. Turning Red es una joya animada que no solo entretiene, sino que también deja mensajes significativos sobre la autoaceptación y el poder de la amistad.",
     "imageUrl": "https://m.media-amazon.com/images/I/81equRsw8JL._AC_UF894,1000_QL80_.jpg",
     "facts": {
-      "añoEstreno": "2022",
+      "estreno": "2022",
       "generoPelicula": "Comedia, Fantasía",
       "clasificacionPelicula": "Autoaceptación",
       "clasificPublico": "7/10",
@@ -57,7 +57,7 @@ export default [
     "description": "Coco cuenta la historia de Miguel, un niño mexicano con grandes sueños musicales en un hogar donde la música está prohibida. En el Día de los Muertos, Miguel se embarca en un viaje extraordinario al mundo de los muertos para descubrir la verdad sobre su familia y su pasión por la música. Con impresionantes visuales y una banda sonora conmovedora, la película celebra la cultura mexicana y enseña lecciones sobre el amor, el legado y la importancia de recordar a nuestros seres queridos.",
     "imageUrl": "https://es.web.img2.acsta.net/pictures/17/09/14/10/49/2019727.jpg",
     "facts": {
-      "añoEstreno": "2017",
+      "estreno": "2017",
       "generoPelicula": "Aventura, Fantasía",
       "clasificacionPelicula": "Familia",
       "clasificPublico": "8.4/10",
@@ -71,10 +71,10 @@ export default [
     "id": "Ratatouille-2007",
     "name": "Ratatouille",
     "shortDescription": "Una encantadora historia sobre un ratón con un paladar excepcional y grandes sueños culinarios.",
-    "description": "En Ratatouille conocemos a Remy, un apasionado ratón que sueña con convertirse en un chef de renombre en París, a pesar de las expectativas y prejuicios que enfrenta por ser un roedor. Con la ayuda de Linguini, un joven empleado de cocina, Remy demuestra que el talento y la determinación no conocen límites, mientras lucha por hacer realidad su sueño gastronómico. La película explora temas de perseverancia, amistad y la importancia de seguir nuestras pasiones, sin importar las adversidades.",
+    "description": "En Ratatouille conocemos a Remy, un apasionado ratón que sueña con convertirse en un chef de renombre en París, a pesar de las expectativas y prejuicios que enfrenta por ser un roedor. Con la ayuda de Linguini, un joven empleado de cocina, Remy demuestra que el talento y la determinación no conocen límites, mientras lucha por hacer realidad su sueño gastronómico. La película explora temas de perseverancia, amistad y la importancia de seguir nuestras pasiones, sin importar las adversidades ya que 'cualquiera puede cocinar'.",
     "imageUrl": "https://lumiere-a.akamaihd.net/v1/images/p_ratatouille_19736_0814231f.jpeg",
     "facts": {
-      "añoEstreno": "2007",
+      "estreno": "2007",
       "generoPelicula": "Comedia, Drama",
       "clasificacionPelicula": "Superación",
       "clasificPublico": "8.1/10",
@@ -91,7 +91,7 @@ export default [
     "description": "Seguimos a Wall-e, un pequeño robot diseñado para limpiar un planeta Tierra abandonado y cubierto de basura. Durante siglos, Wall-e ha desarrollado una personalidad única y un gran sentido de curiosidad. Todo cambia cuando conoce a EVE, una sonda enviada desde el espacio con una misión misteriosa. Juntos, Wall-e y EVE emprenden un viaje intergaláctico que desafía las expectativas y revela la importancia de la conexión humana y el cuidado del medio ambiente. Esta obra maestra de animación combina humor, emoción y reflexión sobre el futuro de la humanidad.",
     "imageUrl": "https://es.web.img2.acsta.net/pictures/14/04/30/10/41/026995.jpg",
     "facts": {
-      "añoEstreno": "2008",
+      "estreno": "2008",
       "generoPelicula": "Aventura, Ciencia ficción",
       "clasificacionPelicula": "Esperanza",
       "clasificPublico": "8.4/10",
@@ -108,7 +108,7 @@ export default [
     "description": "la amigable pez azul con pérdida de memoria a corto plazo, Dory, se embarca en una emocionante misión para reunirse con su familia, de la cual apenas tiene recuerdos fragmentados. Con la ayuda de sus amigos Marlin y Nemo, Dory cruza los océanos enfrentando desafíos y haciendo nuevos amigos, mientras descubre la importancia del hogar, la perseverancia y la autoaceptación. La película, llena de humor y ternura, captura la esencia del espíritu aventurero de Pixar y deja un mensaje conmovedor sobre el poder del amor y la familia.",
     "imageUrl": "https://e1.pxfuel.com/desktop-wallpaper/228/188/desktop-wallpaper-finding-dory-poster-2-amazing-posters-fluke-movie.jpg",
     "facts": {
-      "añoEstreno": "2016",
+      "estreno": "2016",
       "generoPelicula": "Aventura, Comedia",
       "clasificacionPelicula": "Resiliencia",
       "clasificPublico": "7.4/10",
@@ -125,7 +125,7 @@ export default [
     "description": "Riley, una niña que atraviesa cambios importantes en su vida familiar al mudarse a una nueva ciudad. La historia se desarrolla dentro de su mente, donde sus emociones personificadas - Alegría, Tristeza, Miedo, Furia y Asco - trabajan juntas en la central de control emocional para guiar sus acciones y decisiones. A medida que Riley navega por los desafíos de crecer, las emociones aprenden lecciones valiosas sobre la importancia de la empatía, el equilibrio emocional y la aceptación de la tristeza como parte integral de la vida.",
     "imageUrl": "https://mx.web.img3.acsta.net/pictures/17/08/07/21/43/466493.jpg",
     "facts": {
-      "añoEstreno": "2015",
+      "estreno": "2015",
       "generoPelicula": "Aventura, Comedia, Drama",
       "clasificacionPelicula": "Empatía",
       "clasificPublico": "8/10",
@@ -142,7 +142,7 @@ export default [
     "description": "Toy Story marca un hito en la historia del cine como la primera película animada completamente por computadora. La historia gira en torno a Woody, un vaquero de juguete celoso de su posición como el favorito de su dueño, Andy, y Buzz Lightyear, un moderno juguete espacial recién llegado que desafía la autoridad de Woody. A través de una serie de eventos, ambos juguetes aprenden sobre la amistad, la lealtad y el valor de aceptarse mutuamente. La película no solo estableció el estándar para la animación digital, sino que también tocó los corazones de generaciones con su ingeniosa narrativa y personajes entrañables.",
     "imageUrl": "https://es.web.img3.acsta.net/pictures/14/03/17/10/20/509771.jpg",
     "facts": {
-      "añoEstreno": "1995",
+      "estreno": "1995",
       "generoPelicula": "Aventura, Comedia",
       "clasificacionPelicula": "Amistad",
       "clasificPublico": "8.3/10",
@@ -159,7 +159,7 @@ export default [
     "description": "En Los Increíbles, seguimos a la familia Parr: Bob, Helen, Violeta, Dash y Jack-Jack, quienes llevan una vida normal y oculta bajo el programa de protección a testigos debido a las leyes que prohíben las actividades superhumanas. Sin embargo, cuando surge una nueva amenaza que pone en peligro al mundo, la familia debe unirse y redescubrir sus habilidades únicas para salvar el día. La película combina acción emocionante con temas de familia, autoaceptación y la importancia de abrazar nuestras fortalezas individuales.",
     "imageUrl": "https://pics.filmaffinity.com/the_incredibles-939387273-large.jpg",
     "facts": {
-      "añoEstreno": "2004",
+      "estreno": "2004",
       "generoPelicula": "Aventura, Acción",
       "clasificacionPelicula": "Unidad",
       "clasificPublico": "8/10",
@@ -176,7 +176,7 @@ export default [
     "description": "En Soul, seguimos a Joe Gardner, un talentoso pianista de jazz cuya pasión por la música es palpable. Cuando tiene la oportunidad de realizar su sueño tocando en un club de renombre, un giro del destino lo lleva a un viaje inesperado entre el mundo terrenal y el 'Gran Antes', donde las almas encuentran su chispa antes de nacer. Junto a 22, un alma cínica que aún no encuentra su propósito, Joe aprende lecciones profundas sobre la vida, el propósito y la importancia de cada experiencia que nos moldea como individuos. Soul no solo es una obra maestra visual y musical, sino también un recordatorio conmovedor de disfrutar cada momento y encontrar alegría en las pequeñas cosas.",
     "imageUrl": "https://es.web.img3.acsta.net/pictures/20/03/24/14/59/1973735.jpg",
     "facts": {
-      "añoEstreno": "2020",
+      "estreno": "2020",
       "generoPelicula": "Aventura, Comedia, Drama",
       "clasificacionPelicula": "Propósito de vida",
       "clasificPublico": "8.1/10",
@@ -193,7 +193,7 @@ export default [
     "description": "En el 'Viaje de Arlo', exploramos un mundo alternativo donde los dinosaurios no se extinguieron y conviven con los humanos. Arlo, un dinosaurio joven y temeroso, se separa de su familia y emprende un viaje épico para encontrar el camino de regreso a casa. En el camino, forma una inesperada amistad con Spot, un niño humano salvaje, y juntos enfrentan peligros naturales y desafíos emocionales que les permiten crecer y descubrir sus verdaderas fortalezas. La película, con impresionantes paisajes y personajes entrañables, invita a reflexionar sobre el coraje, la amistad y el valor de enfrentar nuestros miedos.",
     "imageUrl": "https://www.lavanguardia.com/peliculas-series/images/movie/poster/2015/11/w1280/1WKI6PM79XjK2LVS1B4yoG3wNHw.jpg",
     "facts": {
-      "añoEstreno": "2015",
+      "estreno": "2015",
       "generoPelicula": "Aventura, Drama",
       "clasificacionPelicula": "Superación",
       "clasificPublico": "6.7/10",
@@ -207,10 +207,10 @@ export default [
     "id": "lilo-stitch",
     "name": "Lilo y Stitch",
     "shortDescription": "Una niña hawaiana y un alienígena travieso descubren el verdadero significado de la familia.",
-    "description": "Lilo y Stitch, uenta la historia de Lilo, una niña huérfana que vive con su hermana mayor, Nani, en Hawái. En su búsqueda de un amigo, Lilo adopta a Stitch, una criatura alienígena creada para causar destrucción. A medida que Stitch se adapta a la vida en la Tierra, su vínculo con Lilo y Nani se fortalece, enseñándole el verdadero significado de 'ohana', que significa familia. La película explora temas de pertenencia, amor y redención, con un equilibrio perfecto de humor y emotividad. Con su vibrante animación y su conmovedora historia, 'Lilo y Stitch' se ha ganado un lugar especial en los corazones de muchos.",
+    "description": "Lilo, es una niña huérfana que vive con su hermana mayor, Nani, en Hawái. En su búsqueda de un amigo, Lilo adopta a Stitch, una criatura alienígena creada para causar destrucción. A medida que Stitch se adapta a la vida en la Tierra, su vínculo con Lilo y Nani se fortalece, enseñándole el verdadero significado de 'ohana', que significa familia. La película explora temas de pertenencia, amor y redención, con un equilibrio perfecto de humor y emotividad.",
     "imageUrl": "https://www.ecartelera.com/carteles/5100/5197/002_m.jpg",
     "facts": {
-      "añoEstreno": "2002",
+      "estreno": "2002",
       "generoPelicula": "Aventura, Comedia, Ciencia ficción",
       "clasificacionPelicula": "Familia",
       "clasificPublico": "7.2/10",
@@ -224,10 +224,10 @@ export default [
     "id": "atlantis",
     "name": "Atlantis: El Imperio Perdido",
     "shortDescription": " Una emocionante expedición hacia un misterioso mundo subacuático en busca de un antiguo imperio perdido.",
-    "description": "En 'Atlantis: El Imperio Perdido', Milo Thatch, un joven cartógrafo y lingüista, lidera una audaz misión para descubrir la legendaria ciudad de Atlantis. Acompañado por un variado grupo de exploradores y guiados por misteriosas inscripciones, atraviesan profundidades marinas y enfrentan desafíos inesperados mientras buscan desentrañar los secretos de una civilización antigua. La película combina aventura emocionante con exploración de temas como el descubrimiento personal, la importancia del conocimiento y la preservación de la historia y la cultura.",
+    "description": "Atlantis: El Imperio Perdido es una emocionante película de Disney que sigue a Milo Thatch, un cartógrafo y lingüista, en su búsqueda para encontrar la legendaria ciudad de Atlantis. Acompañado por un variopinto grupo de exploradores, Milo se embarca en una peligrosa expedición submarina. La película destaca por su impresionante animación, inspirada en el estilo visual de cómics, y su intrigante mezcla de mitología y ciencia ficción. Con una historia llena de acción, descubrimientos y valores como la amistad y la perseverancia, Atlantis es una aventura que inspira y cautiva a espectadores de todas las edades.",
     "imageUrl": "https://pics.filmaffinity.com/Atlantis_El_imperio_perdido-149874847-large.jpg",
     "facts": {
-      "añoEstreno": "2001",
+      "estreno": "2001",
       "generoPelicula": "Aventura, Ciencia ficción",
       "clasificacionPelicula": "Descubrimiento",
       "clasificPublico": "6.9/10",
@@ -244,7 +244,7 @@ export default [
     "description": "En 'Big Hero 6', conocemos a Hiro Hamada, un joven genio de la robótica que vive en San Fransokyo, una ciudad futurista y vibrante. Después de sufrir una pérdida devastadora, Hiro se une a Baymax, un robot inflable diseñado para el cuidado de la salud, y a un grupo de amigos con habilidades únicas. Juntos, se convierten en Big Hero 6 y luchan contra un misterioso villano que amenaza con destruir la ciudad. La película combina acción trepidante con temas de amistad, valentía y la importancia de superar la pérdida.",
     "imageUrl": "https://es.web.img3.acsta.net/pictures/14/09/01/13/43/553593.jpg",
     "facts": {
-      "añoEstreno": "2014",
+      "estreno": "2014",
       "generoPelicula": "Aventura, Acción",
       "clasificacionPelicula": "Resiliencia",
       "clasificPublico": "7.8/10",
@@ -261,7 +261,7 @@ export default [
     "description": "En 'El Planeta del Tesoro', Jim Hawkins, un joven audaz y aventurero, descubre un mapa que lo lleva a una búsqueda épica en el espacio por el tesoro del legendario pirata Nathan Flint. A bordo de una nave espacial liderada por el enigmático Capitán Amelia y el cínico cyborg John Silver, Jim enfrenta peligros intergalácticos y aprende lecciones sobre coraje, lealtad y el verdadero significado de la amistad. La película, con su impresionante animación y emocionante trama, transporta a los espectadores a un universo vibrante lleno de intrigas y descubrimientos",
     "imageUrl": "https://es.web.img2.acsta.net/pictures/14/04/14/12/53/368430.jpg",
     "facts": {
-      "añoEstreno": "2002",
+      "estreno": "2002",
       "generoPelicula": "Aventura, Ciencia ficción",
       "clasificacionPelicula": "Aventura",
       "clasificPublico": "7.2/10",
@@ -278,7 +278,7 @@ export default [
     "description": "'Encanto' transporta a los espectadores a Colombia, donde la familia Madrigal vive en un encantado hogar rodeado de magia. Cada miembro de la familia posee un don especial, excepto Mirabel, quien se embarca en un viaje para descubrir su lugar y salvar la magia de la familia. La película celebra la cultura colombiana a través de su música vibrante y coloridos paisajes, mientras explora temas de autoaceptación, familia y la belleza de ser único. Con personajes entrañables y una narrativa emocionante, 'Encanto' captura el corazón y la imaginación de toda la familia.",
     "imageUrl": "https://pics.filmaffinity.com/Encanto-246546841-large.jpg",
     "facts": {
-      "añoEstreno": "2021",
+      "estreno": "2021",
       "generoPelicula": "Aventura, Comedia, Musical",
       "clasificacionPelicula": "Autoaceptación",
       "clasificPublico": "7.3/10",
@@ -295,7 +295,7 @@ export default [
     "description": "Elsa, una princesa con el poder de controlar el hielo y la nieve, desencadena accidentalmente un invierno eterno que sumerge a su reino en un frío incesante. Su valiente hermana Anna, acompañada por Kristoff, un rudo montañista, y Olaf, un simpático muñeco de nieve que cobra vida, se aventuran en una búsqueda para salvar a Arendelle y traer de vuelta el verano. La película no solo es un cuento de hadas moderno con impresionantes efectos visuales y música emocionante, sino que también enseña lecciones sobre el amor, la aceptación y la importancia de aceptarse a uno mismo.",
     "imageUrl": "https://m.media-amazon.com/images/M/MV5BMTQ1MjQwMTE5OF5BMl5BanBnXkFtZTgwNjk3MTcyMDE@._V1_.jpg",
     "facts": {
-      "añoEstreno": "2013",
+      "estreno": "2013",
       "generoPelicula": "Aventura, Comedia, Musical",
       "clasificacionPelicula": "Autoaceptación",
       "clasificPublico": "7.4/10",
@@ -312,7 +312,7 @@ export default [
     "description": "En 'Enredados', conocemos a Rapunzel, una joven princesa con un cabello dorado mágico que le da poderes curativos. Encerrada en una torre desde su infancia por una malvada bruja llamada Madre Gothel, Rapunzel anhela explorar el mundo exterior. Cuando Flynn Rider, un ladrón encantador, irrumpe en su torre, comienza una emocionante aventura llena de acción, romance y descubrimientos sorprendentes. La película no solo cautiva con su animación impresionante y música memorable, sino que también enseña lecciones sobre el coraje, la determinación y la importancia de seguir nuestros sueños.",
     "imageUrl": "https://es.web.img3.acsta.net/medias/nmedia/18/79/96/30/19541005.jpg",
     "facts": {
-      "añoEstreno": "2010",
+      "estreno": "2010",
       "generoPelicula": "Aventura, Comedia, Musical",
       "clasificacionPelicula": "Determinación",
       "clasificPublico": "7.7/10",
@@ -329,7 +329,7 @@ export default [
     "description": "Tiana es una joven trabajadora con un sueño: abrir su propio restaurante. Cuando un príncipe convertido en rana, Naveen, busca su ayuda para romper un hechizo, ambos se embarcan en una emocionante aventura por los pantanos de Louisiana. A través de giros y desafíos, aprenden lecciones sobre el verdadero valor del amor y la importancia de seguir tus sueños. La película no solo deleita con su animación vibrante y música jazzística, sino que también celebra la cultura afroamericana y transmite un mensaje poderoso de perseverancia y sacrificio.",
     "imageUrl": "https://i.pinimg.com/originals/15/ea/11/15ea11588db2f9e23aac9f747b63a19f.jpg",
     "facts": {
-      "añoEstreno": "2009",
+      "estreno": "2009",
       "generoPelicula": "Aventura, Comedia, Musical",
       "clasificacionPelicula": "Perseverancia",
       "clasificPublico": "7.1/10",
@@ -342,11 +342,11 @@ export default [
   {
     "id": "mulan-1998",
     "name": "Mulan",
-    "shortDescription": "Una joven valiente se disfraza de guerrero para salvar a su familia y su patria.",
+    "shortDescription": "Una joven valiente se disfraza de guerrero para salvar a su familia y su patria. Inspiradora, emocionante y llena de valor",
     "description": "Mulán es una joven china que decide tomar el lugar de su anciano padre en el ejército imperial, haciéndose pasar por un hombre. Con la ayuda de su dragón guardián, Mushu, y un grupo de soldados divertidos, Mulán se enfrenta a desafíos tanto físicos como emocionales mientras lucha contra los invasores hunos liderados por Shan Yu. La película no solo es una epopeya de acción y aventura, sino también un poderoso relato sobre el valor, la determinación y el respeto por la familia y la tradición.",
     "imageUrl": "https://www.lavanguardia.com/peliculas-series/images/movie/poster/1998/6/w1280/towmTJ0k29quKI9IDnOZKAAtQx.jpg",
     "facts": {
-      "añoEstreno": "1998",
+      "estreno": "1998",
       "generoPelicula": "Aventura,Drama",
       "clasificacionPelicula": "Valentía",
       "clasificPublico": "7.6/10",
@@ -360,10 +360,10 @@ export default [
     "id": "mundo-jack",
     "name": "El Extraño Mundo de Jack",
     "shortDescription": "Una película animada que fusiona el encanto de Halloween con la magia de la Navidad.",
-    "description": "'El Extraño Mundo de Jack' cuenta la historia de Jack Skellington, el Rey de Halloween, quien se cansa de celebrar siempre la misma fiesta cada año. Cuando descubre accidentalmente la Ciudad de la Navidad, se obsesiona con traer el espíritu navideño a su oscuro reino de Halloween. Sin embargo, sus intentos de recrear la Navidad llevan a resultados cómicos y desastrosos. La película, dirigida por Henry Selick y producida por Tim Burton, es conocida por su innovadora animación stop-motion y su brillante banda sonora compuesta por Danny Elfman. A través de la historia de Jack, la película explora temas de autodescubrimiento, aceptación y la importancia de ser fiel a uno mismo.",
+    "description": "El Extraño Mundo de Jack cuenta la historia de Jack Skellington, el Rey de Halloween, quien se cansa de celebrar siempre la misma fiesta cada año. Cuando descubre accidentalmente la Ciudad de la Navidad, se obsesiona con traer el espíritu navideño a su oscuro reino de Halloween. Sin embargo, sus intentos de recrear la Navidad llevan a resultados cómicos y desastrosos. A través de la historia de Jack, la película explora temas de autodescubrimiento, aceptación y la importancia de ser fiel a uno mismo.",
     "imageUrl": "https://pics.filmaffinity.com/the_nightmare_before_christmas-433010460-large.jpg",
     "facts": {
-      "añoEstreno": "1993",
+      "estreno": "1993",
       "generoPelicula": "Fantasía, Musical",
       "clasificacionPelicula": "Autenticidad",
       "clasificPublico": "8/10",
@@ -377,10 +377,10 @@ export default [
     "id": "tarzan-1999",
     "name": "Tarzan",
     "shortDescription": "Una emocionante aventura animada sobre un niño criado por gorilas en la jungla africana.",
-    "description": "'Tarzan' narra la historia de un niño huérfano que es adoptado y criado por una familia de gorilas después de la muerte de sus padres en un naufragio. A medida que crece, Tarzán desarrolla habilidades extraordinarias y se adapta a la vida en la selva. Su vida cambia cuando conoce a Jane, una exploradora y científica, y se enfrenta a la amenaza de los cazadores furtivos que buscan explotar la naturaleza. La película, dirigida por Chris Buck y Kevin Lima, destaca por su animación impresionante, la icónica banda sonora de Phil Collins y su mensaje sobre la importancia del respeto hacia la naturaleza y la diversidad cultural.",
+    "description": "Un niño que es adoptado por una familia de gorilas después de la muerte de sus padres en un naufragio. A medida que crece, Tarzán desarrolla habilidades extraordinarias y se adapta a la vida en la selva. Su vida cambia cuando conoce a Jane, una exploradora y científica, y se enfrenta a la amenaza de los cazadores furtivos que buscan explotar la naturaleza. La película, dirigida por Chris Buck y Kevin Lima, destaca por su animación impresionante, la icónica banda sonora de Phil Collins y su mensaje sobre la importancia del respeto hacia la naturaleza y la diversidad cultural.",
     "imageUrl": "https://es.web.img3.acsta.net/pictures/14/03/17/11/47/596263.jpg",
     "facts": {
-      "añoEstreno": "1993",
+      "estreno": "1993",
       "generoPelicula": "Aventura, Drama",
       "clasificacionPelicula": "Identidad",
       "clasificPublico": "7.3/10",
@@ -394,10 +394,10 @@ export default [
     "id": "hercules-1997",
     "name": "Hércules",
     "shortDescription": "Una épica historia que sigue los pasos de Hércules, un semidiós en busca de su verdadero lugar en el Olimpo",
-    "description": "En 'Hércules', conocemos la historia del poderoso semidiós griego nacido de los dioses Zeus y Hera. Criado como un humano en la Tierra, Hércules descubre su verdadera identidad y su destino como héroe cuando debe demostrar su valía enfrentando peligrosos desafíos y criaturas mitológicas. Con la ayuda de su fiel amigo Filoctetes y la sabiduría de los dioses del Olimpo, Hércules se embarca en una aventura llena de acción y humor para restaurar su estatus divino y ganarse el amor de Megara, una mujer con un oscuro pasado. La película, dirigida por Ron Clements y John Musker, combina mitología clásica con comedia moderna, destacándose por su animación vibrante y música pegajosa.",
+    "description": "En 'Hércules', conocemos la historia del poderoso semidiós griego nacido de los dioses Zeus y Hera. Criado como un humano en la Tierra, Hércules descubre su verdadera identidad y su destino como héroe cuando debe demostrar su valía enfrentando peligrosos desafíos y criaturas mitológicas. Con la ayuda de su fiel amigo Filoctetes y la sabiduría de los dioses del Olimpo, Hércules se embarca en una aventura llena de acción y humor para restaurar su estatus divino y ganarse el amor de Megara, una mujer con un oscuro pasado.",
     "imageUrl": "https://www.lavanguardia.com/peliculas-series/images/movie/poster/1997/6/w1280/4Q2rLG6a9fJhKM5emIYLzgw4HCa.jpg",
     "facts": {
-      "añoEstreno": "1997",
+      "estreno": "1997",
       "generoPelicula": "Aventura, Comedia, Musical",
       "clasificacionPelicula": "Autoaceptación",
       "clasificPublico": "7.3/10",
