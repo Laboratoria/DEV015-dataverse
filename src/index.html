@@ -18,15 +18,47 @@
 
     <main>
       <h2>Pokémon Cards</h2>
-      <div class="controls">
-          <label for="filtrar">FILTRAR POR ELEMENTOS:</label>
-          <select id="filtrar" name="elementos" data-testid="select-filter">
+      <div class="botones desplegables">
+          <label for="elementos">FILTRAR POR ELEMENTOS:</label>
+          <select id="elementos" name="elementos" data-testid="select-elementos">
               <option value="all">Todo</option>
               <option value="grass">Planta</option>
               <option value="water">Agua</option>
               <option value="Fire">Fuego</option>
-              
-          </select>
+              <option value="all">Veneno</option>
+              <option value="grass">Psiquico</option>
+              <option value="water">Volador</option>
+              <option value="Fire">Fantasma</option>
+              <option value="all">Electrico</option>
+              <option value="grass">Normal</option>
+              <option value="water">Hada</option>
+              <option value="Fire">Acero</option>
+              <option value="all">Lucha</option>
+              <option value="grass">Siniestro</option>
+              <option value="water">Dragon</option>
+             </select>
+                               
+             <label for="debilidad">FILTRAR POR DEBILIDAD:</label>   
+          <select id="debilidad" name="debilidad" data-testid="select-debilidad">
+              <option value="all">Todo</option>
+              <option value="grass">Planta</option>
+              <option value="water">Agua</option>
+              <option value="Fire">Fuego</option>
+              <option value="all">Hielo</option>
+              <option value="grass">Tierra</option>
+              <option value="water">Roca</option>
+              <option value="Fire">Bicho</option>
+              <option value="all">Veneno</option>
+              <option value="grass">Psiquico</option>
+              <option value="water">Volador</option>
+              <option value="Fire">Fantasma</option>
+              <option value="all">Electrico</option>
+              <option value="water">Hada</option>
+              <option value="Fire">Acero</option>
+              <option value="all">Lucha</option>
+              <option value="grass">Siniestro</option>
+              <option value="water">Dragon</option>
+               </select>
 
           <label for="clasificar">FILTRAR POR EVOLUCION</label>
           <select id="clasificar" name="numero" data-testid="select-sort">
@@ -34,7 +66,7 @@
               <option value="desc">Z - A</option>
           </select>
 
-          <button id="clear" data-testid="button-clear">Clear Filters</button>
+          <button id="borrar" data-testid="button-borrarr">BORRAR/GRACIAS</button>
       </div>
       <canvas id="statsChart" width="400" height="200"></canvas>
       <ul id="pokemon-list"></ul>
