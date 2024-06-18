@@ -19,9 +19,9 @@ export default [
   {
     "id": "pixar-up",
     "name": "UP",
-    "shortDescription": "Una emocionante y emotiva aventura de un anciano viudo y un joven explorador, quienes viajan a Sudamérica en una casa flotante sostenida por globos.",
+    "shortDescription": "Aventuras emocionantes de un anciano y un niño explorador en una casa voladora impulsada por globos.",
     "description": "Up narra la historia de Carl Fredricksen, un viudo de edad avanzada decidido a cumplir la promesa que le hizo a su difunta esposa. Con ingenio y determinación, Carl ata miles de globos a su casa y emprende un viaje épico hacia las remotas tierras de América del Sur. Pero su plan se complica cuando descubre que un inesperado pasajero, Russell, un explorador juvenil, se ha colado a bordo. Juntos, enfrentan peligros inimaginables y descubren que la aventura más grande de todas es la amistad.",
-    "imageUrl": "https://static.wikia.nocookie.net/doblaje/images/e/e2/Up-poster.jpg/revision/latest?cb=20201004143137&path-prefix=es",
+    "imageUrl": "https://www.funeralnatural.net/sites/default/files/pelicula/imagen/upcartel.jpg",
     "facts": {
       "añoEstreno": "2009",
       "generoPelicula": "Aventura, Comedia, Drama",
@@ -38,7 +38,7 @@ export default [
     "name": "Turning Red",
     "shortDescription": "Una divertida y emotiva historia sobre la adolescencia y el poder de la amistad.",
     "description": " película animada que sigue la vida de Mei Lee, una adolescente que descubre un gran secreto: se transforma en un gigantesco panda rojo cada vez que se emociona demasiado. A medida que lidia con este extraño poder y las expectativas de su familia, Mei encuentra consuelo en el apoyo incondicional de sus amigas. Juntas, exploran el significado de la amistad verdadera mientras Mei aprende a aceptarse a sí misma y a abrazar lo que la hace única.",
-    "imageUrl": "https://static.wikia.nocookie.net/disney/images/b/be/Turning_Red_Poster.jpg/revision/latest?cb=20220117230032&path-prefix=es",
+    "imageUrl": "https://m.media-amazon.com/images/I/81equRsw8JL._AC_UF894,1000_QL80_.jpg",
     "facts": {
       "añoEstreno": "2022",
       "generoPelicula": "Comedia, Fantasía",
@@ -72,7 +72,7 @@ export default [
     "name": "Ratatouille",
     "shortDescription": "Una encantadora historia sobre un ratón con un paladar excepcional y grandes sueños culinarios.",
     "description": "En Ratatouille conocemos a Remy, un apasionado ratón que sueña con convertirse en un chef de renombre en París, a pesar de las expectativas y prejuicios que enfrenta por ser un roedor. Con la ayuda de Linguini, un joven empleado de cocina, Remy demuestra que el talento y la determinación no conocen límites, mientras lucha por hacer realidad su sueño gastronómico. La película explora temas de perseverancia, amistad y la importancia de seguir nuestras pasiones, sin importar las adversidades.",
-    "imageUrl": "https://static.wikia.nocookie.net/doblaje/images/1/1e/C6b038f42ea34a14434144f3ea55e0a0--disney-movie-posters-disney-films.jpg/revision/latest?cb=20200811235000&path-prefix=es",
+    "imageUrl": "https://lumiere-a.akamaihd.net/v1/images/p_ratatouille_19736_0814231f.jpeg",
     "facts": {
       "añoEstreno": "2007",
       "generoPelicula": "Comedia, Drama",
@@ -87,7 +87,7 @@ export default [
   {
     "id": "Walle-2008",
     "name": "Wall-e",
-    "shortDescription": "Historia de un robot recolector de basura que, en un futuro distópico, descubre el verdadero significado del amor y la responsabilidad ambiental.",
+    "shortDescription": "Un robot solitario descubre el amor y la esperanza en un futuro distópico. Aventura encantadora y ecológica que inspira",
     "description": "Seguimos a Wall-e, un pequeño robot diseñado para limpiar un planeta Tierra abandonado y cubierto de basura. Durante siglos, Wall-e ha desarrollado una personalidad única y un gran sentido de curiosidad. Todo cambia cuando conoce a EVE, una sonda enviada desde el espacio con una misión misteriosa. Juntos, Wall-e y EVE emprenden un viaje intergaláctico que desafía las expectativas y revela la importancia de la conexión humana y el cuidado del medio ambiente. Esta obra maestra de animación combina humor, emoción y reflexión sobre el futuro de la humanidad.",
     "imageUrl": "https://es.web.img2.acsta.net/pictures/14/04/30/10/41/026995.jpg",
     "facts": {
@@ -189,7 +189,7 @@ export default [
   {
     "id": "viaje-arlo",
     "name": "El viaje  de Arlo",
-    "shortDescription": "Una emotiva historia sobre la amistad entre un dinosaurio y un niño en un mundo donde los dinosaurios no se extinguieron.",
+    "shortDescription": "Un dinosaurio y un niño humano forjan una amistad en una épica aventura prehistórica. Una historia conmovedora y emocionante.",
     "description": "En el 'Viaje de Arlo', exploramos un mundo alternativo donde los dinosaurios no se extinguieron y conviven con los humanos. Arlo, un dinosaurio joven y temeroso, se separa de su familia y emprende un viaje épico para encontrar el camino de regreso a casa. En el camino, forma una inesperada amistad con Spot, un niño humano salvaje, y juntos enfrentan peligros naturales y desafíos emocionales que les permiten crecer y descubrir sus verdaderas fortalezas. La película, con impresionantes paisajes y personajes entrañables, invita a reflexionar sobre el coraje, la amistad y el valor de enfrentar nuestros miedos.",
     "imageUrl": "https://www.lavanguardia.com/peliculas-series/images/movie/poster/2015/11/w1280/1WKI6PM79XjK2LVS1B4yoG3wNHw.jpg",
     "facts": {
@@ -206,7 +206,7 @@ export default [
   {
     "id": "lilo-stitch",
     "name": "Lilo y Stitch",
-    "shortDescription": "Lilo y Stitch, narra la inusual amistad entre una niña hawaiana y una criatura alienígena, destacando la importancia de la familia y la aceptación.",
+    "shortDescription": "Una niña hawaiana y un alienígena travieso descubren el verdadero significado de la familia.",
     "description": "Lilo y Stitch, uenta la historia de Lilo, una niña huérfana que vive con su hermana mayor, Nani, en Hawái. En su búsqueda de un amigo, Lilo adopta a Stitch, una criatura alienígena creada para causar destrucción. A medida que Stitch se adapta a la vida en la Tierra, su vínculo con Lilo y Nani se fortalece, enseñándole el verdadero significado de 'ohana', que significa familia. La película explora temas de pertenencia, amor y redención, con un equilibrio perfecto de humor y emotividad. Con su vibrante animación y su conmovedora historia, 'Lilo y Stitch' se ha ganado un lugar especial en los corazones de muchos.",
     "imageUrl": "https://www.ecartelera.com/carteles/5100/5197/002_m.jpg",
     "facts": {
@@ -293,7 +293,7 @@ export default [
     "name": "Frozen",
     "shortDescription": "Una aventura épica sobre el poder del amor entre dos hermanas y un reino cubierto de hielo eterno.",
     "description": "Elsa, una princesa con el poder de controlar el hielo y la nieve, desencadena accidentalmente un invierno eterno que sumerge a su reino en un frío incesante. Su valiente hermana Anna, acompañada por Kristoff, un rudo montañista, y Olaf, un simpático muñeco de nieve que cobra vida, se aventuran en una búsqueda para salvar a Arendelle y traer de vuelta el verano. La película no solo es un cuento de hadas moderno con impresionantes efectos visuales y música emocionante, sino que también enseña lecciones sobre el amor, la aceptación y la importancia de aceptarse a uno mismo.",
-    "imageUrl": "https://vignette3.wikia.nocookie.net/doblaje/images/1/16/Frozen3.jpg/revision/latest?cb=20131115062936&path-prefix=es",
+    "imageUrl": "https://m.media-amazon.com/images/M/MV5BMTQ1MjQwMTE5OF5BMl5BanBnXkFtZTgwNjk3MTcyMDE@._V1_.jpg",
     "facts": {
       "añoEstreno": "2013",
       "generoPelicula": "Aventura, Comedia, Musical",
@@ -327,7 +327,7 @@ export default [
     "name": "La Princesa y el Sapo",
     "shortDescription": "Una encantadora historia ambientada en Nueva Orleans sobre amor, magia y transformación.",
     "description": "Tiana es una joven trabajadora con un sueño: abrir su propio restaurante. Cuando un príncipe convertido en rana, Naveen, busca su ayuda para romper un hechizo, ambos se embarcan en una emocionante aventura por los pantanos de Louisiana. A través de giros y desafíos, aprenden lecciones sobre el verdadero valor del amor y la importancia de seguir tus sueños. La película no solo deleita con su animación vibrante y música jazzística, sino que también celebra la cultura afroamericana y transmite un mensaje poderoso de perseverancia y sacrificio.",
-    "imageUrl": "https://static.wikia.nocookie.net/disney/images/3/30/Princess_and_the_frog.jpg/revision/latest/scale-to-width-down/1200?cb=20160921215735&path-prefix=es",
+    "imageUrl": "https://i.pinimg.com/originals/15/ea/11/15ea11588db2f9e23aac9f747b63a19f.jpg",
     "facts": {
       "añoEstreno": "2009",
       "generoPelicula": "Aventura, Comedia, Musical",
@@ -342,7 +342,7 @@ export default [
   {
     "id": "mulan-1998",
     "name": "Mulan",
-    "shortDescription": "Una valiente joven se disfraza de hombre y se une al ejército para proteger a su familia y a su país.",
+    "shortDescription": "Una joven valiente se disfraza de guerrero para salvar a su familia y su patria.",
     "description": "Mulán es una joven china que decide tomar el lugar de su anciano padre en el ejército imperial, haciéndose pasar por un hombre. Con la ayuda de su dragón guardián, Mushu, y un grupo de soldados divertidos, Mulán se enfrenta a desafíos tanto físicos como emocionales mientras lucha contra los invasores hunos liderados por Shan Yu. La película no solo es una epopeya de acción y aventura, sino también un poderoso relato sobre el valor, la determinación y el respeto por la familia y la tradición.",
     "imageUrl": "https://www.lavanguardia.com/peliculas-series/images/movie/poster/1998/6/w1280/towmTJ0k29quKI9IDnOZKAAtQx.jpg",
     "facts": {
