@@ -16,7 +16,7 @@ export function renderItems(data) {
               <p>RAREZA: ${pokemon.rarity}</p>
               <P>PEQUEÑA DESCRIPCION: ${pokemon.shortDescription}</p>
               <p>DESCRIPCION: ${pokemon.description}</p>
-              <P>EVOLUCION: ${pokemon.evolution}</p>
+              <P>DEBILIDAD: ${pokemon.weakness}</p>
               <p>ATAQUE: ${pokemon.attack}</p>
               <p>DEFENSA: ${pokemon.defense}</p>
               <p>VELOCIDAD: ${pokemon.speed}</p>
