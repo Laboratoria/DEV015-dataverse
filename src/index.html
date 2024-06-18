@@ -11,16 +11,40 @@
   </head>
 
   <body>
+
     <header>
       <h1>POKEMON</h1>
-    
-      
-    
-    </header>
+    </header> 
+
+    <main>
+      <h2>Pokémon Cards</h2>
+      <div class="controls">
+          <label for="filtrar">FILTRAR POR ELEMENTOS:</label>
+          <select id="filtrar" name="elementos" data-testid="select-filter">
+              <option value="all">Todo</option>
+              <option value="grass">Planta</option>
+              <option value="water">Agua</option>
+              <option value="Fire">Fuego</option>
+              
+          </select>
+
+          <label for="clasificar">FILTRAR POR EVOLUCION</label>
+          <select id="clasificar" name="numero" data-testid="select-sort">
+              <option value="asc">A - Z</option>
+              <option value="desc">Z - A</option>
+          </select>
+
+          <button id="clear" data-testid="button-clear">Clear Filters</button>
+      </div>
+      <canvas id="statsChart" width="400" height="200"></canvas>
+      <ul id="pokemon-list"></ul>
+  </main>
+  <script src="main.js" type="module"></script>
   
-    <script src="main.js" type="module"></script>
-    <footer>
-      <p> Daniela Trejo & Dinah Gomez</p>
-    </footer>
-  </body>
-</html>
+  <footer>
+    <p> Daniela Trejo & Dinah Gomez</p>
+  </footer>
+</body>
+</html>     
+  
+   
