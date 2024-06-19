@@ -3,7 +3,7 @@ import { renderItems } from './view.js';
 
 import data from './data/dataset.js';
 
-const listContainer = document.querySelector('#list-container');
+const listContainer = document.getElementById("list-container");
 const ulElement = renderItems(data);
 listContainer.appendChild(ulElement);
 

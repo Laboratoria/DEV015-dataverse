@@ -19,7 +19,7 @@ export default [
   "name": "Boys Over Flowers",
   "shortDescription": "Chica pobre en una escuela de ricos.",
   "description": "Boys Over Flowers sigue a Geum Jan-di, una chica de familia humilde que recibe una beca para asistir a una prestigiosa escuela secundaria. Allí, se enfrenta al F4, un grupo de los chicos más ricos y populares de la escuela, liderado por el arrogante Goo Jun-pyo. A pesar de las dificultades y el acoso, Jan-di mantiene su espíritu fuerte y pronto se encuentra atrapada en un triángulo amoroso. La serie es conocida por sus giros dramáticos, momentos románticos y la evolución de los personajes principales, especialmente el crecimiento de Jun-pyo.",
-  "imageUrl": "https://static.wikia.nocookie.net/drama/images/7/73/BoysOverFlowers.jpg/revision/latest?cb=20180825010727&path-prefix=es",
+  "imageUrl": "https://imgmedia.larepublica.pe/1200x630/larepublica/migration/images/XZMOET3YD5ERBATYWJYLOX5FEE.jpg",
   "facts": {
     "gender": "Romance, Drama, Comedia",
     "year": 2009,
@@ -64,7 +64,7 @@ export default [
   "name": "The Moon That Embraces the Sun",
   "shortDescription": "Historia de amor entre un rey y una chamana.",
   "description": "The Moon That Embraces the Sun cuenta la historia de amor entre el rey Lee Hwon y Wol, una chamán que en realidad es su primer amor, Yeon-woo, quien perdió la memoria después de un complot político. Ambientada en la dinastía Joseon, la serie explora temas de amor, traición y destino, mientras el rey lucha por descubrir la verdad sobre el pasado de Wol y los oscuros secretos de la corte. Con su rica narrativa y personajes complejos, el drama ha sido aclamado por su combinación de romance y elementos históricos.",
-  "imageUrl": "https://static.wikia.nocookie.net/drama/images/4/40/The_Moon_That_Embraces_the_Sun.jpg/revision/latest?cb=20120102025248&path-prefix=es",
+  "imageUrl": "https://1.vikiplatform.com/c/2130c/The-Moon-Embracing-the-Sun_1560x872.jpg?x=b",
   "facts": {
     "gender": "Histórico, Romance, Drama, Ciencia ficción, Fantasía",
     "year": 2012,
@@ -79,7 +79,7 @@ export default [
   "name": "Reply 1988",
   "shortDescription": "La vida de cinco familias en 1988.",
   "description": "Reply 1988 es una serie nostálgica que sigue la vida de cinco amigos y sus familias en un vecindario de Seúl durante la década de 1980. La serie mezcla comedia, drama y romance, mostrando los altibajos de la adolescencia y la transición a la adultez. A través de su narrativa cálida y realista, explora las relaciones familiares, la amistad y el primer amor, capturando la esencia de la época. Cada personaje tiene su propio viaje personal, haciendo que los espectadores se conecten emocionalmente con sus historias y recuerdos compartidos.",
-  "imageUrl": "https://static.wikia.nocookie.net/drama/images/3/3d/Respond_1988tvN2015.jpg/revision/latest?cb=20150923021323&path-prefix=es",
+  "imageUrl": "https://larepublica.cronosmedia.glr.pe/migration/images/ZHBDNIOUTVAX5GVNMUV67BV6EA.jpg",
   "facts": {
     "gender": "Comedia, Drama, Familiar",
     "year": 2016,
@@ -109,7 +109,7 @@ export default [
   "name": "Goblin",
   "shortDescription": "Un inmortal busca a su novia humana.",
   "description": "Goblin narra la historia de Kim Shin, un ser inmortal conocido como el 'Goblin', que busca a su novia humana, la única persona que puede romper su maldición y poner fin a su vida eterna. Ji Eun-tak, una estudiante de secundaria con la capacidad de ver fantasmas, es la elegida. A medida que su relación se desarrolla, ambos enfrentan desafíos sobrenaturales y secretos del pasado. La serie es aclamada por su cinematografía deslumbrante, su guión poético y la química entre los actores principales, ofreciendo una mezcla única de romance, fantasía y drama.",
-  "imageUrl": "https://static.wikia.nocookie.net/drama/images/a/a7/Goblin-tvN-2016-02.jpg/revision/latest?cb=20161121060928&path-prefix=es",
+  "imageUrl": "https://images.justwatch.com/poster/185481575/s592/goblin-el-solitario-ser-inmortal",
   "facts": {
     "gender": "Fantasía, Romance, Drama, Ciencia ficción",
     "year": 2016,
