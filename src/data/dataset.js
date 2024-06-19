@@ -139,7 +139,7 @@ export default [
     "id": "toy-story",
     "name": "Toy Story",
     "shortDescription": "Un grupo de juguetes que cobran vida cuando los humanos no los ven, destacando la amistad y la lealtad.",
-    "description": "Toy Story marca un hito en la historia del cine como la primera película animada completamente por computadora. La historia gira en torno a Woody, un vaquero de juguete celoso de su posición como el favorito de su dueño, Andy, y Buzz Lightyear, un moderno juguete espacial recién llegado que desafía la autoridad de Woody. A través de una serie de eventos, ambos juguetes aprenden sobre la amistad, la lealtad y el valor de aceptarse mutuamente. La película no solo estableció el estándar para la animación digital, sino que también tocó los corazones de generaciones con su ingeniosa narrativa y personajes entrañables.",
+    "description": "La historia gira en torno a Woody, un vaquero de juguete celoso de su posición como el favorito de su dueño, Andy, y Buzz Lightyear, un moderno juguete espacial recién llegado que desafía la autoridad de Woody. A través de una serie de eventos, ambos juguetes aprenden sobre la amistad, la lealtad y el valor de aceptarse mutuamente. La película no solo estableció el estándar para la animación digital, sino que también tocó los corazones de generaciones con su ingeniosa narrativa y personajes entrañables.",
     "imageUrl": "https://es.web.img3.acsta.net/pictures/14/03/17/10/20/509771.jpg",
     "facts": {
       "estreno": "1995",
@@ -173,7 +173,7 @@ export default [
     "id": "soul-2020",
     "name": "Soul",
     "shortDescription": "Descubre el significado de la vida a través de los ojos de un músico apasionado.",
-    "description": "En Soul, seguimos a Joe Gardner, un talentoso pianista de jazz cuya pasión por la música es palpable. Cuando tiene la oportunidad de realizar su sueño tocando en un club de renombre, un giro del destino lo lleva a un viaje inesperado entre el mundo terrenal y el 'Gran Antes', donde las almas encuentran su chispa antes de nacer. Junto a 22, un alma cínica que aún no encuentra su propósito, Joe aprende lecciones profundas sobre la vida, el propósito y la importancia de cada experiencia que nos moldea como individuos. Soul no solo es una obra maestra visual y musical, sino también un recordatorio conmovedor de disfrutar cada momento y encontrar alegría en las pequeñas cosas.",
+    "description": "Joe Gardner, un talentoso pianista de jazz cuya pasión por la música es palpable. Cuando tiene la oportunidad de realizar su sueño tocando en un club de renombre, un giro del destino lo lleva a un viaje inesperado entre el mundo terrenal y el 'Gran Antes', donde las almas encuentran su chispa antes de nacer. Junto a 22, un alma cínica que aún no encuentra su propósito, Joe aprende lecciones profundas sobre la vida, el propósito y la importancia de cada experiencia que nos moldea como individuos. ",
     "imageUrl": "https://es.web.img3.acsta.net/pictures/20/03/24/14/59/1973735.jpg",
     "facts": {
       "estreno": "2020",
@@ -207,7 +207,7 @@ export default [
     "id": "lilo-stitch",
     "name": "Lilo y Stitch",
     "shortDescription": "Una niña hawaiana y un alienígena travieso descubren el verdadero significado de la familia.",
-    "description": "Lilo, es una niña huérfana que vive con su hermana mayor, Nani, en Hawái. En su búsqueda de un amigo, Lilo adopta a Stitch, una criatura alienígena creada para causar destrucción. A medida que Stitch se adapta a la vida en la Tierra, su vínculo con Lilo y Nani se fortalece, enseñándole el verdadero significado de 'ohana', que significa familia. La película explora temas de pertenencia, amor y redención, con un equilibrio perfecto de humor y emotividad.",
+    "description": "Lilo & Stitch narra la conmovedora historia de Lilo, una niña hawaiana única, y Stitch, un alienígena travieso. Ambientada en las soleadas costas de Hawái, la película celebra la importancia de la familia y la aceptación. Con su animación vibrante y memorable banda sonora, captura tanto la esencia de la cultura hawaiana como la bondad universal. 'Lilo & Stitch' nos recuerda que la verdadera familia a menudo viene en formas inesperadas, enseñando lecciones de amor, amistad y comprensión en un viaje emocional que sigue siendo querido por generaciones.",
     "imageUrl": "https://www.ecartelera.com/carteles/5100/5197/002_m.jpg",
     "facts": {
       "estreno": "2002",
@@ -342,7 +342,7 @@ export default [
   {
     "id": "mulan-1998",
     "name": "Mulan",
-    "shortDescription": "Una joven valiente se disfraza de guerrero para salvar a su familia y su patria. Inspiradora, emocionante y llena de valor",
+    "shortDescription": "Una joven valiente se disfraza de guerrero para salvar a su familia y su patria. Inspiradora y llena de valor",
     "description": "Mulán es una joven china que decide tomar el lugar de su anciano padre en el ejército imperial, haciéndose pasar por un hombre. Con la ayuda de su dragón guardián, Mushu, y un grupo de soldados divertidos, Mulán se enfrenta a desafíos tanto físicos como emocionales mientras lucha contra los invasores hunos liderados por Shan Yu. La película no solo es una epopeya de acción y aventura, sino también un poderoso relato sobre el valor, la determinación y el respeto por la familia y la tradición.",
     "imageUrl": "https://www.lavanguardia.com/peliculas-series/images/movie/poster/1998/6/w1280/towmTJ0k29quKI9IDnOZKAAtQx.jpg",
     "facts": {
