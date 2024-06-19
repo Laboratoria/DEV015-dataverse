@@ -17,8 +17,9 @@
         description.textContent = item.description;
 
         const image = document.createElement("img");
-        image.src = item.imageUrl;
-        image.alt = item.name;
+        image.src = item.imageUrl;//La URL se obtiene del objeto item y su propiedad imageUrl.
+        image.alt = item.name;//El nombre se obtiene del objeto item y su propiedad name.
+
         // Crear un contenedor para los facts(datos adicionales)
         const factsContainer = document.createElement("div");
 
