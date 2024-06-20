@@ -1,378 +1,386 @@
 export default [
   {
-    "id": "ada-lovelace",
-    "name": "Ada Lovelace",
-    "shortDescription": "Pionera en la programación, primera programadora de la historia.",
-    "description": "Una visionaria matemática británica del siglo XIX, es aclamada como la primera programadora de la historia. Su colaboración con Charles Babbage en la creación de la Máquina Analítica la llevó a desarrollar algoritmos, incluyendo el famoso \"algoritmo de Bernoulli\", destinados a ser procesados por una máquina. Su visión pionera la convirtió en una figura fundamental en la informática y la inteligencia artificial. Lovelace demostró que las computadoras podían ir más allá de simples cálculos matemáticos, anticipando un mundo donde la programación sería esencial en la resolución de problemas complejos, dejando una huella imborrable en la ciencia y la tecnología.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/ada-lovelace.jpg",
-    "facts": {
-      "yearOfBirth": "1815",
-      "yearOfDeath": "1852",
-      "birthPlace": "Londres, Reino Unido",
-      "mainField": "Ciencia de la Computación"
+    id: 'pluto',
+    name: 'Pluto',
+    shortDescription: 'Aparece en muchas películas de Disney, es el fiel perro de Mickey Mouse, travieso, leal y juguetón.',
+    description: 'Pluto es el famoso perro de Mickey Mouse, que debutó en "The Chain Gang" en 1930, en ese entonces aún sin nombre y como uno de los sabuesos de Pete. De color amarillo con orejas negras, Pluto es conocido por su lealtad y su carácter juguetón. No habla, pero expresa sus emociones a través de ladridos y lenguaje corporal. Su dueño y mejor amigo es Mickey, comparte amistad con otros personajes de su entorno como Minnie y Goofy, y tiene como principal enemigo a Butch. A pesar de sus travesuras, siempre termina salvando el día y otorgando diversión al ambiente.',
+    imageUrl: 'https://raw.githubusercontent.com/Susana-equihua/DEV015-dataverse/main/Disney%20pets/pluto-image.png',
+    facts: {
+      species: 'Perro (Bloodhound)',
+      speciesGroup: 'Perros',
+      livesIn: 'Casa de Mickey Mouse',
+      filmGenre: ["Comedia", "Infantil"]
     },
-    "extraInfo": {
-      "imageSource": "https://www.bing.com/images/create/genera-una-imagen-de-ada-lovelace2c-la-primera-prog/650a1eff8ff04b88833d5cdef0309441"
+    extraInfo: {
+      curiousFact: 'Pluto debutó en 1930 y originalmente era el perro de Minnie llamado Rover.'
     }
   },
   {
-    "id": "emmy-noether",
-    "name": "Emmy Noether",
-    "shortDescription": "Matemática destacada, teorema fundamental en álgebra abstracta.",
-    "description": "Una brillante matemática alemana, revolucionó la física teórica con sus contribuciones al teorema de conservación de la energía y el teorema de Noether, fundamentales en la teoría de la relatividad y la mecánica cuántica. A pesar de los obstáculos que enfrentó como mujer en la academia, sus investigaciones en álgebra abstracta y teoría de grupos son fundamentales en la física moderna. Su capacidad para unificar conceptos matemáticos y físicos marcó un hito en la historia de la ciencia, allanando el camino para futuras generaciones de científicas.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/emmy-noether.jpg",
-    "facts": {
-      "yearOfBirth": "1882",
-      "yearOfDeath": "1935",
-      "birthPlace": "Erlangen, Alemania",
-      "mainField": "Matemáticas"
+    id: 'pascal',
+    name: 'Pascal',
+    shortDescription: 'De "Enredados", es el camaleón de Rapunzel, su pequeño amigo, verde, protector, y de ojos saltones.',
+    description: 'Pascal es el leal camaleón de Rapunzel en la película "Enredados". De color verde, ojos saltones y pequeño tamaño, Pascal es valiente y protector. Vive con Rapunzel en la torre de Gothel, sirviendo como su confidente y amigo, siempre está en el hombro de ella acompañándola a todas partes. Inicialmente no se llevaba bien con Flyn, y esto se nos muestra en divertidas escenas en las que lo despierta colocando su lengua en su oreja. A pesar de su tamaño, tiene un gran corazón y no duda en enfrentarse a los peligros para proteger a Rapunzel.',
+    imageUrl: 'https://raw.githubusercontent.com/Susana-equihua/DEV015-dataverse/main/Disney%20pets/pascal-image.png',
+    facts: {
+      species: 'Camaleón',
+      speciesGroup: 'Pequeñas especies',
+      livesIn: 'Torre de Rapunzel',
+      filmGenre: ['Fantasía', 'Musical']
     },
-    "extraInfo": {
-      "imageSource": "https://www.bing.com/images/create/create-an-image-of-of-a-german-woman2c-a-pioneering/6510ddb1e8254b928b8f8f1d5e95fea4"
+    extraInfo: {
+      curiousFact: 'Pascal está basado en el camaleón mascota de una de las animadoras de Disney.'
     }
   },
   {
-    "id": "hypatia-de-alejandria",
-    "name": "Hypatia de Alejandría",
-    "shortDescription": "Matemática y filósofa en la antigua Alejandría.",
-    "description": "Filósofa y matemática en la antigua Alejandría, desafió las normas de género de su época al destacar en una sociedad dominada por hombres. Su legado incluye importantes contribuciones a la geometría y la astronomía, así como su destacado papel como maestra y defensora del conocimiento en una época de agitación política. Hypatia demostró que las mujeres podían sobresalir en campos intelectuales y su valentía al mantener sus creencias filosóficas la convierte en un símbolo de resistencia y sabiduría en la historia de la ciencia.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/hypatia-de-alejandria.jpg",
-    "facts": {
-      "yearOfBirth": "circa 360",
-      "yearOfDeath": "415",
-      "birthPlace": "Alejandría, Egipto",
-      "mainField": "Matemáticas, Filosofía"
+    id: 'abu',
+    name: 'Abu',
+    shortDescription: 'De "Aladdín", es el mono travieso y leal compañero de Aladdín, con habilidades para el robo y la aventura.',
+    description: 'Abu es el adorable mono y compañero de Aladdín en la película "Aladdín". Con su pelaje marrón y su chaleco púrpura, Abu es conocido por su astucia y habilidades como ladrón. Vive en las calles de Agrabah junto a Aladdín. Aunque puede ser avaricioso, su lealtad hacia él es inquebrantable. Nos proporciona emocionantes escenas, como aquella en la que consigue liberar a Aladdín de prisión, al robar las llaves y abrir la celda. Sus amigos incluyen a la Princesa Jasmine, el Genio y la alfombra mágica.',
+    imageUrl: 'https://raw.githubusercontent.com/Susana-equihua/DEV015-dataverse/main/Disney%20pets/abu-image.png',
+    facts: {
+      species: 'Mono (Macaco)',
+      speciesGroup: 'Pequeñas especies',
+      livesIn: 'Agrabah',
+      filmGenre: ['Fantasía', 'Musical']
     },
-    "extraInfo": {
-      "imageSource": "https://www.bing.com/images/create/create-a-vivid-digital-artwork-or-painting-that-de/6510df0ebe1a4807af22175452761e1a"
+    extraInfo: {
+      curiousFact: 'Abu fue animado por el legendario animador de Disney Mark Henn.'
     }
   },
   {
-    "id": "marjorie-lee-browne",
-    "name": "Marjorie Lee Browne",
-    "shortDescription": "Matemática, contribuyó a la teoría de números.",
-    "description": "Matemática estadounidense, destacó en una época en la que las mujeres afroamericanas enfrentaban múltiples barreras en la educación superior. No solo obtuvo su doctorado en matemáticas, sino que también se convirtió en una destacada educadora, promoviendo la diversidad en las ciencias matemáticas y desafiando la discriminación racial y de género. Su compromiso con la educación y su capacidad para inspirar a futuras generaciones la convierten en un modelo a seguir para las mujeres en la ciencia, dejando una huella perdurable en la historia académica.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/marjorie-lee-browne.jpg",
-    "facts": {
-      "yearOfBirth": "1914",
-      "yearOfDeath": "1979",
-      "birthPlace": "Memphis, Estados Unidos",
-      "mainField": "Matemáticas"
+    id: 'figaro',
+    name: 'Figaro',
+    shortDescription: 'De "Pinocho", es el gato travieso y adorable de Gepetto, siempre en líos con Cleo, el pez dorado.',
+    description: 'Figaro es el adorable gato de Geppetto en la película "Pinocho". Con su pelaje blanco y negro, Figaro es travieso pero de buen corazón. Vive en la casa de Geppetto y es amigo de Pinocho y el pez dorado Cleo. Aunque a veces se muestra celoso de la atención que recibe Pinocho, siempre termina ayudando en las aventuras. Una escena divertida de la película es cuando Fígaro intenta atrapar a Cleo mientras está en su pecera, mostrando su naturaleza juguetona y algo celosa. Figaro también aparece en varias series y cortos de Disney, mostrando su popularidad.',
+    imageUrl: 'https://raw.githubusercontent.com/Susana-equihua/DEV015-dataverse/main/Disney%20pets/figaro-image.png',
+    facts: {
+      species: 'Gato',
+      speciesGroup: 'Gatos',
+      livesIn: 'Taller de Geppetto',
+      filmGenre: ['Fantasía']
     },
-    "extraInfo": {
-      "imageSource": "https://www.bing.com/images/create/design-an-inspiring-and-historically-accurate-imag/6510df7e7bb745f69d67f695441607a8"
+    extraInfo: {
+      curiousFact: 'Walt Disney estaba tan encantado con Figaro que decidió hacerlo la mascota de Minnie Mouse.'
     }
   },
   {
-    "id": "shakuntala-devi",
-    "name": "Shakuntala Devi",
-    "shortDescription": "Matemática prodigio, conocida como la 'Calculadora Humana'.",
-    "description": "Conocida como \"la bruja de las matemáticas\" de la India, dejó una marca indeleble en el mundo de los números. Su capacidad mental asombrosa la llevó a resolver complejos cálculos matemáticos mentalmente en cuestión de segundos, estableciendo récords mundiales. Además de su talento innato, Devi promovió activamente la educación matemática y luchó por la igualdad de género en un país donde las mujeres enfrentaban desafíos en la ciencia y la educación. Su legado destaca el poder de la mente humana y la importancia de la igualdad de oportunidades en la ciencia.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/shakuntala-devi.jpg",
-    "facts": {
-      "yearOfBirth": "1929",
-      "yearOfDeath": "2013",
-      "birthPlace": "Bangalore, India",
-      "mainField": "Matemáticas"
+    id: 'sven',
+    name: 'Sven',
+    shortDescription: 'De "Frozen", es el leal reno de Kristoff, fuerte, adorable y con una debilidad por las zanahorias.',
+    description: 'Sven es el simpático reno de Kristoff en las películas de "Frozen". Su pelaje es marrón y tiene una cornamenta imponente. Vive en el reino de Arendelle y acompaña a Kristoff en todas sus aventuras. Lo que realmente lo caracteriza es su manera única de comunicarse: aunque no puede hablar, sus expresiones faciales y su lenguaje corporal son tan expresivos que Kristoff frecuentemente le presta su voz para interpretar lo que Sven "diría". Sven es conocido por su amor por las zanahorias (en algunas divertidas escenas se lo ve intentando robar la nariz de Olaf) y su carácter juguetón.',
+    imageUrl:'https://raw.githubusercontent.com/Susana-equihua/DEV015-dataverse/main/Disney%20pets/sven-image.png',
+    facts: {
+      species: 'Reno',
+      speciesGroup: 'Animales Salvajes',
+      livesIn: 'Arendelle',
+      filmGenre: ['Fantasía', 'Musical']
     },
-    "extraInfo": {
-      "imageSource": "https://www.bing.com/images/create/indian-woman-writing-math-problems-in-a-blackbard-/6510e19f3db54e14b365b7e8dc5045f6"
+    extraInfo: {
+      curiousFact: 'Sven fue inspirado en parte por los perros de trineo que los animadores de Disney estudiaron.'
     }
   },
   {
-    "id": "sofia-kovalevskaya",
-    "name": "Sofia Kovalevskaya",
-    "shortDescription": "Matemática y escritora, contribuyó a la teoría de funciones.",
-    "description": "Matemática rusa del siglo XIX, dejó una marca indeleble en la ciencia del siglo XIX al desafiar las barreras de género. Como matemática rusa, superó las restricciones sociales de su época para convertirse en la primera mujer en obtener un doctorado en matemáticas en Europa. Sus contribuciones a la teoría de las ecuaciones diferenciales y la mecánica revolucionaron la disciplina, abriendo nuevas perspectivas en el análisis matemático. Su destacada membresía en la Academia de Ciencias de Suecia marcó un hito en la historia de las mujeres en la ciencia.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/sofia-kovalevskaya.jpg",
-    "facts": {
-      "yearOfBirth": "1850",
-      "yearOfDeath": "1891",
-      "birthPlace": "Moscú, Rusia",
-      "mainField": "Matemáticas"
+    id: 'pegasus',
+    name: 'Pegasus',
+    shortDescription: 'De "Hércules", es el caballo alado, compañero leal, valiente, rápido y siempre dispuesto a ayudar a Hércules.',
+    description: 'Pegasus es el majestuoso caballo alado de Hércules en la película "Hércules". De color blanco y con una melena azul celeste, vive en el Monte Olimpo, pero acompaña a Hércules en sus aventuras en la Tierra. Una escena particularmente divertida es cuando Pegasus se encuentra con Megara y compite por la atención de Hércules, mostrándose celoso y haciendo todo tipo de monerías para recuperar el afecto de su amigo. Es leal, valiente y siempre está dispuesto a ayudar a Hércules en su misión de convertirse en un héroe.',
+    imageUrl: 'https://raw.githubusercontent.com/Susana-equihua/DEV015-dataverse/main/Disney%20pets/pegasus-image.png',
+    facts: {
+      species: 'Caballo alado',
+      speciesGroup: 'Animales Salvajes',
+      livesIn: 'Olimpo',
+      filmGenre: ['Fantasía', 'Musical']
     },
-    "extraInfo": {
-      "imageSource": "https://www.bing.com/images/create/indian-woman-writing-math-problems-in-a-blackbard-/6510e19f3db54e14b365b7e8dc5045f6"
+    extraInfo: {
+      curiousFact: 'Fue creado a partir de una nube por Zeus para ser el compañero perfecto de Hércules.'
     }
   },
   {
-    "id": "yoko-shimomura",
-    "name": "Yoko Shimomura",
-    "shortDescription": "Compositora de música, destacada en la industria de los videojuegos.",
-    "description": "Compositora japonesa, es una figura destacada en la ciencia de la música y el arte sonoro. Aunque no se dedica a la ciencia en el sentido tradicional, su trabajo en la composición musical ha requerido un profundo entendimiento de la teoría musical y la tecnología de audio. Ha contribuido de manera significativa a la industria de los videojuegos, componiendo icónicas bandas sonoras que han enriquecido la experiencia de juego. Su éxito en un campo donde las mujeres estaban subrepresentadas la convierte en un modelo a seguir, incluso en campos no convencionales como la composición musical.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/yoko-shimomura.jpg",
-    "facts": {
-      "yearOfBirth": "1967",
-      "birthPlace": "Hyogo, Japón",
-      "mainField": "Composición Musical, Video Juegos"
+    id: 'flounder',
+    name: 'Flounder',
+    shortDescription: 'De "La Sirenita", es el pez colorido y amigo de Ariel, aunque un poco miedoso, está siempre dispuesto a ayudarla.',
+    description: 'Flounder es el pequeño pez amigo de Ariel en "La Sirenita". Su cuerpo es amarillo con rayas azules. Una de sus características más adorables es su habilidad para hacer burbujas cuando está asustado, lo que añade un toque de humor a las situaciones tensas. Como olvidar cuando se encuentra con un tiburón mientras él y Ariel están explorando un barco hundido, y aunque está claramente asustado, intenta mantener la compostura y protegerla, solo para acabar huyendo a toda velocidad con una expresión cómica de terror. Está siempre dispuesto a ayudar a Ariel en su búsqueda de descubrir el mundo humano.',
+    imageUrl: 'https://raw.githubusercontent.com/Susana-equihua/DEV015-dataverse/main/Disney%20pets/flounder-image.png',
+    facts: {
+      species: 'Pez',
+      speciesGroup: 'Animales Acuáticos',
+      livesIn: 'Océano Atlántico',
+      filmGenre: ['Fantasía', 'Musical']
     },
-    "extraInfo": {
-      "imageSource": "https://www.bing.com/images/create/yoko-shimomura-making-music-for-a-video-game-in-19/6510e40dd1eb45d0906e8c1f4bb601d3"
+    extraInfo: {
+      curiousFact: 'Flounder, a pesar de su nombre (traducido del inglés), no es un lenguado sino un pez tropical ficticio.'
     }
   },
   {
-    "id": "maryam-mirzakhani",
-    "name": "Maryam Mirzakhani",
-    "shortDescription": "Matemática, ganadora del Premio Fields.",
-    "description": "Matemática iraní, hizo historia al convertirse en la primera mujer en ganar la Medalla Fields, el premio más prestigioso en matemáticas. Sus investigaciones en la geometría de superficies y la teoría de las superficies de Riemann han tenido un impacto duradero en la matemática pura. A lo largo de su carrera, Mirzakhani inspiró a muchas mujeres a perseguir carreras en ciencia y matemáticas, derribando las barreras de género. Su enfoque innovador y su capacidad para resolver problemas complejos la convierten en un modelo a seguir para la comunidad científica y en un símbolo de la excelencia matemática.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/maryam-mirzakhani.jpg",
-    "facts": {
-      "yearOfBirth": "1977",
-      "yearOfDeath": "2017",
-      "birthPlace": "Teherán, Irán",
-      "mainField": "Matemáticas"
+    id: 'pua',
+    name: 'Pua',
+    shortDescription: 'De "Moana", es el cerdito encantador y fiel compañero de Moana, curioso y aventurero.',
+    description: 'Pua es el tierno cerdito de Moana en la película "Moana". Con su pelaje blanco y manchas negras, Pua es dulce y amigable. Vive en la isla de Motunui y es el fiel compañero de Moana en sus primeras aventuras. En una escena, Moana y Pua intentan navegar en una canoa por primera vez, y Pua termina cayendo al agua, solo para ser rescatado rápidamente por Moana, mostrando su espíritu aventurero, pero también su vulnerabilidad. Aunque no la acompaña en su travesía por el océano, siempre está presente en su corazón.',
+    imageUrl: 'https://raw.githubusercontent.com/Susana-equihua/DEV015-dataverse/main/Disney%20pets/pua-image.png',
+    facts: {
+      species: 'Cerdo',
+      speciesGroup: 'Animales de Granja',
+      livesIn: 'Isla de Motonui',
+      filmGenre: ['Fantasía', 'Musical']
     },
-    "extraInfo": {
-      "imageSource": "https://chalkdustmagazine.com/features/mathematics-maryam-mirzakhani/"
+    extraInfo: {
+      curiousFact: 'Su nombre "Pua" significa "flor" en hawaiano, reflejando su dulzura y ternura.'
     }
   },
   {
-    "id": "adele-goldberg",
-    "name": "Adele Goldberg",
-    "shortDescription": "Informática pionera, co-creadora del lenguaje de programación Smalltalk.",
-    "description": "Informática estadounidense reconocida por su influyente trabajo en la investigación y desarrollo de la programación orientada a objetos. Su contribución más destacada es la creación del lenguaje de programación Smalltalk, que revolucionó la forma en que se desarrollan software y sistemas informáticos. Goldberg ha sido una defensora incansable de la usabilidad y la accesibilidad en la informática, asegurando que las aplicaciones informáticas sean más amigables para los usuarios. Su trabajo ha allanado el camino para una programación más intuitiva y eficiente, y su legado perdura en la industria de la tecnología.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/adele-goldberg.jpg",
-    "facts": {
-      "yearOfBirth": "1945",
-      "birthPlace": "Chicago, Estados Unidos",
-      "mainField": "Ciencias de la Computación"
+    id: 'rajah',
+    name: 'Rajah',
+    shortDescription: 'De "Aladdín", es el tigre guardián y fiel amigo de la princesa Jasmín, feroz pero cariñoso.',
+    description: 'Rajah es el majestuoso tigre de la Princesa Jasmine en la película "Aladdín". Con su pelaje anaranjado y rayas negras, Rajah es una presencia imponente en el palacio de Agrabah. Su personalidad se destaca por su lealtad inquebrantable hacia su dueña y su desconfianza hacia los extraños, especialmente hacia los pretendientes no deseados que intentan cortejar a Jasmine. Una escena divertida en la película es cuando Rajah confronta a Aladdin disfrazado como "Príncipe Ali", dejando en claro con su actitud y gruñidos que no se dejará engañar fácilmente. A pesar de su apariencia feroz, es cariñoso y leal.',
+    imageUrl: 'https://raw.githubusercontent.com/Susana-equihua/DEV015-dataverse/main/Disney%20pets/rajah-image.png',
+    facts: {
+      species: 'Tigre de Bengala',
+      speciesGroup: 'Animales Salvajes',
+      livesIn: 'Palacio de Agrabah',
+      filmGenre: ['Fantasía', 'Musical']
     },
-    "extraInfo": {
-      "imageSource": "https://pionerasinformaticas.ujaen.es/en/computer-women-pioneers/adele-goldberg-en"
+    extraInfo: {
+      curiousFact: 'Rajah fue un regalo del Sultán a Jasmín, y es tan protector que incluso asusta a los pretendientes indeseados.'
     }
   },
   {
-    "id": "barbara-liskov",
-    "name": "Barbara Liskov",
-    "shortDescription": "Científica de la computación, pionera en programación orientada a objetos.",
-    "description": "Pionera de la informática, es conocida por su trabajo en la programación y la arquitectura de sistemas distribuidos. Fue la primera mujer en obtener un doctorado en ciencias de la computación en el Instituto de Tecnología de Stanford y desarrolló el lenguaje de programación CLU, que estableció fundamentos para la programación orientada a objetos. Liskov ha dejado una marca indeleble en la industria de la tecnología al liderar avances en sistemas de almacenamiento y seguridad informática. Su enfoque en la fiabilidad y la robustez ha influido en el diseño de sistemas críticos en todo el mundo.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/barbara-liskov.jpg",
-    "facts": {
-      "yearOfBirth": "1939",
-      "birthPlace": "Los Angeles, Estados Unidos",
-      "mainField": "Ciencia de la Computación"
+    id: 'meeko',
+    name: 'Meeko',
+    shortDescription: 'De "Pocahontas", es el mapache amigo de Pocahontas, se llevaba mal con Percy, pero al final se hacen buenos amigos.',
+    description: 'Meeko es el travieso mapache compañero de Pocahontas en la película "Pocahontas". Con su pelaje gris y cola anillada, Meeko es conocido por su glotonería y curiosidad.Una escena divertida en la película es cuando Meeko se encuentra con Percy, el perro de la gobernadora Ratcliffe, y juntos tienen un enfrentamiento cómico por comida, mostrando su naturaleza competitiva pero también su astucia para salirse con la suya. Meeko no solo es el alivio cómico de "Pocahontas", sino también un recordatorio del espíritu libre y aventurero que caracteriza a la protagonista y a la historia en general.',
+    imageUrl: 'https://raw.githubusercontent.com/Susana-equihua/DEV015-dataverse/main/Disney%20pets/meeko-image.png',
+    facts: {
+      species: 'Mapache',
+      speciesGroup: 'Roedores',
+      livesIn: 'Bosques de Virginia',
+      filmGenre: ['Drama', 'Musical']
     },
-    "extraInfo": {
-      "imageSource": "https://medium.com/a-computer-of-ones-own/barbara-liskov-inventor-of-abstract-data-types-9f8908fdcf86"
+    extraInfo: {
+      curiousFact: 'Meeko tiene una debilidad por las galletas y siempre busca la manera de conseguir más.'
     }
   },
   {
-    "id": "grace-hopper",
-    "name": "Grace Hopper",
-    "shortDescription": "Científica de la computación, creadora del primer compilador.",
-    "description": "Una de las pioneras de la informática, es famosa por su contribución al desarrollo del primer compilador y al lenguaje de programación COBOL. Además, desafió los estereotipos de género en la década de 1940 al unirse a la Marina de los Estados Unidos y convertirse en la primera programadora de la computadora Harvard Mark I. Su legado abarca la creación de conceptos cruciales como la \"depuración de software\" y su influencia en el desarrollo de la informática moderna, estableciendo estándares para la programación de alto nivel y la innovación tecnológica.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/grace-hopper.jpg",
-    "facts": {
-      "yearOfBirth": "1906",
-      "yearOfDeath": "1992",
-      "birthPlace": "Nueva York, Estados Unidos",
-      "mainField": "Ciencia de la Computación"
+    id: 'tambor',
+    name: 'Tambor',
+    shortDescription: 'De "Bambi", es el conejo alegre, parlanchín y mejor amigo de Bambi, siempre le está dando buenos consejos.',
+    description: 'Tambor es el divertido conejo amigo de Bambi en la película "Bambi". Con su pelaje gris y blanco, Tambor es conocido por su hábito de golpear el suelo con su pata trasera. Vive en el bosque y ayuda a Bambi a aprender sobre su entorno y hacer nuevos amigos. En una escena, Tambor intenta enseñarle a Bambi cómo "marchar" como un verdadero ciervo, con movimientos exagerados y expresiones graciosas, mostrando su entusiasmo y paciencia a la vez. Es alegre, parlanchín y siempre tiene un buen consejo para Bambi.',
+    imageUrl: 'https://raw.githubusercontent.com/Susana-equihua/DEV015-dataverse/main/Disney%20pets/tambor-image.png',
+    facts: {
+      species: 'Conejo',
+      speciesGroup: 'Animales Salvajes',
+      livesIn: 'Bosque',
+      filmGenre: ['Drama', 'Infantil']
     },
-    "extraInfo": {
-      "imageSource": "https://photos.com/featured/grace-hopper-with-early-computer-bettmann.html"
+    extraInfo: {
+      curiousFact: 'Thumper no estaba en el libro original "Bambi, una vida en el bosque", fue creado para la película.'
     }
   },
   {
-    "id": "margaret-hamilton",
-    "name": "Margaret Hamilton",
-    "shortDescription": "Científica de la computación, lideró desarrollo de software para Apollo 11.",
-    "description": "Destacada científica de la computación que desempeñó un papel fundamental en el programa Apollo de la NASA. Fue directora de la División de Ingeniería de Software en el Laboratorio de Instrumentación del MIT, donde desarrolló el concepto de \"ingeniería de software\". Su liderazgo en el desarrollo del software de vuelo para las misiones Apollo fue fundamental para el éxito de la llegada del hombre a la Luna. Hamilton es un ejemplo de cómo la tecnología y la ciencia pueden alcanzar logros extraordinarios cuando se combinan con un enfoque innovador y una visión audaz.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/margaret-hamilton.jpg",
-    "facts": {
-      "yearOfBirth": "1936",
-      "birthPlace": "Paoli, Indiana, Estados Unidos",
-      "mainField": "Ciencia de la Computación"
+    id: 'dante',
+    name: 'Dante',
+    shortDescription: 'De "Coco", es el perro algo torpe de Miguel, lo acompañará en su viaje por la Tierra de los Muertos.',
+    description: 'Dante es el perro de Miguel en la película "Coco". Con su piel sin pelo y su personalidad cómica, Dante es un perro callejero leal y amigable. Vive en el pueblo de Santa Cecilia y acompaña a Miguel en su viaje al mundo de los muertos. Dentro de la película tenemos una escena divertida de él, cuando intenta robar comida de una ofrenda durante el Día de los Muertos y termina con la cara llena de salsa, mostrando su amor por la comida deliciosa. Es juguetón, curioso y siempre está dispuesto a ayudar, a pesar de ser un poco torpe.',
+    imageUrl: 'https://raw.githubusercontent.com/Susana-equihua/DEV015-dataverse/main/Disney%20pets/dante-image.png',
+    facts: {
+      species: 'Perro (Xoloitzcuintle)',
+      speciesGroup: 'Perros',
+      livesIn: 'Pueblo de Santa Cecilia',
+      filmGenre: ['Fantasía', 'Musical']
     },
-    "extraInfo": {
-      "imageSource": "https://odetta.ai/blogs/margaret-hamilton-the-first-software-engineer"
+    extraInfo: {
+      curiousFact: 'Dante es un Xoloitzcuintle, una raza antigua de perro mexicana.'
     }
   },
   {
-    "id": "radia-perlman",
-    "name": "Radia Perlman",
-    "shortDescription": "Ingeniera de redes, inventora del algoritmo Spanning Tree.",
-    "description": "Científica de la computación estadounidense, ha dejado una marca indeleble en el mundo de las redes informáticas y la seguridad. Conocida como \"la madre de Internet\", su invención del algoritmo Spanning Tree Protocol (STP) revolucionó la conectividad de redes y sentó las bases para la infraestructura de Internet moderna. A pesar de operar en un campo dominado por hombres, Perlman ha demostrado que las mujeres pueden liderar avances tecnológicos vitales. Su compromiso con la resiliencia de las redes y la ciberseguridad ha influido en la estabilidad y confiabilidad de la comunicación en línea.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/radia-perlman.jpg",
-    "facts": {
-      "yearOfBirth": "1951",
-      "birthPlace": "Portsmouth, Estados Unidos",
-      "mainField": "Ciencia de la Computación"
+    id: 'sebastian',
+    name: 'Sebastián',
+    shortDescription: 'De la “La Sirenita”, es el cangrejo rojo con acento caribeño, maestro de música y consejero real del rey Tritón.',
+    description: 'Sebastián “Felicio Ignacio Anastacio Crustaceo” es el cangrejo con aire de preocupación constante que sirve como consejero real, un mentor inadvertido para Ariel y maestro de música en "La Sirenita". Lo reconocerás al instante por su caparazón rojo, acento caribeño y sus grandes ojos saltones que expresan una gama completa de emociones, desde el pánico hasta la diversión. Su personalidad es una mezcla perfecta de lealtad y sabiduría. En un intento por mantener a Ariel alejada de los humanos, se ve arrastrado a la cocina en el palacio del príncipe Eric, donde termina siendo perseguido por el chef francés, Louis.',
+    imageUrl: 'https://raw.githubusercontent.com/Susana-equihua/DEV015-dataverse/main/Disney%20pets/sebastian-image.png',
+    facts: {
+      species: 'Cangrejo',
+      speciesGroup: 'Animales Acuáticos',
+      liveIn: 'Mar Caribe',
+      filmGenre: ['Fantasía', 'Musical']
     },
-    "extraInfo": {
-      "imageSource": "https://hackaday.com/2018/05/29/spanning-the-tree-dr-radia-perlman-untangling-networks/"
+    extraInfo: {
+      curiousFact: 'La canción "Bajo el mar" interpretada por Sebastián ganó el Óscar a la Mejor Canción Original en 1989.',
     }
   },
   {
-    "id": "shafi-goldwasser",
-    "name": "Shafi Goldwasser",
-    "shortDescription": "Científica de la computación, ganadora del Premio Turing.",
-    "description": "Es una destacada criptógrafa y científica de la computación que ha contribuido significativamente a la teoría de la computación y la seguridad de la información. Su trabajo en criptografía de probabilidad y complejidad computacional ha sentado las bases para la seguridad en línea y la privacidad de datos en un mundo cada vez más digitalizado. Goldwasser es un ejemplo de cómo la ciencia de la computación puede abordar desafíos contemporáneos y proteger la información en la era de la información.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/shafi-goldwasser.jpg",
-    "facts": {
-      "yearOfBirth": "1958",
-      "birthPlace": "Nueva York, Estados Unidos",
-      "mainField": "Ciencia de la Computación"
+    id: 'maximus',
+    name: 'Maximus',
+    shortDescription: 'De "Enredados", es el caballo del capitán de la guardia, valiente, noble y con habilidades casi humanas.',
+    description: 'Maximus es el increíble caballo del Capitán de la Guardia Real en "Enredados". Con su imponente figura blanca. Maximus muestra sus habilidades como detective persiguiendo incansablemente al ladrón Flynn Rider, a menudo superando a los propios guardias reales, con una determinación digna de un verdadero caballero. Aunque no habla, su expresividad y comunicación no verbal son tan efectivas que logran transmitir sus pensamientos y emociones con claridad. Su personalidad es una mezcla de nobleza y testarudez por lo que cede ante Rapunzel y dejar que Flynn la ayude a cumplir su sueño de ver las luces flotantes en el cielo.',
+    imageUrl: 'https://raw.githubusercontent.com/Susana-equihua/DEV015-dataverse/main/Disney%20pets/maximus-image.png',
+    facts: {
+      species: 'Caballo',
+      speciesGroup: 'Animales de Granja',
+      liveIn: 'Reino de Corona',
+      filmGenre: ['Comedia', 'Musical']
     },
-    "extraInfo": {
-      "imageSource": "https://www.jahresbericht2019.unibe.ch/successes_2019/einstein_lectures/index_eng.html"
+    extraInfo: {
+      curiousFact: 'Maximus fue inspirado por los perros de policía en cuanto a su comportamiento y personalidad.'
     }
   },
   {
-    "id": "chien-shiung-wu",
-    "name": "Chien-Shiung Wu",
-    "shortDescription": "Física experimental, contribuyó a la física nuclear.",
-    "description": "Física experimental de origen chino, desafiando los prejuicios de género y nacionalidad, realizó experimentos fundamentales en física de partículas y contribuyó significativamente a la comprensión de la desintegración beta. Su famoso experimento \"Wu\" refutó la paridad en la física de partículas, lo que cambió la forma en que los científicos comprenden las fuerzas fundamentales de la naturaleza. Wu demostró que el talento y la perseverancia pueden superar cualquier barrera, y su legado sigue siendo un faro de inspiración para científicas en todo el mundo.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/chien-shiung-wu.jpg",
-    "facts": {
-      "yearOfBirth": "1912",
-      "yearOfDeath": "1997",
-      "birthPlace": "Liuhe, Taicang, China",
-      "mainField": "Física"
+    id: 'archimedes',
+    name: 'Archimedes',
+    shortDescription: 'De "La Espada en la Piedra", es el búho sabio y compañero de Merlín, siempre dispuesto a dar un consejo. ',
+    description: 'Archimedes es el encantador, sabio y algo gruñón búho que acompaña a Merlín en "La espada en la piedra". Con su plumaje marrón con blanco, grandes ojos, su bufido constante y, pese a que es algo pequeño posee una impresionante inteligencia y habilidad para enseñar, aunque no siempre con la mayor paciencia. Archimedes es un personaje tan sabio como cascarrabias que actúa como la voz de la razón para la imprudente magia de Merlín y el joven Arturo, ofreciendo valiosos consejos y comentarios sarcásticos que aportan humor y sabiduría a la historia.',
+    imageUrl: 'https://raw.githubusercontent.com/Susana-equihua/DEV015-dataverse/main/Disney%20pets/archimedes-image.png',
+    facts: {
+      species: 'Búho',
+      speciesGroup: 'Aves',
+      liveIn: 'Desconocido',
+      filmGenre: ['Fantasía']
     },
-    "extraInfo": {
-      "imageSource": "https://www.thoughtco.com/chien-shiung-wu-biography-3530366"
+    extraInfo: {
+      curiousFact: 'Archimedes es uno de los primeros personajes animados de Disney en tener una personalidad sarcástica y crítica.'
     }
   },
   {
-    "id": "hedy-lamarr",
-    "name": "Hedy Lamarr",
-    "shortDescription": "Actriz e inventora, contribuyó al desarrollo de la tecnología de espectro ensanchado.",
-    "description": "Actriz austroamericana y científica, fue una mente brillante en la intersección de la tecnología y el entretenimiento. Junto con el compositor George Antheil, inventó un sistema de comunicación secreta durante la Segunda Guerra Mundial que sentó las bases para la tecnología de espectro ensanchado y la comunicación inalámbrica moderna. Lamarr demostró que las mujeres pueden destacar tanto en el cine como en la ciencia, y su legado como inventora ha sido fundamental para el desarrollo de la tecnología de comunicación inalámbrica que usamos en la actualidad.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/hedy-lamarr.jpg",
-    "facts": {
-      "yearOfBirth": "1914",
-      "yearOfDeath": "2000",
-      "birthPlace": "Viena, Austria",
-      "mainField": "Actuación, Física"
+    id: 'crikee',
+    name: 'Cri-Kee',
+    shortDescription: 'De "Mulán", es el adorable grillo de la suerte, pequeño, valiente y acompañante inseparable de Mulán en su misión.',
+    description: 'Cri-Kee es el adorable grillo de la suerte de la película “Mulán”. Cri-Kee es presentado como un “grillo de la suerte” por la Abuela Fa, quién está convencida de que traerá buena fortuna a Mulán. Es un grillo color purpura y de grandes ojos con una personalidad brillante y lealtad inquebrantable que se transmiten claramente a través de sus expresiones y chirridos. Las aventuras de este Cri-kee a menudo parecen más desafortunadas que afortunadas lo cual demuestra su gran valentía y su disposición de meterse en situaciones peligrosas para ayudar a Mushu y Mulán en momentos difíciles.',
+    imageUrl: 'https://raw.githubusercontent.com/Susana-equihua/DEV015-dataverse/main/Disney%20pets/crikee-image.png',
+    facts: {
+      species: 'Grillo',
+      speciesGroup: 'Pequeñas especies',
+      liveIn: 'Aldea de Mulán',
+      filmGenre: ['Drama', 'Musical']
     },
-    "extraInfo": {
-      "imageSource": "https://www.sparkfun.com/news/6147"
+    extraInfo: {
+      curiousFact: 'Sus sonidos fueron creados por el legendario actor de voz Frank Welker, quien también ha dado vida a personajes como Scooby-Doo y el gato Garfield.'
     }
   },
   {
-    "id": "maria-goeppert-mayer",
-    "name": "Maria Goeppert Mayer",
-    "shortDescription": "Física teórica, ganadora del Premio Nobel de Física.",
-    "description": "Física teórica alemana-estadounidense, dejó una profunda huella en la física nuclear y la mecánica cuántica. Fue la segunda mujer en recibir el Premio Nobel de Física y su trabajo pionero en la estructura de capas nucleares revolucionó nuestra comprensión de los núcleos atómicos. A pesar de las barreras de género en la academia, su dedicación y talento la llevaron a contribuir significativamente a la teoría nuclear, abriendo el camino para futuras investigadoras en un campo dominado por hombres. Maria Goeppert Mayer es un ejemplo inspirador de excelencia científica y perseverancia en la búsqueda del conocimiento.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/maria-goeppert-mayer.jpg",
-    "facts": {
-      "yearOfBirth": "1906",
-      "yearOfDeath": "1972",
-      "birthPlace": "Kattowitz, Alemania",
-      "mainField": "Física"
+    id: 'terk',
+    name: 'Terk',
+    shortDescription: 'De "Tarzán", es la gorila y mejor amiga de Tarzán, fuerte, traviesa y siempre dispuesta a una aventura.',
+    description: 'Terk es la divertida y enérgica gorila mejor amiga de Tarzán, es uno de los personajes más vibrantes y carismáticos de la selva. Con su pelaje oscuro y sus ojos expresivos, Terk destaca no solo por su apariencia, sino por su actitud libre, extrovertida y desinhibida. Aunque a veces es un poco brusca, desde temprana edad mostró un gran cariño y lealtad hacia Tarzán acompañándolo en sus aventuras, aunque eso implicara meterse en problemas. Terk es una mezcla de humor, valentía y una pizca de rebeldía, lo que la convierte en la líder natural de su grupo de amigos.',
+    imageUrl: 'https://raw.githubusercontent.com/Susana-equihua/DEV015-dataverse/main/Disney%20pets/terk-image.png',
+    facts: {
+      species: 'Gorila',
+      speciesGroup: 'Animales Salvajes',
+      liveIn: 'Selva Africana',
+      filmGenre: ['Drama', 'Musical']
     },
-    "extraInfo": {
-      "imageSource": "https://www.wsemexhibit.org/maria-goeppert-mayer.html"
+    extraInfo: {
+      curiousFact: 'Terk fue originalmente escrita como un personaje masculino, pero se cambió a femenino durante el desarrollo de la película.'
+    }
+  },  
+  {
+    id: 'pongo',
+    name: 'Pongo',
+    shortDescription: 'De "101 Dálmatas", es el padre dálmata, protector y amoroso, que rescata a sus cachorros de Cruella de Vil.',
+    description: 'Pongo es el perro dálmata protagonista de "101 Dálmatas". Como el padre de 15 cachorros, Pongo es valiente y decidido, haciendo todo lo posible para rescatarlos cuando son secuestrados por Cruella de Vil quien ama a los perritos, o al menos su pelaje. Pongo es la imagen perfecta de un dálmata refinado y atento. Con la ayuda de su esposa Perdita y otros animales, Pongo demuestra una gran lealtad y amor protegiendo a su familia. Su carácter protector y su inteligencia son clave en la misión de salvar a sus cachorros y a otros 84 cachorros que también fueron secuestrados.',
+    imageUrl: 'https://raw.githubusercontent.com/Susana-equihua/DEV015-dataverse/main/Disney%20pets/pongo-image.png',
+    facts: {
+      species: 'Perro (Dálmata)',
+      speciesGroup: 'Perros',
+      liveIn: 'Londres, Inglaterra',
+      filmGenre: ['Comedia', 'Familia']
+    },
+    extraInfo: {
+      curiousFact: 'Pongo y Perdita tienen en total 101 cachorros, incluyendo a los adoptados, haciendo honor al título de la película.'
     }
   },
   {
-    "id": "lise-meitner",
-    "name": "Lise Meitner",
-    "shortDescription": "Física nuclear, contribuyó a la teoría de la fisión nuclear.",
-    "description": "Física austriaca-sueca, dejó un legado imborrable en la física nuclear y la radioquímica. A pesar de enfrentar obstáculos de género en una era dominada por hombres, colaboró con Otto Hahn en el descubrimiento de la fisión nuclear, un avance revolucionario. Aunque no compartió el Premio Nobel por este logro, su contribución fue crucial para comprender la energía nuclear y la física de partículas. Su determinación y pasión por la ciencia han inspirado a generaciones de científicas. Lise Meitner es un símbolo perdurable de la perseverancia femenina y el impacto duradero que las mujeres pueden tener en la ciencia.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/lise-meitner.jpg",
-    "facts": {
-      "yearOfBirth": "1878",
-      "yearOfDeath": "1968",
-      "birthPlace": "Viena, Austria",
-      "mainField": "Física"
+    id: 'scuttle',
+    name: 'Scuttle',
+    shortDescription: 'De "La Sirenita", es la gaviota amigable y despistada, que siempre da consejos erróneos, pero bien intencionados a Ariel.',
+    description: 'Scuttle es la adorable gaviota que ayuda a Ariel en "La Sirenita". Con su plumaje blanco y gris, y su andar torpe pero decidido, es conocido por su conocimiento erróneo sobre los objetos humanos; y pese a que a menudo está equivocado en sus explicaciones sobre estos objetos, su intención siempre es buena. Scuttle tiene un papel crucial en el desenlace de la película cuando, al final, ayuda a Ariel y a sus amigos a frustrar los planes de la malvada Úrsula, mostrando que es un gran aliado para Ariel.',
+    imageUrl: 'https://raw.githubusercontent.com/Susana-equihua/DEV015-dataverse/main/Disney%20pets/scuttle-image.png',
+    facts: {
+      species: 'Gaviota',
+      speciesGroup: 'Aves',
+      liveIn: 'Océano',
+      filmGenre: ['Fantasía', 'Musical']
     },
-    "extraInfo": {
-      "imageSource": "https://www.bing.com/images/create/lise-meitner-in-nuclear-physics-lab-in-19502c-retro/651196e6bbcb4009950e9955c2199760"
+    extraInfo: {
+      curiousFact: 'Scuttle fue interpretado por el comediante Buddy Hackett, quien añadió mucho de su propio humor al personaje.'
     }
   },
   {
-    "id": "sau-lan-wu",
-    "name": "Sau Lan Wu",
-    "shortDescription": "Física de partículas, contribuyó a experimentos clave en física de alta energía.",
-    "description": "Física experimental sinoamericana, ha sido una fuerza motriz en la física de partículas. Destacó en experimentos en el CERN y lideró investigaciones cruciales, como el descubrimiento del quark c, que expandieron nuestro entendimiento de la estructura fundamental de la materia. Wu superó desafíos en una disciplina dominada por hombres y ha sido un faro de inspiración para científicas de todo el mundo. Sau Lan Wu es un ejemplo de excelencia científica y de cómo las mujeres pueden dejar huella en la investigación de vanguardia.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/sau-lan-wu.jpg",
-    "facts": {
-      "yearOfBirth": "1940",
-      "birthPlace": "Hong Kong, China",
-      "mainField": "Física de Partículas"
+    id: 'gusyjaq',
+    name: 'Gus y Jaq',
+    shortDescription: 'De "Cenicienta", son los ratones leales y amigos de Cenicienta, ingeniosos y siempre listos para ayudar.',
+    description: 'Gus y Jaq son los fieles y valientes ratones amigos de Cenicienta en la película homónima. Gus es el ratón regordete que porta su característica camiseta amarilla tiene un espíritu algo torpe pero valiente. Su apetito voraz y su tendencia a meterse en problemas lo hacen un personaje adorable y divertido. Jaq, por otro lado, es delgado, astuto y lleva una chaqueta roja, actúa como el líder del dúo, siempre ideando planes ingeniosos para ayudar a Cenicienta. Juntos, trabajan incansablemente para ayudar a Cenicienta a superar las dificultades que enfrenta con su madrastra y hermanastras para alcanzar su final feliz.',
+    imageUrl: 'https://raw.githubusercontent.com/Susana-equihua/DEV015-dataverse/main/Disney%20pets/gusjaq-image.png',
+    facts: {
+      species: 'Ratones',
+      speciesGroup: 'Roedores',
+      liveIn: 'Casa de Cenicienta',
+      filmGenre: ['Fantasía', 'Romance', 'Musical']
     },
-    "extraInfo": {
-      "imageSource": "https://repository.aip.org/islandora/object/nbla%3A315195"
+    extraInfo: {
+      curiousFact: 'Gus es conocido por sus problemas para pronunciar palabras correctamente, mientras que Jaq suele liderar las misiones de rescate.'
     }
   },
   {
-    "id": "jocelyn-bell-burnell",
-    "name": "Jocelyn Bell Burnell",
-    "shortDescription": "Astrónoma y astrofísica, co-descubridora de los púlsares.",
-    "description": "Astrofísica británica, es una figura extraordinaria en la ciencia. Durante su doctorado, hizo un descubrimiento revolucionario al detectar los primeros púlsares, estrellas de neutrones altamente magnetizadas que emiten pulsos regulares de radiación. A pesar de que su asesor recibió el Premio Nobel por este descubrimiento, Bell Burnell se ha convertido en un símbolo de perseverancia y contribución de las mujeres a la astronomía. Su carrera distinguida y su activismo en favor de la diversidad de género en la ciencia han inspirado a generaciones futuras de científicas. Jocelyn Bell Burnell es un ejemplo de valentía y excelencia científica.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/jocelyn-bell-burnell.jpg",
-    "facts": {
-      "yearOfBirth": "1943",
-      "birthPlace": "Belfast, Reino Unido",
-      "mainField": "Astronomía, Astrofísica"
+    id: 'rufus',
+    name: 'Rufus',
+    shortDescription: 'De "Bernardo y Bianca", es el gato anciano y sabio del orfanato, que ayuda a la búsqueda de Penny.',
+    description: 'Rufus es el dulce y viejo gato de Penny en "Bernardo y Bianca". Con su pelaje anaranjado, sus ojos grandes y bondadosos, Rufus es el perfecto ejemplo de un gato que ha vivido muchas aventuras y tiene mucho que contar. Es un personaje que aporta calidez y sabiduría al orfanato donde vive Penny, con quien tiene una relación especial ofreciéndole consuelo y esperanza siempre que se siente triste o desalentada. Rufus es un personaje crucial ya que es quien le da la pista a Bernardo y Bianca sobre el secuestro de Penny, dirigiéndolos al lugar correcto para comenzar su búsqueda.',
+    imageUrl: 'https://raw.githubusercontent.com/Susana-equihua/DEV015-dataverse/main/Disney%20pets/rufus-image.png',
+    facts: {
+      species: 'Gato',
+      speciesGroup: 'Gatos',
+      liveIn: 'Orfanato de Penny',
+      filmGenre: ['Drama']
     },
-    "extraInfo": {
-      "imageSource": "https://womeninscienceweadmire.icfo.eu/wiswa-2/jocelyn-bell/"
+    extraInfo: {
+      curiousFact: 'Rufus es uno de los pocos personajes de Disney que aparece con una edad avanzada desde el principio.'
     }
   },
   {
-    "id": "dorothy-crowfoot-hodgkin",
-    "name": "Dorothy Crowfoot Hodgkin",
-    "shortDescription": "Química, ganadora del Premio Nobel de Química.",
-    "description": "Química británica, es una figura icónica en la ciencia que superó las barreras de género de su época. Su trabajo revolucionario en la cristalografía de rayos X permitió determinar la estructura de importantes biomoléculas, como la penicilina, la vitamina B12 y la insulina. Fue galardonada con el Premio Nobel de Química en 1964, siendo la tercera mujer en recibir este prestigioso reconocimiento. Hodgkin no solo fue una científica excepcional, sino también una defensora de la igualdad de género en la ciencia, allanando el camino para futuras generaciones de científicas y dejando un legado duradero en la investigación y la equidad.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/dorothy-crowfoot-hodgkin.jpg",
-    "facts": {
-      "yearOfBirth": "1910",
-      "yearOfDeath": "1994",
-      "birthPlace": "El Cairo, Egipto / Shipston-on-Stour, Reino Unido",
-      "mainField": "Química"
+    id: 'bolt',
+    name: 'Bolt',
+    shortDescription: 'De "Bolt", es el perro blanco con una estrella en el pecho que cree tener superpoderes y protege a Penny.',
+    description: 'Bolt es el perro protagonista de la película "Bolt", es un personaje cuya vida se desarrolla entre la fantasía y la realidad. Con su pelaje blanco como la nieve, ojos grandes y expresivos, una marca de rayo en su costado, Bolt destaca por su personalidad valiente y protectora. Criado como una estrella en un set de televisión, Bolt está convencido de poseer superpoderes hasta que se encuentra perdido en el mundo real e intenta usarlos para intimidad una bandada de palomas. Bolt transita de ser un héroe ficticio a un perro real que aprende a confiar en sus habilidades naturales.',
+    imageUrl: 'https://raw.githubusercontent.com/Susana-equihua/DEV015-dataverse/main/Disney%20pets/bolt-image.png',
+    facts: {
+      species: 'Perro (Pastor Alemán)',
+      speciesGroup: 'Perros',
+      liveIn: 'Set de TV de Hollywood',
+      filmGenre: ['Comedia']
     },
-    "extraInfo": {
-      "imageSource": "https://www.some.ox.ac.uk/news/jan-royall-why-we-must-champion-dorothy-hodgkin-for-the-50-note/"
+    extraInfo: {
+      curiousFact: 'Bolt fue animado utilizando una combinación de técnicas de animación por computadora y animación tradicional.'
     }
   },
   {
-    "id": "marie-curie",
-    "name": "Marie Curie",
-    "shortDescription": "Física y química, ganadora de dos Premios Nobel.",
-    "description": "física y química de origen polaco y nacionalizada francesa, es una de las figuras más icónicas en la historia de la ciencia. Ganadora de dos premios Nobel (Física en 1903 y Química en 1911), Curie realizó investigaciones fundamentales sobre la radiactividad y el descubrimiento de los elementos radio y polonio. Su dedicación y valentía en la investigación científica, a pesar de los desafíos de la discriminación de género y los riesgos de la radiación, la convierten en un modelo a seguir para científicas de todo el mundo.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/marie-curie.jpg",
-    "facts": {
-      "yearOfBirth": "1867",
-      "yearOfDeath": "1934",
-      "birthPlace": "Varsovia, Polonia",
-      "mainField": "Física y Química"
+    id: 'heihei',
+    name: 'HeiHei',
+    shortDescription: 'De "Moana", es el gallo despistado y cómico que acompaña a Moana en su viaje por el océano.',
+    description: 'Heihei es el gallo despistado que acompaña a Moana en su viaje por el océano en “Moana”. Con su plumaje en tonos rojos, verdes y amarillos, ojos grandes y desorbitados, Heihei tiene un comportamiento errático con tendencia a meterse en problemas por lo que aporta mucho humor a la historia. Accidentalmente se embarca en el viaje de Moana escondido en la canoa, sin darse cuenta de lo que está ocurriendo a su alrededor.  A pesar de su torpeza, Heihei tiene un buen corazón y demuestra ser sorprendentemente resistente y valiente que añade un toque divertido a las aventuras de Moana.',
+    imageUrl: 'https://raw.githubusercontent.com/Susana-equihua/DEV015-dataverse/main/Disney%20pets/heihei-image.png',
+    facts: {
+      species: 'Gallo',
+      speciesGroup: 'Aves',
+      liveIn: 'Isla de Motunui',
+      filmGenre: ['Fantasía', 'Musical']
     },
-    "extraInfo": {
-      "imageSource": "https://www.historyextra.com/period/first-world-war/life-of-the-week-marie-curie/"
+    extraInfo: {
+      curiousFact: 'HeiHei fue originalmente concebido como un personaje inteligente y astuto, pero se cambió para ser cómico y despistado.'
     }
   },
   {
-    "id": "marjory-stephenson",
-    "name": "Marjory Stephenson",
-    "shortDescription": "Microbióloga y bioquímica, investigó en enzimología.",
-    "description": "Bioquímica británica, brilló como científica en una época en la que las mujeres enfrentaban obstáculos muy significativos en la investigación científica. Su trabajo pionero en microbiología, enzimología y bioquímica contribuyó al entendimiento de procesos fundamentales en la vida. Fue una de las primeras mujeres en ser elegida miembro de la Royal Society, un reconocimiento a su destacada contribución a la ciencia. Además, fue una mentora y defensora de las mujeres en la ciencia, inspirando y allanando el camino para futuras generaciones.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/marjory-stephenson.jpg",
-    "facts": {
-      "yearOfBirth": "1885",
-      "yearOfDeath": "1948",
-      "birthPlace": "Londres, Reino Unido",
-      "mainField": "Química, Microbiología, Bioquímica"
+    id: 'bruno',
+    name: 'Bruno',
+    shortDescription: 'De "Cenicienta", es el perro leal y amigo de Cenicienta, sueña con atrapar a Lucifer, el gato malvado.',
+    description: 'Bruno es el leal y soñador perro de Cenicienta que aparece en la película "Cenicienta". Es un perro de grandes dimensiones con un pelaje blanco y marrón y una personalidad dulce y gentil que complementa perfectamente el ambiente del castillo. Bruno es muy cariñoso y protector, especialmente hacia Cenicienta, a quien considera su amiga más querida. Aunque sufre a manos de la madrastra y las hermanastras de Cenicienta, Bruno siempre mantiene una actitud positiva. En la película, Bruno, junto con los ratones Gus y Jaq, intenta detener a Lucifer, para que no arruine el vestido de Cenicienta.',
+    imageUrl: 'https://raw.githubusercontent.com/Susana-equihua/DEV015-dataverse/main/Disney%20pets/bruno-image.png',
+    facts: {
+      species: 'Perro (Bloodhound)',
+      speciesGroup: 'Perros',
+      liveIn: 'Casa de Cenicienta',
+      filmGenre: ["Fantasía", "Romance", "Musical"]
     },
-    "extraInfo": {
-      "imageSource": "https://microbiologysociety.org/grants-prizes/all-prizes-and-competitions-/prize-lectures/marjory-stephenson-prize-lecture/marjory-stephenson-a-short-history.html"
+    extraInfo: {
+      curiousFact: 'Bruno se transforma en un caballo que ayuda a Cenicienta a ir al baile.'
     }
   },
-  {
-    "id": "rosalind-franklin",
-    "name": "Rosalind Franklin",
-    "shortDescription": "Química y cristalógrafa, contribuyó a la comprensión de la estructura del ADN.",
-    "description": "Química y cristalógrafa británica, destacó en un campo dominado por hombres y su contribución a la ciencia es innegable. Sus investigaciones pioneras en la cristalografía de rayos X fueron fundamentales para revelar la estructura del ADN en forma de doble hélice, un hito crucial en la biología molecular. A pesar de que su trabajo inicial fue subestimado, su determinación y habilidad científica allanaron el camino para futuros avances en genética y biología. Franklin es un ejemplo inspirador de cómo las mujeres pueden sobresalir en la ciencia, dejando un legado duradero en la investigación y la igualdad de género.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/rosalind-franklin.jpg",
-    "facts": {
-      "yearOfBirth": "1920",
-      "yearOfDeath": "1958",
-      "birthPlace": "Londres, Reino Unido",
-      "mainField": "Química, Cristalografía"
-    },
-    "extraInfo": {
-      "imageSource": ""
-    }
-  }
 ];
