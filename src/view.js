@@ -1,6 +1,6 @@
 
 export function renderItems(data) {
-  console.log(data)
+  console.log(data);
   const pokemonList = document.getElementById('pokemon-list');
   pokemonList.innerHTML = '';
   data.forEach(pokemon => {
@@ -9,20 +9,23 @@ export function renderItems(data) {
           <div>
               <img src="${pokemon.image}" alt="${pokemon.name}">
               <h2>${pokemon.name}</h2>
-              <p>ELEMENTO: ${pokemon.type.join(', ')}</p>
-              <p>GENERACION: ${pokemon.generation}</p>
-              <p>REGION: ${pokemon.region}</p>
-              <p>NUMERO: ${pokemon.number}</p>
-              <p>RAREZA: ${pokemon.rarity}</p>
-              <P>PEQUEÑA DESCRIPCION: ${pokemon.shortDescription}</p>
-              <p>DESCRIPCION: ${pokemon.description}</p>
-              <P>DEBILIDAD: ${pokemon.weakness}</p>
-              <p>ATAQUE: ${pokemon.attack}</p>
-              <p>DEFENSA: ${pokemon.defense}</p>
-              <p>VELOCIDAD: ${pokemon.speed}</p>
+              <p><strong>ELEMENTO:</strong> ${pokemon.type.join(', ')}</p>
+              <p><strong>GENERACION:</strong> ${pokemon.generation}</p>
+              <p><strong>REGION:</strong> ${pokemon.region}</p>
+              <p><strong>NUMERO:</strong> ${pokemon.number}</p>
+              <p><strong>RAREZA:</strong> ${pokemon.rarity}</p>
+              <p><strong>PEQUEÑA DESCRIPCION:</strong> ${pokemon.shortDescription}</p>
+              <p><strong>DESCRIPCION:</strong> ${pokemon.description}</p>
+              <p><strong>DEBILIDAD:</strong> ${pokemon.weakness.join(', ')}</p>
+              <p><strong>ATAQUE:</strong> ${pokemon.attack}</p>
+              <p><strong>DEFENSA:</strong> ${pokemon.defense}</p>
+              <p><strong>VELOCIDAD:</strong> ${pokemon.speed}</p>
+              <h3>DATOS CURIOSOS</h3>
+              <p><strong>NUMERO EN LA POKEDEX:</strong> ${pokemon.facts.pokedexNumber}</p>
+              <p><strong>HABLAR:</strong> ${pokemon.facts.ability}</p>
+              <p><strong>COLOR:</strong> ${pokemon.facts.primaryColor}</p>
           </div>
       `;
       pokemonList.appendChild(li);
   });
-}
-
+};
