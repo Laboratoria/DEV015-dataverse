@@ -1,106 +1,77 @@
 <!DOCTYPE html>
 
 <html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <title>PokemonGame</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
 
-<head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width,initial-scale=1.0">
-  <title>PokemonGame</title>
-  <link rel="stylesheet" href="style.css">
-</head>
+  <body>
+    <header>
+      <h1>POKEMON</h1>
+    </header>
 
-<body>
+    <main>
+      <h2>Pokémon Cards</h2>
+      <div class="botones desplegables">
+        <label for="elementos">FILTRAR POR ELEMENTOS:</label>
+        <select id="elementos" name="elementos" data-testid="select-elementos">
+          <option value="all">Todo</option>
+          <option value="grass">Planta</option>
+          <option value="water">Agua</option>
+          <option value="fire">Fuego</option>
+          <option value="poison">Veneno</option>
+          <option value="psychic">Psiquico</option>
+          <option value="flying">Volador</option>
+          <option value="ghost">Fantasma</option>
+          <option value="electric">Electrico</option>
+          <option value="normal">Normal</option>
+          <option value="fairy">Hada</option>
+          <option value="steel">Acero</option>
+          <option value="fighting">Lucha</option>
+          <option value="dark">Siniestro</option>
+          <option value="dragon">Dragon</option>
+        </select>
 
-  <header>
-    <h1>POKEMON</h1>
-  </header>
- 
-  <main>
-    <h2>Pokémon Cards</h2>
-    <div class="botones desplegables">
-      <label for="elementos">FILTRAR POR ELEMENTOS:</label>
-      <select id="elementos" name="elementos" data-testid="select-elementos">
-        <option value="all">Todo</option>
-        <option value="grass">Planta</option>
-        <option value="water">Agua</option>
-        <option value="fire">Fuego</option>
-        <option value="poison">Veneno</option>
-        <option value="psychic">Psiquico</option>
-        <option value="flying">Volador</option>
-        <option value="ghost">Fantasma</option>
-        <option value="electric">Electrico</option>
-        <option value="normal">Normal</option>
-        <option value="fairy">Hada</option>
-        <option value="steel">Acero</option>
-        <option value="fighting">Lucha</option>
-        <option value="dark">Siniestro</option>
-        <option value="dragon">Dragon</option>
-      </select>
+        <label for="debilidad">FILTRAR POR DEBILIDAD:</label>
+        <select id="debilidad" name="debilidad" data-testid="select-debilidad">
+          <option value="all">Todo</option>
+          <option value="grass">Planta</option>
+          <option value="water">Agua</option>
+          <option value="fire">Fuego</option>
+          <option value="ice">Hielo</option>
+          <option value="ground">Tierra</option>
+          <option value="rock">Roca</option>
+          <option value="bug">Bicho</option>
+          <option value="poison">Veneno</option>
+          <option value="psychic">Psiquico</option>
+          <option value="flying">Volador</option>
+          <option value="ghost">Fantasma</option>
+          <option value="electric">Electrico</option>
+          <option value="fairy">Hada</option>
+          <option value="steel">Acero</option>
+          <option value="fighting">Lucha</option>
+          <option value="dark">Siniestro</option>
+          <option value="dragon">Dragon</option>
+        </select>
 
-      <label for="debilidad">FILTRAR POR DEBILIDAD:</label>
-      <select id="debilidad" name="debilidad" data-testid="select-debilidad">
-        <option value="all">Todo</option>
-        <option value="grass">Planta</option>
-        <option value="water">Agua</option>
-        <option value="fire">Fuego</option>
-        <option value="ice">Hielo</option>
-        <option value="ground">Tierra</option>
-        <option value="rock">Roca</option>
-        <option value="bug">Bicho</option>
-        <option value="poison">Veneno</option>
-        <option value="psychic">Psiquico</option>
-        <option value="flying">Volador</option>
-        <option value="ghost">Fantasma</option>
-        <option value="electric">Electrico</option>
-        <option value="fairy">Hada</option>
-        <option value="steel">Acero</option>
-        <option value="fighting">Lucha</option>
-        <option value="dark">Siniestro</option>
-        <option value="dragon">Dragon</option>
-      </select>
+        <label for="clasificar">FILTRAR POR LETRA </label>
+        <select id="clasificar" name="numero" data-testid="select-sort">
+          <option value="asc">A - Z</option>
+          <option value="desc">Z - A</option>
+        </select>
 
-      <label for="clasificar">FILTRAR POR LETRA </label>
-      <select id="clasificar" name="numero" data-testid="select-sort">
-        <option value="asc">A - Z</option>
-        <option value="desc">Z - A</option>
-      </select>
+        <button id="borrar" data-testid="button-borrarr">BORRAR/GRACIAS</button>
+      </div>
+      <ul id="pokemon-list"></ul>
+    </main>
+    <script src="main.js" type="module"></script>
 
-      <button id="borrar" data-testid="button-borrarr">BORRAR/GRACIAS</button>
-    </div>
-    <ul id="pokemon-list"></ul>
-  </main>
-  <script src="main.js" type="module"></script>
-
-  <footer>
-    <p>Daniela Trejo & Dinah Gomez</p>
-  </footer>
-</body>
-
+    <footer>
+      <p>Daniela Trejo & Dinah Gomez</p>
+    </footer>
+  </body>
 </html>
-
- 
-  
-   
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
