@@ -173,7 +173,7 @@ export default [
     "id": "soul-2020",
     "name": "Soul",
     "shortDescription": "Descubre el significado de la vida a través de los ojos de un músico apasionado.",
-    "description": "Joe Gardner, un talentoso pianista de jazz cuya pasión por la música es palpable. Cuando tiene la oportunidad de realizar su sueño tocando en un club de renombre, un giro del destino lo lleva a un viaje inesperado entre el mundo terrenal y el 'Gran Antes', donde las almas encuentran su chispa antes de nacer. Junto a 22, un alma cínica que aún no encuentra su propósito, Joe aprende lecciones profundas sobre la vida, el propósito y la importancia de cada experiencia que nos moldea como individuos. ",
+    "description": "Joe Gardner, es un talentoso pianista de jazz cuya pasión por la música es palpable. Cuando tiene la oportunidad de realizar su sueño tocando en un club de renombre, un giro del destino lo lleva a un viaje inesperado entre el mundo terrenal y el 'Gran Antes', donde las almas encuentran su chispa antes de nacer. Junto a 22, un alma cínica que aún no encuentra su propósito, Joe aprende lecciones profundas sobre la vida, el propósito y la importancia de cada experiencia que nos moldea como individuos.",
     "imageUrl": "https://es.web.img3.acsta.net/pictures/20/03/24/14/59/1973735.jpg",
     "facts": {
       "estreno": "2020",
@@ -342,7 +342,7 @@ export default [
   {
     "id": "mulan-1998",
     "name": "Mulan",
-    "shortDescription": "Una joven valiente se disfraza de guerrero para salvar a su familia y su patria. Inspiradora y llena de valor",
+    "shortDescription": "Una joven valiente se disfraza de guerrero para salvar a su familia y su patria. Inspiradora, y llena de valor",
     "description": "Mulán es una joven china que decide tomar el lugar de su anciano padre en el ejército imperial, haciéndose pasar por un hombre. Con la ayuda de su dragón guardián, Mushu, y un grupo de soldados divertidos, Mulán se enfrenta a desafíos tanto físicos como emocionales mientras lucha contra los invasores hunos liderados por Shan Yu. La película no solo es una epopeya de acción y aventura, sino también un poderoso relato sobre el valor, la determinación y el respeto por la familia y la tradición.",
     "imageUrl": "https://www.lavanguardia.com/peliculas-series/images/movie/poster/1998/6/w1280/towmTJ0k29quKI9IDnOZKAAtQx.jpg",
     "facts": {

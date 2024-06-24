@@ -12,37 +12,30 @@
     <main>
       <h2>Aquí encontrarás una guía de distintas peliculas de Disney y Pixar</h2>
 
-      <select data-testid="select-filter" name="enseñanza"></select>
-      <select data-testid="select-sort" name="year"></select>
-      <select data-testid="select-sort" name="score"></select>
+      <label for="enseñanza">Enseñanza</label>
+      <select id="enseñanza" data-testid="select-filter" name="enseñanza">selecciona tu enseñanza</select>
 
+      <label for="nombre">Nombre</label>
+      <select id="nombre" data-testid="select-sort" name="name">
+        <option value="asc">A - Z</option>
+        <option value="desc">Z - A</option>
+      </select>
 
-    <ul> 
-    <li>Elemental </li>
-    <li>Up </li>
-    <li> Turning Red</li>
-    <li> Coco</li>
-    <li> Ratatouille</li>
-    <li>Wall-e</li>
-    <li>Buscando a Doris</li>
-    <li>Intensamente</li>
-    <li>Toy Story</li>
-    <li>Los Increibles</li>
-    <li>Soul</li>
-    <li>El Viaje de Arlo </li>
-    <li>Lilo y Stitch</li>
-    <li>Atlantis</li>
-    <li>Big Hero 6</li>
-    <li>El Planeta del Tesoro</li>
-    <li>Encanto</li>
-    <li>Frozen</li>
-    <li>Enredados</li>
-    <li>La Princesa y El Sapo</li>
-    <li>Mulan</li>
-    <li>El Extraño Mundo de Jack</li>
-    <li>Tarzan</li>
-    <li>Hercules</li>
-  </ul>
+      <label for="seleccion">selecciona por</label>
+      <select id="seleccion" data-testid="select-sort" name="seleccion">
+        <option value="score">puntaje</option>
+        <option value="year">año</option>
+        <option value="category">género</option>
+      </select>
+
+      <label for="orden">ordena por</label>
+      <select id="orden" name="sort-order">
+        <option value="asc">de menor a mayor</option>
+        <option value="desc">de mayor a menor</option>
+      </select>
+
+      <button data-testid="button-clear">limpiar filtros</button>
+
     </main>
     <script src="main.js" type="module"></script>
   </body>
