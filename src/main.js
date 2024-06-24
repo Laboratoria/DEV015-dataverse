@@ -1,71 +1,59 @@
-import { example } from "./dataFunctions.js";
-import { renderItems } from "./view.js";
-import data from "./data/dataset.js";
+import data from './data/dataset.js';
+import { renderPokemonList } from './view.js';
+import { filterPokemonByElemental, filterPokemonByWeakness, filterPokemonByOrder, filterPokemonByWord, clearFiltersAndSort } from './dataFunctions.js';
 
-function renderPokemonList(pokemonList) {
-  const pokemonContainer = document.getElementById("pokemon-list");
-  pokemonContainer.innerHTML = "";
-  pokemonList.forEach((pokemon) => {
-    const card = createPokemonCard(pokemon);
-    pokemonContainer.appendChild(card);
-  });
-}
+document.addEventListener('DOMContentLoaded', () => {
+  function initializeApp() {
+    renderPokemonList(data);
+  }
 
-function filterPokemon(pokemonList, type) {
-  if (type === "all") return pokemonList;
-  return pokemonList.filter((pokemon) => pokemon.type.includes(type));
-}
+  // Evento de cambio en el filtro de elementos
+  function handleElementalChange() {
+    const elementalValue = document.getElementById('elemental').value;
+    const elementalPokemon = filterPokemonByElemental(data, elementalValue);
+    renderPokemonList(elementalPokemon);
+  }
 
-function sortPokemon(pokemonList, property, order) {
-  return pokemonList.sort((a, b) => {
-    if (order === "asc") {
-      return a[property] > b[property] ? 1 : -1;
-    } else {
-      return a[property] < b[property] ? 1 : -1;
-    }
-  });
-}
+  // Evento de cambio en el filtro de debilidad
+  function handleWeaknessChange() {
+    const weaknessValue = document.getElementById('weakness').value;
+    const weaknessPokemon = filterPokemonByWeakness(data, weaknessValue);
+    renderPokemonList(weaknessPokemon);
+  }
 
-document.getElementById("filter").addEventListener("change", () => {
-  const type = document.getElementById("filter").value;
-  const property = document.getElementById("sort").value;
-  const order = document.getElementById("sort-order").value;
+  // Evento de cambio en la selección de ordenamiento
+  function handleOrderChange() {
+    const orderValue = document.getElementById('order').value;
+    const orderPokemon = filterPokemonByOrder(data, orderValue);
+    renderPokemonList(orderPokemon);
+  }
 
-  const filteredPokemon = filterPokemon(dataset, type);
-  const sortedPokemon = sortPokemon(filteredPokemon, property, order);
+  // Evento de cambio en la selección de palabra
+  function handleWordChange() {
+    const wordValue = document.getElementById('word').value;
+    const wordPokemon = filterPokemonByWord(data, wordValue);
+    renderPokemonList(wordPokemon);
+  }
 
-  renderPokemonList(sortedPokemon);
+  // Evento de clic en el botón de borrar
+  function handleClearClick() {
+    document.getElementById('elemental').value = 'Todo';
+    document.getElementById('weakness').value = 'Todo';
+    document.getElementById('order').value = 'Numero';
+    document.getElementById('word').value = '';
+    const clearedData = clearFiltersAndSort(data);
+    renderPokemonList(clearedData);
+  }
+
+  // Asignar event listeners
+  document.getElementById('elemental').addEventListener('change', handleElementalChange);
+  document.getElementById('weakness').addEventListener('change', handleWeaknessChange);
+  document.getElementById('order').addEventListener('change', handleOrderChange);
+  document.getElementById('word').addEventListener('change', handleWordChange);
+  document.getElementById('clear').addEventListener('click', handleClearClick);
+
+  // Carga inicial de la aplicación
+  initializeApp();
 });
 
-document.getElementById("sort").addEventListener("change", () => {
-  const type = document.getElementById("filter").value;
-  const property = document.getElementById("sort").value;
-  const order = document.getElementById("sort-order").value;
 
-  const filteredPokemon = filterPokemon(dataset, type);
-  const sortedPokemon = sortPokemon(filteredPokemon, property, order);
-
-  renderPokemonList(sortedPokemon);
-});
-
-document.getElementById("sort-order").addEventListener("change", () => {
-  const type = document.getElementById("filter").value;
-  const property = document.getElementById("sort").value;
-  const order = document.getElementById("sort-order").value;
-
-  const filteredPokemon = filterPokemon(dataset, type);
-  const sortedPokemon = sortPokemon(filteredPokemon, property, order);
-
-  renderPokemonList(sortedPokemon);
-});
-
-document.getElementById("clear").addEventListener("click", () => {
-  document.getElementById("filter").value = "all";
-  document.getElementById("sort").value = "number";
-  document.getElementById("sort-order").value = "asc";
-
-  renderPokemonList(dataset);
-});
-
-// Inicialización
-renderPokemonList(Data);
