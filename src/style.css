@@ -1,0 +1,62 @@
+header{
+    
+        font-family: "Aclonica", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 60px;
+        text-align: center;
+      }
+body{
+    background-image:url('https://wallpapers-clan.com/wp-content/uploads/2022/09/disney-castle-blue-wallpaper-2-scaled.jpg');
+    image-rendering: center;
+}      
+
+h2{
+    
+        font-family: "Henny Penny", system-ui;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 30px;
+        text-align: center;      
+}
+
+.ulPelis{
+    flex:50%;
+    display: flex; 
+    flex-wrap: wrap; 
+    height: auto; /* Ajusta según sea necesario */ 
+    list-style: none; 
+    padding: 0; 
+    margin: 0;
+    
+  }
+
+  .imagenPeli{
+    width: 10rem;
+  }
+
+.tarjetasPelis{
+    flex:50%; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    box-sizing: border-box;
+    margin 10 px;
+    border: 2 px;
+    border-color: #000000;
+    ;
+    }
+
+.tarjeta{
+    flex: 50&;
+    margin: 10px;
+    border: 5px solid black;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    flex-shrink: 1;
+    background-color:#00000;
+    opacity: 95%;
+
+    }
+        

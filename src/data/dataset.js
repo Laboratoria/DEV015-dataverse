@@ -157,7 +157,7 @@ export default [
     "name": "Los Increíbles",
     "shortDescription": "Una familia de superhéroes se une para salvar al mundo y redescubrir su propia grandeza.",
     "description": "En Los Increíbles, seguimos a la familia Parr: Bob, Helen, Violeta, Dash y Jack-Jack, quienes llevan una vida normal y oculta bajo el programa de protección a testigos debido a las leyes que prohíben las actividades superhumanas. Sin embargo, cuando surge una nueva amenaza que pone en peligro al mundo, la familia debe unirse y redescubrir sus habilidades únicas para salvar el día. La película combina acción emocionante con temas de familia, autoaceptación y la importancia de abrazar nuestras fortalezas individuales.",
-    "imageUrl": "https://pics.filmaffinity.com/the_incredibles-939387273-large.jpg",
+    "imageUrl": "https://cdn.hobbyconsolas.com/sites/navi.axelspringer.es/public/media/image/2018/04/increibles.jpg",
     "facts": {
       "estreno": "2004",
       "generoPelicula": "Aventura, Acción",
@@ -225,7 +225,7 @@ export default [
     "name": "Atlantis: El Imperio Perdido",
     "shortDescription": " Una emocionante expedición hacia un misterioso mundo subacuático en busca de un antiguo imperio perdido.",
     "description": "Atlantis: El Imperio Perdido es una emocionante película de Disney que sigue a Milo Thatch, un cartógrafo y lingüista, en su búsqueda para encontrar la legendaria ciudad de Atlantis. Acompañado por un variopinto grupo de exploradores, Milo se embarca en una peligrosa expedición submarina. La película destaca por su impresionante animación, inspirada en el estilo visual de cómics, y su intrigante mezcla de mitología y ciencia ficción. Con una historia llena de acción, descubrimientos y valores como la amistad y la perseverancia, Atlantis es una aventura que inspira y cautiva a espectadores de todas las edades.",
-    "imageUrl": "https://pics.filmaffinity.com/Atlantis_El_imperio_perdido-149874847-large.jpg",
+    "imageUrl": "https://www.aceprensa.com/wp-content/uploads/2001/11/10865-0.jpg",
     "facts": {
       "estreno": "2001",
       "generoPelicula": "Aventura, Ciencia ficción",
@@ -276,7 +276,7 @@ export default [
     "name": "Encanto",
     "shortDescription": "Una historia mágica sobre una familia con dones extraordinarios en Colombia.",
     "description": "'Encanto' transporta a los espectadores a Colombia, donde la familia Madrigal vive en un encantado hogar rodeado de magia. Cada miembro de la familia posee un don especial, excepto Mirabel, quien se embarca en un viaje para descubrir su lugar y salvar la magia de la familia. La película celebra la cultura colombiana a través de su música vibrante y coloridos paisajes, mientras explora temas de autoaceptación, familia y la belleza de ser único. Con personajes entrañables y una narrativa emocionante, 'Encanto' captura el corazón y la imaginación de toda la familia.",
-    "imageUrl": "https://pics.filmaffinity.com/Encanto-246546841-large.jpg",
+    "imageUrl": "https://musicart.xboxlive.com/7/2d0e5200-0000-0000-0000-000000000002/504/image.jpg",
     "facts": {
       "estreno": "2021",
       "generoPelicula": "Aventura, Comedia, Musical",
@@ -361,7 +361,7 @@ export default [
     "name": "El Extraño Mundo de Jack",
     "shortDescription": "Una película animada que fusiona el encanto de Halloween con la magia de la Navidad.",
     "description": "El Extraño Mundo de Jack cuenta la historia de Jack Skellington, el Rey de Halloween, quien se cansa de celebrar siempre la misma fiesta cada año. Cuando descubre accidentalmente la Ciudad de la Navidad, se obsesiona con traer el espíritu navideño a su oscuro reino de Halloween. Sin embargo, sus intentos de recrear la Navidad llevan a resultados cómicos y desastrosos. A través de la historia de Jack, la película explora temas de autodescubrimiento, aceptación y la importancia de ser fiel a uno mismo.",
-    "imageUrl": "https://pics.filmaffinity.com/the_nightmare_before_christmas-433010460-large.jpg",
+    "imageUrl": "https://static.wixstatic.com/media/51d250_0469ccba361b4111bf43aab68e012386~mv2.jpg/v1/fill/w_800,h_1200,al_c,q_85,enc_auto/51d250_0469ccba361b4111bf43aab68e012386~mv2.jpg",
     "facts": {
       "estreno": "1993",
       "generoPelicula": "Fantasía, Musical",
