@@ -1,378 +1,410 @@
 export default [
   {
-    "id": "ada-lovelace",
-    "name": "Ada Lovelace",
-    "shortDescription": "Pionera en la programación, primera programadora de la historia.",
-    "description": "Una visionaria matemática británica del siglo XIX, es aclamada como la primera programadora de la historia. Su colaboración con Charles Babbage en la creación de la Máquina Analítica la llevó a desarrollar algoritmos, incluyendo el famoso \"algoritmo de Bernoulli\", destinados a ser procesados por una máquina. Su visión pionera la convirtió en una figura fundamental en la informática y la inteligencia artificial. Lovelace demostró que las computadoras podían ir más allá de simples cálculos matemáticos, anticipando un mundo donde la programación sería esencial en la resolución de problemas complejos, dejando una huella imborrable en la ciencia y la tecnología.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/ada-lovelace.jpg",
+    "id": "Disney-Elemental",
+    "name": "Elemental",
+    "shortDescription": "Explora un mundo donde los elementos naturales cobran vida y coexisten en una vibrante ciudad.",
+    "description": "Seguimos la historia de Ember, una joven de fuego, y Wade, un chico de agua, que provienen de mundos opuestos. A pesar de sus diferencias, desarrollan una amistad única que desafía las convenciones sociales de su entorno. A medida que su vínculo se fortalece, Ember y Wade descubren que las diferencias que los separan también pueden ser la clave para superar desafíos personales y comunitarios. La película presenta un viaje emocional y visualmente espectacular que celebra la diversidad y la aceptación.",
+    "imageUrl": "https://es.web.img3.acsta.net/pictures/23/05/17/10/28/2036083.jpg",
     "facts": {
-      "yearOfBirth": "1815",
-      "yearOfDeath": "1852",
-      "birthPlace": "Londres, Reino Unido",
-      "mainField": "Ciencia de la Computación"
+      "estreno": "2023",
+      "generoPelicula": "Aventura, Fantasía",
+      "clasificacionPelicula": "Diversidad",
+      "clasificPublico": "7.1/10",
+      "tiempoDuracion": "101 minutos",
     },
     "extraInfo": {
-      "imageSource": "https://www.bing.com/images/create/genera-una-imagen-de-ada-lovelace2c-la-primera-prog/650a1eff8ff04b88833d5cdef0309441"
+      "curiosidades": "Para crear el efecto visual del personaje de Ember, el equipo de animación desarrolló nuevas técnicas para capturar la fluidez y el dinamismo del fuego de una manera realista y expresiva."
     }
   },
   {
-    "id": "emmy-noether",
-    "name": "Emmy Noether",
-    "shortDescription": "Matemática destacada, teorema fundamental en álgebra abstracta.",
-    "description": "Una brillante matemática alemana, revolucionó la física teórica con sus contribuciones al teorema de conservación de la energía y el teorema de Noether, fundamentales en la teoría de la relatividad y la mecánica cuántica. A pesar de los obstáculos que enfrentó como mujer en la academia, sus investigaciones en álgebra abstracta y teoría de grupos son fundamentales en la física moderna. Su capacidad para unificar conceptos matemáticos y físicos marcó un hito en la historia de la ciencia, allanando el camino para futuras generaciones de científicas.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/emmy-noether.jpg",
+    "id": "pixar-up",
+    "name": "UP",
+    "shortDescription": "Aventuras emocionantes de un anciano y un niño explorador en una casa voladora impulsada por globos.",
+    "description": "Up narra la historia de Carl Fredricksen, un viudo de edad avanzada decidido a cumplir la promesa que le hizo a su difunta esposa. Con ingenio y determinación, Carl ata miles de globos a su casa y emprende un viaje épico hacia las remotas tierras de América del Sur. Pero su plan se complica cuando descubre que un inesperado pasajero, Russell, un explorador juvenil, se ha colado a bordo. Juntos, enfrentan peligros inimaginables y descubren que la aventura más grande de todas es la amistad.",
+    "imageUrl": "https://www.funeralnatural.net/sites/default/files/pelicula/imagen/upcartel.jpg",
     "facts": {
-      "yearOfBirth": "1882",
-      "yearOfDeath": "1935",
-      "birthPlace": "Erlangen, Alemania",
-      "mainField": "Matemáticas"
+      "estreno": "2009",
+      "generoPelicula": "Aventura, Comedia, Drama",
+      "clasificacionPelicula": "Perseverancia",
+      "clasificPublico": "8.3/10",
+      "tiempoDuracion": "96 minutos",
     },
     "extraInfo": {
-      "imageSource": "https://www.bing.com/images/create/create-an-image-of-of-a-german-woman2c-a-pioneering/6510ddb1e8254b928b8f8f1d5e95fea4"
+      "curiosidades": "La casa voladora de Carl Fredricksen está inspirada en la casa real de los hermanos Ellie y Carl, dos hermanos que crecieron en la ciudad de Los Ángeles, California."
     }
   },
   {
-    "id": "hypatia-de-alejandria",
-    "name": "Hypatia de Alejandría",
-    "shortDescription": "Matemática y filósofa en la antigua Alejandría.",
-    "description": "Filósofa y matemática en la antigua Alejandría, desafió las normas de género de su época al destacar en una sociedad dominada por hombres. Su legado incluye importantes contribuciones a la geometría y la astronomía, así como su destacado papel como maestra y defensora del conocimiento en una época de agitación política. Hypatia demostró que las mujeres podían sobresalir en campos intelectuales y su valentía al mantener sus creencias filosóficas la convierte en un símbolo de resistencia y sabiduría en la historia de la ciencia.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/hypatia-de-alejandria.jpg",
+    "id": "turning-red",
+    "name": "Turning Red",
+    "shortDescription": "Una divertida y emotiva historia sobre la adolescencia y el poder de la amistad.",
+    "description": "'Turning Red' es una encantadora película de Pixar que explora la vida de Mei Lee, una joven que lidia con los altibajos de la adolescencia mientras experimenta una transformación inesperada en un panda rojo cuando se emociona demasiado. Con un enfoque fresco y humorístico, la película aborda temas universales como la identidad, la familia y la aceptación personal. La animación es vibrante y cautivadora, complementada por una banda sonora vibrante que realza la narrativa. Turning Red es una joya animada que no solo entretiene, sino que también deja mensajes significativos sobre la autoaceptación y el poder de la amistad.",
+    "imageUrl": "https://m.media-amazon.com/images/I/81equRsw8JL._AC_UF894,1000_QL80_.jpg",
     "facts": {
-      "yearOfBirth": "circa 360",
-      "yearOfDeath": "415",
-      "birthPlace": "Alejandría, Egipto",
-      "mainField": "Matemáticas, Filosofía"
+      "estreno": "2022",
+      "generoPelicula": "Comedia, Fantasía",
+      "clasificacionPelicula": "Autoaceptación",
+      "clasificPublico": "7/10",
+      "tiempoDuracion": "100 minutos",
     },
     "extraInfo": {
-      "imageSource": "https://www.bing.com/images/create/create-a-vivid-digital-artwork-or-painting-that-de/6510df0ebe1a4807af22175452761e1a"
+      "curiosidades":"Turning Red es la primera película de Pixar dirigida por una directora mujer, Domee Shi, quien anteriormente ganó un Premio de la Academia por el cortometraje Bao."
     }
   },
   {
-    "id": "marjorie-lee-browne",
-    "name": "Marjorie Lee Browne",
-    "shortDescription": "Matemática, contribuyó a la teoría de números.",
-    "description": "Matemática estadounidense, destacó en una época en la que las mujeres afroamericanas enfrentaban múltiples barreras en la educación superior. No solo obtuvo su doctorado en matemáticas, sino que también se convirtió en una destacada educadora, promoviendo la diversidad en las ciencias matemáticas y desafiando la discriminación racial y de género. Su compromiso con la educación y su capacidad para inspirar a futuras generaciones la convierten en un modelo a seguir para las mujeres en la ciencia, dejando una huella perdurable en la historia académica.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/marjorie-lee-browne.jpg",
+    "id": "coco-pelicula",
+    "name": "Coco",
+    "shortDescription": "Una celebración musical y visual que explora la importancia de la familia y la memoria.",
+    "description": "Coco cuenta la historia de Miguel, un niño mexicano con grandes sueños musicales en un hogar donde la música está prohibida. En el Día de los Muertos, Miguel se embarca en un viaje extraordinario al mundo de los muertos para descubrir la verdad sobre su familia y su pasión por la música. Con impresionantes visuales y una banda sonora conmovedora, la película celebra la cultura mexicana y enseña lecciones sobre el amor, el legado y la importancia de recordar a nuestros seres queridos.",
+    "imageUrl": "https://es.web.img2.acsta.net/pictures/17/09/14/10/49/2019727.jpg",
     "facts": {
-      "yearOfBirth": "1914",
-      "yearOfDeath": "1979",
-      "birthPlace": "Memphis, Estados Unidos",
-      "mainField": "Matemáticas"
+      "estreno": "2017",
+      "generoPelicula": "Aventura, Fantasía",
+      "clasificacionPelicula": "Familia",
+      "clasificPublico": "8.4/10",
+      "tiempoDuracion": "105 minutos",
     },
     "extraInfo": {
-      "imageSource": "https://www.bing.com/images/create/design-an-inspiring-and-historically-accurate-imag/6510df7e7bb745f69d67f695441607a8"
+      "curiosidades":"Coco fue elogiada por su representación auténtica de la cultura mexicana, desde sus tradiciones hasta la música mariachi. Ganó dos Premios de la Academia, incluyendo Mejor Película Animada y Mejor Canción Original por Recuerdame."
     }
   },
   {
-    "id": "shakuntala-devi",
-    "name": "Shakuntala Devi",
-    "shortDescription": "Matemática prodigio, conocida como la 'Calculadora Humana'.",
-    "description": "Conocida como \"la bruja de las matemáticas\" de la India, dejó una marca indeleble en el mundo de los números. Su capacidad mental asombrosa la llevó a resolver complejos cálculos matemáticos mentalmente en cuestión de segundos, estableciendo récords mundiales. Además de su talento innato, Devi promovió activamente la educación matemática y luchó por la igualdad de género en un país donde las mujeres enfrentaban desafíos en la ciencia y la educación. Su legado destaca el poder de la mente humana y la importancia de la igualdad de oportunidades en la ciencia.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/shakuntala-devi.jpg",
+    "id": "Ratatouille-2007",
+    "name": "Ratatouille",
+    "shortDescription": "Una encantadora historia sobre un ratón con un paladar excepcional y grandes sueños culinarios.",
+    "description": "En Ratatouille conocemos a Remy, un apasionado ratón que sueña con convertirse en un chef de renombre en París, a pesar de las expectativas y prejuicios que enfrenta por ser un roedor. Con la ayuda de Linguini, un joven empleado de cocina, Remy demuestra que el talento y la determinación no conocen límites, mientras lucha por hacer realidad su sueño gastronómico. La película explora temas de perseverancia, amistad y la importancia de seguir nuestras pasiones, sin importar las adversidades ya que 'cualquiera puede cocinar'.",
+    "imageUrl": "https://lumiere-a.akamaihd.net/v1/images/p_ratatouille_19736_0814231f.jpeg",
     "facts": {
-      "yearOfBirth": "1929",
-      "yearOfDeath": "2013",
-      "birthPlace": "Bangalore, India",
-      "mainField": "Matemáticas"
+      "estreno": "2007",
+      "generoPelicula": "Comedia, Drama",
+      "clasificacionPelicula": "Superación",
+      "clasificPublico": "8.1/10",
+      "tiempoDuracion": "111 minutos",
     },
     "extraInfo": {
-      "imageSource": "https://www.bing.com/images/create/indian-woman-writing-math-problems-in-a-blackbard-/6510e19f3db54e14b365b7e8dc5045f6"
+      "curiosidades": "Los creadores de Ratatouille trabajaron estrechamente con chefs renombrados para capturar de manera auténtica el ambiente y los detalles de la cocina parisina, elevando la experiencia visual y emocional de la película."
     }
   },
   {
-    "id": "sofia-kovalevskaya",
-    "name": "Sofia Kovalevskaya",
-    "shortDescription": "Matemática y escritora, contribuyó a la teoría de funciones.",
-    "description": "Matemática rusa del siglo XIX, dejó una marca indeleble en la ciencia del siglo XIX al desafiar las barreras de género. Como matemática rusa, superó las restricciones sociales de su época para convertirse en la primera mujer en obtener un doctorado en matemáticas en Europa. Sus contribuciones a la teoría de las ecuaciones diferenciales y la mecánica revolucionaron la disciplina, abriendo nuevas perspectivas en el análisis matemático. Su destacada membresía en la Academia de Ciencias de Suecia marcó un hito en la historia de las mujeres en la ciencia.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/sofia-kovalevskaya.jpg",
+    "id": "Walle-2008",
+    "name": "Wall-e",
+    "shortDescription": "Un robot solitario descubre el amor y la esperanza en un futuro distópico. Aventura encantadora y ecológica que inspira",
+    "description": "Seguimos a Wall-e, un pequeño robot diseñado para limpiar un planeta Tierra abandonado y cubierto de basura. Durante siglos, Wall-e ha desarrollado una personalidad única y un gran sentido de curiosidad. Todo cambia cuando conoce a EVE, una sonda enviada desde el espacio con una misión misteriosa. Juntos, Wall-e y EVE emprenden un viaje intergaláctico que desafía las expectativas y revela la importancia de la conexión humana y el cuidado del medio ambiente. Esta obra maestra de animación combina humor, emoción y reflexión sobre el futuro de la humanidad.",
+    "imageUrl": "https://es.web.img2.acsta.net/pictures/14/04/30/10/41/026995.jpg",
     "facts": {
-      "yearOfBirth": "1850",
-      "yearOfDeath": "1891",
-      "birthPlace": "Moscú, Rusia",
-      "mainField": "Matemáticas"
+      "estreno": "2008",
+      "generoPelicula": "Aventura, Ciencia ficción",
+      "clasificacionPelicula": "Esperanza",
+      "clasificPublico": "8.4/10",
+      "tiempoDuracion": "98 minutos",
     },
     "extraInfo": {
-      "imageSource": "https://www.bing.com/images/create/indian-woman-writing-math-problems-in-a-blackbard-/6510e19f3db54e14b365b7e8dc5045f6"
+      "curiosidades": "Wall-e cuenta con una narrativa visual rica y detallada que permite a la historia ser contada con un mínimo diálogo durante la primera parte de la película, mostrando la maestría de Pixar en la animación y la narración visual."
     }
   },
   {
-    "id": "yoko-shimomura",
-    "name": "Yoko Shimomura",
-    "shortDescription": "Compositora de música, destacada en la industria de los videojuegos.",
-    "description": "Compositora japonesa, es una figura destacada en la ciencia de la música y el arte sonoro. Aunque no se dedica a la ciencia en el sentido tradicional, su trabajo en la composición musical ha requerido un profundo entendimiento de la teoría musical y la tecnología de audio. Ha contribuido de manera significativa a la industria de los videojuegos, componiendo icónicas bandas sonoras que han enriquecido la experiencia de juego. Su éxito en un campo donde las mujeres estaban subrepresentadas la convierte en un modelo a seguir, incluso en campos no convencionales como la composición musical.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/yoko-shimomura.jpg",
+    "id": "buscando-dory",
+    "name": "Buscando a Dory",
+    "shortDescription": "La inolvidable pez azul con problemas de memoria emprende una nueva aventura para encontrar a su familia.",
+    "description": "la amigable pez azul con pérdida de memoria a corto plazo, Dory, se embarca en una emocionante misión para reunirse con su familia, de la cual apenas tiene recuerdos fragmentados. Con la ayuda de sus amigos Marlin y Nemo, Dory cruza los océanos enfrentando desafíos y haciendo nuevos amigos, mientras descubre la importancia del hogar, la perseverancia y la autoaceptación. La película, llena de humor y ternura, captura la esencia del espíritu aventurero de Pixar y deja un mensaje conmovedor sobre el poder del amor y la familia.",
+    "imageUrl": "https://e1.pxfuel.com/desktop-wallpaper/228/188/desktop-wallpaper-finding-dory-poster-2-amazing-posters-fluke-movie.jpg",
     "facts": {
-      "yearOfBirth": "1967",
-      "birthPlace": "Hyogo, Japón",
-      "mainField": "Composición Musical, Video Juegos"
+      "estreno": "2016",
+      "generoPelicula": "Aventura, Comedia",
+      "clasificacionPelicula": "Resiliencia",
+      "clasificPublico": "7.4/10",
+      "tiempoDuracion": "97 minutos",
     },
     "extraInfo": {
-      "imageSource": "https://www.bing.com/images/create/yoko-shimomura-making-music-for-a-video-game-in-19/6510e40dd1eb45d0906e8c1f4bb601d3"
+      "curiosidades": "Ellen DeGeneres, la voz de Dory, expresó su alegría de volver a interpretar al personaje después de 13 años desde la película original Buscando a Nemo (2003)."
     }
   },
   {
-    "id": "maryam-mirzakhani",
-    "name": "Maryam Mirzakhani",
-    "shortDescription": "Matemática, ganadora del Premio Fields.",
-    "description": "Matemática iraní, hizo historia al convertirse en la primera mujer en ganar la Medalla Fields, el premio más prestigioso en matemáticas. Sus investigaciones en la geometría de superficies y la teoría de las superficies de Riemann han tenido un impacto duradero en la matemática pura. A lo largo de su carrera, Mirzakhani inspiró a muchas mujeres a perseguir carreras en ciencia y matemáticas, derribando las barreras de género. Su enfoque innovador y su capacidad para resolver problemas complejos la convierten en un modelo a seguir para la comunidad científica y en un símbolo de la excelencia matemática.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/maryam-mirzakhani.jpg",
+    "id": "intensamente-2015",
+    "name": "Intensamente",
+    "shortDescription": "Explora las emociones humanas a través de la historia de Riley y las cinco emociones personificadas que guían su vida.",
+    "description": "Riley, una niña que atraviesa cambios importantes en su vida familiar al mudarse a una nueva ciudad. La historia se desarrolla dentro de su mente, donde sus emociones personificadas - Alegría, Tristeza, Miedo, Furia y Asco - trabajan juntas en la central de control emocional para guiar sus acciones y decisiones. A medida que Riley navega por los desafíos de crecer, las emociones aprenden lecciones valiosas sobre la importancia de la empatía, el equilibrio emocional y la aceptación de la tristeza como parte integral de la vida.",
+    "imageUrl": "https://mx.web.img3.acsta.net/pictures/17/08/07/21/43/466493.jpg",
     "facts": {
-      "yearOfBirth": "1977",
-      "yearOfDeath": "2017",
-      "birthPlace": "Teherán, Irán",
-      "mainField": "Matemáticas"
+      "estreno": "2015",
+      "generoPelicula": "Aventura, Comedia, Drama",
+      "clasificacionPelicula": "Empatía",
+      "clasificPublico": "8/10",
+      "tiempoDuracion": "95 minutos",
     },
     "extraInfo": {
-      "imageSource": "https://chalkdustmagazine.com/features/mathematics-maryam-mirzakhani/"
+      "curiosidades": "Intensamente fue aclamada por su representación precisa de la psicología emocional y ganó el Premio de la Academia a la Mejor Película Animada en 2016."
     }
   },
   {
-    "id": "adele-goldberg",
-    "name": "Adele Goldberg",
-    "shortDescription": "Informática pionera, co-creadora del lenguaje de programación Smalltalk.",
-    "description": "Informática estadounidense reconocida por su influyente trabajo en la investigación y desarrollo de la programación orientada a objetos. Su contribución más destacada es la creación del lenguaje de programación Smalltalk, que revolucionó la forma en que se desarrollan software y sistemas informáticos. Goldberg ha sido una defensora incansable de la usabilidad y la accesibilidad en la informática, asegurando que las aplicaciones informáticas sean más amigables para los usuarios. Su trabajo ha allanado el camino para una programación más intuitiva y eficiente, y su legado perdura en la industria de la tecnología.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/adele-goldberg.jpg",
+    "id": "toy-story",
+    "name": "Toy Story",
+    "shortDescription": "Un grupo de juguetes que cobran vida cuando los humanos no los ven, destacando la amistad y la lealtad.",
+    "description": "La historia gira en torno a Woody, un vaquero de juguete celoso de su posición como el favorito de su dueño, Andy, y Buzz Lightyear, un moderno juguete espacial recién llegado que desafía la autoridad de Woody. A través de una serie de eventos, ambos juguetes aprenden sobre la amistad, la lealtad y el valor de aceptarse mutuamente. La película no solo estableció el estándar para la animación digital, sino que también tocó los corazones de generaciones con su ingeniosa narrativa y personajes entrañables.",
+    "imageUrl": "https://es.web.img3.acsta.net/pictures/14/03/17/10/20/509771.jpg",
     "facts": {
-      "yearOfBirth": "1945",
-      "birthPlace": "Chicago, Estados Unidos",
-      "mainField": "Ciencias de la Computación"
+      "estreno": "1995",
+      "generoPelicula": "Aventura, Comedia",
+      "clasificacionPelicula": "Amistad",
+      "clasificPublico": "8.3/10",
+      "tiempoDuracion": "81 minutos",
     },
     "extraInfo": {
-      "imageSource": "https://pionerasinformaticas.ujaen.es/en/computer-women-pioneers/adele-goldberg-en"
+      "curiosidades": "Toy Stoy fue un éxito instantáneo y generó una franquicia exitosa que incluye tres secuelas más y varios cortometrajes. Fue la primera película de Pixar y la primera película animada en la historia en ser nominada para un Premio Óscar a la Mejor Guión Original."
     }
   },
   {
-    "id": "barbara-liskov",
-    "name": "Barbara Liskov",
-    "shortDescription": "Científica de la computación, pionera en programación orientada a objetos.",
-    "description": "Pionera de la informática, es conocida por su trabajo en la programación y la arquitectura de sistemas distribuidos. Fue la primera mujer en obtener un doctorado en ciencias de la computación en el Instituto de Tecnología de Stanford y desarrolló el lenguaje de programación CLU, que estableció fundamentos para la programación orientada a objetos. Liskov ha dejado una marca indeleble en la industria de la tecnología al liderar avances en sistemas de almacenamiento y seguridad informática. Su enfoque en la fiabilidad y la robustez ha influido en el diseño de sistemas críticos en todo el mundo.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/barbara-liskov.jpg",
+    "id": "los-increibles",
+    "name": "Los Increíbles",
+    "shortDescription": "Una familia de superhéroes se une para salvar al mundo y redescubrir su propia grandeza.",
+    "description": "En Los Increíbles, seguimos a la familia Parr: Bob, Helen, Violeta, Dash y Jack-Jack, quienes llevan una vida normal y oculta bajo el programa de protección a testigos debido a las leyes que prohíben las actividades superhumanas. Sin embargo, cuando surge una nueva amenaza que pone en peligro al mundo, la familia debe unirse y redescubrir sus habilidades únicas para salvar el día. La película combina acción emocionante con temas de familia, autoaceptación y la importancia de abrazar nuestras fortalezas individuales.",
+    "imageUrl": "https://cdn.hobbyconsolas.com/sites/navi.axelspringer.es/public/media/image/2018/04/increibles.jpg",
     "facts": {
-      "yearOfBirth": "1939",
-      "birthPlace": "Los Angeles, Estados Unidos",
-      "mainField": "Ciencia de la Computación"
+      "estreno": "2004",
+      "generoPelicula": "Aventura, Acción",
+      "clasificacionPelicula": "Unidad",
+      "clasificPublico": "8/10",
+      "tiempoDuracion": "115 minutos",
     },
     "extraInfo": {
-      "imageSource": "https://medium.com/a-computer-of-ones-own/barbara-liskov-inventor-of-abstract-data-types-9f8908fdcf86"
+      "curiosidades": "El director de Los Increíbles, Brad Bird, también prestó su voz al personaje de Edna Moda, la excéntrica y talentosa diseñadora de trajes de superhéroe."
     }
   },
   {
-    "id": "grace-hopper",
-    "name": "Grace Hopper",
-    "shortDescription": "Científica de la computación, creadora del primer compilador.",
-    "description": "Una de las pioneras de la informática, es famosa por su contribución al desarrollo del primer compilador y al lenguaje de programación COBOL. Además, desafió los estereotipos de género en la década de 1940 al unirse a la Marina de los Estados Unidos y convertirse en la primera programadora de la computadora Harvard Mark I. Su legado abarca la creación de conceptos cruciales como la \"depuración de software\" y su influencia en el desarrollo de la informática moderna, estableciendo estándares para la programación de alto nivel y la innovación tecnológica.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/grace-hopper.jpg",
+    "id": "soul-2020",
+    "name": "Soul",
+    "shortDescription": "Descubre el significado de la vida a través de los ojos de un músico apasionado.",
+    "description": "Joe Gardner, es un talentoso pianista de jazz cuya pasión por la música es palpable. Cuando tiene la oportunidad de realizar su sueño tocando en un club de renombre, un giro del destino lo lleva a un viaje inesperado entre el mundo terrenal y el 'Gran Antes', donde las almas encuentran su chispa antes de nacer. Junto a 22, un alma cínica que aún no encuentra su propósito, Joe aprende lecciones profundas sobre la vida, el propósito y la importancia de cada experiencia que nos moldea como individuos.",
+    "imageUrl": "https://myhotposters.com/cdn/shop/products/mL4925_1024x1024.jpg",
     "facts": {
-      "yearOfBirth": "1906",
-      "yearOfDeath": "1992",
-      "birthPlace": "Nueva York, Estados Unidos",
-      "mainField": "Ciencia de la Computación"
+      "estreno": "2020",
+      "generoPelicula": "Aventura, Comedia, Drama",
+      "clasificacionPelicula": "Propósito de vida",
+      "clasificPublico": "8.1/10",
+      "tiempoDuracion": "100 minutos",
     },
     "extraInfo": {
-      "imageSource": "https://photos.com/featured/grace-hopper-with-early-computer-bettmann.html"
+      "curiosidades": "Soul fue alabada por su representación de la cultura afroamericana y por ser una exploración profunda de temas existenciales en una película animada de Pixar."
     }
   },
   {
-    "id": "margaret-hamilton",
-    "name": "Margaret Hamilton",
-    "shortDescription": "Científica de la computación, lideró desarrollo de software para Apollo 11.",
-    "description": "Destacada científica de la computación que desempeñó un papel fundamental en el programa Apollo de la NASA. Fue directora de la División de Ingeniería de Software en el Laboratorio de Instrumentación del MIT, donde desarrolló el concepto de \"ingeniería de software\". Su liderazgo en el desarrollo del software de vuelo para las misiones Apollo fue fundamental para el éxito de la llegada del hombre a la Luna. Hamilton es un ejemplo de cómo la tecnología y la ciencia pueden alcanzar logros extraordinarios cuando se combinan con un enfoque innovador y una visión audaz.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/margaret-hamilton.jpg",
+    "id": "viaje-arlo",
+    "name": "El viaje  de Arlo",
+    "shortDescription": "Un dinosaurio y un niño humano forjan una amistad en una épica aventura prehistórica. Una historia conmovedora y emocionante.",
+    "description": "En el 'Viaje de Arlo', exploramos un mundo alternativo donde los dinosaurios no se extinguieron y conviven con los humanos. Arlo, un dinosaurio joven y temeroso, se separa de su familia y emprende un viaje épico para encontrar el camino de regreso a casa. En el camino, forma una inesperada amistad con Spot, un niño humano salvaje, y juntos enfrentan peligros naturales y desafíos emocionales que les permiten crecer y descubrir sus verdaderas fortalezas. La película, con impresionantes paisajes y personajes entrañables, invita a reflexionar sobre el coraje, la amistad y el valor de enfrentar nuestros miedos.",
+    "imageUrl": "https://www.lavanguardia.com/peliculas-series/images/movie/poster/2015/11/w1280/1WKI6PM79XjK2LVS1B4yoG3wNHw.jpg",
     "facts": {
-      "yearOfBirth": "1936",
-      "birthPlace": "Paoli, Indiana, Estados Unidos",
-      "mainField": "Ciencia de la Computación"
+      "estreno": "2015",
+      "generoPelicula": "Aventura, Drama",
+      "clasificacionPelicula": "Superación",
+      "clasificPublico": "6.7/10",
+      "tiempoDuracion": "93 minutos",
     },
     "extraInfo": {
-      "imageSource": "https://odetta.ai/blogs/margaret-hamilton-the-first-software-engineer"
+      "curiosidades": "El viaje de Arlo, es el primer largometraje de Pixar en presentar personajes y escenarios completamente generados por computadora, sin necesidad de fondos en 2D."
     }
   },
   {
-    "id": "radia-perlman",
-    "name": "Radia Perlman",
-    "shortDescription": "Ingeniera de redes, inventora del algoritmo Spanning Tree.",
-    "description": "Científica de la computación estadounidense, ha dejado una marca indeleble en el mundo de las redes informáticas y la seguridad. Conocida como \"la madre de Internet\", su invención del algoritmo Spanning Tree Protocol (STP) revolucionó la conectividad de redes y sentó las bases para la infraestructura de Internet moderna. A pesar de operar en un campo dominado por hombres, Perlman ha demostrado que las mujeres pueden liderar avances tecnológicos vitales. Su compromiso con la resiliencia de las redes y la ciberseguridad ha influido en la estabilidad y confiabilidad de la comunicación en línea.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/radia-perlman.jpg",
+    "id": "lilo-stitch",
+    "name": "Lilo y Stitch",
+    "shortDescription": "Una niña hawaiana y un alienígena travieso descubren el verdadero significado de la familia.",
+    "description": "Lilo & Stitch narra la conmovedora historia de Lilo, una niña hawaiana única, y Stitch, un alienígena travieso. Ambientada en las soleadas costas de Hawái, la película celebra la importancia de la familia y la aceptación. Con su animación vibrante y memorable banda sonora, captura tanto la esencia de la cultura hawaiana como la bondad universal. 'Lilo & Stitch' nos recuerda que la verdadera familia a menudo viene en formas inesperadas, enseñando lecciones de amor, amistad y comprensión en un viaje emocional que sigue siendo querido por generaciones.",
+    "imageUrl": "https://www.ecartelera.com/carteles/5100/5197/002_m.jpg",
     "facts": {
-      "yearOfBirth": "1951",
-      "birthPlace": "Portsmouth, Estados Unidos",
-      "mainField": "Ciencia de la Computación"
+      "estreno": "2002",
+      "generoPelicula": "Aventura, Comedia, Ciencia ficción",
+      "clasificacionPelicula": "Familia",
+      "clasificPublico": "7.2/10",
+      "tiempoDuracion": "85 minutos",
     },
     "extraInfo": {
-      "imageSource": "https://hackaday.com/2018/05/29/spanning-the-tree-dr-radia-perlman-untangling-networks/"
+      "curiosidades": "'Lilo y Stitch' es conocida por su enfoque en la cultura y las tradiciones de Hawái, así como por su banda sonora que incluye música hawaiana auténtica mezclada con canciones pop contemporáneas"
     }
   },
   {
-    "id": "shafi-goldwasser",
-    "name": "Shafi Goldwasser",
-    "shortDescription": "Científica de la computación, ganadora del Premio Turing.",
-    "description": "Es una destacada criptógrafa y científica de la computación que ha contribuido significativamente a la teoría de la computación y la seguridad de la información. Su trabajo en criptografía de probabilidad y complejidad computacional ha sentado las bases para la seguridad en línea y la privacidad de datos en un mundo cada vez más digitalizado. Goldwasser es un ejemplo de cómo la ciencia de la computación puede abordar desafíos contemporáneos y proteger la información en la era de la información.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/shafi-goldwasser.jpg",
+    "id": "atlantis",
+    "name": "Atlantis: El Imperio Perdido",
+    "shortDescription": " Una emocionante expedición hacia un misterioso mundo subacuático en busca de un antiguo imperio perdido.",
+    "description": "Atlantis: El Imperio Perdido es una emocionante película de Disney que sigue a Milo Thatch, un cartógrafo y lingüista, en su búsqueda para encontrar la legendaria ciudad de Atlantis. Acompañado por un variopinto grupo de exploradores, Milo se embarca en una peligrosa expedición submarina. La película destaca por su impresionante animación, inspirada en el estilo visual de cómics, y su intrigante mezcla de mitología y ciencia ficción. Con una historia llena de acción, descubrimientos y valores como la amistad y la perseverancia, Atlantis es una aventura que inspira y cautiva a espectadores de todas las edades.",
+    "imageUrl": "https://www.aceprensa.com/wp-content/uploads/2001/11/10865-0.jpg",
     "facts": {
-      "yearOfBirth": "1958",
-      "birthPlace": "Nueva York, Estados Unidos",
-      "mainField": "Ciencia de la Computación"
+      "estreno": "2001",
+      "generoPelicula": "Aventura, Ciencia ficción",
+      "clasificacionPelicula": "Descubrimiento",
+      "clasificPublico": "6.9/10",
+      "tiempoDuracion": "96 minutos",
     },
     "extraInfo": {
-      "imageSource": "https://www.jahresbericht2019.unibe.ch/successes_2019/einstein_lectures/index_eng.html"
+      "curiosidades": "'Atlantis: El Imperio Perdido' fue una de las primeras películas de Disney en utilizar animación tradicional combinada con gráficos generados por computadora para crear ambientes submarinos espectaculares."
     }
   },
   {
-    "id": "chien-shiung-wu",
-    "name": "Chien-Shiung Wu",
-    "shortDescription": "Física experimental, contribuyó a la física nuclear.",
-    "description": "Física experimental de origen chino, desafiando los prejuicios de género y nacionalidad, realizó experimentos fundamentales en física de partículas y contribuyó significativamente a la comprensión de la desintegración beta. Su famoso experimento \"Wu\" refutó la paridad en la física de partículas, lo que cambió la forma en que los científicos comprenden las fuerzas fundamentales de la naturaleza. Wu demostró que el talento y la perseverancia pueden superar cualquier barrera, y su legado sigue siendo un faro de inspiración para científicas en todo el mundo.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/chien-shiung-wu.jpg",
+    "id": "big-hero",
+    "name": "Big Hero 6",
+    "shortDescription": "Una historia emocionante sobre un joven prodigio y su robot inflable en una ciudad futurista.",
+    "description": "En 'Big Hero 6', conocemos a Hiro Hamada, un joven genio de la robótica que vive en San Fransokyo, una ciudad futurista y vibrante. Después de sufrir una pérdida devastadora, Hiro se une a Baymax, un robot inflable diseñado para el cuidado de la salud, y a un grupo de amigos con habilidades únicas. Juntos, se convierten en Big Hero 6 y luchan contra un misterioso villano que amenaza con destruir la ciudad. La película combina acción trepidante con temas de amistad, valentía y la importancia de superar la pérdida.",
+    "imageUrl": "https://es.web.img3.acsta.net/pictures/14/09/01/13/43/553593.jpg",
     "facts": {
-      "yearOfBirth": "1912",
-      "yearOfDeath": "1997",
-      "birthPlace": "Liuhe, Taicang, China",
-      "mainField": "Física"
+      "estreno": "2014",
+      "generoPelicula": "Aventura, Acción",
+      "clasificacionPelicula": "Resiliencia",
+      "clasificPublico": "7.8/10",
+      "tiempoDuracion": "102 minutos",
     },
     "extraInfo": {
-      "imageSource": "https://www.thoughtco.com/chien-shiung-wu-biography-3530366"
+      "curiosidades": "'Big Hero 6' está basada en el cómic de Marvel del mismo nombre, pero la trama y los personajes fueron adaptados para tener un enfoque más familiar y emocionalmente profundo"
     }
   },
   {
-    "id": "hedy-lamarr",
-    "name": "Hedy Lamarr",
-    "shortDescription": "Actriz e inventora, contribuyó al desarrollo de la tecnología de espectro ensanchado.",
-    "description": "Actriz austroamericana y científica, fue una mente brillante en la intersección de la tecnología y el entretenimiento. Junto con el compositor George Antheil, inventó un sistema de comunicación secreta durante la Segunda Guerra Mundial que sentó las bases para la tecnología de espectro ensanchado y la comunicación inalámbrica moderna. Lamarr demostró que las mujeres pueden destacar tanto en el cine como en la ciencia, y su legado como inventora ha sido fundamental para el desarrollo de la tecnología de comunicación inalámbrica que usamos en la actualidad.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/hedy-lamarr.jpg",
+    "id": "planeta-tesoro",
+    "name": "El Planeta del Tesoro",
+    "shortDescription": "Una aventura espacial llena de acción en busca de un legendario tesoro intergaláctico.",
+    "description": "En 'El Planeta del Tesoro', Jim Hawkins, un joven audaz y aventurero, descubre un mapa que lo lleva a una búsqueda épica en el espacio por el tesoro del legendario pirata Nathan Flint. A bordo de una nave espacial liderada por el enigmático Capitán Amelia y el cínico cyborg John Silver, Jim enfrenta peligros intergalácticos y aprende lecciones sobre coraje, lealtad y el verdadero significado de la amistad. La película, con su impresionante animación y emocionante trama, transporta a los espectadores a un universo vibrante lleno de intrigas y descubrimientos",
+    "imageUrl": "https://es.web.img2.acsta.net/pictures/14/04/14/12/53/368430.jpg",
     "facts": {
-      "yearOfBirth": "1914",
-      "yearOfDeath": "2000",
-      "birthPlace": "Viena, Austria",
-      "mainField": "Actuación, Física"
+      "estreno": "2002",
+      "generoPelicula": "Aventura, Ciencia ficción",
+      "clasificacionPelicula": "Aventura",
+      "clasificPublico": "7.2/10",
+      "tiempoDuracion": "95 minutos",
     },
     "extraInfo": {
-      "imageSource": "https://www.sparkfun.com/news/6147"
+      "curiosidades": "'El Planeta del Tesoro' es una adaptación animada del clásico literario 'La isla del tesoro' de Robert Louis Stevenson, ambientada en un entorno futurista y espacial. "
     }
   },
   {
-    "id": "maria-goeppert-mayer",
-    "name": "Maria Goeppert Mayer",
-    "shortDescription": "Física teórica, ganadora del Premio Nobel de Física.",
-    "description": "Física teórica alemana-estadounidense, dejó una profunda huella en la física nuclear y la mecánica cuántica. Fue la segunda mujer en recibir el Premio Nobel de Física y su trabajo pionero en la estructura de capas nucleares revolucionó nuestra comprensión de los núcleos atómicos. A pesar de las barreras de género en la academia, su dedicación y talento la llevaron a contribuir significativamente a la teoría nuclear, abriendo el camino para futuras investigadoras en un campo dominado por hombres. Maria Goeppert Mayer es un ejemplo inspirador de excelencia científica y perseverancia en la búsqueda del conocimiento.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/maria-goeppert-mayer.jpg",
+    "id": "encanto-2021",
+    "name": "Encanto",
+    "shortDescription": "Una historia mágica sobre una familia con dones extraordinarios en Colombia.",
+    "description": "'Encanto' transporta a los espectadores a Colombia, donde la familia Madrigal vive en un encantado hogar rodeado de magia. Cada miembro de la familia posee un don especial, excepto Mirabel, quien se embarca en un viaje para descubrir su lugar y salvar la magia de la familia. La película celebra la cultura colombiana a través de su música vibrante y coloridos paisajes, mientras explora temas de autoaceptación, familia y la belleza de ser único. Con personajes entrañables y una narrativa emocionante, 'Encanto' captura el corazón y la imaginación de toda la familia.",
+    "imageUrl": "https://musicart.xboxlive.com/7/2d0e5200-0000-0000-0000-000000000002/504/image.jpg",
     "facts": {
-      "yearOfBirth": "1906",
-      "yearOfDeath": "1972",
-      "birthPlace": "Kattowitz, Alemania",
-      "mainField": "Física"
+      "estreno": "2021",
+      "generoPelicula": "Aventura, Comedia, Musical",
+      "clasificacionPelicula": "Autoaceptación",
+      "clasificPublico": "7.3/10",
+      "tiempoDuracion": "102 minutos",
     },
     "extraInfo": {
-      "imageSource": "https://www.wsemexhibit.org/maria-goeppert-mayer.html"
+      "curiosidades": "'Encanto' es la primera película de Disney Animation inspirada en la cultura colombiana, con música original de Lin-Manuel Miranda. La canción principal, 'Dos Oruguitas', fue nominada al Premio Óscar a la Mejor Canción Original en 2023."
     }
   },
   {
-    "id": "lise-meitner",
-    "name": "Lise Meitner",
-    "shortDescription": "Física nuclear, contribuyó a la teoría de la fisión nuclear.",
-    "description": "Física austriaca-sueca, dejó un legado imborrable en la física nuclear y la radioquímica. A pesar de enfrentar obstáculos de género en una era dominada por hombres, colaboró con Otto Hahn en el descubrimiento de la fisión nuclear, un avance revolucionario. Aunque no compartió el Premio Nobel por este logro, su contribución fue crucial para comprender la energía nuclear y la física de partículas. Su determinación y pasión por la ciencia han inspirado a generaciones de científicas. Lise Meitner es un símbolo perdurable de la perseverancia femenina y el impacto duradero que las mujeres pueden tener en la ciencia.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/lise-meitner.jpg",
+    "id": "frozen-2013",
+    "name": "Frozen",
+    "shortDescription": "Una aventura épica sobre el poder del amor entre dos hermanas y un reino cubierto de hielo eterno.",
+    "description": "Elsa, una princesa con el poder de controlar el hielo y la nieve, desencadena accidentalmente un invierno eterno que sumerge a su reino en un frío incesante. Su valiente hermana Anna, acompañada por Kristoff, un rudo montañista, y Olaf, un simpático muñeco de nieve que cobra vida, se aventuran en una búsqueda para salvar a Arendelle y traer de vuelta el verano. La película no solo es un cuento de hadas moderno con impresionantes efectos visuales y música emocionante, sino que también enseña lecciones sobre el amor, la aceptación y la importancia de aceptarse a uno mismo.",
+    "imageUrl": "https://m.media-amazon.com/images/M/MV5BMTQ1MjQwMTE5OF5BMl5BanBnXkFtZTgwNjk3MTcyMDE@._V1_.jpg",
     "facts": {
-      "yearOfBirth": "1878",
-      "yearOfDeath": "1968",
-      "birthPlace": "Viena, Austria",
-      "mainField": "Física"
+      "estreno": "2013",
+      "generoPelicula": "Aventura, Comedia, Musical",
+      "clasificacionPelicula": "Autoaceptación",
+      "clasificPublico": "7.4/10",
+      "tiempoDuracion": "102 minutos",
     },
     "extraInfo": {
-      "imageSource": "https://www.bing.com/images/create/lise-meitner-in-nuclear-physics-lab-in-19502c-retro/651196e6bbcb4009950e9955c2199760"
+      "curiosidades": "'Frozen' se convirtió en un fenómeno cultural global, ganando dos Premios Óscar y generando una popularidad masiva entre niños y adultos por igual. La canción 'Let It Go' se convirtió en un himno y fue interpretada en múltiples idiomas alrededor del mundo."
     }
   },
   {
-    "id": "sau-lan-wu",
-    "name": "Sau Lan Wu",
-    "shortDescription": "Física de partículas, contribuyó a experimentos clave en física de alta energía.",
-    "description": "Física experimental sinoamericana, ha sido una fuerza motriz en la física de partículas. Destacó en experimentos en el CERN y lideró investigaciones cruciales, como el descubrimiento del quark c, que expandieron nuestro entendimiento de la estructura fundamental de la materia. Wu superó desafíos en una disciplina dominada por hombres y ha sido un faro de inspiración para científicas de todo el mundo. Sau Lan Wu es un ejemplo de excelencia científica y de cómo las mujeres pueden dejar huella en la investigación de vanguardia.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/sau-lan-wu.jpg",
+    "id": "enredados-2010",
+    "name": "Enredados",
+    "shortDescription": "Una historia sobre una princesa con un pelo mágico y un ladrón encantador en busca de aventuras.",
+    "description": "En 'Enredados', conocemos a Rapunzel, una joven princesa con un cabello dorado mágico que le da poderes curativos. Encerrada en una torre desde su infancia por una malvada bruja llamada Madre Gothel, Rapunzel anhela explorar el mundo exterior. Cuando Flynn Rider, un ladrón encantador, irrumpe en su torre, comienza una emocionante aventura llena de acción, romance y descubrimientos sorprendentes. La película no solo cautiva con su animación impresionante y música memorable, sino que también enseña lecciones sobre el coraje, la determinación y la importancia de seguir nuestros sueños.",
+    "imageUrl": "https://es.web.img3.acsta.net/medias/nmedia/18/79/96/30/19541005.jpg",
     "facts": {
-      "yearOfBirth": "1940",
-      "birthPlace": "Hong Kong, China",
-      "mainField": "Física de Partículas"
+      "estreno": "2010",
+      "generoPelicula": "Aventura, Comedia, Musical",
+      "clasificacionPelicula": "Determinación",
+      "clasificPublico": "7.7/10",
+      "tiempoDuracion": "100 minutos",
     },
     "extraInfo": {
-      "imageSource": "https://repository.aip.org/islandora/object/nbla%3A315195"
+      "curiosidades": "'Enredados' marcó un hito en la animación digital de Disney al ser la primera película en usar el programa de animación 'Meander', desarrollado específicamente para crear efectos de luz y sombra similares a los de un cuadro al óleo."
     }
   },
   {
-    "id": "jocelyn-bell-burnell",
-    "name": "Jocelyn Bell Burnell",
-    "shortDescription": "Astrónoma y astrofísica, co-descubridora de los púlsares.",
-    "description": "Astrofísica británica, es una figura extraordinaria en la ciencia. Durante su doctorado, hizo un descubrimiento revolucionario al detectar los primeros púlsares, estrellas de neutrones altamente magnetizadas que emiten pulsos regulares de radiación. A pesar de que su asesor recibió el Premio Nobel por este descubrimiento, Bell Burnell se ha convertido en un símbolo de perseverancia y contribución de las mujeres a la astronomía. Su carrera distinguida y su activismo en favor de la diversidad de género en la ciencia han inspirado a generaciones futuras de científicas. Jocelyn Bell Burnell es un ejemplo de valentía y excelencia científica.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/jocelyn-bell-burnell.jpg",
+    "id": "princesa-sapo",
+    "name": "La Princesa y el Sapo",
+    "shortDescription": "Una encantadora historia ambientada en Nueva Orleans sobre amor, magia y transformación.",
+    "description": "Tiana es una joven trabajadora con un sueño: abrir su propio restaurante. Cuando un príncipe convertido en rana, Naveen, busca su ayuda para romper un hechizo, ambos se embarcan en una emocionante aventura por los pantanos de Louisiana. A través de giros y desafíos, aprenden lecciones sobre el verdadero valor del amor y la importancia de seguir tus sueños. La película no solo deleita con su animación vibrante y música jazzística, sino que también celebra la cultura afroamericana y transmite un mensaje poderoso de perseverancia y sacrificio.",
+    "imageUrl": "https://i.pinimg.com/originals/15/ea/11/15ea11588db2f9e23aac9f747b63a19f.jpg",
     "facts": {
-      "yearOfBirth": "1943",
-      "birthPlace": "Belfast, Reino Unido",
-      "mainField": "Astronomía, Astrofísica"
+      "estreno": "2009",
+      "generoPelicula": "Aventura, Comedia, Musical",
+      "clasificacionPelicula": "Perseverancia",
+      "clasificPublico": "7.1/10",
+      "tiempoDuracion": "97 minutos",
     },
     "extraInfo": {
-      "imageSource": "https://womeninscienceweadmire.icfo.eu/wiswa-2/jocelyn-bell/"
+      "curiosidades": "'La Princesa y el Sapo' es notable por ser la primera película de Disney Animation en presentar a una princesa afroamericana como protagonista"
     }
   },
   {
-    "id": "dorothy-crowfoot-hodgkin",
-    "name": "Dorothy Crowfoot Hodgkin",
-    "shortDescription": "Química, ganadora del Premio Nobel de Química.",
-    "description": "Química británica, es una figura icónica en la ciencia que superó las barreras de género de su época. Su trabajo revolucionario en la cristalografía de rayos X permitió determinar la estructura de importantes biomoléculas, como la penicilina, la vitamina B12 y la insulina. Fue galardonada con el Premio Nobel de Química en 1964, siendo la tercera mujer en recibir este prestigioso reconocimiento. Hodgkin no solo fue una científica excepcional, sino también una defensora de la igualdad de género en la ciencia, allanando el camino para futuras generaciones de científicas y dejando un legado duradero en la investigación y la equidad.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/dorothy-crowfoot-hodgkin.jpg",
+    "id": "mulan-1998",
+    "name": "Mulan",
+    "shortDescription": "Una joven valiente se disfraza de guerrero para salvar a su familia y su patria. Inspiradora, y llena de valor",
+    "description": "Mulán es una joven china que decide tomar el lugar de su anciano padre en el ejército imperial, haciéndose pasar por un hombre. Con la ayuda de su dragón guardián, Mushu, y un grupo de soldados divertidos, Mulán se enfrenta a desafíos tanto físicos como emocionales mientras lucha contra los invasores hunos liderados por Shan Yu. La película no solo es una epopeya de acción y aventura, sino también un poderoso relato sobre el valor, la determinación y el respeto por la familia y la tradición.",
+    "imageUrl": "https://www.lavanguardia.com/peliculas-series/images/movie/poster/1998/6/w1280/towmTJ0k29quKI9IDnOZKAAtQx.jpg",
     "facts": {
-      "yearOfBirth": "1910",
-      "yearOfDeath": "1994",
-      "birthPlace": "El Cairo, Egipto / Shipston-on-Stour, Reino Unido",
-      "mainField": "Química"
+      "estreno": "1998",
+      "generoPelicula": "Aventura,Drama",
+      "clasificacionPelicula": "Valentía",
+      "clasificPublico": "7.6/10",
+      "tiempoDuracion": "88 minutos",
     },
     "extraInfo": {
-      "imageSource": "https://www.some.ox.ac.uk/news/jan-royall-why-we-must-champion-dorothy-hodgkin-for-the-50-note/"
+      "curiosidades": "'Mulan' es inspirada en una antigua leyenda china de una mujer que se disfraza de hombre para luchar en lugar de su padre. La película fue elogiada por su representación cultural y feminista, siendo una de las primeras de Disney en presentar a una heroína que desafía los roles de género tradicionales."
     }
   },
   {
-    "id": "marie-curie",
-    "name": "Marie Curie",
-    "shortDescription": "Física y química, ganadora de dos Premios Nobel.",
-    "description": "física y química de origen polaco y nacionalizada francesa, es una de las figuras más icónicas en la historia de la ciencia. Ganadora de dos premios Nobel (Física en 1903 y Química en 1911), Curie realizó investigaciones fundamentales sobre la radiactividad y el descubrimiento de los elementos radio y polonio. Su dedicación y valentía en la investigación científica, a pesar de los desafíos de la discriminación de género y los riesgos de la radiación, la convierten en un modelo a seguir para científicas de todo el mundo.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/marie-curie.jpg",
+    "id": "mundo-jack",
+    "name": "El Extraño Mundo de Jack",
+    "shortDescription": "Una película animada que fusiona el encanto de Halloween con la magia de la Navidad.",
+    "description": "El Extraño Mundo de Jack cuenta la historia de Jack Skellington, el Rey de Halloween, quien se cansa de celebrar siempre la misma fiesta cada año. Cuando descubre accidentalmente la Ciudad de la Navidad, se obsesiona con traer el espíritu navideño a su oscuro reino de Halloween. Sin embargo, sus intentos de recrear la Navidad llevan a resultados cómicos y desastrosos. A través de la historia de Jack, la película explora temas de autodescubrimiento, aceptación y la importancia de ser fiel a uno mismo.",
+    "imageUrl": "https://static.wixstatic.com/media/51d250_0469ccba361b4111bf43aab68e012386~mv2.jpg/v1/fill/w_800,h_1200,al_c,q_85,enc_auto/51d250_0469ccba361b4111bf43aab68e012386~mv2.jpg",
     "facts": {
-      "yearOfBirth": "1867",
-      "yearOfDeath": "1934",
-      "birthPlace": "Varsovia, Polonia",
-      "mainField": "Física y Química"
+      "estreno": "1993",
+      "generoPelicula": "Fantasía, Musical",
+      "clasificacionPelicula": "Autenticidad",
+      "clasificPublico": "8/10",
+      "tiempoDuracion": "76 minutos",
     },
     "extraInfo": {
-      "imageSource": "https://www.historyextra.com/period/first-world-war/life-of-the-week-marie-curie/"
+      "curiosidades": "'El Extraño Mundo de Jack' fue inicialmente concebida por Tim Burton como un poema en los años 80, antes de ser adaptada en una película animada. Aunque a menudo se asocia con Tim Burton como director, en realidad fue dirigida por Henry Selick, quien también trabajó en 'Coraline'."
     }
   },
   {
-    "id": "marjory-stephenson",
-    "name": "Marjory Stephenson",
-    "shortDescription": "Microbióloga y bioquímica, investigó en enzimología.",
-    "description": "Bioquímica británica, brilló como científica en una época en la que las mujeres enfrentaban obstáculos muy significativos en la investigación científica. Su trabajo pionero en microbiología, enzimología y bioquímica contribuyó al entendimiento de procesos fundamentales en la vida. Fue una de las primeras mujeres en ser elegida miembro de la Royal Society, un reconocimiento a su destacada contribución a la ciencia. Además, fue una mentora y defensora de las mujeres en la ciencia, inspirando y allanando el camino para futuras generaciones.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/marjory-stephenson.jpg",
+    "id": "tarzan-1999",
+    "name": "Tarzan",
+    "shortDescription": "Una emocionante aventura animada sobre un niño criado por gorilas en la jungla africana.",
+    "description": "Un niño que es adoptado por una familia de gorilas después de la muerte de sus padres en un naufragio. A medida que crece, Tarzán desarrolla habilidades extraordinarias y se adapta a la vida en la selva. Su vida cambia cuando conoce a Jane, una exploradora y científica, y se enfrenta a la amenaza de los cazadores furtivos que buscan explotar la naturaleza. La película, dirigida por Chris Buck y Kevin Lima, destaca por su animación impresionante, la icónica banda sonora de Phil Collins y su mensaje sobre la importancia del respeto hacia la naturaleza y la diversidad cultural.",
+    "imageUrl": "https://es.web.img3.acsta.net/pictures/14/03/17/11/47/596263.jpg",
     "facts": {
-      "yearOfBirth": "1885",
-      "yearOfDeath": "1948",
-      "birthPlace": "Londres, Reino Unido",
-      "mainField": "Química, Microbiología, Bioquímica"
+      "estreno": "1993",
+      "generoPelicula": "Aventura, Drama",
+      "clasificacionPelicula": "Identidad",
+      "clasificPublico": "7.3/10",
+      "tiempoDuracion": "88 minutos",
     },
     "extraInfo": {
-      "imageSource": "https://microbiologysociety.org/grants-prizes/all-prizes-and-competitions-/prize-lectures/marjory-stephenson-prize-lecture/marjory-stephenson-a-short-history.html"
+      "curiosidades": "'Tarzan' fue el primer largometraje animado de Disney en utilizar tecnología digital para pintar los fondos. La película ganó el Premio Óscar a la Mejor Canción Original por 'You'll Be in My Heart' de Phil Collins, que se convirtió en un éxito internacional."
     }
   },
   {
-    "id": "rosalind-franklin",
-    "name": "Rosalind Franklin",
-    "shortDescription": "Química y cristalógrafa, contribuyó a la comprensión de la estructura del ADN.",
-    "description": "Química y cristalógrafa británica, destacó en un campo dominado por hombres y su contribución a la ciencia es innegable. Sus investigaciones pioneras en la cristalografía de rayos X fueron fundamentales para revelar la estructura del ADN en forma de doble hélice, un hito crucial en la biología molecular. A pesar de que su trabajo inicial fue subestimado, su determinación y habilidad científica allanaron el camino para futuros avances en genética y biología. Franklin es un ejemplo inspirador de cómo las mujeres pueden sobresalir en la ciencia, dejando un legado duradero en la investigación y la igualdad de género.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/rosalind-franklin.jpg",
+    "id": "hercules-1997",
+    "name": "Hércules",
+    "shortDescription": "Una épica historia que sigue los pasos de Hércules, un semidiós en busca de su verdadero lugar en el Olimpo",
+    "description": "En 'Hércules', conocemos la historia del poderoso semidiós griego nacido de los dioses Zeus y Hera. Criado como un humano en la Tierra, Hércules descubre su verdadera identidad y su destino como héroe cuando debe demostrar su valía enfrentando peligrosos desafíos y criaturas mitológicas. Con la ayuda de su fiel amigo Filoctetes y la sabiduría de los dioses del Olimpo, Hércules se embarca en una aventura llena de acción y humor para restaurar su estatus divino y ganarse el amor de Megara, una mujer con un oscuro pasado.",
+    "imageUrl": "https://www.lavanguardia.com/peliculas-series/images/movie/poster/1997/6/w1280/4Q2rLG6a9fJhKM5emIYLzgw4HCa.jpg",
     "facts": {
-      "yearOfBirth": "1920",
-      "yearOfDeath": "1958",
-      "birthPlace": "Londres, Reino Unido",
-      "mainField": "Química, Cristalografía"
+      "estreno": "1997",
+      "generoPelicula": "Aventura, Comedia, Musical",
+      "clasificacionPelicula": "Autoaceptación",
+      "clasificPublico": "7.3/10",
+      "tiempoDuracion": "93 minutos",
     },
     "extraInfo": {
-      "imageSource": ""
+      "curiosidades": "'Hércules' es conocida por su estilo artístico único inspirado en el arte griego antiguo, especialmente en sus escenas de acción y los diseños de los personajes."
     }
-  }
+  },
 ];
