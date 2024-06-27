@@ -1,6 +1,5 @@
 export const renderItems = (data) => {
   const ul = document.createElement("ul");
-
   data.forEach((pelicula) => {
     const li = document.createElement("li");
     li.innerHTML = `
