@@ -4,37 +4,50 @@
     <meta charset="utf-8">
     <title>Dataverse</title>
     <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
   </head>
-  <header>
+  <header>  
     <h1>Dreamland</h1>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Aclonica&display=swap" rel="stylesheet">
   </header>
   <body>
     <main>
       <h2>Aquí encontrarás una guía de distintas peliculas de Disney y Pixar</h2>
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Henny+Penny&display=swap" rel="stylesheet">
 
+<div class="selectores"> 
       <label for="enseñanza">Enseñanza</label>
       <select id="enseñanza" data-testid="select-filter" name="enseñanza">selecciona tu enseñanza</select>
 
       <label for="nombre">Nombre</label>
       <select id="nombre" data-testid="select-sort" name="name">
-        <option value="asc">A - Z</option>
-        <option value="desc">Z - A</option>
+        <option value="Asc">A - Z</option>
+        <option value="Desc">Z - A</option>
       </select>
-
-      <label for="seleccion">selecciona por</label>
+        <label for="seleccion">Selecciona Por</label>
       <select id="seleccion" data-testid="select-sort" name="seleccion">
-        <option value="score">puntaje</option>
-        <option value="year">año</option>
-        <option value="category">género</option>
+        <option value="score">Puntaje</option>
+        <option value="year">Año</option>
+        <option value="category">Género</option>
       </select>
 
-      <label for="orden">ordena por</label>
+      <label for="orden">Ordenar Por</label>
       <select id="orden" name="sort-order">
-        <option value="asc">de menor a mayor</option>
-        <option value="desc">de mayor a menor</option>
+        <option value="Asc">De Menor a Mayor</option>
+        <option value="Desc">De Mayor a Menor</option>
       </select>
 
-      <button data-testid="button-clear">limpiar filtros</button>
+      <button data-testid="button-clear">Limpiar Filtros</button>
+    </div>
       <div id="disneyinfo"></div>
     </main>
     <script src="main.js" type="module"></script>
