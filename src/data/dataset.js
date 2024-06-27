@@ -174,7 +174,7 @@ export default [
     "name": "Soul",
     "shortDescription": "Descubre el significado de la vida a través de los ojos de un músico apasionado.",
     "description": "Joe Gardner, es un talentoso pianista de jazz cuya pasión por la música es palpable. Cuando tiene la oportunidad de realizar su sueño tocando en un club de renombre, un giro del destino lo lleva a un viaje inesperado entre el mundo terrenal y el 'Gran Antes', donde las almas encuentran su chispa antes de nacer. Junto a 22, un alma cínica que aún no encuentra su propósito, Joe aprende lecciones profundas sobre la vida, el propósito y la importancia de cada experiencia que nos moldea como individuos.",
-    "imageUrl": "https://es.web.img3.acsta.net/pictures/20/03/24/14/59/1973735.jpg",
+    "imageUrl": "https://myhotposters.com/cdn/shop/products/mL4925_1024x1024.jpg",
     "facts": {
       "estreno": "2020",
       "generoPelicula": "Aventura, Comedia, Drama",

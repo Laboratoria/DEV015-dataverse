@@ -4,12 +4,14 @@ export const renderItems = (data) => {
 
   data.forEach((pelicula) => {
     const li = document.createElement("li");
-    li.classList.add("tarjetasPelis")
+    li.classList.add("tarjeta")
     li.innerHTML = `
-    <div class="tarjeta">
+    <div>
       <div class="titulo"><h3 itemprop = "name"> ${pelicula.name} </h3> </div>
-      <img class="imagenPeli" src="${pelicula.imageUrl}" alt="${pelicula.id}">
-      <div class="descripcion"> <p> Descripción: ${pelicula.shortDescription}</p> </div>
+      <div class="contenedorContenido">
+      <div class="contenedorImagen"><img class="imagenPeli" src="${pelicula.imageUrl}" alt="${pelicula.id}"></div>
+      <div class="contenedorTextos">
+      <div class="descripcion"> <span> Descripción: ${pelicula.shortDescription}</span> </div>
       <div class="resumen"> <p>Resumen: ${pelicula.description}</p> </div>
       <div class="hechos"> 
         <p>Año de estreno: ${pelicula.facts.estreno}</p>
@@ -17,7 +19,8 @@ export const renderItems = (data) => {
         <p>Clasificacion de publico: ${pelicula.facts.clasificPublico}</p>
         <p>Tiempo de duración: ${pelicula.facts.tiempoDuracion}</p>
       </div>
-      <div class="curiosidades"> <p>Curiosidades: ${pelicula.extraInfo.curiosidades}</p> </div>
+      </div>
+      </div>
     </div>
 `;
     ul.appendChild(li);
