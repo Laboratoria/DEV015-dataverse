@@ -31,27 +31,22 @@
     <link href="https://fonts.googleapis.com/css2?family=Henny+Penny&display=swap" rel="stylesheet">
 
     <div class="selectores">
-      <label for="enseñanza">Enseñanza</label>
-      <select id="enseñanza" data-testid="select-filter" name="enseñanza">selecciona tu enseñanza</select>
+      <label for="epoca">Seleccionar por épocas</label>
+      <select id="epoca" data-testid="select-filter" name="epocas">
+      <option value="0">Seleccionar</option>
+      <option value="1990">1990</option>
+      <option value="2000">2000</option>
+      <option value="2010">2010</option>
+      <option value="2020">2020</option>
+    </select>
 
-      <label for="nombre">Nombre</label>
+      <label for="nombre">Ordenar por nombre</label>
       <select id="nombre" data-testid="select-sort" name="name">
+        <option value="0">Ordenar</option>
         <option value="Asc">A - Z</option>
         <option value="Desc">Z - A</option>
       </select>
-      <label for="seleccion">Selecciona Por</label>
-      <select id="seleccion" data-testid="select-sort" name="seleccion">
-        <option value="score">Puntaje</option>
-        <option value="year">Año</option>
-        <option value="category">Género</option>
-      </select>
-
-      <label for="orden">Ordenar Por</label>
-      <select id="orden" name="sort-order">
-        <option value="Asc">De Menor a Mayor</option>
-        <option value="Desc">De Mayor a Menor</option>
-      </select>
-
+    
       <button data-testid="button-clear">Limpiar Filtros</button>
     </div>
     <div id="disneyinfo"></div>
