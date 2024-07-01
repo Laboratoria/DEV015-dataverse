@@ -71,3 +71,141 @@ ul#pokemon-list li div div {
 ul#pokemon-list li:hover div div {
   display: block;
 }
+ul#pokemon-list {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+ul#pokemon-list li {
+  width: 200px;
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  position: relative; /* Necesario para el posicionamiento del cuadro de datos curiosos */
+}
+
+ul#pokemon-list li img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+ul#pokemon-list li h3 {
+  font-size: 1.2em;
+  margin-top: 0.5em;
+}
+
+ul#pokemon-list li p {
+  font-size: 0.9em;
+  margin-top: 0.5em;
+}
+
+.pokemon-list li .facts {
+  display: none;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  z-index: 10;
+  width: calc(100% - 20px);
+}
+
+.pokemon-list li:hover .facts {
+  display: block;
+}
+
+.pokemon-list li .facts h4 {
+  margin: 0;
+  font-size: 1.1em;
+  color: #333;
+}
+
+.pokemon-list li .facts p {
+  font-size: 0.9em;
+  color: #666;
+  margin: 0.5em 0 0 0;
+}
+
+/* Estilos para las tarjetas de Pokémon */
+ul#pokemon-list {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+ul#pokemon-list li {
+  width: 200px;
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  position: relative; /* Necesario para el posicionamiento del cuadro de datos curiosos */
+  overflow: hidden; /* Oculta el cuadro de datos curiosos inicialmente */
+  transition: transform 0.3s ease-in-out; /* Transición suave para el efecto de escala */
+}
+
+ul#pokemon-list li:hover {
+  transform: scale(1.05); /* Efecto de escala al hacer hover */
+}
+
+ul#pokemon-list li img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+ul#pokemon-list li h3 {
+  font-size: 1.2em;
+  margin-top: 0.5em;
+}
+
+ul#pokemon-list li p {
+  font-size: 0.9em;
+  margin-top: 0.5em;
+}
+
+ul#pokemon-list li .facts {
+  display: none; /* Oculta datos curiosos inicialmente */
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(240, 240, 240, 0.95); /* Fondo semi-transparente */
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow-y: auto;
+}
+
+ul#pokemon-list li:hover .facts {
+  display: block; /* Muestra datos curiosos al hacer hover */
+}
+
+ul#pokemon-list li .facts h4 {
+  margin: 0;
+  font-size: 1.1em;
+  color: #333;
+}
+
+ul#pokemon-list li .facts p {
+  font-size: 0.9em;
+  color: #666;
+  margin: 0.5em 0 0 0;
+}
+

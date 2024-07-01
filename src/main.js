@@ -64,6 +64,28 @@ document.addEventListener("DOMContentLoaded", () => {
   document.getElementById("word").addEventListener("change", handleWordChange);
   document.getElementById("clear").addEventListener("click", handleClearClick);
 
+   // Asignar eventos de hover para mostrar datos curiosos
+   const pokemonListElement = document.getElementById("pokemon-list");
+   pokemonListElement.addEventListener("mouseover", function (event) {
+     if (event.target.tagName === "LI") {
+       const facts = event.target.querySelector(".facts");
+       if (facts) {
+         facts.style.display = "block";
+       }
+     }
+   });
+ 
+   pokemonListElement.addEventListener("mouseout", function (event) {
+     if (event.target.tagName === "LI") {
+       const facts = event.target.querySelector(".facts");
+       if (facts) {
+         facts.style.display = "none";
+       }
+     }
+   });
+ 
+  
+
   // Carga inicial de la aplicación
   initializeApp();
 });
