@@ -8,6 +8,8 @@ import { data as fakeData } from '../../test/data.js';
 const html = fs.readFileSync('./src/index.html', 'utf-8');
 document.body.innerHTML = html;
 
+
+
 const renderDOM = (data) => {
   const items = renderItems(data);
   // function renderItems can return html string or an node element

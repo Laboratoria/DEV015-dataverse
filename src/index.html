@@ -1,11 +1,114 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8">
+    <meta charset="utf-8" />
     <title>Dataverse</title>
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript">
+      google.charts.load('current', {'packages':['corechart']});
+      google.charts.setOnLoadCallback(drawChart);
+
+      function drawChart() {
+
+        var data = google.visualization.arrayToDataTable([
+          ['Task', 'Hours per Day'],
+          ['Dog',     50.50],
+          ['Cat',      50.50],
+          ['Male',  45.83],
+          ['Female', 54.17],
+        ]);
+
+        var options = {
+          title: 'Stadistics'
+        };
+
+        var chart = new google.visualization.PieChart(document.getElementById('piechart'));
+
+        chart.draw(data, options);
+      }
+    </script>
   </head>
   <body>
+
+    <header>
+      <img src="img/Logo (1).png" alt="Logo">
+      <h1></h1>
+    <nav class="navbar">
+          <a href="#Filter">Filter</a>
+          <a href="#Stadistics">Stadistics</a>
+          <a href="#About us">About us</a>
+          <a href="#Donate">Donate</a>
+    </nav>
+
+    <div class="icons">
+      <img src="https://img.icons8.com/?size=100&id=123945&format=png&color=471863" class="Heart"></img>
+      <img src="https://img.icons8.com/?size=100&id=85356&format=png&color=471863" class="Account"></img>
+    </div>
+    
+    </header>
+    <main>
+      <div class="image-container"></div>    
+      <img src="img/image 26.png" alt="perro portada" title="perro portada" class="imgperro">
+      <p class="adopt-a-pet">Adopt a pet</p>
+      <p class="subtitle">A loyal friend awaits you</p>
+      <p class="description1">give a loving home to a pet in need. Experience the joy</p> 
+      <p class="description2">and unconditional love that only a rescued pet can orffer.</p>
+    </div>
+      <p class="our-animals">Our Animals</p> 
+      <input type="checkbox" name="collapse" id="select" checked="checked">
+        <h2 class="handle">
+         <label for="select">
+          <span class="material-symbols-outlined">
+            pets
+            </span>
+          I want to see:
+        </label>
+        </h2>
+        
+        <div class="content">
+          <select id="filter-select" name="campo">
+            <option value="">Select Pet</option>
+            <option value="Dog">Dog</option>
+            <option value="Cat">Cat</option>
+          </select>
+    
+          <label for="gender-select"></label>
+          <select id="gender-select" name="campo1" data-testid="select-filter">
+            <option value="">All gender</option>
+            <option value="Female">Female</option>
+            <option value="Male">Male</option>
+          </select>
+    
+          <label for="size-select"></label>
+          <select id="size-select" name="campo2">
+            <option value="">Pet size</option>
+            <option value="Small">Small</option>
+            <option value="Big">Big</option>
+          </select>
+          <select  data-testid="sort" name="sort" id="ordenar">
+            <option value="">Ordenar A-Z</option>
+            <option value="asc">A-Z</option>
+            <option value="desc">Z-A</option>
+          </select>
+
+          <div id="button-container">
+            <button id="reset-button">Clear</button>
+          </div>
+        </div>
+    </section>
+    </main>
+<div>
+    <div id="root">
+      </select>
+      <button id="compute-stats-btn">Calculate statistics</button>
+      <div id="piechart" style="width: 900px; height: 500px;"></div>
+      <div id="results"></div>
+>
     <script src="main.js" type="module"></script>
+  </div>
+
+  <footer>Created By Bárbara & Yesenia | All Rights Reserved</footer>
   </body>
 </html>

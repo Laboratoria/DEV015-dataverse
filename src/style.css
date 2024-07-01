@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+  margin: 0; padding: 0;
+  font-family: "Montserrat", sans-serif;
+  outline: none; border: none;
+  text-decoration: none;
+  text-transform: capitalize;
+  transition: .2s linear;
+}
+.navbar a {
+  font-family: "Montserrat", sans-serif;
+  text-decoration: none;
+  color: #511D00;
+  margin: 10px;
+}
+header img {
+  height: 60px;
+  padding-left: 50px; 
+}
+.Heart, .Account {
+  width: 40px; 
+  height: 40px; 
+  padding-right: 10px;
+  
+}
+.imgperro {
+  width: 100%;
+  height: auto;
+}
+.adopt-a-pet {
+  position: absolute; /* Posiciona el texto de forma absoluta dentro del contenedor */
+  top: 30%; /* Ajusta la posición vertical según sea necesario */
+  left: 8%; /* Ajusta la posición horizontal según sea necesario */
+  transform: translate(-20%, -20%); /* Ajuste de la posición */  
+  padding: 10px; /* Espaciado interno */
+  color: #6F4F84;
+  font-size: 36px;
+  font-weight: bold;
+}
+.subtitle {
+  position: absolute; /* Posiciona el texto de forma absoluta dentro del contenedor */
+  top: 40%; /* Ajusta la posición vertical según sea necesario */
+  left: 10%; /* Ajusta la posición horizontal según sea necesario */
+  transform: translate(-20%, -20%); /* Ajuste de la posición */  
+  padding: 10px; /* Espaciado interno */
+  color: #511D00;
+  font-size: 24px;
+  font-weight: bold;
+}
+.description1 {
+  position: absolute; /* Posiciona el texto de forma absoluta dentro del contenedor */
+  top: 48%; /* Ajusta la posición vertical según sea necesario */
+  left: 10%; /* Ajusta la posición horizontal según sea necesario */
+  transform: translate(-20%, -20%); /* Ajuste de la posición */  
+  padding: 10px; /* Espaciado interno */
+  color: #511D00;
+  font-size: 12px;
+}
+.description2 {
+  position: absolute; /* Posiciona el texto de forma absoluta dentro del contenedor */
+  top: 52%; /* Ajusta la posición vertical según sea necesario */
+  left: 10%; /* Ajusta la posición horizontal según sea necesario */
+  transform: translate(-20%, -20%); /* Ajuste de la posición */  
+  padding: 10px; /* Espaciado interno */
+  color: #511D00;
+  font-size: 12px;
+}
+header {
+  display: flex;
+  font-family: "Montserrat", sans-serif;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #DFD3C3;
+  padding: 10px 10px;
+  outline: none; border: none;
+}
+
+.our-animals {
+  background-color: #DFD3C3;
+  font-size: 24px;          
+  font-weight: bold;        
+  color: #511D00;          
+  text-align: center;          
+  padding: 10px 10px;
+}       
+footer {
+  background-color: #FFFFFF;
+  color: #511D00;
+  text-align: center;
+  padding: 10px 0;
+}
+@media (max-width:600px){
+
+}
+
