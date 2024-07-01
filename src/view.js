@@ -4,8 +4,8 @@ export function renderPokemonList(pokemonList) {
 
   pokemonList.forEach((pokemon) => {
     const li = document.createElement("li");
-    li.setAttribute("itemscope", "");
-    li.setAttribute("itemtype", "http://schema.org/ItemList");
+    li.setAttribute("itemscope", "true");
+    li.setAttribute("itemtype", "http://schema.org/ItemPokemon");
 
     const image = pokemon.image
       ? `<img src="${pokemon.image}" alt="${pokemon.name}" itemprop="image">`
@@ -55,7 +55,7 @@ export function renderPokemonList(pokemonList) {
       : "";
 
     li.innerHTML = `
-      <div>
+      <div> 
         ${image}
         ${name}
         ${type}
@@ -70,7 +70,11 @@ export function renderPokemonList(pokemonList) {
         ${defense}
         ${speed}
         ${facts}
+
+        
+       
       </div>
+      
     `;
 
     // Agregar evento de clic para imprimir información en la consola
@@ -79,6 +83,7 @@ export function renderPokemonList(pokemonList) {
       // console.log(pokemon);
     });
 
+    
     pokemonListElement.appendChild(li);
   });
 }
