@@ -1,378 +1,337 @@
 export default [
   {
-    "id": "ada-lovelace",
-    "name": "Ada Lovelace",
-    "shortDescription": "Pionera en la programación, primera programadora de la historia.",
-    "description": "Una visionaria matemática británica del siglo XIX, es aclamada como la primera programadora de la historia. Su colaboración con Charles Babbage en la creación de la Máquina Analítica la llevó a desarrollar algoritmos, incluyendo el famoso \"algoritmo de Bernoulli\", destinados a ser procesados por una máquina. Su visión pionera la convirtió en una figura fundamental en la informática y la inteligencia artificial. Lovelace demostró que las computadoras podían ir más allá de simples cálculos matemáticos, anticipando un mundo donde la programación sería esencial en la resolución de problemas complejos, dejando una huella imborrable en la ciencia y la tecnología.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/ada-lovelace.jpg",
-    "facts": {
-      "yearOfBirth": "1815",
-      "yearOfDeath": "1852",
-      "birthPlace": "Londres, Reino Unido",
-      "mainField": "Ciencia de la Computación"
+    id: "miles_morales_001",
+    name: "Miles Morales",
+    shortDescription: "El joven Spider-Man de Brooklyn.",
+    description:
+      "Miles Morales es un adolescente afro-latino de Brooklyn que se convierte en Spider-Man después de ser mordido por una araña radiactiva. Él lucha por encontrar su lugar en el mundo mientras equilibra su vida escolar, su familia y su responsabilidad como héroe. Con el tiempo, aprende a aceptar su papel y a dominar sus habilidades únicas. Miles posee habilidades similares a las de Peter Parker, como trepar paredes y el sentido arácnido, pero también puede volverse invisible y generar explosiones de veneno. Su valentía y determinación lo hacen un digno sucesor del manto de Spider-Man.",
+    imageUrl: "https://res.cloudinary.com/db3qclbrk/image/upload/v1719354547/Spider-Man_Across_the_Spider-Verse_poster_030_textless_fv9dgq.webp",
+    facts: {
+      gender: "Masculino",
+      species: "Humano",
+      age: 16,
+      city: "Brooklyn",
     },
-    "extraInfo": {
-      "imageSource": "https://www.bing.com/images/create/genera-una-imagen-de-ada-lovelace2c-la-primera-prog/650a1eff8ff04b88833d5cdef0309441"
-    }
   },
   {
-    "id": "emmy-noether",
-    "name": "Emmy Noether",
-    "shortDescription": "Matemática destacada, teorema fundamental en álgebra abstracta.",
-    "description": "Una brillante matemática alemana, revolucionó la física teórica con sus contribuciones al teorema de conservación de la energía y el teorema de Noether, fundamentales en la teoría de la relatividad y la mecánica cuántica. A pesar de los obstáculos que enfrentó como mujer en la academia, sus investigaciones en álgebra abstracta y teoría de grupos son fundamentales en la física moderna. Su capacidad para unificar conceptos matemáticos y físicos marcó un hito en la historia de la ciencia, allanando el camino para futuras generaciones de científicas.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/emmy-noether.jpg",
-    "facts": {
-      "yearOfBirth": "1882",
-      "yearOfDeath": "1935",
-      "birthPlace": "Erlangen, Alemania",
-      "mainField": "Matemáticas"
+    id: "peter_parker_002",
+    name: "Peter Parker",
+    shortDescription: "El Spider-Man original y mentor de Miles.",
+    description:
+      "Peter Parker es el Spider-Man original que sirve como mentor para Miles Morales. Después de años de luchar contra el crimen en Nueva York, Peter tiene una gran experiencia y conocimiento sobre lo que significa ser Spider-Man. A pesar de sus propios problemas personales, se esfuerza por guiar a Miles y ayudarlo a convertirse en un héroe responsable. Peter es conocido por su ingenio rápido y su determinación inquebrantable. Sus habilidades incluyen trepar paredes, una fuerza y agilidad mejoradas, y el famoso sentido arácnido. Es un líder natural y un héroe venerado.",
+    imageUrl: "https://res.cloudinary.com/db3qclbrk/image/upload/v1718729776/02-Peter_Parker_k6yjvi.jpg",
+    facts: {
+      gender: "Masculino",
+      species: "Humano",
+      age: 28,
+      city: "Nueva York",
     },
-    "extraInfo": {
-      "imageSource": "https://www.bing.com/images/create/create-an-image-of-of-a-german-woman2c-a-pioneering/6510ddb1e8254b928b8f8f1d5e95fea4"
-    }
   },
   {
-    "id": "hypatia-de-alejandria",
-    "name": "Hypatia de Alejandría",
-    "shortDescription": "Matemática y filósofa en la antigua Alejandría.",
-    "description": "Filósofa y matemática en la antigua Alejandría, desafió las normas de género de su época al destacar en una sociedad dominada por hombres. Su legado incluye importantes contribuciones a la geometría y la astronomía, así como su destacado papel como maestra y defensora del conocimiento en una época de agitación política. Hypatia demostró que las mujeres podían sobresalir en campos intelectuales y su valentía al mantener sus creencias filosóficas la convierte en un símbolo de resistencia y sabiduría en la historia de la ciencia.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/hypatia-de-alejandria.jpg",
-    "facts": {
-      "yearOfBirth": "circa 360",
-      "yearOfDeath": "415",
-      "birthPlace": "Alejandría, Egipto",
-      "mainField": "Matemáticas, Filosofía"
+    id: "spider_girl_anya_003",
+    name: "Anya Corazon",
+    shortDescription: "Una joven heroína con poderes arácnidos.",
+    description: "Anya Corazon, también conocida como Spider-Girl, es una joven heroína con habilidades arácnidas obtenidas a través de un ritual místico. Anya lucha contra el crimen y las injusticias mientras equilibra su vida como estudiante. Su historia está llena de valentía y autodescubrimiento, y representa la diversidad en el mundo de los superhéroes. Anya demuestra que cualquiera, sin importar sus orígenes, puede ser un héroe si tiene el valor y la determinación necesarios, y que el heroísmo es una cualidad que puede encontrarse en todas las personas, sin importar su edad o antecedentes.",
+    imageUrl: "https://res.cloudinary.com/db3qclbrk/image/upload/v1719585727/anya_t5cfw8.jpg",
+    facts: {
+      gender: "Femenino",
+      species: "Humana",
+      age: 16,
+      city: "Nueva York",
     },
-    "extraInfo": {
-      "imageSource": "https://www.bing.com/images/create/create-a-vivid-digital-artwork-or-painting-that-de/6510df0ebe1a4807af22175452761e1a"
-    }
   },
   {
-    "id": "marjorie-lee-browne",
-    "name": "Marjorie Lee Browne",
-    "shortDescription": "Matemática, contribuyó a la teoría de números.",
-    "description": "Matemática estadounidense, destacó en una época en la que las mujeres afroamericanas enfrentaban múltiples barreras en la educación superior. No solo obtuvo su doctorado en matemáticas, sino que también se convirtió en una destacada educadora, promoviendo la diversidad en las ciencias matemáticas y desafiando la discriminación racial y de género. Su compromiso con la educación y su capacidad para inspirar a futuras generaciones la convierten en un modelo a seguir para las mujeres en la ciencia, dejando una huella perdurable en la historia académica.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/marjorie-lee-browne.jpg",
-    "facts": {
-      "yearOfBirth": "1914",
-      "yearOfDeath": "1979",
-      "birthPlace": "Memphis, Estados Unidos",
-      "mainField": "Matemáticas"
+    id: "spider_noir_004",
+    name: "Spider-Man Noir",
+    shortDescription: "El Spider-Man de una dimensión en blanco y negro.",
+    description:
+      "Spider-Man Noir es el Spider-Man de una dimensión en blanco y negro, ambientada en la Gran Depresión de los años 1930. Es un detective sombrío y serio, conocido por su enfoque duro y su habilidad para resolver crímenes en un mundo lleno de corrupción. Su traje es negro y su estilo de lucha es brutal y efectivo. A pesar de las diferencias en sus orígenes, comparte los mismos poderes básicos que otros Spider-Personas, como trepar paredes y el sentido arácnido. Su experiencia en investigaciones y su valentía lo hacen un miembro valioso del equipo multiversal.",
+    imageUrl: "https://res.cloudinary.com/db3qclbrk/image/upload/v1718729783/04-Spider-Man_Noir_xtijdc.jpg",
+    facts: {
+      gender: "Masculino",
+      species: "Humano",
+      age: 35,
+      city: "Nueva York",
     },
-    "extraInfo": {
-      "imageSource": "https://www.bing.com/images/create/design-an-inspiring-and-historically-accurate-imag/6510df7e7bb745f69d67f695441607a8"
-    }
   },
   {
-    "id": "shakuntala-devi",
-    "name": "Shakuntala Devi",
-    "shortDescription": "Matemática prodigio, conocida como la 'Calculadora Humana'.",
-    "description": "Conocida como \"la bruja de las matemáticas\" de la India, dejó una marca indeleble en el mundo de los números. Su capacidad mental asombrosa la llevó a resolver complejos cálculos matemáticos mentalmente en cuestión de segundos, estableciendo récords mundiales. Además de su talento innato, Devi promovió activamente la educación matemática y luchó por la igualdad de género en un país donde las mujeres enfrentaban desafíos en la ciencia y la educación. Su legado destaca el poder de la mente humana y la importancia de la igualdad de oportunidades en la ciencia.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/shakuntala-devi.jpg",
-    "facts": {
-      "yearOfBirth": "1929",
-      "yearOfDeath": "2013",
-      "birthPlace": "Bangalore, India",
-      "mainField": "Matemáticas"
+    id: "peni_parker_005",
+    name: "Peni Parker",
+    shortDescription: "La piloto del robot SP//dr en su dimensión.",
+    description:
+      "Peni Parker es una adolescente que pilota el robot SP//dr en su dimensión. Después de la muerte de su padre, quien originalmente pilotaba el robot, Peni asume el control del SP//dr y se vincula psíquicamente con una araña radiactiva que actúa como su copiloto. Es una joven inteligente y valiente, capaz de enfrentarse a cualquier desafío con su ingenio y habilidades de combate. Su mundo tiene una estética futurista y de anime, diferenciándose de las dimensiones de otros Spider-Héroes. Peni aporta un enfoque único y tecnológico al equipo de Spider-Héroes.",
+    imageUrl: "https://res.cloudinary.com/db3qclbrk/image/upload/v1718729776/05-peni-parker-spiderman_jzjwsf.jpg",
+    facts: {
+      gender: "Femenino",
+      species: "Humana",
+      age: 14,
+      city: "Nueva York",
     },
-    "extraInfo": {
-      "imageSource": "https://www.bing.com/images/create/indian-woman-writing-math-problems-in-a-blackbard-/6510e19f3db54e14b365b7e8dc5045f6"
-    }
   },
   {
-    "id": "sofia-kovalevskaya",
-    "name": "Sofia Kovalevskaya",
-    "shortDescription": "Matemática y escritora, contribuyó a la teoría de funciones.",
-    "description": "Matemática rusa del siglo XIX, dejó una marca indeleble en la ciencia del siglo XIX al desafiar las barreras de género. Como matemática rusa, superó las restricciones sociales de su época para convertirse en la primera mujer en obtener un doctorado en matemáticas en Europa. Sus contribuciones a la teoría de las ecuaciones diferenciales y la mecánica revolucionaron la disciplina, abriendo nuevas perspectivas en el análisis matemático. Su destacada membresía en la Academia de Ciencias de Suecia marcó un hito en la historia de las mujeres en la ciencia.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/sofia-kovalevskaya.jpg",
-    "facts": {
-      "yearOfBirth": "1850",
-      "yearOfDeath": "1891",
-      "birthPlace": "Moscú, Rusia",
-      "mainField": "Matemáticas"
+    id: "spider_ham_006",
+    name: "Spider-Ham",
+    shortDescription: "El Spider-Man de una dimensión de dibujos animados.",
+    description:
+      "Spider-Ham es el Spider-Man de una dimensión de dibujos animados, donde los animales antropomórficos son comunes. Su verdadero nombre es Peter Porker, y es una parodia humorística de Spider-Man. A pesar de su apariencia cómica, Spider-Ham es un héroe valiente y capaz. Sus habilidades incluyen trepar paredes, el sentido arácnido y una gran agilidad. Su estilo de lucha incorpora elementos de comedia física, y su sentido del humor aligera muchas situaciones tensas. Aporta un toque de humor y ligereza al equipo de Spider-Héroes, mostrando que el heroísmo puede tener muchas formas.",
+    imageUrl: "https://res.cloudinary.com/db3qclbrk/image/upload/v1719441460/champion-spider-ham_s4ufqu.jpg",
+    facts: {
+      gender: "Masculino",
+      species: "Cerdo antropomórfico",
+      age: 25,
+      city: "Nueva York",
     },
-    "extraInfo": {
-      "imageSource": "https://www.bing.com/images/create/indian-woman-writing-math-problems-in-a-blackbard-/6510e19f3db54e14b365b7e8dc5045f6"
-    }
   },
   {
-    "id": "yoko-shimomura",
-    "name": "Yoko Shimomura",
-    "shortDescription": "Compositora de música, destacada en la industria de los videojuegos.",
-    "description": "Compositora japonesa, es una figura destacada en la ciencia de la música y el arte sonoro. Aunque no se dedica a la ciencia en el sentido tradicional, su trabajo en la composición musical ha requerido un profundo entendimiento de la teoría musical y la tecnología de audio. Ha contribuido de manera significativa a la industria de los videojuegos, componiendo icónicas bandas sonoras que han enriquecido la experiencia de juego. Su éxito en un campo donde las mujeres estaban subrepresentadas la convierte en un modelo a seguir, incluso en campos no convencionales como la composición musical.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/yoko-shimomura.jpg",
-    "facts": {
-      "yearOfBirth": "1967",
-      "birthPlace": "Hyogo, Japón",
-      "mainField": "Composición Musical, Video Juegos"
+    id: "spider_gwen_007",
+    name: "Spider-Gwen",
+    shortDescription: "La versión alternativa de Gwen Stacy como Spider-Woman.",
+    description:
+      "Spider-Gwen, también conocida como Ghost-Spider, es una versión alternativa de Gwen Stacy que se convierte en Spider-Woman en su dimensión. Después de ser mordida por una araña radiactiva, Gwen asume el manto de héroe y lucha contra el crimen mientras equilibra su vida personal y su carrera como músico. Es una luchadora ágil y poderosa con habilidades similares a las de otros Spider-Héroes. Su valentía y determinación la convierten en una líder nata. Gwen se une al equipo de Spider-Héroes multiversales para enfrentar amenazas que ponen en peligro a todos sus mundos.",
+    imageUrl: "https://res.cloudinary.com/db3qclbrk/image/upload/v1718729786/03-Gwen_Stacy_qoqj87.jpg",
+    facts: {
+      gender: "Femenino",
+      species: "Humana",
+      age: 17,
+      city: "Nueva York",
     },
-    "extraInfo": {
-      "imageSource": "https://www.bing.com/images/create/yoko-shimomura-making-music-for-a-video-game-in-19/6510e40dd1eb45d0906e8c1f4bb601d3"
-    }
   },
   {
-    "id": "maryam-mirzakhani",
-    "name": "Maryam Mirzakhani",
-    "shortDescription": "Matemática, ganadora del Premio Fields.",
-    "description": "Matemática iraní, hizo historia al convertirse en la primera mujer en ganar la Medalla Fields, el premio más prestigioso en matemáticas. Sus investigaciones en la geometría de superficies y la teoría de las superficies de Riemann han tenido un impacto duradero en la matemática pura. A lo largo de su carrera, Mirzakhani inspiró a muchas mujeres a perseguir carreras en ciencia y matemáticas, derribando las barreras de género. Su enfoque innovador y su capacidad para resolver problemas complejos la convierten en un modelo a seguir para la comunidad científica y en un símbolo de la excelencia matemática.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/maryam-mirzakhani.jpg",
-    "facts": {
-      "yearOfBirth": "1977",
-      "yearOfDeath": "2017",
-      "birthPlace": "Teherán, Irán",
-      "mainField": "Matemáticas"
+    id: "spider_woman_008",
+    name: "Spider-Woman",
+    shortDescription: "Jessica Drew, la Spider-Woman original.",
+    description:
+      "Jessica Drew, conocida como Spider-Woman, es la versión original del personaje en el universo Marvel. Fue sometida a un tratamiento con suero de araña que le otorgó habilidades arácnidas, incluyendo fuerza mejorada, la capacidad de adherirse a superficies y generar bio-rayos de energía. Jessica es una agente de S.H.I.E.L.D. y una detective privada, utilizando sus habilidades para resolver casos y combatir el crimen. Es una mujer fuerte y decidida, comprometida con la justicia. Su experiencia y habilidades únicas la convierten en una valiosa aliada en la lucha contra las amenazas que enfrenta el equipo de Spider-Héroes.",
+    imageUrl: "https://res.cloudinary.com/db3qclbrk/image/upload/v1718729778/08-Jessica_Drew_Spider-Woman_fz16ar.jpg",
+    facts: {
+      gender: "Femenino",
+      species: "Humana",
+      age: 30,
+      city: "Londres",
     },
-    "extraInfo": {
-      "imageSource": "https://chalkdustmagazine.com/features/mathematics-maryam-mirzakhani/"
-    }
   },
   {
-    "id": "adele-goldberg",
-    "name": "Adele Goldberg",
-    "shortDescription": "Informática pionera, co-creadora del lenguaje de programación Smalltalk.",
-    "description": "Informática estadounidense reconocida por su influyente trabajo en la investigación y desarrollo de la programación orientada a objetos. Su contribución más destacada es la creación del lenguaje de programación Smalltalk, que revolucionó la forma en que se desarrollan software y sistemas informáticos. Goldberg ha sido una defensora incansable de la usabilidad y la accesibilidad en la informática, asegurando que las aplicaciones informáticas sean más amigables para los usuarios. Su trabajo ha allanado el camino para una programación más intuitiva y eficiente, y su legado perdura en la industria de la tecnología.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/adele-goldberg.jpg",
-    "facts": {
-      "yearOfBirth": "1945",
-      "birthPlace": "Chicago, Estados Unidos",
-      "mainField": "Ciencias de la Computación"
+    id: "spider_uk_009",
+    name: "Spider-UK",
+    shortDescription: "Billy Braddock, el Spider-Man del Reino Unido.",
+    description:
+      "Spider-UK, cuyo verdadero nombre es Billy Braddock, es el Spider-Man del Reino Unido y miembro del cuerpo de los Captain Britain Corps. Billy es un guardián del multiverso, encargado de proteger su dimensión y otras de amenazas interdimensionales. Sus habilidades son similares a las de otros Spider-Héroes, pero también tiene acceso a tecnología avanzada y recursos del cuerpo de los Captain Britain Corps. Es un héroe valiente y leal, comprometido con la protección de su mundo y otros. Su conocimiento del multiverso lo convierte en un miembro crucial del equipo de Spider-Héroes.",
+    imageUrl: "https://res.cloudinary.com/db3qclbrk/image/upload/v1718729778/09-Billy_Braddock_el_Spider-Man_del_Reino_Unido._yatl6h.jpg",
+    facts: {
+      gender: "Masculino",
+      species: "Humano",
+      age: 25,
+      city: "Londres",
     },
-    "extraInfo": {
-      "imageSource": "https://pionerasinformaticas.ujaen.es/en/computer-women-pioneers/adele-goldberg-en"
-    }
   },
   {
-    "id": "barbara-liskov",
-    "name": "Barbara Liskov",
-    "shortDescription": "Científica de la computación, pionera en programación orientada a objetos.",
-    "description": "Pionera de la informática, es conocida por su trabajo en la programación y la arquitectura de sistemas distribuidos. Fue la primera mujer en obtener un doctorado en ciencias de la computación en el Instituto de Tecnología de Stanford y desarrolló el lenguaje de programación CLU, que estableció fundamentos para la programación orientada a objetos. Liskov ha dejado una marca indeleble en la industria de la tecnología al liderar avances en sistemas de almacenamiento y seguridad informática. Su enfoque en la fiabilidad y la robustez ha influido en el diseño de sistemas críticos en todo el mundo.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/barbara-liskov.jpg",
-    "facts": {
-      "yearOfBirth": "1939",
-      "birthPlace": "Los Angeles, Estados Unidos",
-      "mainField": "Ciencia de la Computación"
+    id: "spider_punk_010",
+    name: "Spider-Punk",
+    shortDescription: "Hobart Brown, el rebelde Spider-Man punk.",
+    description:
+      "Spider-Punk, cuyo verdadero nombre es Hobart Brown, es un Spider-Man de una dimensión alternativa donde adopta una estética punk rock. Es un rebelde que lucha contra un régimen opresivo utilizando sus habilidades arácnidas y su guitarra eléctrica como arma. Hobart es un símbolo de resistencia y libertad, inspirando a otros a luchar contra la injusticia. Sus poderes son similares a los de otros Spider-Héroes, pero su actitud punk y su enfoque no convencional lo hacen único. Su determinación y espíritu indomable lo convierten en un valioso miembro del equipo multiversal de Spider-Héroes.",
+    imageUrl: "https://res.cloudinary.com/db3qclbrk/image/upload/v1718729788/10-Hobart_Brown_el_rebelde_Spider-Man_punk._ahd4cp.jpg",
+    facts: {
+      gender: "Masculino",
+      species: "Humano",
+      age: 19,
+      city: "Nueva York",
     },
-    "extraInfo": {
-      "imageSource": "https://medium.com/a-computer-of-ones-own/barbara-liskov-inventor-of-abstract-data-types-9f8908fdcf86"
-    }
   },
   {
-    "id": "grace-hopper",
-    "name": "Grace Hopper",
-    "shortDescription": "Científica de la computación, creadora del primer compilador.",
-    "description": "Una de las pioneras de la informática, es famosa por su contribución al desarrollo del primer compilador y al lenguaje de programación COBOL. Además, desafió los estereotipos de género en la década de 1940 al unirse a la Marina de los Estados Unidos y convertirse en la primera programadora de la computadora Harvard Mark I. Su legado abarca la creación de conceptos cruciales como la \"depuración de software\" y su influencia en el desarrollo de la informática moderna, estableciendo estándares para la programación de alto nivel y la innovación tecnológica.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/grace-hopper.jpg",
-    "facts": {
-      "yearOfBirth": "1906",
-      "yearOfDeath": "1992",
-      "birthPlace": "Nueva York, Estados Unidos",
-      "mainField": "Ciencia de la Computación"
+    id: "spider_girl_011",
+    name: "Spider-Girl",
+    shortDescription: "Mayday Parker, la hija de Peter Parker.",
+    description:
+      "Mayday Parker, conocida como Spider-Girl, es la hija de Peter Parker y Mary Jane Watson en una dimensión alternativa. Después de descubrir que heredó las habilidades arácnidas de su padre, Mayday decide seguir sus pasos y convertirse en una heroína. Es una adolescente valiente y decidida que equilibra su vida escolar con sus responsabilidades como Spider-Girl. Sus habilidades incluyen fuerza mejorada, trepar paredes y el sentido arácnido. Mayday lucha por mantener el legado de su padre y proteger a los inocentes. Su juventud y entusiasmo aportan una energía fresca al equipo de Spider-Héroes.",
+    imageUrl: "https://res.cloudinary.com/db3qclbrk/image/upload/v1718729776/11-spider-woman-may-parker_q7pkaz.webp",
+    facts: {
+      gender: "Femenino",
+      species: "Humana",
+      age: 16,
+      city: "Nueva York",
     },
-    "extraInfo": {
-      "imageSource": "https://photos.com/featured/grace-hopper-with-early-computer-bettmann.html"
-    }
   },
   {
-    "id": "margaret-hamilton",
-    "name": "Margaret Hamilton",
-    "shortDescription": "Científica de la computación, lideró desarrollo de software para Apollo 11.",
-    "description": "Destacada científica de la computación que desempeñó un papel fundamental en el programa Apollo de la NASA. Fue directora de la División de Ingeniería de Software en el Laboratorio de Instrumentación del MIT, donde desarrolló el concepto de \"ingeniería de software\". Su liderazgo en el desarrollo del software de vuelo para las misiones Apollo fue fundamental para el éxito de la llegada del hombre a la Luna. Hamilton es un ejemplo de cómo la tecnología y la ciencia pueden alcanzar logros extraordinarios cuando se combinan con un enfoque innovador y una visión audaz.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/margaret-hamilton.jpg",
-    "facts": {
-      "yearOfBirth": "1936",
-      "birthPlace": "Paoli, Indiana, Estados Unidos",
-      "mainField": "Ciencia de la Computación"
+    id: "spider_man_2099_012",
+    name: "Spider-Man 2099",
+    shortDescription: "Miguel O'Hara, el Spider-Man del futuro.",
+    description:
+      "Spider-Man 2099, cuyo verdadero nombre es Miguel O'Hara, es el Spider-Man del futuro en el año 2099. Es un genetista que accidentalmente se infunde ADN de araña, adquiriendo habilidades arácnidas. Miguel posee fuerza mejorada, garras retráctiles y la capacidad de ver en la oscuridad. Trabaja para proteger la ciudad de Nueva York en un futuro distópico y tecnológicamente avanzado. Miguel es un héroe valiente y decidido, luchando contra corporaciones corruptas y amenazas tecnológicas. Su conocimiento del futuro y su avanzada tecnología lo convierten en un miembro crucial del equipo de Spider-Héroes.",
+    imageUrl: "https://res.cloudinary.com/db3qclbrk/image/upload/v1719354546/champion-spider-man-2099-720x720_h7tahx.jpg",
+    facts: {
+      gender: "Masculino",
+      species: "Humano",
+      age: 30,
+      city: "Nueva York",
     },
-    "extraInfo": {
-      "imageSource": "https://odetta.ai/blogs/margaret-hamilton-the-first-software-engineer"
-    }
   },
   {
-    "id": "radia-perlman",
-    "name": "Radia Perlman",
-    "shortDescription": "Ingeniera de redes, inventora del algoritmo Spanning Tree.",
-    "description": "Científica de la computación estadounidense, ha dejado una marca indeleble en el mundo de las redes informáticas y la seguridad. Conocida como \"la madre de Internet\", su invención del algoritmo Spanning Tree Protocol (STP) revolucionó la conectividad de redes y sentó las bases para la infraestructura de Internet moderna. A pesar de operar en un campo dominado por hombres, Perlman ha demostrado que las mujeres pueden liderar avances tecnológicos vitales. Su compromiso con la resiliencia de las redes y la ciberseguridad ha influido en la estabilidad y confiabilidad de la comunicación en línea.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/radia-perlman.jpg",
-    "facts": {
-      "yearOfBirth": "1951",
-      "birthPlace": "Portsmouth, Estados Unidos",
-      "mainField": "Ciencia de la Computación"
+    id: "silk_013",
+    name: "Silk",
+    shortDescription: "Cindy Moon, otra sobreviviente de la picadura de araña.",
+    description:
+      "Cindy Moon, conocida como Silk, es otra persona que fue mordida por la misma araña radiactiva que le dio sus poderes a Peter Parker. Cindy fue descubierta años después, tras ser liberada de un búnker donde se escondía, asumió el papel de heroína bajo el nombre de Silk. Sus habilidades incluyen trepar paredes, un sentido arácnido altamente desarrollado y la capacidad de tejer telarañas orgánicas desde sus dedos. Es una heroína determinada que lucha por encontrar su lugar en el mundo mientras protege a los inocentes. Su historia y habilidades la convierten en un miembro valioso del equipo de Spider-Héroes.",
+    imageUrl: "https://res.cloudinary.com/db3qclbrk/image/upload/v1718729778/13-silk-marvel.webp_1718679797169_gngt7x.webp",
+    facts: {
+      gender: "Femenino",
+      species: "Humana",
+      age: 28,
+      city: "Nueva York",
     },
-    "extraInfo": {
-      "imageSource": "https://hackaday.com/2018/05/29/spanning-the-tree-dr-radia-perlman-untangling-networks/"
-    }
   },
   {
-    "id": "shafi-goldwasser",
-    "name": "Shafi Goldwasser",
-    "shortDescription": "Científica de la computación, ganadora del Premio Turing.",
-    "description": "Es una destacada criptógrafa y científica de la computación que ha contribuido significativamente a la teoría de la computación y la seguridad de la información. Su trabajo en criptografía de probabilidad y complejidad computacional ha sentado las bases para la seguridad en línea y la privacidad de datos en un mundo cada vez más digitalizado. Goldwasser es un ejemplo de cómo la ciencia de la computación puede abordar desafíos contemporáneos y proteger la información en la era de la información.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/shafi-goldwasser.jpg",
-    "facts": {
-      "yearOfBirth": "1958",
-      "birthPlace": "Nueva York, Estados Unidos",
-      "mainField": "Ciencia de la Computación"
+    id: "spider_woman_ii_014",
+    name: "Spider-Woman II",
+    shortDescription: "Julia Carpenter, la segunda Spider-Woman.",
+    description:
+      "Julia Carpenter, conocida como la segunda Spider-Woman, recibió sus poderes a través de un experimento gubernamental que involucraba extractos de plantas y veneno de araña. Sus habilidades incluyen fuerza mejorada, trepar paredes y la capacidad de crear telarañas psíquicas. Julia ha trabajado como miembro de varios equipos de superhéroes, incluyendo los Vengadores y los Guardianes de la Galaxia. Es una heroína experimentada y una luchadora valiente. Su dedicación a la justicia y sus habilidades únicas la convierten en una aliada importante en la lucha contra las amenazas que enfrenta el equipo de Spider-Héroes.",
+    imageUrl: "https://res.cloudinary.com/db3qclbrk/image/upload/v1718763484/Julia_Carpenter_la_segunda_Spider-Woman._laepa5.jpg",
+    facts: {
+      gender: "Femenino",
+      species: "Humana",
+      age: 32,
+      city: "Denver",
     },
-    "extraInfo": {
-      "imageSource": "https://www.jahresbericht2019.unibe.ch/successes_2019/einstein_lectures/index_eng.html"
-    }
   },
   {
-    "id": "chien-shiung-wu",
-    "name": "Chien-Shiung Wu",
-    "shortDescription": "Física experimental, contribuyó a la física nuclear.",
-    "description": "Física experimental de origen chino, desafiando los prejuicios de género y nacionalidad, realizó experimentos fundamentales en física de partículas y contribuyó significativamente a la comprensión de la desintegración beta. Su famoso experimento \"Wu\" refutó la paridad en la física de partículas, lo que cambió la forma en que los científicos comprenden las fuerzas fundamentales de la naturaleza. Wu demostró que el talento y la perseverancia pueden superar cualquier barrera, y su legado sigue siendo un faro de inspiración para científicas en todo el mundo.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/chien-shiung-wu.jpg",
-    "facts": {
-      "yearOfBirth": "1912",
-      "yearOfDeath": "1997",
-      "birthPlace": "Liuhe, Taicang, China",
-      "mainField": "Física"
+    id: "scarlet_spider_015",
+    name: "Scarlet Spider",
+    shortDescription: "Ben Reilly, el clon de Peter Parker.",
+    description:
+      "Ben Reilly, conocido como Scarlet Spider, es un clon de Peter Parker creado por el villano Jackal. Aunque inicialmente fue confundido sobre su identidad, Ben eventualmente aceptó su papel como héroe y adoptó el nombre de Scarlet Spider. Sus habilidades son idénticas a las de Peter Parker, incluyendo fuerza mejorada, trepar paredes y el sentido arácnido. Ben es un héroe valiente y decidido, comprometido con la protección de los inocentes. Su historia de redención y su lucha por encontrar su lugar en el mundo lo hacen un personaje complejo y un valioso miembro del equipo de Spider-Héroes.",
+    imageUrl: "https://res.cloudinary.com/db3qclbrk/image/upload/v1718729780/15-scarlet-spider-spider-man-across-the-spider-verse-thumb-2_ljvi8h.jpg",
+    facts: {
+      gender: "Masculino",
+      species: "Humano",
+      age: 27,
+      city: "Nueva York",
     },
-    "extraInfo": {
-      "imageSource": "https://www.thoughtco.com/chien-shiung-wu-biography-3530366"
-    }
   },
   {
-    "id": "hedy-lamarr",
-    "name": "Hedy Lamarr",
-    "shortDescription": "Actriz e inventora, contribuyó al desarrollo de la tecnología de espectro ensanchado.",
-    "description": "Actriz austroamericana y científica, fue una mente brillante en la intersección de la tecnología y el entretenimiento. Junto con el compositor George Antheil, inventó un sistema de comunicación secreta durante la Segunda Guerra Mundial que sentó las bases para la tecnología de espectro ensanchado y la comunicación inalámbrica moderna. Lamarr demostró que las mujeres pueden destacar tanto en el cine como en la ciencia, y su legado como inventora ha sido fundamental para el desarrollo de la tecnología de comunicación inalámbrica que usamos en la actualidad.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/hedy-lamarr.jpg",
-    "facts": {
-      "yearOfBirth": "1914",
-      "yearOfDeath": "2000",
-      "birthPlace": "Viena, Austria",
-      "mainField": "Actuación, Física"
+    id: "superior_spider_man_016",
+    name: "Superior Spider-Man",
+    shortDescription: "Otto Octavius en el cuerpo de Peter Parker.",
+    description:
+      "Superior Spider-Man es la identidad adoptada por Otto Octavius después de transferir su mente al cuerpo de Peter Parker. Con el deseo de demostrar que puede ser un mejor Spider-Man que Peter, Otto adopta un enfoque más metódico y a veces despiadado para combatir el crimen. Aunque sus métodos son controvertidos, sus intenciones son nobles. Otto conserva las habilidades de Spider-Man, incluyendo fuerza mejorada, trepar paredes y el sentido arácnido, y combina estos poderes con su brillantez científica. Su historia de redención y su lucha por ser un mejor héroe lo hacen un personaje único y fascinante.",
+    imageUrl: "https://res.cloudinary.com/db3qclbrk/image/upload/v1718729784/16-Superior_Spider-Man_o9ajtu.webp",
+    facts: {
+      gender: "Masculino",
+      species: "Humano",
+      age: 40,
+      city: "Nueva York",
     },
-    "extraInfo": {
-      "imageSource": "https://www.sparkfun.com/news/6147"
-    }
   },
   {
-    "id": "maria-goeppert-mayer",
-    "name": "Maria Goeppert Mayer",
-    "shortDescription": "Física teórica, ganadora del Premio Nobel de Física.",
-    "description": "Física teórica alemana-estadounidense, dejó una profunda huella en la física nuclear y la mecánica cuántica. Fue la segunda mujer en recibir el Premio Nobel de Física y su trabajo pionero en la estructura de capas nucleares revolucionó nuestra comprensión de los núcleos atómicos. A pesar de las barreras de género en la academia, su dedicación y talento la llevaron a contribuir significativamente a la teoría nuclear, abriendo el camino para futuras investigadoras en un campo dominado por hombres. Maria Goeppert Mayer es un ejemplo inspirador de excelencia científica y perseverancia en la búsqueda del conocimiento.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/maria-goeppert-mayer.jpg",
-    "facts": {
-      "yearOfBirth": "1906",
-      "yearOfDeath": "1972",
-      "birthPlace": "Kattowitz, Alemania",
-      "mainField": "Física"
+    id: "spider_man_india_017",
+    name: "Spider-Man India",
+    shortDescription: "Pavitr Prabhakar, el Spider-Man de India.",
+    description:
+      "Pavitr Prabhakar es el Spider-Man de India, con una historia similar a la de Peter Parker, pero ambientada en el contexto cultural y social de la India. Después de recibir poderes de una figura mística, Pavitr se convierte en Spider-Man y lucha contra el crimen en su ciudad. Sus habilidades incluyen fuerza mejorada, trepar paredes y el sentido arácnido. Pavitr es un joven valiente y compasivo, decidido a proteger a sus seres queridos y su comunidad. Su enfoque único y su perspectiva cultural aportan una nueva dimensión al legado de Spider-Man. Es un miembro valioso del equipo de Spider-Héroes.",
+    imageUrl: "https://res.cloudinary.com/db3qclbrk/image/upload/v1719446198/Spider-man_Pavitr_qdeoke.jpg",
+    facts: {
+      gender: "Masculino",
+      species: "Humano",
+      age: 18,
+      city: "Mumbai",
     },
-    "extraInfo": {
-      "imageSource": "https://www.wsemexhibit.org/maria-goeppert-mayer.html"
-    }
   },
   {
-    "id": "lise-meitner",
-    "name": "Lise Meitner",
-    "shortDescription": "Física nuclear, contribuyó a la teoría de la fisión nuclear.",
-    "description": "Física austriaca-sueca, dejó un legado imborrable en la física nuclear y la radioquímica. A pesar de enfrentar obstáculos de género en una era dominada por hombres, colaboró con Otto Hahn en el descubrimiento de la fisión nuclear, un avance revolucionario. Aunque no compartió el Premio Nobel por este logro, su contribución fue crucial para comprender la energía nuclear y la física de partículas. Su determinación y pasión por la ciencia han inspirado a generaciones de científicas. Lise Meitner es un símbolo perdurable de la perseverancia femenina y el impacto duradero que las mujeres pueden tener en la ciencia.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/lise-meitner.jpg",
-    "facts": {
-      "yearOfBirth": "1878",
-      "yearOfDeath": "1968",
-      "birthPlace": "Viena, Austria",
-      "mainField": "Física"
+    id: "spider_woman_iii_018",
+    name: "Spider-Woman III",
+    shortDescription: "Martha Franklin, la tercera Spider-Woman.",
+    description:
+      "Martha Franklin, conocida como la tercera Spider-Woman, obtuvo sus poderes a través de un ritual místico que le otorgó habilidades arácnidas. Martha posee fuerza mejorada, la capacidad de trepar paredes y generar explosiones de energía arácnida. Es una joven heroína que lucha por encontrar su lugar en el mundo de los superhéroes mientras protege a los inocentes. Su valentía y determinación la convierten en una luchadora eficaz contra el crimen. Martha se une al equipo de Spider-Héroes para enfrentar amenazas mayores y aprender de otros héroes experimentados. Su entusiasmo y dedicación son inspiradores.",
+    imageUrl: "https://res.cloudinary.com/db3qclbrk/image/upload/v1718729787/18-Martha_Franklin_la_tercera_Spider-Woman._fyqcv0.jpg",
+    facts: {
+      gender: "Femenino",
+      species: "Humana",
+      age: 20,
+      city: "Nueva York",
     },
-    "extraInfo": {
-      "imageSource": "https://www.bing.com/images/create/lise-meitner-in-nuclear-physics-lab-in-19502c-retro/651196e6bbcb4009950e9955c2199760"
-    }
   },
   {
-    "id": "sau-lan-wu",
-    "name": "Sau Lan Wu",
-    "shortDescription": "Física de partículas, contribuyó a experimentos clave en física de alta energía.",
-    "description": "Física experimental sinoamericana, ha sido una fuerza motriz en la física de partículas. Destacó en experimentos en el CERN y lideró investigaciones cruciales, como el descubrimiento del quark c, que expandieron nuestro entendimiento de la estructura fundamental de la materia. Wu superó desafíos en una disciplina dominada por hombres y ha sido un faro de inspiración para científicas de todo el mundo. Sau Lan Wu es un ejemplo de excelencia científica y de cómo las mujeres pueden dejar huella en la investigación de vanguardia.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/sau-lan-wu.jpg",
-    "facts": {
-      "yearOfBirth": "1940",
-      "birthPlace": "Hong Kong, China",
-      "mainField": "Física de Partículas"
+    id: "spider_man_j_019",
+    name: "Spider-Man J",
+    shortDescription: "Sho Amano, el Spider-Man de Japón.",
+    description:
+      "Sho Amano, conocido como Spider-Man J, es el Spider-Man de Japón. Inspirado por las historias de Spider-Man de América, Sho crea su propio traje y lucha contra el crimen en Tokio. Aunque no tiene habilidades superhumanas, su valentía y habilidades en artes marciales lo convierten en un héroe formidable. Sho es un joven dedicado y valiente, dispuesto a arriesgarlo todo para proteger a su ciudad y a sus seres queridos. Su historia es un testimonio de que cualquiera puede ser un héroe, independientemente de sus habilidades. Aporta una perspectiva cultural única al equipo de Spider-Héroes.",
+    imageUrl: "https://res.cloudinary.com/db3qclbrk/image/upload/v1718742754/Sho_Amano_hzonib.jpg",
+    facts: {
+      gender: "Masculino",
+      species: "Humano",
+      age: 16,
+      city: "Tokio",
     },
-    "extraInfo": {
-      "imageSource": "https://repository.aip.org/islandora/object/nbla%3A315195"
-    }
   },
   {
-    "id": "jocelyn-bell-burnell",
-    "name": "Jocelyn Bell Burnell",
-    "shortDescription": "Astrónoma y astrofísica, co-descubridora de los púlsares.",
-    "description": "Astrofísica británica, es una figura extraordinaria en la ciencia. Durante su doctorado, hizo un descubrimiento revolucionario al detectar los primeros púlsares, estrellas de neutrones altamente magnetizadas que emiten pulsos regulares de radiación. A pesar de que su asesor recibió el Premio Nobel por este descubrimiento, Bell Burnell se ha convertido en un símbolo de perseverancia y contribución de las mujeres a la astronomía. Su carrera distinguida y su activismo en favor de la diversidad de género en la ciencia han inspirado a generaciones futuras de científicas. Jocelyn Bell Burnell es un ejemplo de valentía y excelencia científica.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/jocelyn-bell-burnell.jpg",
-    "facts": {
-      "yearOfBirth": "1943",
-      "birthPlace": "Belfast, Reino Unido",
-      "mainField": "Astronomía, Astrofísica"
+    id: "spider_moon_man_020",
+    name: "Spider-Moon Man",
+    shortDescription: "El Spider-Man de una colonia lunar.",
+    description:
+      "Spider-Moon Man es el Spider-Man de una colonia lunar en un futuro distante. Su identidad real es desconocida, pero se sabe que es un científico que adquiere habilidades arácnidas a través de un experimento con radiación lunar. Posee fuerza mejorada, la capacidad de trepar paredes y resistencia a las duras condiciones del espacio. Spider-Moon Man protege la colonia lunar de amenazas extraterrestres y mantiene el orden en su comunidad. Su valentía y habilidades únicas lo convierten en un héroe crucial en un entorno inhóspito. Su historia y su contexto futurista aportan una nueva dimensión al legado de Spider-Man.",
+    imageUrl: "https://res.cloudinary.com/db3qclbrk/image/upload/v1718729786/20-Spider-Moon_Man_ydprda.jpg",
+    facts: {
+      gender: "Masculino",
+      species: "Humano",
+      age: 35,
+      city: "Colonia Lunar",
     },
-    "extraInfo": {
-      "imageSource": "https://womeninscienceweadmire.icfo.eu/wiswa-2/jocelyn-bell/"
-    }
   },
   {
-    "id": "dorothy-crowfoot-hodgkin",
-    "name": "Dorothy Crowfoot Hodgkin",
-    "shortDescription": "Química, ganadora del Premio Nobel de Química.",
-    "description": "Química británica, es una figura icónica en la ciencia que superó las barreras de género de su época. Su trabajo revolucionario en la cristalografía de rayos X permitió determinar la estructura de importantes biomoléculas, como la penicilina, la vitamina B12 y la insulina. Fue galardonada con el Premio Nobel de Química en 1964, siendo la tercera mujer en recibir este prestigioso reconocimiento. Hodgkin no solo fue una científica excepcional, sino también una defensora de la igualdad de género en la ciencia, allanando el camino para futuras generaciones de científicas y dejando un legado duradero en la investigación y la equidad.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/dorothy-crowfoot-hodgkin.jpg",
-    "facts": {
-      "yearOfBirth": "1910",
-      "yearOfDeath": "1994",
-      "birthPlace": "El Cairo, Egipto / Shipston-on-Stour, Reino Unido",
-      "mainField": "Química"
+    id: "spider_man_2211_021",
+    name: "Spider-Man 2211",
+    shortDescription: "Max Borne, el Spider-Man del año 2211.",
+    description:
+      "Max Borne, conocido como Spider-Man 2211, es el Spider-Man del futuro en el año 2211. Es un científico y agente de la policía temporal encargado de proteger la línea temporal de amenazas. Posee habilidades arácnidas mejoradas gracias a la tecnología avanzada, incluyendo fuerza incrementada, la capacidad de trepar paredes y dispositivos de manipulación temporal. Su traje está equipado con tecnología de punta que le permite enfrentar cualquier desafío. Un héroe decidido y valiente, comprometido con la protección del tiempo y la justicia. Su conocimiento del futuro y su avanzada tecnología lo convierten en un miembro crucial del equipo de Spider-Héroes.",
+    imageUrl: "https://res.cloudinary.com/db3qclbrk/image/upload/v1718729787/21-Spider-Man_2211_fwvsf8.webp",
+    facts: {
+      gender: "Masculino",
+      species: "Humano",
+      age: 40,
+      city: "Nueva York",
     },
-    "extraInfo": {
-      "imageSource": "https://www.some.ox.ac.uk/news/jan-royall-why-we-must-champion-dorothy-hodgkin-for-the-50-note/"
-    }
   },
   {
-    "id": "marie-curie",
-    "name": "Marie Curie",
-    "shortDescription": "Física y química, ganadora de dos Premios Nobel.",
-    "description": "física y química de origen polaco y nacionalizada francesa, es una de las figuras más icónicas en la historia de la ciencia. Ganadora de dos premios Nobel (Física en 1903 y Química en 1911), Curie realizó investigaciones fundamentales sobre la radiactividad y el descubrimiento de los elementos radio y polonio. Su dedicación y valentía en la investigación científica, a pesar de los desafíos de la discriminación de género y los riesgos de la radiación, la convierten en un modelo a seguir para científicas de todo el mundo.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/marie-curie.jpg",
-    "facts": {
-      "yearOfBirth": "1867",
-      "yearOfDeath": "1934",
-      "birthPlace": "Varsovia, Polonia",
-      "mainField": "Física y Química"
+    id: "spider_man_unlimited_022",
+    name: "Spider-Man Unlimited",
+    shortDescription: "Peter Parker en una tierra alternativa y avanzada.",
+    description:
+      "Spider-Man Unlimited es una versión de Peter Parker en una tierra alternativa y tecnológicamente avanzada. En esta dimensión, Peter utiliza un traje con tecnología avanzada que mejora sus habilidades arácnidas, incluyendo fuerza mejorada, trepar paredes y el sentido arácnido. El traje también le proporciona capacidades adicionales como invisibilidad y resistencia mejorada. Peter lucha contra amenazas avanzadas y mantiene el orden en esta versión futurista de Nueva York. Su valentía y habilidades tecnológicas lo convierten en un héroe formidable y un líder natural. Aporta experiencia y conocimiento al equipo de Spider-Héroes.",
+    imageUrl: "https://res.cloudinary.com/db3qclbrk/image/upload/v1718729809/22-SpiderManUnlimited_tjz3ig.webp",
+    facts: {
+      gender: "Masculino",
+      species: "Humano",
+      age: 30,
+      city: "Nueva York",
     },
-    "extraInfo": {
-      "imageSource": "https://www.historyextra.com/period/first-world-war/life-of-the-week-marie-curie/"
-    }
   },
   {
-    "id": "marjory-stephenson",
-    "name": "Marjory Stephenson",
-    "shortDescription": "Microbióloga y bioquímica, investigó en enzimología.",
-    "description": "Bioquímica británica, brilló como científica en una época en la que las mujeres enfrentaban obstáculos muy significativos en la investigación científica. Su trabajo pionero en microbiología, enzimología y bioquímica contribuyó al entendimiento de procesos fundamentales en la vida. Fue una de las primeras mujeres en ser elegida miembro de la Royal Society, un reconocimiento a su destacada contribución a la ciencia. Además, fue una mentora y defensora de las mujeres en la ciencia, inspirando y allanando el camino para futuras generaciones.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/marjory-stephenson.jpg",
-    "facts": {
-      "yearOfBirth": "1885",
-      "yearOfDeath": "1948",
-      "birthPlace": "Londres, Reino Unido",
-      "mainField": "Química, Microbiología, Bioquímica"
+    id: "spider_man_ultimate_023",
+    name: "Spider-Man Ultimate",
+    shortDescription: "Miles Morales en la línea Ultimate.",
+    description:
+      "Spider-Man Ultimate es Miles Morales en la línea Ultimate del universo Marvel. Después de la muerte de Peter Parker en su dimensión, Miles toma el manto de Spider-Man para honrar su legado. Sus habilidades incluyen fuerza mejorada, trepar paredes, el sentido arácnido, invisibilidad y explosiones de veneno. Miles es un joven valiente y decidido que lucha por proteger su ciudad y sus seres queridos. Su historia de crecimiento y aceptación de su papel como héroe lo convierten en un personaje inspirador. Miles aporta una nueva perspectiva y energía al legado de Spider-Man y al equipo de Spider-Héroes.",
+    imageUrl: "https://res.cloudinary.com/db3qclbrk/image/upload/v1719354545/UltimateSpiderman_akxf5t.jpg",
+    facts: {
+      gender: "Masculino",
+      species: "Humano",
+      age: 16,
+      city: "Nueva York",
     },
-    "extraInfo": {
-      "imageSource": "https://microbiologysociety.org/grants-prizes/all-prizes-and-competitions-/prize-lectures/marjory-stephenson-prize-lecture/marjory-stephenson-a-short-history.html"
-    }
   },
   {
-    "id": "rosalind-franklin",
-    "name": "Rosalind Franklin",
-    "shortDescription": "Química y cristalógrafa, contribuyó a la comprensión de la estructura del ADN.",
-    "description": "Química y cristalógrafa británica, destacó en un campo dominado por hombres y su contribución a la ciencia es innegable. Sus investigaciones pioneras en la cristalografía de rayos X fueron fundamentales para revelar la estructura del ADN en forma de doble hélice, un hito crucial en la biología molecular. A pesar de que su trabajo inicial fue subestimado, su determinación y habilidad científica allanaron el camino para futuros avances en genética y biología. Franklin es un ejemplo inspirador de cómo las mujeres pueden sobresalir en la ciencia, dejando un legado duradero en la investigación y la igualdad de género.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/rosalind-franklin.jpg",
-    "facts": {
-      "yearOfBirth": "1920",
-      "yearOfDeath": "1958",
-      "birthPlace": "Londres, Reino Unido",
-      "mainField": "Química, Cristalografía"
+    id: "spider_woman_iv_024",
+    name: "Spider-Woman IV",
+    shortDescription: "Charlotte Witter, la cuarta Spider-Woman.",
+    description:
+      "Charlotte Witter, conocida como la cuarta Spider-Woman, es una villana convertida en heroína que obtuvo sus poderes a través de un experimento genético. Inicialmente utilizó sus habilidades para el mal, pero eventualmente encontró redención y se unió al lado de los héroes. Charlotte posee habilidades arácnidas mejoradas, incluyendo fuerza incrementada, trepar paredes y la capacidad de generar telarañas orgánicas. Su historia de redención y su lucha por convertirse en una mejor persona la convierten en un personaje complejo y fascinante. Es una aliada valiosa en la lucha contra las amenazas que enfrenta el equipo de Spider-Héroes.",
+    imageUrl: "https://res.cloudinary.com/db3qclbrk/image/upload/v1718739084/OIG1_vggukj.jpg",
+    facts: {
+      gender: "Femenino",
+      species: "Humana",
+      age: 29,
+      city: "Los Ángeles",
     },
-    "extraInfo": {
-      "imageSource": ""
-    }
-  }
+  },
 ];
