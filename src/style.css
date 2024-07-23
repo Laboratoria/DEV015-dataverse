@@ -1,0 +1,170 @@
+/* Estilos para el contenedor principal */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 0;
+}
+
+/* Estilos para el encabezado con el logo */
+.titulo-con-logo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 40px;
+  background-color: #333;
+  color: white;
+}
+
+.titulo-con-logo img {
+  max-height: 80px;
+  margin-right: 40px; /* Aumento del margen derecho para más espacio */
+}
+
+.titulo-con-logo h1 {
+  margin: 0;
+  font-size: 2em; /* Título un poco más grande */
+}
+
+/* Estilos para el contenedor de botones y selects */
+.botones {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.botones select,
+.botones button {
+  padding: 10px;
+  font-size: 14px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-right: 10px; /* Espacio entre botones */
+}
+
+/* Colores para los botones desplegables */
+.botones select:nth-of-type(1) {
+  background-color: yellow; /* Amarillo */
+  color: black;
+}
+
+.botones select:nth-of-type(2) {
+  background-color: blue; /* Azul */
+  color: white;
+}
+
+.botones select:nth-of-type(3) {
+  background-color: white; /* Blanco */
+  color: black;
+}
+
+.botones select:nth-of-type(4) {
+  background-color: green; /* Verde */
+  color: white;
+}
+
+/* Estilos para el botón "BORRAR" */
+#clear {
+  background-color: #ff4500; /* Naranja */
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 14px;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+#clear:hover {
+  background-color: #cc3700; /* Naranja más oscuro al hacer hover */
+}
+
+/* Estilos para la lista de Pokémon */
+ul#pokemon-list {
+  list-style-type: none;
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  background-color: #333; /* Fondo negro para el contenedor de las tarjetas */
+}
+
+ul#pokemon-list li {
+  width: 250px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  position: relative;
+  overflow: hidden;
+  transition: transform 0.3s ease;
+}
+
+ul#pokemon-list li:hover {
+  transform: scale(1.03);
+}
+
+ul#pokemon-list li img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+ul#pokemon-list li h3 {
+  font-size: 1.2em;
+  margin-top: 0.5em;
+}
+
+ul#pokemon-list li p {
+  font-size: 0.9em;
+  margin-top: 0.5em;
+}
+
+ul#pokemon-list li .details {
+  display: none;
+  padding-top: 10px;
+}
+
+ul#pokemon-list li .details p {
+  margin-top: 5px;
+}
+
+ul#pokemon-list li .read-more-button {
+  background-color: #ff4500; /* Naranja */
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  font-size: 14px;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+ul#pokemon-list li .read-more-button:hover {
+  background-color: #cc3700; /* Naranja más oscuro al hacer hover */
+}
+
+ul#pokemon-list li:hover .details {
+  display: block;
+}
+.hidden {
+  display: none;
+}
+/* Estilos para el botón "Leer más" y "Leer menos" */
+.flip-btn {
+  background-color: red; /* Cambia el color a rojo */
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  font-size: 14px;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.flip-btn:hover {
+  background-color: darkred; /* Color más oscuro al hacer hover */
+}
