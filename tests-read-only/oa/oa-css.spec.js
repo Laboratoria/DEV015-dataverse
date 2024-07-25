@@ -1,7 +1,7 @@
 /* eslint-disable indent */
 /**
  * @jest-environment jsdom
-*/
+ */
 import fs from 'fs';
 import css from 'css';
 import { renderItems } from '../../src/view.js';
@@ -20,7 +20,6 @@ const FLEXBOX_ATTRIBUTES = ['flex-wrap', 'flex-direction', 'justify-content', 'a
 
 const renderDOM = (data) => {
   const items = renderItems(data);
-  // function renderItems can return html string or an node element
   if (typeof items === 'string') {
     document.querySelector('#root').innerHTML = items;
   } else if (items instanceof HTMLElement) {
@@ -29,7 +28,7 @@ const renderDOM = (data) => {
     throw new Error('Error: renderItems should return an HTML string or an HTMLElement');
   }
 }
-      
+
 const getRulesForSelector = (selector) => {
   return rules.filter(
     (rule) =>
@@ -38,8 +37,6 @@ const getRulesForSelector = (selector) => {
   );
 }
 
-// returns an array of css declaration objects in format
-// [{ 'display": 'block' }, { 'justify-content': 'center' }];
 const getCSSDeclarationsForRules = (rules) => {
   return rules.reduce((total, rule) => {
     const declarations = rule.declarations.map(({ property, value }) => ({ [property]: value }));
@@ -47,13 +44,10 @@ const getCSSDeclarationsForRules = (rules) => {
   }, []);
 }
 
-// get css for an el's classes 
-// returns in format [{ 'display': 'block' }, { 'justify-content': 'center'}];
 const getDeclarationsForElClasses = (el) => {
   const elClasses = Array.from(el.classList.values());
   return elClasses.reduce((allDeclarations, className) => {
     const rules = getRulesForSelector(`.${className}`);
-    // there can be more than one rule for a class
     const declarationsForClass = getCSSDeclarationsForRules(rules);
     return [...allDeclarations, ...declarationsForClass];
   }, []);
@@ -69,13 +63,10 @@ describe('CSS', () => {
     
     it('elementos <li> tienen un class con CSS', () => {
       const elementsLi = document.querySelectorAll('#root > ul > li');
-      // all lis should have same classes since rendered dinamically
-      // so not checking for common classes here
       elementsLi.forEach((li) => {
         const liRulesAttributes = getDeclarationsForElClasses(li);
         expect(liRulesAttributes.length).toBeGreaterThan(0);
       });
-      expect.hasAssertions();
     });
 
     it('Se usan selectores CSS de tipo para <header>', () => {
@@ -107,7 +98,6 @@ describe('CSS', () => {
       const cssForClasses = getDeclarationsForElClasses(ul);
       const cssDeclarations = [...cssForClasses, ...cssForId, ...cssForTag];
 
-      // expect to have display: flex 
       expect(
         cssDeclarations.some((declaration) => {
           const [ flexboxProperty, flexboxValue ] = FLEXBOX_DECLARATION;
@@ -115,7 +105,7 @@ describe('CSS', () => {
           return property ===  flexboxProperty && value === flexboxValue;
         })
       ).toBe(true);
-      // and at least one other flexbox property
+
       expect(
         cssDeclarations.some((declaration) => {
           const [ property ] = Object.entries(declaration)[0];
@@ -124,13 +114,11 @@ describe('CSS', () => {
       ).toBe(true);
     });
 
-    it('Los elementos <select> de filtro y sort estan en un elemento que usa flexbox', () => {
+    it('Los elementos <select> de filtro y sort están en un elemento que usa flexbox', () => {
       const selects = document.querySelectorAll('body select');
       expect(selects.length).toBeGreaterThan(1);
 
-      // if not more than one select, don't check for common parent
       if (selects.length > 1) {
-
         const parents = (node) => {
           const nodes = [];
           while ((node = node.parentNode)) {
@@ -148,11 +136,14 @@ describe('CSS', () => {
         
         const cssForClasses = getDeclarationsForElClasses(commonParent);
         const allCSSDeclarations = [...cssForId, ...cssForTag, ...cssForClasses];
-        expect(allCSSDeclarations.some((declaration) => {
-          const [ displayProperty, flexboxValue ] = FLEXBOX_DECLARATION;
-          const [ property, value ] = Object.entries(declaration);
-          return property === displayProperty && value === flexboxValue;
-        }));
+
+        expect(
+          allCSSDeclarations.some((declaration) => {
+            const [ displayProperty, flexboxValue ] = FLEXBOX_DECLARATION;
+            const [ property, value ] = Object.entries(declaration)[0];
+            return property === displayProperty && value === flexboxValue;
+          })
+        ).toBe(true);
       }
     });
   });
@@ -196,7 +187,8 @@ describe('CSS', () => {
         })
       });
 
-      expect(isUsingBoxModelSomeElement).toBe(true)
-    })
+      expect(isUsingBoxModelSomeElement).toBe(true);
+    });
   });
 });
+

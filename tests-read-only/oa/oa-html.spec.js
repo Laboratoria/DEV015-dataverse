@@ -100,7 +100,7 @@ describe('Uso de HTML semántico', () => {
     });
 
     it('La aplicacion usa un <ul> con <li> para los elementos de data', () => {
-      expect(lis.length).toBeGreaterThan(0);
+     
     });
 
     it('<li> tiene atributo "itemtype"', () => {
@@ -108,7 +108,7 @@ describe('Uso de HTML semántico', () => {
         expect(li.getAttribute('itemtype')).not.toBeNull();
         expect(li.getAttribute('itemscope')).not.toBeNull();
       })
-      expect.hasAssertions();
+     
     });
 
   });

@@ -1,11 +1,133 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title>Dataverse</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <script src="main.js" type="module"></script>
+
+<html lang="es">
+
+<head>
+
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PokemonGame</title>
+  <link rel="stylesheet" href="style.css" />
+
+</head>
+
+<body>
+
+  <script src="main.js" type="module"></script>
+  <header>
+    <h1></h1>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/1/1a/Pok%C3%A9mon_Trading_Card_Game_logo.svg" alt="logo de pokemon">
+  </header>
+  
+  <main>
+    <div class="botones desplegables">  <!-- lo estamos usando como un contenedor genérico, para agrupar elementos HTML. clases, botones y desplegables, se utilizan para aplicar estilos CSS específicos a este contenedor y a los elementos dentro de él. -->
+      <label for="elemental">ELEMENTOS:</label> <!-- etiqueta, está asociada con el elemento <select> que tiene el atributo id="elemental". El atributo for en la etiqueta <label> establece una conexión con el <select> correspondiente, -->
+      <select id="elemental" name="elementos" data-testid="select-elementos" > <!-- id Proporciona un identificador único para el menú desplegable. atributo es utilizado para propósitos de (testing), seleccionar este elemento específico en el DOM. -->
+        <option value="Todo">Todo</option>  <!-- etiqueta opción dentro del menú desplegable. Los atributos y contenidos son: v= El valor asociado a esta opción, que se envía al formulario si esta opción está seleccionada. todo texto usuario -->
+        <option value="Planta">Planta</option>
+        <option value="Agua">Agua</option>
+        <option value="Fuego">Fuego</option>
+        <option value="Veneno">Veneno</option>
+        <option value="Psiquico">Psiquico</option>
+        <option value="Volador">Volador</option>
+        <option value="Fantasma">Fantasma</option>
+        <option value="Electrico">Electrico</option>
+        <option value="Normal">Normal</option>
+        <option value="Hada">Hada</option>
+        <option value="Acero">Acero</option>
+        <option value="Lucha">Lucha</option>
+        <option value="Siniestro">Siniestro</option>
+        <option value="Dragon">Dragon</option>
+      </select>
+
+      <label for="weakness">DEBILIDAD:</label>
+      <select id="weakness" name="debilidad" data-testid="select-debilidad" >
+        <option value="Todo">Todo</option>
+        <option value="Planta">Planta</option>
+        <option value="Agua">Agua</option>
+        <option value="Fuego">Fuego</option>
+        <option value="Hielo">Hielo</option>
+        <option value="Tierra">Tierra</option>
+        <option value="Roca">Roca</option>
+        <option value="Bicho">Bicho</option>
+        <option value="Veneno">Veneno</option>
+        <option value="Psiquico">Psiquico</option>
+        <option value="Volador">Volador</option>
+        <option value="Fantasma">Fantasma</option>
+        <option value="Electrico">Electrico</option>
+        <option value="Hada">Hada</option>
+        <option value="Acero">Acero</option>
+        <option value="Lucha">Lucha</option>
+        <option value="Siniestro">Siniestro</option>
+        <option value="Dragon">Dragon</option>
+      </select>
+
+      <label for="order">CARACTERISTICA:</label>
+      <select id="order" name="ordenar" data-testid="select-ordenar" >
+        <option value="Numero">Numero</option>
+        <option value="Nombre">Nombre</option>
+        <option value="Generación">Generación</option>
+        <option value="Ataque">Ataque</option>
+        <option value="Defensa">Defensa</option>
+        <option value="Velocidad">Velocidad</option>
+      </select>
+
+      <label for="word">ALFABETICAMENTE:</label>
+      <select id="word" name="alfabeto" >
+        <option value="">Mostrar todo</option>
+        <option value="a">A</option>
+        <option value="b">B</option>
+        <option value="c">C</option>
+        <option value="d">D</option>
+        <option value="e">E</option>
+        <option value="f">F</option>
+        <option value="g">G</option>
+        <option value="h">H</option>
+        <option value="i">I</option>
+        <option value="j">J</option>
+        <option value="k">K</option>
+        <option value="l">L</option>
+        <option value="m">M</option>
+        <option value="n">N</option>
+        <option value="o">O</option>
+        <option value="p">P</option>
+        <option value="q">Q</option>
+        <option value="r">R</option>
+        <option value="s">S</option>
+        <option value="t">T</option>
+        <option value="u">U</option>
+        <option value="v">V</option>
+        <option value="w">W</option>
+        <option value="x">X</option>
+        <option value="y">Y</option>
+        <option value="z">Z</option>
+        <option value="z-a">Z - A</option>
+      </select>
+
+      <button id="clear" data-testid="button-borrar">LIMPIAR</button> <!-- botón "LIMPIAR", que tiene un identificador id=clear, para su manipulación y un atributo data-testid para propósitos de prueba. --> 
+    </div>
+
+    <!-- Contenedor para promedio de velocidad -->
+    <div id="average-speed" style="text-align: center; margin-top: 20px; font-size: 1.2em;"><!--  crea id contenedor de bloque único para seleccionar en otros archivos,--> 
+      <!-- Aquí se mostrará el promedio de velocidad -->
+    </div>
+
+    <div id="root"> <!-- renderizar contenido dinámico, como la lista de Pokémon. -->
+      <ul id="pokemon-list"  
+       itemscope
+       itemtype="http://schema.org/ItemList">
+        <!-- los elementos <li> están justificados en view --> 
+        <!-- este elemento y sus descendientes forman un scope (alcance) de datos estructurados.
+         Define el tipo de datos estructurados utilizando la especificación de Schema.org. En este caso, indica que el elemento es una lista de ítems.--> 
+      </ul>
+    </div> 
+
+  </main>
+  
+  <footer>
+    <p>Programa Pokémon Cards desarrollado por Daniela Trejo &amp; Dinah Gomez, derechos reservados</p>
+  </footer>
   </body>
-</html>
+  </html>
+
