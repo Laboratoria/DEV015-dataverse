@@ -10,7 +10,7 @@
     "test": "jest --verbose --coverage test/",
     "test:e2e": "playwright test",
     "test:oas": "jest --verbose tests-read-only/oa/",
-    "pretest:oas-html": "npm run pretest",
+    "pretest:o": "npm run pretest",
     "test:oas-html": "jest --verbose tests-read-only/oa/oa-html.spec.js",
     "test:oas-css": "jest --verbose tests-read-only/oa/oa-css.spec.js",
     "pretest:oas-js": "npm run pretest",

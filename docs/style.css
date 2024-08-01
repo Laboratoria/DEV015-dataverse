@@ -1,0 +1,891 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+  --purple: #471863;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+  outline: none;
+  border: none;
+  text-decoration: none;
+  text-transform: capitalize;
+  transition: .2s linear;
+  font-size: 26px;
+}
+
+
+html {
+  font-size: 62.5% !important;
+  scroll-behavior: smooth !important;
+  scroll-padding-top: 6rem !important;
+  overflow-x: hidden !important;
+}
+
+
+section {
+  padding: 0rem 8%;
+  background: #F0ECE3;
+}
+
+.heading {
+  text-align: center;
+  font-size: 4rem;
+  color: #4F2E1D;
+  padding: 1rem;
+  margin: 0rem -180px;
+  background: #C7B198;
+}
+
+
+.btn {
+  display: inline-block;
+  margin-top: 4rem;
+  border-radius: 5rem;
+  background: #471863;
+  color: #ffffff;
+  padding: .9rem 3.5rem;
+  cursor: pointer;
+  font-size: 2rem;
+}
+
+.btn:hover {
+  background-color: #6F4F84;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: #DFD3C3;
+  padding: 0rem 9%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 1000;
+  box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
+}
+
+header .logo {
+  height: 85px;
+}
+
+header .navbar a {
+  font-size: 2rem;
+  color: #511D00;
+  padding: 0 1.5rem;
+}
+
+header .navbar a:hover {
+  color: #ffffff;
+}
+
+header .icons a {
+  font-size: 2.5rem;
+  color: #471863;
+  margin-left: 1.5rem;
+}
+
+header .icons a:hover {
+  color: #ffffff;
+}
+
+header #toggler {
+  display: none;
+}
+
+header .fa-bars {
+  font-size: 3rem;
+  color: #6F4F84;
+  border-radius: .5rem;
+  padding: .5rem .1.5rem;
+  cursor: pointer;
+  border: .1rem solid rgba(0, 0, 0, .3);
+  display: none;
+}
+
+.home {
+  display: flex;
+  align-items: center;
+  min-height: 100vh;
+  background: url('./img/image26.png') no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.home .content {
+  max-width: 68rem;
+}
+
+.home .content h3 {
+  font-size: 90px;
+  color: #6F4F84;
+  line-height: 55px;
+}
+
+.home .content span {
+  font-size: 42px;
+  color: #511D00;
+  padding: 1rem 0;
+  line-height: 55px;
+}
+
+.home .content p {
+  font-size: 1.7rem;
+  color: #705445;
+  padding: 0rem 0;
+  line-height: 1.5;
+}
+
+/* Aqui va contenedor stadisticas */
+.contenedorStadisticas {
+  display: flex;
+  align-items: center;
+  height: auto;
+  margin: 0;
+  text-align: center;
+}
+
+/* Aqui termina stadisticas */
+
+/* Aqui van los botones*/
+.filter-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  justify-content: center;
+  line-height: 65px;
+  background: #F0ECE3;
+}
+
+.label-style {
+  color: #471863;
+  padding: 10px 20px;
+  font-size: 20px;
+  text-align: center;
+}
+
+
+
+.content {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  align-items: center;
+}
+
+
+select {
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  border-radius: 20px;
+  background-color: #6F4F84;
+  color: white;
+  transition: background-color 0.3s ease;
+}
+
+select:hover {
+  background-color: #8566A1;
+}
+
+
+#button-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  border-radius: 20px;
+  background-color: #471863;
+  color: white;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #8566A1;
+}
+
+/* Aqui terminan los botones*/
+
+/* aqqui comienza las cards*/
+
+div#root {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: #F0ECE3;
+}
+
+ul {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  justify-content: center;
+  gap: 10px;
+  max-width: 1340px;
+  padding-top: 30px;
+}
+
+.item {
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin: 10px;
+  width: 300px;
+  padding: 16px;
+  box-sizing: border-box;
+  transition: transform 0.2s;
+  display: flex;
+  flex-direction: column;
+  max-width: 300px;
+}
+
+.item:hover {
+  transform: scale(1.05);
+}
+
+.root #imageUrl {
+  width: 10%;
+  height: 10px;
+  object-fit: cover;
+  border-radius: 8px 8px 0 0;
+}
+
+dt {
+  margin: -20px 0 0px;
+  font-size: 19px;
+  color: #4F2E1D;
+  padding-top: 20px;
+
+}
+
+dd {
+  margin: 0 0 10px;
+  font-size: 15px;
+  color: #000000;
+
+}
+
+
+/*aqui termina las cards*/
+/* aqqui comienza help our animals*/
+.container-help-our-animals {
+  display: flex;
+  justify-content: space-between;
+  margin: 0px -155px;
+  padding-left: 134px;
+  padding-top: 20px;
+  padding-right: 168px;
+  padding-bottom: 20px;
+  background: white;
+}
+
+.content-help-our-animals {
+  width: 60%;
+  padding: 20px;
+
+}
+
+.content-help-our-animals p {
+  margin-bottom: 15px;
+  color: #4F2E1D;
+  font-size: 19px;
+}
+
+.donation-box {
+  width: 35%;
+  background: #FBFBFB;
+  padding: 20px;
+  text-align: center;
+  font-size: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+.donation-box h2 {
+  margin-top: 0;
+  font-family: "Montserrat", sans-serif;
+  color: #4F2E1D;
+
+}
+
+.logo img {
+  width: 265px;
+  height: auto;
+  margin-top: 17px;
+}
+
+.amount {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.amount input {
+  width: 100px;
+  padding: 5px;
+  font-size: 1.2em;
+  text-align: right;
+  margin-right: 5px;
+}
+
+.amount {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+#donation-amount {
+  width: 100px;
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 20px;
+  text-align: center;
+  color: #7B7B7B;
+  margin-bottom: 10px;
+  background-color: #ECECEC;
+}
+
+.amount span {
+  font-size: 16px;
+}
+
+.currency {
+
+  padding: 15px 33px;
+  background-color: #6F4F84;
+  color: #ffffff;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.checkbox-container {
+  display: flex;
+  align-items: center;
+}
+
+#monthly-donation {
+  margin-right: 10px;
+  margin-left: 79px;
+  width: 20px;
+  height: 20px;
+}
+
+.make {
+  font-size: 21px;
+  color: #4F2E1D;
+}
+
+.paypal-button {
+  display: block;
+  align-items: center;
+  width: 100%;
+  border-radius: 23px;
+  padding: 10px;
+  margin: 10px 0;
+  background-color: #FFD140;
+  color: #022F85;
+  border: none;
+  cursor: pointer;
+  font-size: 1em;
+  font-weight: 600;
+}
+
+.paypal-logo {
+  margin-bottom: -10px;
+  width: 32px;
+  height: auto;
+  margin-right: 2px;
+
+}
+
+/* CARD STYLES */
+
+.card-image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.card-button {
+  display: block;
+  width: 100%;
+  border-radius: 23px;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #022F85;
+  cursor: pointer;
+  font-size: 1em;
+  font-weight: 600;
+}
+
+.card-button {
+  background-color: white;
+  color: #00457C;
+  border: 1px solid #00457C;
+}
+
+.paypal-button:hover {
+  background-color: #f2d883;
+}
+
+.card-button:hover {
+  background-color: #b3ceff;
+}
+
+/* aqqui termina help our animals*/
+.our .row {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+  padding: 2rem 0;
+  padding-bottom: 3rem;
+}
+
+.our .row .video-contain {
+  flex: 1 1 40rem;
+  position: relative;
+}
+
+.our .row .video-contain video {
+  width: 100%;
+  border: 1.5rem solid #fff;
+  border-radius: .5rem;
+  box-shadow: 0 .5rem 1rem rgba(0, 0, 0.1);
+  height: 100%;
+  object-fit: cover;
+}
+
+
+.our .row .content {
+  flex: 1 1 40rem;
+}
+
+.our .row .content h3 {
+  font-size: 3rem;
+  color: #511D00;
+}
+
+.our .row .content p {
+  font-size: 19px;
+  color: #705445;
+  padding: .5rem 0;
+  padding-top: 1rem;
+  line-height: 1.5;
+}
+
+.contact .row {
+  display: flex;
+  flex-wrap: wrap-reverse;
+  gap: 0.5rem;
+  align-items: center;
+  padding: 2rem;
+}
+
+.contact .row form {
+  flex: 2 32 50rem;
+  padding: 3rem 1.5rem;
+  box-shadow: 0 .5rem 1.5rem rgba(0, 0, 0, .1);
+  border: .1rem solid rgba(0, 0, 0, .1);
+  background: #fff;
+  border-radius: 0.5rem;
+}
+
+/*
+.contact .row form{
+  flex: 1 1 40rem;
+  padding: 2rem 2.5rem;
+  box-shadow: 0 .5rem 1.5rem rgba(0, 0, 0, .1);
+  border: .1rem solid rgba(0, 0, 0, .2);
+  background: #fff;
+  border-radius: .5rem;
+}
+
+*/
+
+
+
+
+.contact .row .image {
+  flex: 1 1 40rem;
+}
+
+.contact .row .image img {
+  width: 100%;
+  padding-top: 12px;
+  height: 629px;
+}
+
+.contact .row form .box {
+  padding: 1rem;
+  font-size: 2.5rem;
+  color: #4F2E1D;
+  text-transform: none;
+  border: .1rem solid rgba(0, 0, 0, .1);
+  border-radius: .5rem;
+  margin: 2rem 0;
+  width: 100%;
+}
+
+.contact .row form .box:focus {
+  border-color: #6F4F84;
+}
+
+.contact .row form textarea {
+  height: 15rem;
+  resize: none;
+}
+
+.footer-top .footer-column {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+}
+
+.footer-top .footer-column .box {
+  flex: 1 1 25rem;
+  border: none;
+}
+
+.footer-top .footer-column .box h3 {
+  color: #705445;
+  font-size: 2.5rem;
+  padding: 1rem 0;
+}
+
+.footer-top .footer-column .box a {
+  display: block;
+  color: #511D00;
+  font-size: 1.8rem;
+  padding: 1rem 0;
+}
+
+.footer-top .footer-column .box a:hover {
+  color: #6F4F84;
+  text-decoration: underline;
+}
+
+.footer-top .footer-column .box img {
+  margin-top: 1rem;
+}
+
+.highlight {
+  text-align: center;
+  padding: 1.5rem;
+  margin-top: 1.5rem;
+  padding-top: 2.5rem;
+  font-size: 2rem;
+  color: #4F2E1D;
+  border-top: .1rem solid rgb(0, 0, 0);
+}
+
+.highlight span {
+  color: #6F4F84;
+}
+
+
+.payment-methods {
+  display: flex;
+  gap: 6px;
+}
+
+.payment-methods img {
+  height: 60px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+.footer-column {
+  flex: 1;
+  padding: 0 20px;
+}
+
+.footer-column h3 {
+  margin-bottom: 15px;
+  color: #511D00;
+}
+
+.footer-column ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-column ul li {
+  margin-bottom: 10px;
+}
+
+.footer-column ul li a {
+  color: #511D00;
+  text-decoration: none;
+  font-size: 1.5rem;
+}
+
+.footer-column ul li a:hover {
+  text-decoration: underline;
+}
+
+.payment-methods img {
+  width: 30px;
+  margin-right: 50px;
+  
+}
+
+
+footer{
+  text-align: center; 
+  padding: 1rem;
+  margin: 2rem 0;
+  font-size: 3.5rem;
+  color: #511D00;
+  line-height: 1.5;
+}
+footer p {
+  margin: 0;
+}
+footer .highlight {
+  color: #471863;
+}
+footer::before {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 1px;
+  background-color: gray; 
+  margin-bottom: 10px; 
+}
+
+*/
+
+
+
+
+@media (max-width: 991px) {
+
+  .content-help-our-animals,
+  .donation-box {
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+  }
+
+  .container-help-our-animals {
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .heading {
+    font-size: 3rem;
+    padding: 1rem 0;
+  }
+
+  .content-help-our-animals p {
+    font-size: 17px;
+  }
+
+  .amount input {
+    font-size: 1em;
+  }
+
+  .make {
+    font-size: 19px;
+  }
+}
+
+
+@media (max-width: 991px) {
+  .filter-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .label-style {
+    font-size: 18px;
+  }
+
+  select {
+    width: 100%;
+    max-width: 300px;
+  }
+
+  button {
+    width: 100%;
+    max-width: 300px;
+  }
+}
+
+@media (max-width: 768px) {
+  .label-style {
+    font-size: 16px;
+  }
+
+  select,
+  button {
+    padding: 8px 15px;
+    font-size: 14px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+@media (max-width:991px) {
+
+  html {
+    font-size: 55%;
+  }
+
+  header {
+    padding: 2rem;
+  }
+
+  section {
+    padding: 2rem;
+  }
+
+  .home {
+    background-position: left;
+  }
+}
+
+@media (max-width:768px) {
+
+  header .fa-bars {
+    display: block;
+  }
+
+  header .navbar {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background-color: #C7B198;
+    border-top: .1rem solid rgba(0, 0, 0, .1);
+    clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+  }
+
+  header #toggler:checked~.navbar {
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+  }
+
+  header .navbar a {
+    margin: 1.5rem;
+    padding: 1.5rem;
+    background: #DFD3C3;
+    border: .1rem solid rgba(0, 0, 0, .1);
+    display: block;
+  }
+
+  .home .content h3 {
+    font-size: 5rem;
+  }
+
+  .home .content span {
+    font-size: 2.5rem;
+  }
+
+  .contenedorStadisticas {
+    display: none;
+  }
+
+}
+
+@media (max-width:450px) {
+
+  html {
+    font-size: 50%;
+  }
+
+  .heading {
+    font-size: 3rem;
+
+  }
+
+}
+
+#chart_wrap {
+  border: 1px solid gray;
+  height: 0;
+  overflow: hidden;
+  width: 50%;
+  height: 20%;
+}
+
+
+#piechart {
+  width: 100%;
+}
+@media (max-width: 991px) {
+  #chart_wrap {
+    width: 70%; 
+    height: 30%; 
+  }
+}
+
+
+@media (max-width: 768px) {
+  #chart_wrap {
+    width: 90%; 
+    height: 40%; 
+  }
+}

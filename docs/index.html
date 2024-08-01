@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-compatible" content="IE-edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pet Finder</title>
+
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+
+<body>
+  <header>
+    <label for="toggler" class="fas fa-bars"></label>
+    <input type="checkbox" name="" id="toggler">
+    <a href="#"><img src="img/Logo (1).png" alt="Logo" class="logo"></a>
+    <nav class="navbar">
+      <a href="#filterSelect">Filter</a>
+      <a href="#stadistics">Statistics</a>
+      <a href="#animals">About us</a>
+      <a href="#donate">Donate</a>
+      <a href="#contact">Contact us</a>
+    </nav>
+    <h1></h1>
+    <div class="icons">
+      <a href="#" class="fas fa-heart"></a>
+      <a href="#" class="fas fa-user"></a>
+    </div>
+  </header>
+
+  <section class="home" id="home">
+    <div class="content">
+      <h3>Adopt a pet</h3>
+      <h3><span>A loyal friend awaits you</span></h3>
+      <h2>
+        <p>Give a loving home to a pet in need. Experience the joy and unconditional love that only a rescued pet can
+          offer.</p>
+      </h2>
+      <a href="#" class="btn">Learn more</a>
+    </div>
+  </section>
+
+  <h1 class="heading" id="filterSelect"> Our Animals </h1>
+  <main>
+    <div class="filter-container">
+      <h2 class="handle">
+        <span class="label-style">I want to see:</span>
+      </h2>
+      <div class="content">
+        <label for="filter-select"></label>
+        <select id="filter-select" name="campo">
+          <option value="">Select Pet</option>
+          <option value="Dog">Dog</option>
+          <option value="Cat">Cat</option>
+        </select>
+
+        <label for="gender-select"></label>
+        <select id="gender-select" name="campo1" data-testid="select-filter">
+          <option value="">All gender</option>
+          <option value="Female">Female</option>
+          <option value="Male">Male</option>
+        </select>
+
+        <label for="size-select"></label>
+        <select id="size-select" name="campo2">
+          <option value="">Pet size</option>
+          <option value="Small">Small</option>
+          <option value="Big">Big</option>
+        </select>
+
+        <label for="ordenar"></label>
+        <select data-testid="select-sort" name="sort" id="ordenar">
+          <option value="">Order A-Z</option>
+          <option value="asc">A-Z</option>
+          <option value="desc">Z-A</option>
+        </select>
+
+        <div id="button-container">
+          <button id="reset-button">Clear</button>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <div id="root" class="picture"></div>
+
+  <h1 class="heading" id="stadistics"> Our Statistics</h1>
+  <div class="contenedorStadisticas">
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript">
+      google.charts.load('current', { 'packages': ['corechart'] });
+      google.charts.setOnLoadCallback(drawChart);
+
+      function drawChart() {
+        var data = google.visualization.arrayToDataTable([
+          ['Task', 'Hours per Day'],
+          ['Dog', 50.50],
+          ['Cat', 50.50],
+          ['Male', 45.83],
+          ['Female', 54.17],
+          ['Small', 3.36],
+          ['Big', 2.4],
+        ]);
+
+        var options = {
+          width: 800,
+          height: 600,
+          pieSliceText: 'percentage',
+        };
+
+        var chart = new google.visualization.PieChart(document.getElementById('piechart'));
+        chart.draw(data, options);
+      }
+    </script>
+    <div id="chart_wrap">
+      <div id="piechart"></div>
+    </div>
+    <div id="results"></div>
+    <button id="compute-stats-btn">stadistics</button>
+  </div>
+
+
+
+  <section class="our" id="animals">
+    <h1 class="heading">About Us</h1>
+    <div class="row">
+      <div class="video-contain">
+        <video src="img/volunteer.mp4" loop autoplay muted></video>
+      </div>
+      <div class="content">
+        <h3>Why choose them?</h3>
+        <p>Our mission: Pet Finder is an animal welfare organization dedicated to creating a better future for both
+          animals and the community. At our specialized animal rescue and rehoming center, we provide a safe haven for
+          homeless cats and dogs. Here, they receive the care and rehabilitation they need to find their forever homes.
+        </p>
+        <a href="#" class="btn">Learn more</a>
+      </div>
+    </div>
+  </section>
+  <section>
+    <h1 class="heading" id="donate"> Help Our Animals </h1>
+    <div class="container-help-our-animals">
+      <div class="content-help-our-animals">
+        <p> Your generosity is vital in providing our animals with the necessary food, veterinary care, and support they
+          need to live a happy and healthy life.</p>
+        <p> Through your donation, we are able to offer a safe haven to the most vulnerable dogs and cats, including
+          those who have experienced mistreatment, neglect, abandonment, or are simply unwanted.</p>
+        <p> 🐾 We care for up to 100 animals every day and re-home around 250 animals a year</p>
+        <p> 🐾 We rescue over 160 animals per year, those who we can’t reunite, we re-home.</p>
+        <p> 🐾 Our Sanctuary provides a refuge for hundreds of vulnerable dogs and cats who have been mistreated,
+          neglected, abandoned or are unwanted.</p>
+        <p> 🐾 We never put a healthy animal down</p>
+        <p> 🐾 We never turn away animals in need, as long as we have the capacity and resources to meet their specific
+          needs</p>
+        <p> 🐾 We’re dedicated to finding forever homes!</p>
+      </div>
+      <div class="donation-box">
+        <span>Donate to</span>
+        <div class="logo">
+          <img src="img/Logo (1).png" alt="Pet Finder">
+        </div>
+        <div class="amount">
+          <label for="donation-amount"></label>
+          <input type="number" value="0" min="0" step="1" id="donation-amount">
+          <span class="currency">USD</span>
+        </div>
+        <div class="checkbox-container">
+          <label for="monthly-donation">
+            <input type="checkbox" id="monthly-donation">
+            <span class="make">Make it a monthly donation</span>
+          </label>
+        </div>
+        <button class="paypal-button">
+          <img
+            src="https://images.crunchbase.com/image/upload/c_pad,h_256,w_256,f_auto,q_auto:eco,dpr_1/v1447476896/lcrdrlh1hfa0nbl9ycy3.png"
+            alt="PayPal Logo" class="paypal-logo">
+          Donate with PayPal
+        </button>
+        <button class="card-button">Donate with credit or debit card</button>
+      </div>
+    </div>
+  </section>
+  <section class="contact" id="contact">
+    <h1 class="heading">Contact Us </h1>
+    <div class="row">
+      <form action="">
+        <input type="text" placeholder="name" class="box">
+        <input type="email" placeholder="email" class="box">
+        <input type="number" placeholder="number" class="box">
+        <textarea name="" class="box" placeholder="message" cols="30" rows="10"></textarea>
+        <input type="submit" value="send message" class="btn">
+      </form>
+      <div class="image">
+        <img src="img/send.png" alt="">
+      </div>
+    </div>
+  </section>
+
+  <section class="footer-top">
+    <div class="footer-column">
+      <div class="box">
+        <h3>Quick Links</h3>
+        <a href="#">Home</a>
+        <a href="#">Filter</a>
+        <a href="#">Statistics</a>
+        <a href="#animals">About us</a>
+        <a href="#donate">Donate</a>
+        <a href="#contact">Contact us</a>
+      </div>
+
+      <div class="box">
+        <h3>Extra Links</h3>
+        <a href="#">My Account</a>
+        <a href="#">My Favorite</a>
+      </div>
+
+      <div class="box">
+        <h3>Locations</h3>
+        <a href="#">Colombia</a>
+        <a href="#">Argentina</a>
+        <a href="#">Perú</a>
+      </div>
+
+      <div class="box">
+        <h3>Contact Info</h3>
+        <a href="#">+54 444 333 222</a>
+        <a href="#">+31 888 333 222</a>
+        <a href="mailto:PetFinder@gmail.com">PetFinder@gmail.com</a>
+        <a href="#">Colombia, Peru - 400104</a>
+        <div class="payment-methods">
+          <img src="https://ps.w.org/woo-mpgs/assets/icon-256x256.jpg?rev=2087215" alt="Mastercard">
+          <img src="https://cdn.iconscout.com/icon/free/png-256/free-paypal-58-711793.png?f=webp" alt="Paypal">
+          <img src="https://companiesmarketcap.com/img/company-logos/256/V.png" alt="Visa">
+        </div>
+      </div>
+    </div>
+    <footer>
+      <div class="highlight">Created By <span>Bárbara y Yesenia</span> | All Rights Reserved</div>
+    </footer>
+  </section>
+  <script src="main.js" type="module"></script>
+</body>
+
+</html>

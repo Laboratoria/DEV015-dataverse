@@ -1,378 +1,308 @@
+
+
 export default [
   {
-    "id": "ada-lovelace",
-    "name": "Ada Lovelace",
-    "shortDescription": "Pionera en la programación, primera programadora de la historia.",
-    "description": "Una visionaria matemática británica del siglo XIX, es aclamada como la primera programadora de la historia. Su colaboración con Charles Babbage en la creación de la Máquina Analítica la llevó a desarrollar algoritmos, incluyendo el famoso \"algoritmo de Bernoulli\", destinados a ser procesados por una máquina. Su visión pionera la convirtió en una figura fundamental en la informática y la inteligencia artificial. Lovelace demostró que las computadoras podían ir más allá de simples cálculos matemáticos, anticipando un mundo donde la programación sería esencial en la resolución de problemas complejos, dejando una huella imborrable en la ciencia y la tecnología.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/ada-lovelace.jpg",
+    "id": "wilbur",
+    "name": "wilbur",
+    "shortDescription": "Just look at this handsome boy! He's simply amazing to watch in action, isn't he?",
+    "description": "Wilbur is looking for his new pad with a patient family who can help him settle and find his feet. Wilbur is potentially a Caucasian Shepherd (mix), which can be known to have some quirky breed traits. Experience with Caucasians or other guard breeds, or extensive breed research, would be beneficial. These dogs are typically large and strong-willed, requiring firm yet gentle handling. Patience and consistency in training are key to harnessing their protective instincts effectively. Potential adopters should be prepared for a loyal companion who thrives on regular exercise and mental stimulation to keep them happy and healthy.",
+    "imageUrl": "https://teckelsanimalsanctuaries.co.uk/wp-content/uploads/2024/05/wilbur3.jpg",
     "facts": {
-      "yearOfBirth": "1815",
-      "yearOfDeath": "1852",
-      "birthPlace": "Londres, Reino Unido",
-      "mainField": "Ciencia de la Computación"
-    },
-    "extraInfo": {
-      "imageSource": "https://www.bing.com/images/create/genera-una-imagen-de-ada-lovelace2c-la-primera-prog/650a1eff8ff04b88833d5cdef0309441"
+      "pet": "Dog",
+      "gender": "Male",
+      "petSize": "Small",
+    }
+  },
+
+  {
+    "id": "Lucky",
+    "name": "Lucky",
+    "shortDescription": "Lucky starts reserved but warms up quickly, enjoying neck scratches, walking well on leash, and being polite.",
+    "description": "Since arriving at the center, we have noticed that Lucky can get a little stressed when he's by himself, and we do wonder if he may suffer from some separation anxiety. Therefore, Lucky would prefer to live in a home where he does not need to be left alone for long periods of time and ideally with more than one person around. He could share his home with children over the age of 14, making him a good fit for families looking for a gentle and understanding companion.",
+    "imageUrl": "https://teckelsanimalsanctuaries.co.uk/wp-content/uploads/2024/05/lucky2.jpg",
+    "facts": {
+      "pet": "Dog",
+      "gender": "Male",
+      "petSize": "Big",
+    }
+  },
+
+  {
+    "id": "Gromit",
+    "name": "Gromit",
+    "shortDescription": "Gromit has come far, is now eager to join his forever family, promising to be a rewarding and cherished addition!",
+    "description": "Gromit is in search of a loving, patient family ideally with children aged 10 and up. He adores playing with other dogs and could potentially live with a compatible canine companion following successful meetings at the shelter. With his distinctive lurcher legs, he requires a dog who can match his lively and exuberant nature. Gromit's affectionate personality and playful spirit promise to bring immense joy and companionship to any household ready to offer him a forever home. He love food.",
+    "imageUrl": "https://teckelsanimalsanctuaries.co.uk/wp-content/uploads/2024/05/Gromit-4.jpg",
+    "facts": {
+      "pet": "Dog",
+      "gender": "Male",
+      "petSize": "Big"
     }
   },
   {
-    "id": "emmy-noether",
-    "name": "Emmy Noether",
-    "shortDescription": "Matemática destacada, teorema fundamental en álgebra abstracta.",
-    "description": "Una brillante matemática alemana, revolucionó la física teórica con sus contribuciones al teorema de conservación de la energía y el teorema de Noether, fundamentales en la teoría de la relatividad y la mecánica cuántica. A pesar de los obstáculos que enfrentó como mujer en la academia, sus investigaciones en álgebra abstracta y teoría de grupos son fundamentales en la física moderna. Su capacidad para unificar conceptos matemáticos y físicos marcó un hito en la historia de la ciencia, allanando el camino para futuras generaciones de científicas.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/emmy-noether.jpg",
+    "id": "Teal",
+    "name": "Teal",
+    "shortDescription": "Teal needs a pet-free home due to her prey drive but might live with a dog after center introductions.",
+    "description": "Meet beautiful springer spaniel Teal, who arrived at the center through no fault of her own, and is now looking for a fresh new start in life!. Teal is a typical spaniel, loves playing with her toys, and is always looking for the next thing to do. She can be strong and isn't used to being walked on a lead, so would benefit from some further training in the home. Teal is a clever girl and will need an active family who is committed to keeping her both physically and mentally stimulated.",
+    "imageUrl": "https://teckelsanimalsanctuaries.co.uk/wp-content/uploads/2024/05/teal-768x1024.jpg",
     "facts": {
-      "yearOfBirth": "1882",
-      "yearOfDeath": "1935",
-      "birthPlace": "Erlangen, Alemania",
-      "mainField": "Matemáticas"
-    },
-    "extraInfo": {
-      "imageSource": "https://www.bing.com/images/create/create-an-image-of-of-a-german-woman2c-a-pioneering/6510ddb1e8254b928b8f8f1d5e95fea4"
+      "pet": "Dog",
+      "gender": "Female",
+      "petSize": "Big"
     }
   },
   {
-    "id": "hypatia-de-alejandria",
-    "name": "Hypatia de Alejandría",
-    "shortDescription": "Matemática y filósofa en la antigua Alejandría.",
-    "description": "Filósofa y matemática en la antigua Alejandría, desafió las normas de género de su época al destacar en una sociedad dominada por hombres. Su legado incluye importantes contribuciones a la geometría y la astronomía, así como su destacado papel como maestra y defensora del conocimiento en una época de agitación política. Hypatia demostró que las mujeres podían sobresalir en campos intelectuales y su valentía al mantener sus creencias filosóficas la convierte en un símbolo de resistencia y sabiduría en la historia de la ciencia.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/hypatia-de-alejandria.jpg",
+    "id": "Oreo",
+    "name": "Oreo",
+    "shortDescription": "She needs a quiet, pet-free home with outdoor access, ideally away from busy roads for safety.",
+    "description": "Oreo is a confident and playful 9-month-old kitten. She enjoys company and adapts well to different environments. She would thrive in a quiet and secure home without other pets, with access to the outdoors away from busy roads. Oreo could potentially live with children over 12, pending introductions at the center. Her sweet and lively personality promises to bring joy and companionship to her new human companions. If you're interested in offering Oreo a loving home, please fill out our online enquiry form.",
+    "imageUrl": "https://teckelsanimalsanctuaries.co.uk/wp-content/uploads/2024/04/Oreo-1.jpg",
     "facts": {
-      "yearOfBirth": "circa 360",
-      "yearOfDeath": "415",
-      "birthPlace": "Alejandría, Egipto",
-      "mainField": "Matemáticas, Filosofía"
+      "pet": "Cat",
+      "gender": "Female",
+      "petSize": "Small"
     },
-    "extraInfo": {
-      "imageSource": "https://www.bing.com/images/create/create-a-vivid-digital-artwork-or-painting-that-de/6510df0ebe1a4807af22175452761e1a"
+  },
+  {
+    "id": "Poppy",
+    "name": "Poppy",
+    "shortDescription": "Purrfect Poppy is searching for her forever home.",
+    "description": "Having initially arrived at the center with limited background information, Poppy's past remains largely a mystery. However, for the past five years, she has thrived in a single-person household, finding joy in her toys, exploring, and receiving affection. Poppy would thrive in a calm home environment without other pets. Families with older, sensible children will be considered. Once settled, she would cherish outdoor access. Diagnosed with diabetes last year, Poppy requires insulin injections twice daily, which she handles well. Comprehensive training and ongoing support will be provided to prospective adopters to ensure her care and well-being.",
+    "imageUrl": "https://teckelsanimalsanctuaries.co.uk/wp-content/uploads/2023/03/poppy-wallace-cat.jpg",
+    "facts": {
+      "pet": "Cat",
+      "gender": "Female",
+      "petSize": "Small"
     }
   },
   {
-    "id": "marjorie-lee-browne",
-    "name": "Marjorie Lee Browne",
-    "shortDescription": "Matemática, contribuyó a la teoría de números.",
-    "description": "Matemática estadounidense, destacó en una época en la que las mujeres afroamericanas enfrentaban múltiples barreras en la educación superior. No solo obtuvo su doctorado en matemáticas, sino que también se convirtió en una destacada educadora, promoviendo la diversidad en las ciencias matemáticas y desafiando la discriminación racial y de género. Su compromiso con la educación y su capacidad para inspirar a futuras generaciones la convierten en un modelo a seguir para las mujeres en la ciencia, dejando una huella perdurable en la historia académica.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/marjorie-lee-browne.jpg",
+    "id": "Ronnie",
+    "name": "Ronnie",
+    "shortDescription": "Ronnie, a stray arrival, needs a patient family to help him settle, potentially needing housetraining and learning house manners.",
+    "description": "Ronnie can find meeting other dogs tricky and has shown some leash reactivity. A family interested in training and helping him with these concerns is essential. He prefers to be the only pet at home and would benefit from training classes after settling in. Ronnie adores people and is eager to please, making him a quick learner. With patient guidance, he can overcome his worries and thrive in a supportive environment committed to his well-being and ongoing development. He love a play!.",
+    "imageUrl": "https://teckelsanimalsanctuaries.co.uk/wp-content/uploads/2023/08/Ronnie_1.jpg",
     "facts": {
-      "yearOfBirth": "1914",
-      "yearOfDeath": "1979",
-      "birthPlace": "Memphis, Estados Unidos",
-      "mainField": "Matemáticas"
-    },
-    "extraInfo": {
-      "imageSource": "https://www.bing.com/images/create/design-an-inspiring-and-historically-accurate-imag/6510df7e7bb745f69d67f695441607a8"
+      "pet": "Dog",
+      "gender": "Male",
+      "petSize": "Small"
     }
   },
   {
-    "id": "shakuntala-devi",
-    "name": "Shakuntala Devi",
-    "shortDescription": "Matemática prodigio, conocida como la 'Calculadora Humana'.",
-    "description": "Conocida como \"la bruja de las matemáticas\" de la India, dejó una marca indeleble en el mundo de los números. Su capacidad mental asombrosa la llevó a resolver complejos cálculos matemáticos mentalmente en cuestión de segundos, estableciendo récords mundiales. Además de su talento innato, Devi promovió activamente la educación matemática y luchó por la igualdad de género en un país donde las mujeres enfrentaban desafíos en la ciencia y la educación. Su legado destaca el poder de la mente humana y la importancia de la igualdad de oportunidades en la ciencia.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/shakuntala-devi.jpg",
+    "id": "Luna",
+    "name": "Luna",
+    "shortDescription": "Luna is looking for a quiet home without small children or other pets. ",
+    "description": "Luna is accustomed to the comforts of house life and yearns to return to a home where she can enjoy cuddles and affection with a caring family. After her time in the shelter, she's eager to settle into a loving environment where she can feel safe and cherished. With her gentle nature and love for companionship, Una would thrive in a home that provides stability and care. She's looking forward to rediscovering the joys of being part of a loving family and is ready to offer loyalty and companionship in return, making her an ideal addition to any loving household.",
+    "imageUrl": "https://teckelsanimalsanctuaries.co.uk/wp-content/uploads/2024/04/pro-C8qLoM85.jpeg",
     "facts": {
-      "yearOfBirth": "1929",
-      "yearOfDeath": "2013",
-      "birthPlace": "Bangalore, India",
-      "mainField": "Matemáticas"
-    },
-    "extraInfo": {
-      "imageSource": "https://www.bing.com/images/create/indian-woman-writing-math-problems-in-a-blackbard-/6510e19f3db54e14b365b7e8dc5045f6"
+      "pet": "Cat",
+      "gender": "Female",
+      "petSize": "Small"
     }
   },
   {
-    "id": "sofia-kovalevskaya",
-    "name": "Sofia Kovalevskaya",
-    "shortDescription": "Matemática y escritora, contribuyó a la teoría de funciones.",
-    "description": "Matemática rusa del siglo XIX, dejó una marca indeleble en la ciencia del siglo XIX al desafiar las barreras de género. Como matemática rusa, superó las restricciones sociales de su época para convertirse en la primera mujer en obtener un doctorado en matemáticas en Europa. Sus contribuciones a la teoría de las ecuaciones diferenciales y la mecánica revolucionaron la disciplina, abriendo nuevas perspectivas en el análisis matemático. Su destacada membresía en la Academia de Ciencias de Suecia marcó un hito en la historia de las mujeres en la ciencia.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/sofia-kovalevskaya.jpg",
+    "id": "Marmite",
+    "name": "Marmite",
+    "shortDescription": "she requires a quiet and safe home without other pets, with access to the outdoors.",
+    "description": "A house located away from busy roads would be perfect for Una. This environment would provide her with a peaceful and safe setting where she can relax and feel secure. Away from the hustle and bustle of traffic, Una could enjoy a tranquil atmosphere that suits her calm and loving nature. Such a home would allow her to thrive, offering the ideal conditions for cuddles, affection, and a sense of belonging in a caring family environment. He love play with a ball.",
+    "imageUrl": "https://teckelsanimalsanctuaries.co.uk/wp-content/uploads/2024/04/Marmite-1.jpg",
     "facts": {
-      "yearOfBirth": "1850",
-      "yearOfDeath": "1891",
-      "birthPlace": "Moscú, Rusia",
-      "mainField": "Matemáticas"
-    },
-    "extraInfo": {
-      "imageSource": "https://www.bing.com/images/create/indian-woman-writing-math-problems-in-a-blackbard-/6510e19f3db54e14b365b7e8dc5045f6"
+      "pet": "Cat",
+      "gender": "Female",
+      "petSize": "Small"
     }
   },
   {
-    "id": "yoko-shimomura",
-    "name": "Yoko Shimomura",
-    "shortDescription": "Compositora de música, destacada en la industria de los videojuegos.",
-    "description": "Compositora japonesa, es una figura destacada en la ciencia de la música y el arte sonoro. Aunque no se dedica a la ciencia en el sentido tradicional, su trabajo en la composición musical ha requerido un profundo entendimiento de la teoría musical y la tecnología de audio. Ha contribuido de manera significativa a la industria de los videojuegos, componiendo icónicas bandas sonoras que han enriquecido la experiencia de juego. Su éxito en un campo donde las mujeres estaban subrepresentadas la convierte en un modelo a seguir, incluso en campos no convencionales como la composición musical.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/yoko-shimomura.jpg",
+    "id": "Chyna",
+    "name": "Chyna",
+    "shortDescription": "Chyna is lovely 13 year-old feline, who sadly ended up at the center due to her owners decline in health.",
+    "description": "She is currently yearning to return to the familiar comforts of her home, feeling a profound sense of longing and nostalgia for the warmth and companionship of her own family, with whom she shared cherished moments of snuggling. In her earnest quest for a new home, she seeks a tranquil and serene environment, ideally free from the presence of other pets and located away from bustling roads, thereby ensuring she can once again delight in the safety and freedom of exploring the great outdoors at leisure.",
+    "imageUrl": "https://teckelsanimalsanctuaries.co.uk/wp-content/uploads/2024/03/Chyna-.jpg",
     "facts": {
-      "yearOfBirth": "1967",
-      "birthPlace": "Hyogo, Japón",
-      "mainField": "Composición Musical, Video Juegos"
-    },
-    "extraInfo": {
-      "imageSource": "https://www.bing.com/images/create/yoko-shimomura-making-music-for-a-video-game-in-19/6510e40dd1eb45d0906e8c1f4bb601d3"
+      "pet": "Cat",
+      "gender": "Female",
+      "petSize": "Small"
     }
   },
   {
-    "id": "maryam-mirzakhani",
-    "name": "Maryam Mirzakhani",
-    "shortDescription": "Matemática, ganadora del Premio Fields.",
-    "description": "Matemática iraní, hizo historia al convertirse en la primera mujer en ganar la Medalla Fields, el premio más prestigioso en matemáticas. Sus investigaciones en la geometría de superficies y la teoría de las superficies de Riemann han tenido un impacto duradero en la matemática pura. A lo largo de su carrera, Mirzakhani inspiró a muchas mujeres a perseguir carreras en ciencia y matemáticas, derribando las barreras de género. Su enfoque innovador y su capacidad para resolver problemas complejos la convierten en un modelo a seguir para la comunidad científica y en un símbolo de la excelencia matemática.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/maryam-mirzakhani.jpg",
+    "id": "Reggie",
+    "name": "Reggier",
+    "shortDescription": "Reggie loves his food, toys, and snuggles, he prefers a family that can spend the day with him for companionship.",
+    "description": "He has a wonderful balance of enjoying walks and cuddling on your lap for a nap - as long as he's with a human companion, he remains content and cheerful! His versatile nature makes him a joy to be around, whether exploring the outdoors or enjoying quiet moments indoors. His preference for human company ensures he thrives in a loving home where he can share both active adventures and relaxing downtime with his favorite people. He love a play with ball.",
+    "imageUrl": "https://teckelsanimalsanctuaries.co.uk/wp-content/uploads/2023/08/Reggie.jpg",
     "facts": {
-      "yearOfBirth": "1977",
-      "yearOfDeath": "2017",
-      "birthPlace": "Teherán, Irán",
-      "mainField": "Matemáticas"
+      "pet": "Dog",
+      "gender": "Male",
+      "petSize": "Small"
     },
-    "extraInfo": {
-      "imageSource": "https://chalkdustmagazine.com/features/mathematics-maryam-mirzakhani/"
-    }
+
   },
   {
-    "id": "adele-goldberg",
-    "name": "Adele Goldberg",
-    "shortDescription": "Informática pionera, co-creadora del lenguaje de programación Smalltalk.",
-    "description": "Informática estadounidense reconocida por su influyente trabajo en la investigación y desarrollo de la programación orientada a objetos. Su contribución más destacada es la creación del lenguaje de programación Smalltalk, que revolucionó la forma en que se desarrollan software y sistemas informáticos. Goldberg ha sido una defensora incansable de la usabilidad y la accesibilidad en la informática, asegurando que las aplicaciones informáticas sean más amigables para los usuarios. Su trabajo ha allanado el camino para una programación más intuitiva y eficiente, y su legado perdura en la industria de la tecnología.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/adele-goldberg.jpg",
+    "id": "Smudge",
+    "name": "Smudge",
+    "shortDescription": "Smudge will best suit a home without other pets or children",
+    "description": "Owners will need to provide a quiet, secure room (or a similar space) where he can feel safe and comfortable until they have built his confidence, and he is ready to explore further afield. This space should have his favorite toys, bedding, and some soothing background noise to help him relax. Spending quality time with him here, offering gentle reassurance and positive reinforcement, will be crucial. As his confidence grows, he will start to venture out, exploring new parts of the home at his own pace. This gradual process will ensure a smooth transition and a happy, well-adjusted pet.",
+    "imageUrl": "https://teckelsanimalsanctuaries.co.uk/wp-content/uploads/2024/05/IMG-20240418-WA0009.jpg",
     "facts": {
-      "yearOfBirth": "1945",
-      "birthPlace": "Chicago, Estados Unidos",
-      "mainField": "Ciencias de la Computación"
+      "pet": "Cat",
+      "gender": "Male",
+      "petSize": "Small"
     },
-    "extraInfo": {
-      "imageSource": "https://pionerasinformaticas.ujaen.es/en/computer-women-pioneers/adele-goldberg-en"
-    }
+
   },
   {
-    "id": "barbara-liskov",
-    "name": "Barbara Liskov",
-    "shortDescription": "Científica de la computación, pionera en programación orientada a objetos.",
-    "description": "Pionera de la informática, es conocida por su trabajo en la programación y la arquitectura de sistemas distribuidos. Fue la primera mujer en obtener un doctorado en ciencias de la computación en el Instituto de Tecnología de Stanford y desarrolló el lenguaje de programación CLU, que estableció fundamentos para la programación orientada a objetos. Liskov ha dejado una marca indeleble en la industria de la tecnología al liderar avances en sistemas de almacenamiento y seguridad informática. Su enfoque en la fiabilidad y la robustez ha influido en el diseño de sistemas críticos en todo el mundo.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/barbara-liskov.jpg",
+    "id": "Blacky",
+    "name": "Blacky",
+    "shortDescription": "Blacky will best suit a home without other pets or children.",
+    "description": "Owners will need to provide a quiet, secure room (or similar space) where he can feel safe and comfortable until they have built his confidence, and he is ready to explore further afield. During this time, it's important to be patient and gentle, allowing him to adjust at his own pace. Gradually, as he becomes more confident, he will start to venture out and explore new areas of the home. Providing him with toys, treats, and positive reinforcement will help in building his trust and encouraging his natural curiosity. This careful approach will ensure his well-being and happiness.", 
+    "imageUrl": "https://urgenciesveterinaries.com/wp-content/uploads/2023/09/survet-gato-caida-pelo-01.jpeg",
     "facts": {
-      "yearOfBirth": "1939",
-      "birthPlace": "Los Angeles, Estados Unidos",
-      "mainField": "Ciencia de la Computación"
+      "pet": "Cat",
+      "gender": "Male",
+      "petSize": "Big"
     },
-    "extraInfo": {
-      "imageSource": "https://medium.com/a-computer-of-ones-own/barbara-liskov-inventor-of-abstract-data-types-9f8908fdcf86"
-    }
+
   },
   {
-    "id": "grace-hopper",
-    "name": "Grace Hopper",
-    "shortDescription": "Científica de la computación, creadora del primer compilador.",
-    "description": "Una de las pioneras de la informática, es famosa por su contribución al desarrollo del primer compilador y al lenguaje de programación COBOL. Además, desafió los estereotipos de género en la década de 1940 al unirse a la Marina de los Estados Unidos y convertirse en la primera programadora de la computadora Harvard Mark I. Su legado abarca la creación de conceptos cruciales como la \"depuración de software\" y su influencia en el desarrollo de la informática moderna, estableciendo estándares para la programación de alto nivel y la innovación tecnológica.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/grace-hopper.jpg",
+    "id": "Freya",
+    "name": "Freya",
+    "shortDescription": "abulous Freya is ready to find her new forever family.",
+    "description": "This beautiful girl is clever, loves her treats and toys, and loves all of the fuss once she knows you. Freya loves being out for walks, so she would do well with a relatively active family who enjoy disappearing into the countryside. Freya's playful and energetic nature makes her an ideal companion for those who appreciate the great outdoors and long, scenic walks. She thrives in environments where she can explore, enjoy plenty of physical activity, and bond with her family.",
+    "imageUrl": "https://teckelsanimalsanctuaries.co.uk/wp-content/uploads/2024/01/Freya2.jpg",
     "facts": {
-      "yearOfBirth": "1906",
-      "yearOfDeath": "1992",
-      "birthPlace": "Nueva York, Estados Unidos",
-      "mainField": "Ciencia de la Computación"
+      "pet": "Dog",
+      "gender": "Female",
+      "petSize": "Big"
     },
-    "extraInfo": {
-      "imageSource": "https://photos.com/featured/grace-hopper-with-early-computer-bettmann.html"
-    }
+
   },
   {
-    "id": "margaret-hamilton",
-    "name": "Margaret Hamilton",
-    "shortDescription": "Científica de la computación, lideró desarrollo de software para Apollo 11.",
-    "description": "Destacada científica de la computación que desempeñó un papel fundamental en el programa Apollo de la NASA. Fue directora de la División de Ingeniería de Software en el Laboratorio de Instrumentación del MIT, donde desarrolló el concepto de \"ingeniería de software\". Su liderazgo en el desarrollo del software de vuelo para las misiones Apollo fue fundamental para el éxito de la llegada del hombre a la Luna. Hamilton es un ejemplo de cómo la tecnología y la ciencia pueden alcanzar logros extraordinarios cuando se combinan con un enfoque innovador y una visión audaz.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/margaret-hamilton.jpg",
+    "id": "Tana",
+    "name": "Tana",
+    "shortDescription": "She requires a quiet, safe home without other pets, ideally with access to the outdoors for her well-being.",
+    "description": "A house away from busy roads would be perfect for her, ensuring her safety and peace of mind. She thrives in a tranquil environment where she can explore and enjoy the outdoors without the stress of traffic. Such a setting would allow her to roam freely, engaging her natural curiosity and providing opportunities for exercise and mental stimulation. With a secure outdoor space, she can bask in the sun, chase butterflies, or simply relax in solitude, fulfilling her need for both independence and a sense of security.",
+    "imageUrl": "https://es.mypet.com/wp-content/uploads/sites/23/2021/03/GettyImages-623368750-e1582816063521-1.jpg",
     "facts": {
-      "yearOfBirth": "1936",
-      "birthPlace": "Paoli, Indiana, Estados Unidos",
-      "mainField": "Ciencia de la Computación"
+      "pet": "Cat",
+      "gender": "Female",
+      "petSize": "Small"
     },
-    "extraInfo": {
-      "imageSource": "https://odetta.ai/blogs/margaret-hamilton-the-first-software-engineer"
-    }
+
   },
   {
-    "id": "radia-perlman",
-    "name": "Radia Perlman",
-    "shortDescription": "Ingeniera de redes, inventora del algoritmo Spanning Tree.",
-    "description": "Científica de la computación estadounidense, ha dejado una marca indeleble en el mundo de las redes informáticas y la seguridad. Conocida como \"la madre de Internet\", su invención del algoritmo Spanning Tree Protocol (STP) revolucionó la conectividad de redes y sentó las bases para la infraestructura de Internet moderna. A pesar de operar en un campo dominado por hombres, Perlman ha demostrado que las mujeres pueden liderar avances tecnológicos vitales. Su compromiso con la resiliencia de las redes y la ciberseguridad ha influido en la estabilidad y confiabilidad de la comunicación en línea.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/radia-perlman.jpg",
-    "facts": {
-      "yearOfBirth": "1951",
-      "birthPlace": "Portsmouth, Estados Unidos",
-      "mainField": "Ciencia de la Computación"
+    'id': 'Maggie',
+    'name': 'Maggie',
+    'shortDescription': 'Sweetheart Maggie is a worried lady who seems to have not had the easiest start in her life so far.',
+    'description': 'Arriving to us very shut down and scared; the staff have worked hard to win her trust and we now have an absolute cuddle monster who loves playing, snuggling, and being out for her walks in the fields (she even walks nicely on the lead!). She has become a favorite among the staff and volunteers due to her sweet nature and playful spirit. Every day she shows more confidence and happiness, making everyone around her smile with her joyful energy and loving personality. Her transformation is truly heartwarming and inspiring to witness.',
+    'imageUrl': "https://teckelsanimalsanctuaries.co.uk/wp-content/uploads/2024/03/ChelseaMaePhotography_Teckels-30.jpg",
+    'facts': {
+      'pet': 'Dog',
+      'gender': 'Female',
+      'petSize': 'Big'
     },
-    "extraInfo": {
-      "imageSource": "https://hackaday.com/2018/05/29/spanning-the-tree-dr-radia-perlman-untangling-networks/"
-    }
+
   },
   {
-    "id": "shafi-goldwasser",
-    "name": "Shafi Goldwasser",
-    "shortDescription": "Científica de la computación, ganadora del Premio Turing.",
-    "description": "Es una destacada criptógrafa y científica de la computación que ha contribuido significativamente a la teoría de la computación y la seguridad de la información. Su trabajo en criptografía de probabilidad y complejidad computacional ha sentado las bases para la seguridad en línea y la privacidad de datos en un mundo cada vez más digitalizado. Goldwasser es un ejemplo de cómo la ciencia de la computación puede abordar desafíos contemporáneos y proteger la información en la era de la información.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/shafi-goldwasser.jpg",
+    "id": "Nancy",
+    "name": "Nancy",
+    "shortDescription": "Cutie Nancy is looking for her new home, having ended up in Teckels care through no fault of her own.",
+    "description": "Nancy has lived in a home before and is desperate to get back to her home comforts. She would like to live in an adult-only home with no other pets as she can be a worrier. Nancy will also need a private, fully enclosed garden to play in and ideally live away from busy roads to ensure her safety and peace of mind. Returning to a familiar environment will help her thrive and regain her confidence and happiness quickly. Love.",
+    "imageUrl": "https://24petconnect.com/image/A1325336/LSVG/3",
     "facts": {
-      "yearOfBirth": "1958",
-      "birthPlace": "Nueva York, Estados Unidos",
-      "mainField": "Ciencia de la Computación"
+      "pet": "Dog",
+      "gender": "Female",
+      "petSize": "Big"
     },
-    "extraInfo": {
-      "imageSource": "https://www.jahresbericht2019.unibe.ch/successes_2019/einstein_lectures/index_eng.html"
-    }
+
   },
   {
-    "id": "chien-shiung-wu",
-    "name": "Chien-Shiung Wu",
-    "shortDescription": "Física experimental, contribuyó a la física nuclear.",
-    "description": "Física experimental de origen chino, desafiando los prejuicios de género y nacionalidad, realizó experimentos fundamentales en física de partículas y contribuyó significativamente a la comprensión de la desintegración beta. Su famoso experimento \"Wu\" refutó la paridad en la física de partículas, lo que cambió la forma en que los científicos comprenden las fuerzas fundamentales de la naturaleza. Wu demostró que el talento y la perseverancia pueden superar cualquier barrera, y su legado sigue siendo un faro de inspiración para científicas en todo el mundo.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/chien-shiung-wu.jpg",
+    "id": "Toast",
+    "name": "Toast",
+    "shortDescription": "She requires a quiet and safe home without other pets, where she can feel secure and comfortable.",
+    "description": "With access to the outdoors. A house away from busy roads would be perfect. She is now desperate to get back to her home comforts, and is missing having a family of her own to snuggle. She is looking for a home without any other pets, and away from busy roads so she can explore the outside safely. Toast is currently on medication for hyperthyroidism, and she takes this easily in food. She is house and litter trained well. Her favourite pastime is snuggling up on a warm lap, and she will happily sit for hours purring contentedly.",
+    "imageUrl": "https://teckelsanimalsanctuaries.co.uk/wp-content/uploads/2024/04/Toast.jpg",
     "facts": {
-      "yearOfBirth": "1912",
-      "yearOfDeath": "1997",
-      "birthPlace": "Liuhe, Taicang, China",
-      "mainField": "Física"
+      "pet": "Cat",
+      "gender": "Female",
+      "petSize": "Big"
     },
-    "extraInfo": {
-      "imageSource": "https://www.thoughtco.com/chien-shiung-wu-biography-3530366"
-    }
+
   },
   {
-    "id": "hedy-lamarr",
-    "name": "Hedy Lamarr",
-    "shortDescription": "Actriz e inventora, contribuyó al desarrollo de la tecnología de espectro ensanchado.",
-    "description": "Actriz austroamericana y científica, fue una mente brillante en la intersección de la tecnología y el entretenimiento. Junto con el compositor George Antheil, inventó un sistema de comunicación secreta durante la Segunda Guerra Mundial que sentó las bases para la tecnología de espectro ensanchado y la comunicación inalámbrica moderna. Lamarr demostró que las mujeres pueden destacar tanto en el cine como en la ciencia, y su legado como inventora ha sido fundamental para el desarrollo de la tecnología de comunicación inalámbrica que usamos en la actualidad.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/hedy-lamarr.jpg",
+    "id": "Nilo",
+    "name": "Nilo",
+    "shortDescription": "Nilo will best suit a home without other pets or children, preferring a calm and undisturbed environment for optimal comfort.",
+    "description": "Owners will need to provide a quiet secure room (or similar) where he can feel safe until they have built his confidence, and he is ready to explore further afield. He will benefit from a calm and patient environment, where he can gradually get used to new sounds and experiences. Regular playtime and gentle interaction will help him build trust and become more comfortable. With time and care, he will blossom into a wonderful companion, ready to enjoy the company of his new family.",
+    "imageUrl": "https://www.elespectador.com/resizer/yOWzrpQwxVFTOtvKAXTKV4_eeow=/920x613/filters:quality(60):format(jpeg)/www.elespectador.com/resizer/KC2rYnJ7xwQ5srRjOCnOHJVE4rw=/arc-anglerfish-arc2-prod-elespectador/public/KHYLDDXDT5BCLBABKRR6LXRLQU.jpg",
     "facts": {
-      "yearOfBirth": "1914",
-      "yearOfDeath": "2000",
-      "birthPlace": "Viena, Austria",
-      "mainField": "Actuación, Física"
+      "pet": "Cat",
+      "gender": "Male",
+      "petSize": "Small"
     },
-    "extraInfo": {
-      "imageSource": "https://www.sparkfun.com/news/6147"
-    }
+
   },
   {
-    "id": "maria-goeppert-mayer",
-    "name": "Maria Goeppert Mayer",
-    "shortDescription": "Física teórica, ganadora del Premio Nobel de Física.",
-    "description": "Física teórica alemana-estadounidense, dejó una profunda huella en la física nuclear y la mecánica cuántica. Fue la segunda mujer en recibir el Premio Nobel de Física y su trabajo pionero en la estructura de capas nucleares revolucionó nuestra comprensión de los núcleos atómicos. A pesar de las barreras de género en la academia, su dedicación y talento la llevaron a contribuir significativamente a la teoría nuclear, abriendo el camino para futuras investigadoras en un campo dominado por hombres. Maria Goeppert Mayer es un ejemplo inspirador de excelencia científica y perseverancia en la búsqueda del conocimiento.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/maria-goeppert-mayer.jpg",
+    "id": "Carly",
+    "name": "Carly",
+    "shortDescription": "Carly can be a real worrier, always eager to please but sometimes unsure about doing the right thing..",
+    "description": "Since arriving at Teckels, she has received nothing but love and TLC, and now her wonderful personality is shining through. She's affectionate and snuggly, bringing joy to everyone around her with her endearing nature. Her presence is a delight, making each day brighter for those fortunate enough to share their lives with her. Every interaction reveals more of her charming character, creating lasting bonds and filling hearts with happiness and warmth. It's a joy to witness her blossom and thrive in a loving environment.",
+    "imageUrl": "https://teckelsanimalsanctuaries.co.uk/wp-content/uploads/2024/02/20240302_130545000_iOS.jpg",
     "facts": {
-      "yearOfBirth": "1906",
-      "yearOfDeath": "1972",
-      "birthPlace": "Kattowitz, Alemania",
-      "mainField": "Física"
+      "pet": "Dog",
+      "gender": "Female",
+      "petSize": "Big"
     },
-    "extraInfo": {
-      "imageSource": "https://www.wsemexhibit.org/maria-goeppert-mayer.html"
-    }
+
   },
   {
-    "id": "lise-meitner",
-    "name": "Lise Meitner",
-    "shortDescription": "Física nuclear, contribuyó a la teoría de la fisión nuclear.",
-    "description": "Física austriaca-sueca, dejó un legado imborrable en la física nuclear y la radioquímica. A pesar de enfrentar obstáculos de género en una era dominada por hombres, colaboró con Otto Hahn en el descubrimiento de la fisión nuclear, un avance revolucionario. Aunque no compartió el Premio Nobel por este logro, su contribución fue crucial para comprender la energía nuclear y la física de partículas. Su determinación y pasión por la ciencia han inspirado a generaciones de científicas. Lise Meitner es un símbolo perdurable de la perseverancia femenina y el impacto duradero que las mujeres pueden tener en la ciencia.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/lise-meitner.jpg",
+    "id": "loki",
+    "name": "loki",
+    "shortDescription": "This good-looking boy is after an active family who can put his energy to good use.",
+    "description": "He loves being out for walks and playtime, but he also relishes training sessions, exercising his clever brain to its fullest. Whether exploring the outdoors or engaging in mental challenges, he finds equal joy in both activities, demonstrating his versatility and zest for learning. His enthusiasm for new experiences and his eagerness to learn make him a delightful companion for adventures and a constant source of joy and entertainment for those around him. His playful nature and intelligence ensure there's never a dull moment with him.",
+    "imageUrl": "https://teckelsanimalsanctuaries.co.uk/wp-content/uploads/2023/12/loki.jpg",
     "facts": {
-      "yearOfBirth": "1878",
-      "yearOfDeath": "1968",
-      "birthPlace": "Viena, Austria",
-      "mainField": "Física"
+      "pet": "Dog",
+      "gender": "Male",
+      "petSize": "Big"
     },
-    "extraInfo": {
-      "imageSource": "https://www.bing.com/images/create/lise-meitner-in-nuclear-physics-lab-in-19502c-retro/651196e6bbcb4009950e9955c2199760"
-    }
+
   },
   {
-    "id": "sau-lan-wu",
-    "name": "Sau Lan Wu",
-    "shortDescription": "Física de partículas, contribuyó a experimentos clave en física de alta energía.",
-    "description": "Física experimental sinoamericana, ha sido una fuerza motriz en la física de partículas. Destacó en experimentos en el CERN y lideró investigaciones cruciales, como el descubrimiento del quark c, que expandieron nuestro entendimiento de la estructura fundamental de la materia. Wu superó desafíos en una disciplina dominada por hombres y ha sido un faro de inspiración para científicas de todo el mundo. Sau Lan Wu es un ejemplo de excelencia científica y de cómo las mujeres pueden dejar huella en la investigación de vanguardia.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/sau-lan-wu.jpg",
+    "id": "Max",
+    "name": "Max",
+    "shortDescription": "Max will best suit a home without other pets or children, as he thrives in a calm and structured environment.",
+    "description": "Owners will need to provide a quiet, secure room or designated space where he can feel safe and gradually build his confidence. This sanctuary will serve as a haven until he feels ready to venture out and explore more extensively. Patience and understanding are key as he acclimates to new surroundings and routines. Once comfortable, he will likely blossom, revealing his true personality and enjoying the freedom to explore with confidence and security, fostering a strong bond with his caregivers and thriving in a supportive and nurturing environment.",
+    "imageUrl": "https://www.rover.com/blog/wp-content/uploads/iStock-1402117306-1024x683.jpg",
     "facts": {
-      "yearOfBirth": "1940",
-      "birthPlace": "Hong Kong, China",
-      "mainField": "Física de Partículas"
+      "pet": "Dog",
+      "gender": "Male",
+      "petSize": "Small"
     },
-    "extraInfo": {
-      "imageSource": "https://repository.aip.org/islandora/object/nbla%3A315195"
-    }
+
   },
   {
-    "id": "jocelyn-bell-burnell",
-    "name": "Jocelyn Bell Burnell",
-    "shortDescription": "Astrónoma y astrofísica, co-descubridora de los púlsares.",
-    "description": "Astrofísica británica, es una figura extraordinaria en la ciencia. Durante su doctorado, hizo un descubrimiento revolucionario al detectar los primeros púlsares, estrellas de neutrones altamente magnetizadas que emiten pulsos regulares de radiación. A pesar de que su asesor recibió el Premio Nobel por este descubrimiento, Bell Burnell se ha convertido en un símbolo de perseverancia y contribución de las mujeres a la astronomía. Su carrera distinguida y su activismo en favor de la diversidad de género en la ciencia han inspirado a generaciones futuras de científicas. Jocelyn Bell Burnell es un ejemplo de valentía y excelencia científica.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/jocelyn-bell-burnell.jpg",
+    "id": "Wendy",
+    "name": "Wendy",
+    "shortDescription": "Wendy will best suit a home without other pets or children, preferring a tranquil and undisturbed environment.",
+    "description": "She is a friendly and trusting cat, who can be rehomed alone or in pairs. Her adaptable nature allows her to thrive in various household dynamics, whether as a solitary companion receiving undivided attention or as part of a bonded pair, enriching the home with her affectionate presence. Wendy's preference for a calm environment makes her ideal for households without other pets or children, where she can feel secure and cherished. Her loving disposition ensures she will quickly form strong bonds with her new family, bringing joy and companionship to her forever home.",
+    "imageUrl": "https://teckelsanimalsanctuaries.co.uk/wp-content/uploads/2024/04/IMG-20240424-WA0004.jpg",
     "facts": {
-      "yearOfBirth": "1943",
-      "birthPlace": "Belfast, Reino Unido",
-      "mainField": "Astronomía, Astrofísica"
+      "pet": "Cat",
+      "gender": "Female",
+      "petSize": "Small"
     },
-    "extraInfo": {
-      "imageSource": "https://womeninscienceweadmire.icfo.eu/wiswa-2/jocelyn-bell/"
-    }
+
   },
   {
-    "id": "dorothy-crowfoot-hodgkin",
-    "name": "Dorothy Crowfoot Hodgkin",
-    "shortDescription": "Química, ganadora del Premio Nobel de Química.",
-    "description": "Química británica, es una figura icónica en la ciencia que superó las barreras de género de su época. Su trabajo revolucionario en la cristalografía de rayos X permitió determinar la estructura de importantes biomoléculas, como la penicilina, la vitamina B12 y la insulina. Fue galardonada con el Premio Nobel de Química en 1964, siendo la tercera mujer en recibir este prestigioso reconocimiento. Hodgkin no solo fue una científica excepcional, sino también una defensora de la igualdad de género en la ciencia, allanando el camino para futuras generaciones de científicas y dejando un legado duradero en la investigación y la equidad.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/dorothy-crowfoot-hodgkin.jpg",
+    "id": "Tess",
+    "name": "Tess",
+    "shortDescription": "Jess will best suit a home without other pets or children, as she prefers a calm and undisturbed environment.",
+    "description": "Owners will need to provide a quiet, secure room (or similar space) where he can feel safe and gradually build his confidence. This initial sanctuary will be crucial until he feels comfortable enough to venture out and explore more expansive areas of the home. Patience and understanding are essential as he adjusts to new surroundings and routines. Once he has acclimated, he will likely thrive, showing his true personality and enjoying the freedom to explore confidently. This supportive environment will help him develop strong bonds with his caregivers.",
+    "imageUrl": "https://teckelsanimalsanctuaries.co.uk/wp-content/uploads/2024/05/IMG-20240418-WA0006.jpg",
     "facts": {
-      "yearOfBirth": "1910",
-      "yearOfDeath": "1994",
-      "birthPlace": "El Cairo, Egipto / Shipston-on-Stour, Reino Unido",
-      "mainField": "Química"
+      "pet": "Cat",
+      "gender": "Male",
+      "petSize": "Small",
     },
-    "extraInfo": {
-      "imageSource": "https://www.some.ox.ac.uk/news/jan-royall-why-we-must-champion-dorothy-hodgkin-for-the-50-note/"
-    }
-  },
-  {
-    "id": "marie-curie",
-    "name": "Marie Curie",
-    "shortDescription": "Física y química, ganadora de dos Premios Nobel.",
-    "description": "física y química de origen polaco y nacionalizada francesa, es una de las figuras más icónicas en la historia de la ciencia. Ganadora de dos premios Nobel (Física en 1903 y Química en 1911), Curie realizó investigaciones fundamentales sobre la radiactividad y el descubrimiento de los elementos radio y polonio. Su dedicación y valentía en la investigación científica, a pesar de los desafíos de la discriminación de género y los riesgos de la radiación, la convierten en un modelo a seguir para científicas de todo el mundo.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/marie-curie.jpg",
-    "facts": {
-      "yearOfBirth": "1867",
-      "yearOfDeath": "1934",
-      "birthPlace": "Varsovia, Polonia",
-      "mainField": "Física y Química"
-    },
-    "extraInfo": {
-      "imageSource": "https://www.historyextra.com/period/first-world-war/life-of-the-week-marie-curie/"
-    }
-  },
-  {
-    "id": "marjory-stephenson",
-    "name": "Marjory Stephenson",
-    "shortDescription": "Microbióloga y bioquímica, investigó en enzimología.",
-    "description": "Bioquímica británica, brilló como científica en una época en la que las mujeres enfrentaban obstáculos muy significativos en la investigación científica. Su trabajo pionero en microbiología, enzimología y bioquímica contribuyó al entendimiento de procesos fundamentales en la vida. Fue una de las primeras mujeres en ser elegida miembro de la Royal Society, un reconocimiento a su destacada contribución a la ciencia. Además, fue una mentora y defensora de las mujeres en la ciencia, inspirando y allanando el camino para futuras generaciones.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/marjory-stephenson.jpg",
-    "facts": {
-      "yearOfBirth": "1885",
-      "yearOfDeath": "1948",
-      "birthPlace": "Londres, Reino Unido",
-      "mainField": "Química, Microbiología, Bioquímica"
-    },
-    "extraInfo": {
-      "imageSource": "https://microbiologysociety.org/grants-prizes/all-prizes-and-competitions-/prize-lectures/marjory-stephenson-prize-lecture/marjory-stephenson-a-short-history.html"
-    }
-  },
-  {
-    "id": "rosalind-franklin",
-    "name": "Rosalind Franklin",
-    "shortDescription": "Química y cristalógrafa, contribuyó a la comprensión de la estructura del ADN.",
-    "description": "Química y cristalógrafa británica, destacó en un campo dominado por hombres y su contribución a la ciencia es innegable. Sus investigaciones pioneras en la cristalografía de rayos X fueron fundamentales para revelar la estructura del ADN en forma de doble hélice, un hito crucial en la biología molecular. A pesar de que su trabajo inicial fue subestimado, su determinación y habilidad científica allanaron el camino para futuros avances en genética y biología. Franklin es un ejemplo inspirador de cómo las mujeres pueden sobresalir en la ciencia, dejando un legado duradero en la investigación y la igualdad de género.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/rosalind-franklin.jpg",
-    "facts": {
-      "yearOfBirth": "1920",
-      "yearOfDeath": "1958",
-      "birthPlace": "Londres, Reino Unido",
-      "mainField": "Química, Cristalografía"
-    },
-    "extraInfo": {
-      "imageSource": ""
-    }
+
   }
 ];
