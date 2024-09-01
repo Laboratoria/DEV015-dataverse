@@ -1,0 +1,161 @@
+.container{
+  margin:1%;
+  padding:1%;
+  position: relative;
+}
+
+body{
+background:linear-gradient(135deg,#0b0b27,#000000);
+background-attachment: fixed;
+color:#f3eaea;
+}
+#banner img{
+  height:300px; 
+  width: 70%; /*ancho*/
+  display:flex;
+  margin:0 auto;/*centra imgen*/
+
+  }
+
+header,main{
+ height:45px ;
+ width:90% ;
+ font-family:'Georgia'; 
+ margin: 40px auto;
+ text-align: center; 
+ display:flexbox;
+ color:#f3eaea;   
+ }
+
+.filtros{ /* este div contiene los selesct y el div pais*/
+  height:80px;
+  width: 35%;
+  padding: 12px;
+  margin: 0 auto;
+  display:inline-flexbox;
+  justify-content: space-between 5px;
+  position: relative;
+  
+}
+select{
+  height:35px;
+  width:160px ;
+  margin:15px auto;
+  flex:content;
+  font-size: 15px;
+  display:inline-block;
+  padding:6px ;
+  background-color: #3F8FA0;
+}
+.estadistica { /*este contiene paises y decadas*/
+  width:35% ; 
+  padding:4px;
+  margin: 0 auto;/*centra el div*/
+  font-family: 'georgia';
+  font-size: 17px;
+  border:2px solid rgb(223, 17, 10); 
+  background:linear-gradient(145deg,#e20e0e,#ad0a0a,#eb2907,#ad0a0a,#7a0606);
+  display:flex;
+  /*justify-content:flex-start;*/ 
+}
+
+#paises{
+ width:50% ;
+ margin:10px ;
+ padding:5px;
+ text-align: center;
+ border:2px solid rgb(228, 186, 162);
+ justify-content:space-between ;
+ flex-direction: column;
+ color:whitesmoke;
+ font-family: 'calibri';
+ font-size: larger;
+ display:flex;
+} 
+#decade{
+  width:50% ;
+  margin:10px ;
+  padding: 5px;
+  text-align: center;
+  border:2px solid rgb(228, 186, 162);
+  justify-content:space-between ;
+  flex-direction: column;
+  color:whitesmoke;
+  font-family: 'calibri';
+  font-size: larger;
+  display:flex;
+ } 
+/*boton limpia fltros*/
+[data-testid="button-clear"]{
+    height:35px;
+    width:100px; /*ancho*/
+    background-color: #162a9b49;
+    margin:0 auto;
+    border-color: #19194b;
+    border-radius: 09px;
+    font-size: 15px;
+    color:whitesmoke;
+    cursor: pointer;  /*Cambia la forma del cursor al pasar sobre el botón */  
+}
+[data-testid="button-clear"]:hover{
+  background-color: #6e70df;
+}
+
+/*estilos para las tarjetas ul y li*/
+.root{
+  height:60% ;
+  width: 60%;
+  /*margin:35%;*/
+  justify-content: space-between;
+  /*margin-block:80px ;*/
+ /* display:inline-flexbox;*/
+ /* flex-wrap:wrap ;/*este envuelve los elementos li*/
+  
+}
+ul{
+  height:70% ;
+  width:85% ;
+  margin:0 auto ;/*centra el ul con las tarjetas*/
+  padding:1%;
+  color:#0e0d0d; 
+  display:flex;/* agrupa las tarjetas horizontalmente*/
+  flex-wrap:wrap; /*asegura que los li se envuelvan*/
+  justify-content:space-around;
+  /*list-style-type: none;/*elimina las viñeta*/
+ }
+ .cards{  
+  width:90px; /*ancho*/
+  margin-left:2%; /*esta separa las tarjetas*/
+  margin-bottom:30px;
+  color:whitesmoke;
+  font-size:larger;
+  font-family: 'arial';
+  flex-basis:27% ;/*este da tamaño a la tarjeta*/
+  padding-top:20px;
+  padding:2% ;
+  text-align:center;
+  border: 2px solid #e22b0a;
+  background:linear-gradient(145deg,#e20e0e,#ad0a0a,#eb2907,#ad0a0a,#7a0606);
+  border-radius: 15px;
+  /*flex: 1 1 calc(33.333% - 100px); /* Distribución flexible de los elementos? */
+  list-style-type: none;/*elimina las viñeta*/
+ }
+
+img{
+  height:170px; 
+  width:79%; /*210px*/
+  padding:0;
+  display:center ;
+  border:5px solid #000000;
+  border-radius:15px;
+}
+
+footer{
+  color:#f3eaea; 
+  font-size: larger; 
+  text-align: center;
+  margin:60px; 
+  padding:5px;
+
+}
+ 

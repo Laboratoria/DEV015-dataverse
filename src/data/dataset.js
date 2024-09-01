@@ -1,378 +1,318 @@
 export default [
   {
-    "id": "ada-lovelace",
-    "name": "Ada Lovelace",
-    "shortDescription": "Pionera en la programación, primera programadora de la historia.",
-    "description": "Una visionaria matemática británica del siglo XIX, es aclamada como la primera programadora de la historia. Su colaboración con Charles Babbage en la creación de la Máquina Analítica la llevó a desarrollar algoritmos, incluyendo el famoso \"algoritmo de Bernoulli\", destinados a ser procesados por una máquina. Su visión pionera la convirtió en una figura fundamental en la informática y la inteligencia artificial. Lovelace demostró que las computadoras podían ir más allá de simples cálculos matemáticos, anticipando un mundo donde la programación sería esencial en la resolución de problemas complejos, dejando una huella imborrable en la ciencia y la tecnología.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/ada-lovelace.jpg",
+    "id": "guns",
+    "name": "Guns N' Roses",
+    "shortDescripcion": "Banda de hard rock.",
+    "descripcionLarga": "Guns N' Roses es una banda estadounidense de hard rock formada en 1985 en Los Ángeles. La banda se hizo mundialmente famosa con su álbum debut 'Appetite for Destruction', y es conocida por su estilo rebelde y la potente voz de Axl Rose.",
+    "imageUrl": "https://www.irock.cl/wp-content/uploads/2015/11/Festify-Guns-n-ROses-768x432.jpg",
     "facts": {
-      "yearOfBirth": "1815",
-      "yearOfDeath": "1852",
-      "birthPlace": "Londres, Reino Unido",
-      "mainField": "Ciencia de la Computación"
-    },
-    "extraInfo": {
-      "imageSource": "https://www.bing.com/images/create/genera-una-imagen-de-ada-lovelace2c-la-primera-prog/650a1eff8ff04b88833d5cdef0309441"
+      "añoCreacion": "1985",
+      "pais":"Estados Unidos",
+      "albumMasFamoso": "Appetite for Destruction",
+      "integrantes": ["Axl Rose", "Slash", "Duff McKagan", "Dizzy Reed", "Richard Fortus", "Frank Ferrer", "Melissa Reese"]
+    }   
+  },
+  {
+    "id": "paramore",
+    "name": "Paramore",
+    "shortDescripcion": "Banda de rock alternativo.",
+    "descripcionLarga": "Paramore es una banda estadounidense de rock alternativo formada en 2004 en Franklin, Tennessee. La banda es conocida por su sonido energético y la potente voz de su vocalista Hayley Williams, y ha lanzado varios álbumes exitosos a lo largo de su carrera.",
+    "imageUrl":"https://1.bp.blogspot.com/-ABfjweTfAKc/UIKyJusuCdI/AAAAAAAAABQ/NaUwzaMg_ys/s320/paramore+(1).jpg",
+    "facts": {
+      "añoCreacion": "2004",
+      "pais":"Estados Unidos",
+      "albumMasFamoso": "Riot!",
+      "integrantes": ["Hayley Williams", "Taylor York", "Zac Farro"]
     }
   },
   {
-    "id": "emmy-noether",
-    "name": "Emmy Noether",
-    "shortDescription": "Matemática destacada, teorema fundamental en álgebra abstracta.",
-    "description": "Una brillante matemática alemana, revolucionó la física teórica con sus contribuciones al teorema de conservación de la energía y el teorema de Noether, fundamentales en la teoría de la relatividad y la mecánica cuántica. A pesar de los obstáculos que enfrentó como mujer en la academia, sus investigaciones en álgebra abstracta y teoría de grupos son fundamentales en la física moderna. Su capacidad para unificar conceptos matemáticos y físicos marcó un hito en la historia de la ciencia, allanando el camino para futuras generaciones de científicas.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/emmy-noether.jpg",
+    "id": "queen",
+    "name": "Queen",
+    "shortDescripcion": "Iconos del rock británico.",
+    "descripcionLarga": "Queen es una banda británica de rock formada en 1970 en Londres. Es conocida por sus innovadoras canciones, la poderosa voz de Freddie Mercury y su espectacular presencia escénica. Han creado numerosos himnos del rock como 'Bohemian Rhapsody' y 'We Will Rock You'.",
+    "imageUrl":"https://mx.web.img2.acsta.net/r_1920_1080/pictures/24/01/15/22/29/2139696.jpg",
     "facts": {
-      "yearOfBirth": "1882",
-      "yearOfDeath": "1935",
-      "birthPlace": "Erlangen, Alemania",
-      "mainField": "Matemáticas"
-    },
-    "extraInfo": {
-      "imageSource": "https://www.bing.com/images/create/create-an-image-of-of-a-german-woman2c-a-pioneering/6510ddb1e8254b928b8f8f1d5e95fea4"
+      "añoCreacion": "1970",
+      "pais":"Inglaterra",
+      "albumMasFamoso": "A Night at the Opera",
+      "integrantes": ["Freddie Mercury", "Brian May", "Roger Taylor", "John Deacon"]
+    }
+  },
+ 
+  {
+    "id": "bon-jovi",
+    "name": "Bon Jovi",
+    "shortDescripcion": "Banda de rock estadounidense.",
+    "descripcionLarga": "Bon Jovi es una banda estadounidense de rock formada en 1983 en Sayreville, Nueva Jersey. Liderada por Jon Bon Jovi, la banda es conocida por sus pegajosas canciones de rock y baladas, y ha vendido más de 130 millones de álbumes en todo el mundo.",
+    "imageUrl": "https://images.squarespace-cdn.com/content/v1/6145a7b457c18a3bdc94fef6/09c8db48-638f-4217-9f5b-8877ac0d04dc/Repasamos+la+%C3%BAltima+gran+obra+de+la+banda+con+el+guitarrista+Richie+Sambora%2C+que+luego+de+una+d%C3%A9cada+se+habla+de+un+posible+regreso.+.jpeg?format=1500w",
+    "facts": {
+      "añoCreacion": "1983",
+      "pais":"Estados Unidos",
+      "albumMasFamoso": "Slippery When Wet",
+      "integrantes": ["Jon Bon Jovi", "David Bryan", "Tico Torres", "Phil X", "Hugh McDonald"]
     }
   },
   {
-    "id": "hypatia-de-alejandria",
-    "name": "Hypatia de Alejandría",
-    "shortDescription": "Matemática y filósofa en la antigua Alejandría.",
-    "description": "Filósofa y matemática en la antigua Alejandría, desafió las normas de género de su época al destacar en una sociedad dominada por hombres. Su legado incluye importantes contribuciones a la geometría y la astronomía, así como su destacado papel como maestra y defensora del conocimiento en una época de agitación política. Hypatia demostró que las mujeres podían sobresalir en campos intelectuales y su valentía al mantener sus creencias filosóficas la convierte en un símbolo de resistencia y sabiduría en la historia de la ciencia.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/hypatia-de-alejandria.jpg",
+    "id":"green",
+    "name":"Green Day",
+    "shortDescripcion": "Pioneros del punk rock.",
+    "descripcionLarga": "Green Day es una banda estadounidense de punk rock formada en 1987 en Berkeley, California. Es conocida por revivir el interés en el punk rock a mediados de los 90 con su álbum 'Dookie'. La banda ha ganado numerosos premios y es reconocida por sus enérgicas actuaciones en vivo.",
+    "imageUrl": "https://www.parlante.cl/wp-content/uploads/2017/11/greenday2017.jpg",
     "facts": {
-      "yearOfBirth": "circa 360",
-      "yearOfDeath": "415",
-      "birthPlace": "Alejandría, Egipto",
-      "mainField": "Matemáticas, Filosofía"
-    },
-    "extraInfo": {
-      "imageSource": "https://www.bing.com/images/create/create-a-vivid-digital-artwork-or-painting-that-de/6510df0ebe1a4807af22175452761e1a"
+      "añoCreacion": "1987",
+      "pais":"Estados Unidos",
+      "albumMasFamoso": "Dookie",
+      "integrantes": ["Billie Joe Armstrong", "Mike Dirnt", "Tré Cool"]
     }
   },
   {
-    "id": "marjorie-lee-browne",
-    "name": "Marjorie Lee Browne",
-    "shortDescription": "Matemática, contribuyó a la teoría de números.",
-    "description": "Matemática estadounidense, destacó en una época en la que las mujeres afroamericanas enfrentaban múltiples barreras en la educación superior. No solo obtuvo su doctorado en matemáticas, sino que también se convirtió en una destacada educadora, promoviendo la diversidad en las ciencias matemáticas y desafiando la discriminación racial y de género. Su compromiso con la educación y su capacidad para inspirar a futuras generaciones la convierten en un modelo a seguir para las mujeres en la ciencia, dejando una huella perdurable en la historia académica.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/marjorie-lee-browne.jpg",
+    "id": "u2",
+    "name": "U2",
+    "shortDescripcion": "Banda de rock irlandesa.",
+    "descripcionLarga": "U2 es una banda de rock irlandesa formada en 1976 en Dublín. Con el carismático Bono como líder, la banda es conocida por sus letras profundamente emotivas y su sonido innovador. Han vendido más de 150 millones de álbumes en todo el mundo.",
+    "imageUrl":"https://indianexpress.com/wp-content/uploads/2014/02/u2-480.jpg",
     "facts": {
-      "yearOfBirth": "1914",
-      "yearOfDeath": "1979",
-      "birthPlace": "Memphis, Estados Unidos",
-      "mainField": "Matemáticas"
-    },
-    "extraInfo": {
-      "imageSource": "https://www.bing.com/images/create/design-an-inspiring-and-historically-accurate-imag/6510df7e7bb745f69d67f695441607a8"
+      "añoCreacion": "1976",
+      "pais":"Irlanda",
+      "albumMasFamoso": "The Joshua Tree",
+      "integrantes": ["Bono", "The Edge", "Adam Clayton", "Larry Mullen Jr."]
+    }
+  },
+  
+  {
+    "id": "aero-smith",
+    "name": "Aerosmith",
+    "shortDescripcion": "Banda de rock clásico.",
+    "descripcionLarga": "Aerosmith es una banda estadounidense de rock formada en 1970 en Boston, Massachusetts. Conocida como 'los chicos malos de Boston', la banda ha lanzado numerosos éxitos y es una de las bandas de rock más exitosas de todos los tiempos.",
+    "imageUrl": "https://garajedelrock.com/wp-content/uploads/2016/08/aerosmith.jpeg",
+    "facts": {
+      "añoCreacion": "1970",
+      "pais":"Estados Unidos",
+      "albumMasFamoso": "Toys in the Attic",
+      "integrantes": ["Steven Tyler", "Joe Perry", "Tom Hamilton", "Joey Kramer", "Brad Whitford"]
     }
   },
   {
-    "id": "shakuntala-devi",
-    "name": "Shakuntala Devi",
-    "shortDescription": "Matemática prodigio, conocida como la 'Calculadora Humana'.",
-    "description": "Conocida como \"la bruja de las matemáticas\" de la India, dejó una marca indeleble en el mundo de los números. Su capacidad mental asombrosa la llevó a resolver complejos cálculos matemáticos mentalmente en cuestión de segundos, estableciendo récords mundiales. Además de su talento innato, Devi promovió activamente la educación matemática y luchó por la igualdad de género en un país donde las mujeres enfrentaban desafíos en la ciencia y la educación. Su legado destaca el poder de la mente humana y la importancia de la igualdad de oportunidades en la ciencia.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/shakuntala-devi.jpg",
+    "id": "acdc",
+    "name": "AC/DC",
+    "shortDescripcion": "Banda de hard rock.",
+    "descripcionLarga": "AC/DC es una banda de rock australiana formada en 1973 por los hermanos Malcolm y Angus Young. Con su sonido potente y eléctrico, la banda se ha convertido en uno de los actos de rock más grandes y duraderos de la historia.",
+    "imageUrl": "https://indiehoy.com/wp-content/uploads/2020/10/acdc.jpg",
     "facts": {
-      "yearOfBirth": "1929",
-      "yearOfDeath": "2013",
-      "birthPlace": "Bangalore, India",
-      "mainField": "Matemáticas"
-    },
-    "extraInfo": {
-      "imageSource": "https://www.bing.com/images/create/indian-woman-writing-math-problems-in-a-blackbard-/6510e19f3db54e14b365b7e8dc5045f6"
+      "añoCreacion": "1973",
+      "pais":"Australia",
+      "albumMasFamoso": "Back in Black",
+      "integrantes": ["Angus Young", "Brian Johnson", "Phil Rudd", "Cliff Williams", "Stevie Young"]
     }
   },
   {
-    "id": "sofia-kovalevskaya",
-    "name": "Sofia Kovalevskaya",
-    "shortDescription": "Matemática y escritora, contribuyó a la teoría de funciones.",
-    "description": "Matemática rusa del siglo XIX, dejó una marca indeleble en la ciencia del siglo XIX al desafiar las barreras de género. Como matemática rusa, superó las restricciones sociales de su época para convertirse en la primera mujer en obtener un doctorado en matemáticas en Europa. Sus contribuciones a la teoría de las ecuaciones diferenciales y la mecánica revolucionaron la disciplina, abriendo nuevas perspectivas en el análisis matemático. Su destacada membresía en la Academia de Ciencias de Suecia marcó un hito en la historia de las mujeres en la ciencia.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/sofia-kovalevskaya.jpg",
+    "id":"blink",
+    "name":"Blink-182",
+    "shortDescripcion":"Banda de pop punk.",
+    "descripcionLarga": "Blink-182 es una banda estadounidense de pop punk formada en 1992 en Poway, California. Conocida por su humor irreverente y su sonido pegajoso, la banda ha lanzado varios álbumes exitosos y se ha convertido en un ícono del pop punk.",
+    "imageUrl": "https://indiehoy.com/wp-content/uploads/2021/04/blink-182-1.jpg",
     "facts": {
-      "yearOfBirth": "1850",
-      "yearOfDeath": "1891",
-      "birthPlace": "Moscú, Rusia",
-      "mainField": "Matemáticas"
-    },
-    "extraInfo": {
-      "imageSource": "https://www.bing.com/images/create/indian-woman-writing-math-problems-in-a-blackbard-/6510e19f3db54e14b365b7e8dc5045f6"
+      "añoCreacion":"1992",
+      "pais":"Estados Unidos",
+      "albumMasFamoso": "Enema of the State",
+      "integrantes": ["Mark Hoppus", "Travis Barker", "Tom DeLonge"]
     }
   },
   {
-    "id": "yoko-shimomura",
-    "name": "Yoko Shimomura",
-    "shortDescription": "Compositora de música, destacada en la industria de los videojuegos.",
-    "description": "Compositora japonesa, es una figura destacada en la ciencia de la música y el arte sonoro. Aunque no se dedica a la ciencia en el sentido tradicional, su trabajo en la composición musical ha requerido un profundo entendimiento de la teoría musical y la tecnología de audio. Ha contribuido de manera significativa a la industria de los videojuegos, componiendo icónicas bandas sonoras que han enriquecido la experiencia de juego. Su éxito en un campo donde las mujeres estaban subrepresentadas la convierte en un modelo a seguir, incluso en campos no convencionales como la composición musical.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/yoko-shimomura.jpg",
+    "id": "30-sec-to-mars",
+    "name": "30 Seconds to Mars",
+    "shortDescripcion": "Banda de rock alternativo.",
+    "descripcionLarga": "30 Seconds to Mars es una banda estadounidense de rock alternativo formada en 1998 en Los Ángeles, California. Liderada por el actor y músico Jared Leto, la banda es conocida por su sonido épico y sus letras profundas.",
+    "imageUrl": "https://www.ecured.cu/images/f/f3/30_Seconds.jpg",
     "facts": {
-      "yearOfBirth": "1967",
-      "birthPlace": "Hyogo, Japón",
-      "mainField": "Composición Musical, Video Juegos"
-    },
-    "extraInfo": {
-      "imageSource": "https://www.bing.com/images/create/yoko-shimomura-making-music-for-a-video-game-in-19/6510e40dd1eb45d0906e8c1f4bb601d3"
+      "añoCreacion": "1998",
+      "pais":"Estados Unidos",
+      "albumMasFamoso": "A Beautiful Lie",
+      "integrantes": ["Jared Leto", "Shannon Leto"]
     }
   },
   {
-    "id": "maryam-mirzakhani",
-    "name": "Maryam Mirzakhani",
-    "shortDescription": "Matemática, ganadora del Premio Fields.",
-    "description": "Matemática iraní, hizo historia al convertirse en la primera mujer en ganar la Medalla Fields, el premio más prestigioso en matemáticas. Sus investigaciones en la geometría de superficies y la teoría de las superficies de Riemann han tenido un impacto duradero en la matemática pura. A lo largo de su carrera, Mirzakhani inspiró a muchas mujeres a perseguir carreras en ciencia y matemáticas, derribando las barreras de género. Su enfoque innovador y su capacidad para resolver problemas complejos la convierten en un modelo a seguir para la comunidad científica y en un símbolo de la excelencia matemática.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/maryam-mirzakhani.jpg",
+    'id': 'metallica',
+    'name':'Metallica',
+    "shortDescripcion":"Legendaria banda de thrash metal.",
+    "descripcionLarga":"Metallica es una banda estadounidense de thrash metal formada en 1981 en Los Ángeles, California. Es considerada una de las bandas más influyentes y exitosas en la historia del metal, conocida por su energía y la destreza técnica de sus miembros.",
+    "imageUrl":"https://www.futuro.cl/wp-content/uploads/2022/08/metallica-7-768x433.jpg",
     "facts": {
-      "yearOfBirth": "1977",
-      "yearOfDeath": "2017",
-      "birthPlace": "Teherán, Irán",
-      "mainField": "Matemáticas"
-    },
-    "extraInfo": {
-      "imageSource": "https://chalkdustmagazine.com/features/mathematics-maryam-mirzakhani/"
+      "añoCreacion":"1981",
+      "pais":"Estados Unidos",
+      "albumMasFamoso":"Master of Puppets.",
+      "integrantes":["James Hetfield", "Lars Ulrich", "Kirk Hammett", "Robert Trujillo."]
+    }
+  },
+  {"id":"rhcp",
+    "name": "Red Hot Chili Peppers",
+    "shortDescripcion": "Banda de rock funk.",
+    "descripcionLarga": "Red Hot Chili Peppers es una banda estadounidense de rock formada en 1983 en Los Ángeles, California. La banda es conocida por su mezcla única de rock, funk y punk, y ha lanzado numerosos álbumes exitosos a lo largo de su carrera.",
+    "imageUrl": "https://www.rockandpop.cl/wp-content/uploads/2023/09/Red-Hot-Chili-Peppers-768x432.webp",
+    "facts": {
+      "añoCreacion":"1983",
+      "pais":"Estados Unidos",
+      "albumMasFamoso": "Californication",
+      "integrantes": ["Anthony Kiedis", "Flea", "Chad Smith", "John Frusciante"]
     }
   },
   {
-    "id": "adele-goldberg",
-    "name": "Adele Goldberg",
-    "shortDescription": "Informática pionera, co-creadora del lenguaje de programación Smalltalk.",
-    "description": "Informática estadounidense reconocida por su influyente trabajo en la investigación y desarrollo de la programación orientada a objetos. Su contribución más destacada es la creación del lenguaje de programación Smalltalk, que revolucionó la forma en que se desarrollan software y sistemas informáticos. Goldberg ha sido una defensora incansable de la usabilidad y la accesibilidad en la informática, asegurando que las aplicaciones informáticas sean más amigables para los usuarios. Su trabajo ha allanado el camino para una programación más intuitiva y eficiente, y su legado perdura en la industria de la tecnología.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/adele-goldberg.jpg",
-    "facts": {
-      "yearOfBirth": "1945",
-      "birthPlace": "Chicago, Estados Unidos",
-      "mainField": "Ciencias de la Computación"
-    },
-    "extraInfo": {
-      "imageSource": "https://pionerasinformaticas.ujaen.es/en/computer-women-pioneers/adele-goldberg-en"
+    "id": "evanescence",
+    "name": "Evanescence",
+    "shortDescripcion": "Banda de rock gótico.",
+    "descripcionLarga": "Evanescence es una banda estadounidense de rock gótico formada en 1995 en Little Rock, Arkansas. La banda es conocida por la poderosa voz de Amy Lee y su sonido melódico, mezclando elementos de rock, metal y música clásica.",
+    "imageUrl": "https://s2-g1.glbimg.com/FLMytieGPsqv8T2993Gfl2LMYag=/0x0:800x533/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2016/W/f/VwgB3eTkexohvZXRvRDQ/evanescence.jpg",
+    "facts":{
+      "añoCreacion": "1995",
+      "pais":"Estados Unidos",
+      "albumMasFamoso":"Fallen",
+      "integrantes": ["Amy Lee", "Tim McCord", "Will Hunt", "Troy McLawhorn", "Jen Majura"]
     }
   },
   {
-    "id": "barbara-liskov",
-    "name": "Barbara Liskov",
-    "shortDescription": "Científica de la computación, pionera en programación orientada a objetos.",
-    "description": "Pionera de la informática, es conocida por su trabajo en la programación y la arquitectura de sistemas distribuidos. Fue la primera mujer en obtener un doctorado en ciencias de la computación en el Instituto de Tecnología de Stanford y desarrolló el lenguaje de programación CLU, que estableció fundamentos para la programación orientada a objetos. Liskov ha dejado una marca indeleble en la industria de la tecnología al liderar avances en sistemas de almacenamiento y seguridad informática. Su enfoque en la fiabilidad y la robustez ha influido en el diseño de sistemas críticos en todo el mundo.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/barbara-liskov.jpg",
+    "id": "black-veil-brides",
+    "name":"Black Veil Brides",
+    "shortDescripcion": "Banda de rock gótico.",
+    "descripcionLarga": "Black Veil Brides es una banda estadounidense de rock formada en 2006 en Cincinnati, Ohio. La banda es conocida por su estética inspirada en el glam metal y su sonido contundente, y ha lanzado varios álbumes exitosos en la escena del rock moderno.",
+    "imageUrl":"https://chronamagazinemx.wordpress.com/wp-content/uploads/2023/07/picsart_23-07-25_16-36-13-818.jpg?w=1024", 
     "facts": {
-      "yearOfBirth": "1939",
-      "birthPlace": "Los Angeles, Estados Unidos",
-      "mainField": "Ciencia de la Computación"
-    },
-    "extraInfo": {
-      "imageSource": "https://medium.com/a-computer-of-ones-own/barbara-liskov-inventor-of-abstract-data-types-9f8908fdcf86"
+      "añoCreacion":"2006",
+      "pais":"Estados Unidos",
+      "albumMasFamoso": "Wretched and Divine",
+      "integrantes": ["Andy Biersack", "Jinxx", "Jake Pitts", "Christian Coma", "Lonny Eagleton"]
     }
   },
   {
-    "id": "grace-hopper",
-    "name": "Grace Hopper",
-    "shortDescription": "Científica de la computación, creadora del primer compilador.",
-    "description": "Una de las pioneras de la informática, es famosa por su contribución al desarrollo del primer compilador y al lenguaje de programación COBOL. Además, desafió los estereotipos de género en la década de 1940 al unirse a la Marina de los Estados Unidos y convertirse en la primera programadora de la computadora Harvard Mark I. Su legado abarca la creación de conceptos cruciales como la \"depuración de software\" y su influencia en el desarrollo de la informática moderna, estableciendo estándares para la programación de alto nivel y la innovación tecnológica.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/grace-hopper.jpg",
+    "id":"duran-duran",
+    "name":"Duran Duran",
+    "shortDescripcion": "Banda de new wave.",
+    "descripcionLarga": "Duran Duran es una banda británica de new wave formada en 1978 en Birmingham, Inglaterra. Conocida por sus éxitos en los años 80 y su estilo visual innovador, la banda ha vendido más de 100 millones de discos en todo el mundo.",
+    "imageUrl": "https://duranduran.com/app/uploads/2015/04/Screen-Shot-2015-04-15-at-10.22.15-AM-300x202.png",
     "facts": {
-      "yearOfBirth": "1906",
-      "yearOfDeath": "1992",
-      "birthPlace": "Nueva York, Estados Unidos",
-      "mainField": "Ciencia de la Computación"
-    },
-    "extraInfo": {
-      "imageSource": "https://photos.com/featured/grace-hopper-with-early-computer-bettmann.html"
+      "añoCreacion": "1978",
+      "pais":"Inglaterra",
+      "albumMasFamoso": "Rio",
+      "integrantes": ["Simon Le Bon", "Nick Rhodes", "John Taylor", "Roger Taylor"]
     }
   },
   {
-    "id": "margaret-hamilton",
-    "name": "Margaret Hamilton",
-    "shortDescription": "Científica de la computación, lideró desarrollo de software para Apollo 11.",
-    "description": "Destacada científica de la computación que desempeñó un papel fundamental en el programa Apollo de la NASA. Fue directora de la División de Ingeniería de Software en el Laboratorio de Instrumentación del MIT, donde desarrolló el concepto de \"ingeniería de software\". Su liderazgo en el desarrollo del software de vuelo para las misiones Apollo fue fundamental para el éxito de la llegada del hombre a la Luna. Hamilton es un ejemplo de cómo la tecnología y la ciencia pueden alcanzar logros extraordinarios cuando se combinan con un enfoque innovador y una visión audaz.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/margaret-hamilton.jpg",
+    "id": "korn",
+    "name": "Korn",
+    "shortDescripcion": "Pioneros del nu metal.",
+    "descripcionLarga": "Korn es una banda estadounidense de nu metal formada en 1993 en Bakersfield, California. La banda es conocida por su sonido innovador y agresivo, que combina elementos de metal, hip hop y música industrial.",
+    "imageUrl": "https://imagenes.noticiasrcn.com/ImgNoticias/styles/530xauto/s3/noticias/korn_261016.jpg?w=960",
     "facts": {
-      "yearOfBirth": "1936",
-      "birthPlace": "Paoli, Indiana, Estados Unidos",
-      "mainField": "Ciencia de la Computación"
-    },
-    "extraInfo": {
-      "imageSource": "https://odetta.ai/blogs/margaret-hamilton-the-first-software-engineer"
+      "añoCreacion": "1993",
+      "pais":"Estados Unidos",
+      "albumMasFamoso": "Follow the Leader",
+      "integrantes": ["Jonathan Davis", "James Shaffer", "Brian Welch", "Reginald Arvizu", "Ray Luzier"]
     }
   },
   {
-    "id": "radia-perlman",
-    "name": "Radia Perlman",
-    "shortDescription": "Ingeniera de redes, inventora del algoritmo Spanning Tree.",
-    "description": "Científica de la computación estadounidense, ha dejado una marca indeleble en el mundo de las redes informáticas y la seguridad. Conocida como \"la madre de Internet\", su invención del algoritmo Spanning Tree Protocol (STP) revolucionó la conectividad de redes y sentó las bases para la infraestructura de Internet moderna. A pesar de operar en un campo dominado por hombres, Perlman ha demostrado que las mujeres pueden liderar avances tecnológicos vitales. Su compromiso con la resiliencia de las redes y la ciberseguridad ha influido en la estabilidad y confiabilidad de la comunicación en línea.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/radia-perlman.jpg",
-    "facts": {
-      "yearOfBirth": "1951",
-      "birthPlace": "Portsmouth, Estados Unidos",
-      "mainField": "Ciencia de la Computación"
-    },
-    "extraInfo": {
-      "imageSource": "https://hackaday.com/2018/05/29/spanning-the-tree-dr-radia-perlman-untangling-networks/"
+    "id": "system-of-a-down",
+    "name": "System of a Down",
+    "shortDescripcion": "Banda de metal alternativo.",
+    "descripcionLarga": "System of a Down es una banda estadounidense de metal alternativo formada en 1994 en Glendale, California. La banda es conocida por su estilo único y ecléctico, y por sus letras que abordan temas políticos y sociales.",
+    "imageUrl": "https://img2.rtve.es/a/3764488/square/?h=320",
+    "facts":{
+      "añoCreacion": "1994",
+      "pais":"Estados Unidos",
+      "albumMasFamoso": "Toxicity",
+      "integrantes": ["Serj Tankian", "Daron Malakian", "Shavo Odadjian", "John Dolmayan"]
     }
   },
   {
-    "id": "shafi-goldwasser",
-    "name": "Shafi Goldwasser",
-    "shortDescription": "Científica de la computación, ganadora del Premio Turing.",
-    "description": "Es una destacada criptógrafa y científica de la computación que ha contribuido significativamente a la teoría de la computación y la seguridad de la información. Su trabajo en criptografía de probabilidad y complejidad computacional ha sentado las bases para la seguridad en línea y la privacidad de datos en un mundo cada vez más digitalizado. Goldwasser es un ejemplo de cómo la ciencia de la computación puede abordar desafíos contemporáneos y proteger la información en la era de la información.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/shafi-goldwasser.jpg",
+    "id": "nirvana",
+    "name": "Nirvana",
+    "shortDescripcion": "Iconos del grunge.",
+    "descripcionLarga": "Nirvana fue una banda estadounidense de grunge formada en 1987 en Aberdeen, Washington. Con Kurt Cobain como líder, la banda se convirtió en uno de los actos más influyentes de los años 90, gracias a su sonido crudo y emocional.",
+    "imageUrl": "https://people.com/thmb/e77aH9_pCmoDW4BYaNjoG2J1qjo=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():focal(299x0:301x2):format(webp)/nirvana-600-2-e0f213cb6d7b4fd6907e6b37b89617c3.jpg", 
     "facts": {
-      "yearOfBirth": "1958",
-      "birthPlace": "Nueva York, Estados Unidos",
-      "mainField": "Ciencia de la Computación"
-    },
-    "extraInfo": {
-      "imageSource": "https://www.jahresbericht2019.unibe.ch/successes_2019/einstein_lectures/index_eng.html"
+      "añoCreacion": "1987",
+      "pais":"Estados Unidos",
+      "albumMasFamoso": "Nevermind",
+      "integrantes": ["Kurt Cobain", "Krist Novoselic", "Dave Grohl"]
     }
   },
   {
-    "id": "chien-shiung-wu",
-    "name": "Chien-Shiung Wu",
-    "shortDescription": "Física experimental, contribuyó a la física nuclear.",
-    "description": "Física experimental de origen chino, desafiando los prejuicios de género y nacionalidad, realizó experimentos fundamentales en física de partículas y contribuyó significativamente a la comprensión de la desintegración beta. Su famoso experimento \"Wu\" refutó la paridad en la física de partículas, lo que cambió la forma en que los científicos comprenden las fuerzas fundamentales de la naturaleza. Wu demostró que el talento y la perseverancia pueden superar cualquier barrera, y su legado sigue siendo un faro de inspiración para científicas en todo el mundo.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/chien-shiung-wu.jpg",
+    "id": "foo-fighters",
+    "name": "Foo Fighters",
+    "shortDescripcion": "Banda de rock alternativo.",
+    "descripcionLarga": "Foo Fighters es una banda estadounidense de rock alternativo formada en 1994 en Seattle, Washington por Dave Grohl, exbaterista de Nirvana. La banda es conocida por su enérgico sonido de rock y ha lanzado numerosos álbumes exitosos.",
+    "imageUrl": "https://indiehoy.com/wp-content/uploads/2023/07/foo-fighters.jpg",
     "facts": {
-      "yearOfBirth": "1912",
-      "yearOfDeath": "1997",
-      "birthPlace": "Liuhe, Taicang, China",
-      "mainField": "Física"
-    },
-    "extraInfo": {
-      "imageSource": "https://www.thoughtco.com/chien-shiung-wu-biography-3530366"
+      "añoCreacion": "1994",
+      "pais":"Estados Unidos",
+      "albumMasFamoso": "The Colour and the Shape",
+      "integrantes": ["Dave Grohl", "Nate Mendel", "Pat Smear", "Taylor Hawkins", "Chris Shiflett", "Rami Jaffee"]
     }
   },
   {
-    "id": "hedy-lamarr",
-    "name": "Hedy Lamarr",
-    "shortDescription": "Actriz e inventora, contribuyó al desarrollo de la tecnología de espectro ensanchado.",
-    "description": "Actriz austroamericana y científica, fue una mente brillante en la intersección de la tecnología y el entretenimiento. Junto con el compositor George Antheil, inventó un sistema de comunicación secreta durante la Segunda Guerra Mundial que sentó las bases para la tecnología de espectro ensanchado y la comunicación inalámbrica moderna. Lamarr demostró que las mujeres pueden destacar tanto en el cine como en la ciencia, y su legado como inventora ha sido fundamental para el desarrollo de la tecnología de comunicación inalámbrica que usamos en la actualidad.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/hedy-lamarr.jpg",
+    "id": "linkin-park",
+    "name": "Linkin Park",
+    "shortDescripcion": "Banda de nu metal.",
+    "descripcionLarga": "Linkin Park es una banda estadounidense de rock alternativo y nu metal formada en 1996 en Agoura Hills, California. Conocida por su fusión de metal, rap y electrónica, la banda alcanzó la fama mundial con su álbum debut 'Hybrid Theory'.",
+    "imageUrl": "https://cooperativa.cl/noticias/site/artic/20170918/imag/foto_0000000120170918191406.jpg", 
     "facts": {
-      "yearOfBirth": "1914",
-      "yearOfDeath": "2000",
-      "birthPlace": "Viena, Austria",
-      "mainField": "Actuación, Física"
-    },
-    "extraInfo": {
-      "imageSource": "https://www.sparkfun.com/news/6147"
+      "añoCreacion": "1996",
+      "pais":"Estados Unidos",
+      "albumMasFamoso": "Hybrid Theory",
+      "integrantes": ["Mike Shinoda", "Brad Delson", "Dave Farrell", "Joe Hahn", "Rob Bourdon", "Chester Bennington"]
     }
   },
   {
-    "id": "maria-goeppert-mayer",
-    "name": "Maria Goeppert Mayer",
-    "shortDescription": "Física teórica, ganadora del Premio Nobel de Física.",
-    "description": "Física teórica alemana-estadounidense, dejó una profunda huella en la física nuclear y la mecánica cuántica. Fue la segunda mujer en recibir el Premio Nobel de Física y su trabajo pionero en la estructura de capas nucleares revolucionó nuestra comprensión de los núcleos atómicos. A pesar de las barreras de género en la academia, su dedicación y talento la llevaron a contribuir significativamente a la teoría nuclear, abriendo el camino para futuras investigadoras en un campo dominado por hombres. Maria Goeppert Mayer es un ejemplo inspirador de excelencia científica y perseverancia en la búsqueda del conocimiento.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/maria-goeppert-mayer.jpg",
+    "id": "panic-at-the-disco",
+    "name": "Panic! at the Disco",
+    "shortDescripcion": "Banda de rock alternativo.",
+    "descripcionLarga": "Panic! at the Disco es una banda estadounidense de rock alternativo formada en 2004 en Las Vegas, Nevada. Conocida por su estilo teatral y su sonido ecléctico, la banda ha lanzado varios álbumes exitosos y ha ganado numerosos premios.",
+    "imageUrl": "https://laopinion.com/wp-content/uploads/sites/3/2023/01/brendonurie-getty.jpg?resize=1316,740&quality=80",
     "facts": {
-      "yearOfBirth": "1906",
-      "yearOfDeath": "1972",
-      "birthPlace": "Kattowitz, Alemania",
-      "mainField": "Física"
-    },
-    "extraInfo": {
-      "imageSource": "https://www.wsemexhibit.org/maria-goeppert-mayer.html"
+      "añoCreacion": "2004",
+      "pais":"Estados Unidos",
+      "albumMasFamoso": "A Fever You Can't Sweat Out",
+      "integrantes": ["Brendon Urie"]
     }
   },
   {
-    "id": "lise-meitner",
-    "name": "Lise Meitner",
-    "shortDescription": "Física nuclear, contribuyó a la teoría de la fisión nuclear.",
-    "description": "Física austriaca-sueca, dejó un legado imborrable en la física nuclear y la radioquímica. A pesar de enfrentar obstáculos de género en una era dominada por hombres, colaboró con Otto Hahn en el descubrimiento de la fisión nuclear, un avance revolucionario. Aunque no compartió el Premio Nobel por este logro, su contribución fue crucial para comprender la energía nuclear y la física de partículas. Su determinación y pasión por la ciencia han inspirado a generaciones de científicas. Lise Meitner es un símbolo perdurable de la perseverancia femenina y el impacto duradero que las mujeres pueden tener en la ciencia.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/lise-meitner.jpg",
+    "id": "pearl-jam",
+    "name":"Pearl Jam",
+    "shortDescripcion": "Banda de grunge.",
+    "descripcionLarga": "Pearl Jam es una banda estadounidense de grunge formada en 1990 en Seattle, Washington. Con Eddie Vedder como vocalista, la banda es conocida por su sonido potente y sus letras introspectivas, y es una de las bandas más importantes del movimiento grunge.",
+    "imageUrl": "https://www.ultrabrit.com/wp-content/uploads/2019/12/PEARLJAM2020-1.jpg",
     "facts": {
-      "yearOfBirth": "1878",
-      "yearOfDeath": "1968",
-      "birthPlace": "Viena, Austria",
-      "mainField": "Física"
-    },
-    "extraInfo": {
-      "imageSource": "https://www.bing.com/images/create/lise-meitner-in-nuclear-physics-lab-in-19502c-retro/651196e6bbcb4009950e9955c2199760"
+      "añoCreacion": "1990",
+      "pais":"Estados Unidos",
+      "albumMasFamoso": "Ten",
+      "integrantes": ["Eddie Vedder", "Stone Gossard", "Jeff Ament", "Mike McCready", "Matt Cameron"]
     }
   },
   {
-    "id": "sau-lan-wu",
-    "name": "Sau Lan Wu",
-    "shortDescription": "Física de partículas, contribuyó a experimentos clave en física de alta energía.",
-    "description": "Física experimental sinoamericana, ha sido una fuerza motriz en la física de partículas. Destacó en experimentos en el CERN y lideró investigaciones cruciales, como el descubrimiento del quark c, que expandieron nuestro entendimiento de la estructura fundamental de la materia. Wu superó desafíos en una disciplina dominada por hombres y ha sido un faro de inspiración para científicas de todo el mundo. Sau Lan Wu es un ejemplo de excelencia científica y de cómo las mujeres pueden dejar huella en la investigación de vanguardia.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/sau-lan-wu.jpg",
+    "id": "the-beatles",
+    "name": "The Beatles",
+    "shortDescripcion": "Iconos del rock británico.",
+    "descripcionLarga": "The Beatles fueron una banda británica de rock formada en 1960 en Liverpool. Conocida como la banda más influyente de la historia, su música innovadora y sus letras profundas han dejado un legado duradero en la cultura popular.",
+    "imageUrl": "https://www.laxcali.com/uploads/newsarticle/5fb4a85f144f4cc98383e613e93f067d/516171-the-beatles.jpeg",
     "facts": {
-      "yearOfBirth": "1940",
-      "birthPlace": "Hong Kong, China",
-      "mainField": "Física de Partículas"
-    },
-    "extraInfo": {
-      "imageSource": "https://repository.aip.org/islandora/object/nbla%3A315195"
+      "añoCreacion": "1960",
+      "pais":"Inglaterra",
+      "albumMasFamoso": "Sgt. Pepper's Lonely Hearts Club Band",
+      "integrantes": ["John Lennon", "Paul McCartney", "George Harrison", "Ringo Starr"]
     }
   },
   {
-    "id": "jocelyn-bell-burnell",
-    "name": "Jocelyn Bell Burnell",
-    "shortDescription": "Astrónoma y astrofísica, co-descubridora de los púlsares.",
-    "description": "Astrofísica británica, es una figura extraordinaria en la ciencia. Durante su doctorado, hizo un descubrimiento revolucionario al detectar los primeros púlsares, estrellas de neutrones altamente magnetizadas que emiten pulsos regulares de radiación. A pesar de que su asesor recibió el Premio Nobel por este descubrimiento, Bell Burnell se ha convertido en un símbolo de perseverancia y contribución de las mujeres a la astronomía. Su carrera distinguida y su activismo en favor de la diversidad de género en la ciencia han inspirado a generaciones futuras de científicas. Jocelyn Bell Burnell es un ejemplo de valentía y excelencia científica.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/jocelyn-bell-burnell.jpg",
+    "id":"the-rolling-stones",
+    "name": "The Rolling Stones",
+    "shortDescripcion": "Leyendas del rock.",
+    "descripcionLarga": "The Rolling Stones son una banda británica de rock formada en 1962 en Londres. Con Mick Jagger y Keith Richards a la cabeza, la banda es conocida por su música revolucionaria y su energía en el escenario, siendo una de las bandas más exitosas de todos los tiempos.",
+    "imageUrl": "https://www.tiempoar.com.ar/wp-content/uploads/2021/05/8af1d850bdbd5ffc44d5a4044d327a82_BIG.jpg ",
     "facts": {
-      "yearOfBirth": "1943",
-      "birthPlace": "Belfast, Reino Unido",
-      "mainField": "Astronomía, Astrofísica"
-    },
-    "extraInfo": {
-      "imageSource": "https://womeninscienceweadmire.icfo.eu/wiswa-2/jocelyn-bell/"
+      "añoCreacion": "1962",
+      "pais":"Inglaterra",
+      "albumMasFamoso": "Sticky Fingers",
+      "integrantes": ["Mick Jagger", "Keith Richards", "Charlie Watts", "Ronnie Wood"]
     }
-  },
-  {
-    "id": "dorothy-crowfoot-hodgkin",
-    "name": "Dorothy Crowfoot Hodgkin",
-    "shortDescription": "Química, ganadora del Premio Nobel de Química.",
-    "description": "Química británica, es una figura icónica en la ciencia que superó las barreras de género de su época. Su trabajo revolucionario en la cristalografía de rayos X permitió determinar la estructura de importantes biomoléculas, como la penicilina, la vitamina B12 y la insulina. Fue galardonada con el Premio Nobel de Química en 1964, siendo la tercera mujer en recibir este prestigioso reconocimiento. Hodgkin no solo fue una científica excepcional, sino también una defensora de la igualdad de género en la ciencia, allanando el camino para futuras generaciones de científicas y dejando un legado duradero en la investigación y la equidad.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/dorothy-crowfoot-hodgkin.jpg",
-    "facts": {
-      "yearOfBirth": "1910",
-      "yearOfDeath": "1994",
-      "birthPlace": "El Cairo, Egipto / Shipston-on-Stour, Reino Unido",
-      "mainField": "Química"
-    },
-    "extraInfo": {
-      "imageSource": "https://www.some.ox.ac.uk/news/jan-royall-why-we-must-champion-dorothy-hodgkin-for-the-50-note/"
-    }
-  },
-  {
-    "id": "marie-curie",
-    "name": "Marie Curie",
-    "shortDescription": "Física y química, ganadora de dos Premios Nobel.",
-    "description": "física y química de origen polaco y nacionalizada francesa, es una de las figuras más icónicas en la historia de la ciencia. Ganadora de dos premios Nobel (Física en 1903 y Química en 1911), Curie realizó investigaciones fundamentales sobre la radiactividad y el descubrimiento de los elementos radio y polonio. Su dedicación y valentía en la investigación científica, a pesar de los desafíos de la discriminación de género y los riesgos de la radiación, la convierten en un modelo a seguir para científicas de todo el mundo.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/marie-curie.jpg",
-    "facts": {
-      "yearOfBirth": "1867",
-      "yearOfDeath": "1934",
-      "birthPlace": "Varsovia, Polonia",
-      "mainField": "Física y Química"
-    },
-    "extraInfo": {
-      "imageSource": "https://www.historyextra.com/period/first-world-war/life-of-the-week-marie-curie/"
-    }
-  },
-  {
-    "id": "marjory-stephenson",
-    "name": "Marjory Stephenson",
-    "shortDescription": "Microbióloga y bioquímica, investigó en enzimología.",
-    "description": "Bioquímica británica, brilló como científica en una época en la que las mujeres enfrentaban obstáculos muy significativos en la investigación científica. Su trabajo pionero en microbiología, enzimología y bioquímica contribuyó al entendimiento de procesos fundamentales en la vida. Fue una de las primeras mujeres en ser elegida miembro de la Royal Society, un reconocimiento a su destacada contribución a la ciencia. Además, fue una mentora y defensora de las mujeres en la ciencia, inspirando y allanando el camino para futuras generaciones.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/marjory-stephenson.jpg",
-    "facts": {
-      "yearOfBirth": "1885",
-      "yearOfDeath": "1948",
-      "birthPlace": "Londres, Reino Unido",
-      "mainField": "Química, Microbiología, Bioquímica"
-    },
-    "extraInfo": {
-      "imageSource": "https://microbiologysociety.org/grants-prizes/all-prizes-and-competitions-/prize-lectures/marjory-stephenson-prize-lecture/marjory-stephenson-a-short-history.html"
-    }
-  },
-  {
-    "id": "rosalind-franklin",
-    "name": "Rosalind Franklin",
-    "shortDescription": "Química y cristalógrafa, contribuyó a la comprensión de la estructura del ADN.",
-    "description": "Química y cristalógrafa británica, destacó en un campo dominado por hombres y su contribución a la ciencia es innegable. Sus investigaciones pioneras en la cristalografía de rayos X fueron fundamentales para revelar la estructura del ADN en forma de doble hélice, un hito crucial en la biología molecular. A pesar de que su trabajo inicial fue subestimado, su determinación y habilidad científica allanaron el camino para futuros avances en genética y biología. Franklin es un ejemplo inspirador de cómo las mujeres pueden sobresalir en la ciencia, dejando un legado duradero en la investigación y la igualdad de género.",
-    "imageUrl": "https://laboratoria-dataverse-talks.netlify.app/public/rosalind-franklin.jpg",
-    "facts": {
-      "yearOfBirth": "1920",
-      "yearOfDeath": "1958",
-      "birthPlace": "Londres, Reino Unido",
-      "mainField": "Química, Cristalografía"
-    },
-    "extraInfo": {
-      "imageSource": ""
-    }
+    
   }
 ];
+
+
